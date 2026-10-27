@@ -4,6 +4,7 @@ Run from the repo root:  python3 research/build.py
 """
 
 import csv
+import json
 import os
 import sys
 
@@ -14,6 +15,7 @@ from openpyxl.formatting.rule import FormulaRule  # noqa: E402
 from openpyxl.styles import Alignment, Border, Font, PatternFill, Side  # noqa: E402
 from openpyxl.utils import get_column_letter  # noqa: E402
 
+import check_pages as CP  # noqa: E402
 import enrichment as E  # noqa: E402
 import leads as L  # noqa: E402
 import wave2 as W  # noqa: E402
@@ -128,6 +130,32 @@ for c in cafes:
 for r in roasters:
     r["ig_url"] = ig_url(r.get("ig", "").split(" ")[0])
 
+# ---- Web check (research/check_pages.py): auto-extracted page evidence, kept in its own columns
+web = {}
+if os.path.exists(CP.OUT_JSON):
+    with open(CP.OUT_JSON, encoding="utf-8") as f:
+        web = {(w["kind"], w["name"]): w for w in json.load(f)}
+web_pairs = []
+for c in cafes:
+    w = web.get(("cafe", c["name"]))
+    if not w:
+        continue
+    c.update({k: v for k, v in CP.summary_fields(w).items() if k in ("web_check", "ig_followers", "web_contacts", "web_pages")})
+    for role, how in (("own", "Named on the cafe's own pages / listing"), ("mention", "Named in an article about the cafe")):
+        for h in w.get(role, {}).get("roasters", []):
+            web_pairs.append(dict(name=c["name"], city=c["city"], supplier=h["term"], how=how, snippet=h["snippet"], page_url=h["url"]))
+for r in roasters:
+    w = web.get(("roaster", r["name"]))
+    if not w:
+        continue
+    r["web_check"] = CP.summary_fields(w)["web_check"]
+    r["web_cafes"] = ", ".join(x["cafe"] for x in w.get("cafes_named", []))
+    for x in w.get("cafes_named", []):
+        city = next((c["city"] for c in cafes if c["name"] == x["cafe"]), "")
+        web_pairs.append(dict(name=x["cafe"], city=city, supplier=r["name"], how="Roaster's own page names the cafe",
+                              snippet=x["snippet"], page_url=x["url"]))
+web_pairs.sort(key=lambda p: (p["name"], p["supplier"]))
+
 cafes.sort(key=order_key)
 roasters.sort(key=lambda r: order_key(dict(r, priority="", tier=r["tier"])))
 for i, c in enumerate(cafes, 1):
@@ -155,6 +183,12 @@ ROASTER_COLS = [
     ("Instagram", "ig", 26), ("Instagram URL", "ig_url", 34), ("Website", "web", 30), ("Email", "email", 26), ("Phone", "phone", 18),
     ("LinkedIn", "linkedin", 40), ("Key people (public)", "people", 34), ("Source", "src", 45), ("Verify / notes", "verify", 30),
 ]
+if web:
+    CAFE_COLS += [("Web check: roster evidence (auto — verify)", "web_check", 60), ("IG followers", "ig_followers", 11),
+                  ("Contacts on its own pages", "web_contacts", 30), ("Pages read (web check)", "web_pages", 45)]
+    ROASTER_COLS += [("Cafes named on its pages (auto — verify)", "web_cafes", 45), ("Web check (auto — verify)", "web_check", 50)]
+WEB_PAIR_COLS = [("Cafe", "name", 30), ("City", "city", 14), ("Roaster named", "supplier", 30), ("How it was found", "how", 30),
+                 ("Snippet", "snippet", 70), ("Page", "page_url", 45)]
 CHANNEL_COLS = [
     ("Category", "category", 18), ("Name", "name", 34), ("City", "city", 24), ("What it is", "what", 50),
     ("How to use it", "angle", 50), ("Instagram", "ig", 26), ("Website", "web", 40), ("Email", "email", 24),
@@ -171,7 +205,7 @@ BORDER = Border(bottom=THIN)
 A_FILL = PatternFill("solid", fgColor="E3F1DF")
 PREM_FILL = PatternFill("solid", fgColor="FBEFD9")
 UP_FILL = PatternFill("solid", fgColor="FDE2E1")
-LINK_KEYS = {"ig_url", "web", "linkedin", "listing", "src"}
+LINK_KEYS = {"ig_url", "web", "linkedin", "listing", "src", "page_url"}
 
 
 def write_table(ws, cols, rows):
@@ -222,7 +256,10 @@ PROFILE_COLS = [
     ("What we can offer", "offer", 45), ("Approach strategy", "approach", 60), ("Best first contact", "contact_route", 16),
     ("Instagram", "ig", 22), ("Key people (public)", "people", 28), ("Source", "src", 40),
 ]
-profiled = [c for c in hot + [c for c in cafes if c["status"] == L.EST] if c["priority"] in ("A", "B")]
+if web:
+    PROFILE_COLS += [("Web check: roster evidence (auto — verify)", "web_check", 60), ("IG followers", "ig_followers", 11),
+                     ("Contacts on its own pages", "web_contacts", 30)]
+profiled =[c for c in hot + [c for c in cafes if c["status"] == L.EST] if c["priority"] in ("A", "B")]
 ws = wb.create_sheet("Lead Profiles & Strategy")
 write_table(ws, PROFILE_COLS, profiled)
 ws.freeze_panes = "F2"
@@ -235,6 +272,12 @@ supply = sorted((c for c in cafes if c["supplier"] != W.NOT_PUB), key=lambda c: 
 ws = wb.create_sheet("Supply Map")
 write_table(ws, SUPPLY_COLS, supply)
 ws.freeze_panes = "B2"
+
+WEB_SHEET = "Web Check — Supplier Leads"
+if web:
+    ws = wb.create_sheet(WEB_SHEET)
+    write_table(ws, WEB_PAIR_COLS, web_pairs)
+    ws.freeze_panes = "B2"
 
 ws = wb.create_sheet("Roasters")
 write_table(ws, ROASTER_COLS, roasters)
@@ -384,8 +427,15 @@ lines = [
     ("CONTACT DATA POLICY", True),
     ("Only publicly listed business contacts were recorded. Nothing was guessed (no constructed emails). Blank = not published / not found yet. Individual names appear only as publicly credited founders or brand leads.", False),
     ("", False),
-    ("COUNTS", True),
 ]
+if web:
+    lines += [
+        ("WEB CHECK (research/check_pages.py)", True),
+        ("Columns and the sheet marked 'auto — verify' were extracted automatically from each lead's own site, listing, Instagram bio and articles: roasters named, origins/estates, processes, brew methods, prices, opening/hiring signals and published contacts. Each item has a snippet and page in csv/page_findings.csv and research/page_findings.json. Check by eye before quoting it to the cafe.", False),
+        ("'Web Check — Supplier Leads' pairs cafes with roasters named on the cafe's pages, in articles about it, or on the roaster's stockist pages. 'Named in an article' is the weakest evidence.", False),
+        ("", False),
+    ]
+lines += [("COUNTS", True)]
 for i, (text, bold) in enumerate(lines, 1):
     cell = readme.cell(row=i, column=1, value=text)
     cell.font = Font(name=FONT, size=13 if i == 1 else 10, bold=bold)
@@ -407,6 +457,11 @@ count_rows = [
     ("Roasters", f"=COUNTA({rng(ROASTER_COLS, 'id', 'Roasters', n_r)})"),
     ("Channel partners", f"=COUNTA('Channel Partners'!$A$2:$A${len(channels) + 1})"),
 ]
+if web:
+    count_rows += [
+        ("Cafes with a web check", f'=COUNTIF({rng(CAFE_COLS, "web_pages", AC, n_c)},"?*")'),
+        ("Cafe–roaster pairs from the web check", f"=COUNTA('{WEB_SHEET}'!$A$2:$A${max(len(web_pairs), 1) + 1})"),
+    ]
 for k, (label, formula) in enumerate(count_rows):
     readme.cell(row=r0 + k, column=1, value=label).font = BODY_FONT
     c = readme.cell(row=r0 + k, column=2, value=formula)
@@ -434,6 +489,8 @@ dump(os.path.join(CSV_DIR, "roasters.csv"), ROASTER_COLS, roasters)
 dump(os.path.join(CSV_DIR, "channel_partners.csv"), CHANNEL_COLS, channels)
 dump(os.path.join(CSV_DIR, "lead_profiles_strategy.csv"), PROFILE_COLS, profiled)
 dump(os.path.join(CSV_DIR, "supply_map.csv"), SUPPLY_COLS, supply)
+if web:
+    dump(os.path.join(CSV_DIR, "web_supplier_leads.csv"), WEB_PAIR_COLS, web_pairs)
 
 # ---- Markdown table of hot leads + external-roaster buyers
 def md_cell(v):

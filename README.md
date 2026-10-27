@@ -13,6 +13,7 @@ Research date: **27 Oct 2026** (three passes).
 | `csv/` | Every tab as CSV for a CRM: hot leads, all cafés, profiles & strategy, supply map, roasters, channel partners |
 | `research/leads.py` → `enrichment.py` → `wave2.py` → `wave3.py` | Source data from four rounds: first discovery, a contact-enrichment pass, a second pass with month-by-month openings and coffee-roster profiles, and a third pass sweeping cities one by one. Every row has a source link |
 | `research/build.py` | Regenerates everything: `python3 research/build.py` |
+| `research/check_pages.py` | Page checker: opens every café's and roaster's own pages in a browser and pulls out what they pour and who roasts it. Needs open web access (see below) |
 
 ## What's in it
 
@@ -80,10 +81,43 @@ Pre-launch hype lives on Instagram stories and reels, and search engines index t
 3. **Equipment and consultants:** café-setup consultants (Arrow, Kaapi Machines, Westend, Takumi) and machine dealers see every new café. Get on their recommended-supplier list.
 4. **Monthly roundups:** Foodies of India (Mumbai), The Lab Mag, Curly Tales and The Nod (Delhi), Knocksense (Lucknow, Indore, Ahmedabad) and t2 (Kolkata). Wave 2 of this file came from these.
 
+## Checking each lead's own pages (`research/check_pages.py`)
+The profiles above were built from search results only. The page checker reads the pages themselves: the café's website and menu, its Zomato listing and order page, its Instagram bio, and articles about it. Roasters get the same treatment, including their stockist and wholesale pages, which show who they supply.
+
+What it records for each of the 355 leads, with a snippet and the page it came from:
+- **Roasters:** named on the café's own pages, in articles about it, or on a roaster's stockist page. This fills the "Not published" suppliers.
+- **What they pour:** Indian regions and estates, imported origins, processes, varietals, brew methods and coffee prices.
+- **Signals and contacts:** opening, hiring and retail-bean signals; Instagram followers and bio; emails and phone numbers the business itself publishes.
+
+**Where it can run.** It needs open web access, and this repo's cloud environment blocks every outside site. Either:
+- widen Network access in the environment settings and run it in the cloud session, or
+- run it on your own computer:
+
+```
+pip install -r research/requirements.txt
+python3 -m playwright install chromium
+python3 research/check_pages.py --dry-run            # what it would open; writes research/allowed_domains.txt
+python3 research/check_pages.py --only "Stand By"    # try one lead first
+python3 research/check_pages.py                      # all leads; resumable (Ctrl-C keeps progress)
+python3 research/build.py                            # adds the findings to the workbook
+```
+
+**Running time.** Expect about 1–2 hours for all leads at the default polite pace (`--delay 2.5`).
+
+**What it produces:**
+- `research/page_findings.json` (full detail) and `csv/page_findings.csv`.
+- On the next build, the workbook gains "Web check (auto — verify)" columns, Instagram followers and published contacts, plus a **Web Check — Supplier Leads** sheet pairing cafés with the roasters found.
+
+**Limits:**
+- Instagram often shows a login wall to signed-out browsers. The checker doesn't log in.
+- Some listing sites refuse headless browsers; `--headed` runs a visible window.
+- PDF menus and Google Maps aren't read.
+- Everything it extracts is automatic, so check a snippet by eye before quoting it to a café.
+
 ## Method and limits
 - Every platform was searched separately; the "Platform Coverage" tab records what each one yielded.
 - Contacts are **public business listings only**. No email was guessed, and a blank means not published.
 - Small new cafés rarely publish their roaster. Those rows say "Not published — ask on first contact", so the first message doubles as discovery.
 - Anything resting on one source, or with an unconfirmed city or name, is flagged in **Verify / notes**.
-- Pages were read through web-search results only. Direct page fetching was blocked by this environment's network policy, so full menus and listing-app phone numbers were not captured.
+- Pages were read through web-search results only. Direct page fetching was blocked by this environment's network policy, so full menus and listing-app phone numbers were not captured. `research/check_pages.py` closes this gap once it is run with web access.
 - The "What we can offer" column assumes a premium multi-estate Indian range. Swap in your actual estates, processes, MOQ and pricing to sharpen each pitch.
