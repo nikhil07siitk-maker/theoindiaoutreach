@@ -16,6 +16,7 @@ from openpyxl.utils import get_column_letter  # noqa: E402
 
 import enrichment as E  # noqa: E402
 import leads as L  # noqa: E402
+import wave2 as W  # noqa: E402
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 OUT_XLSX = os.path.join(ROOT, "North_West_East_India_Specialty_Coffee_Leads.xlsx")
@@ -76,15 +77,51 @@ def first_contact(row):
     return "Walk-in / Google Maps listing"
 
 
+def default_offer(c):
+    if c.get("roasts", "").startswith("Yes"):
+        return "Green coffee or a limited guest micro-lot collaboration (they roast in-house)."
+    if c["tier"] == "Premium":
+        return "Rotating single-estate / micro-lot for the filter bar + a single-origin espresso option."
+    return "Premium house espresso blend of Indian estates + one rotating single estate + cold-brew lot."
+
+
+def default_approach(c):
+    if c.get("roasts", "").startswith("Yes"):
+        return "Don't pitch roasted supply — offer green lots or a co-branded guest micro-lot."
+    if c["status"] == L.UP_:
+        return ("Pre-launch: send a 3-estate tasting kit and offer a menu-development session before the menu locks; "
+                "90-day launch exclusivity in their micro-market; fixed price for the first 6 months.")
+    if c["status"] in (L.NEW26, L.NEW25):
+        return ("Just opened: offer a guest-lot month + free barista calibration; side-by-side cupping against their current beans; "
+                "ask which roaster/estates they use and what they'd change.")
+    if c["type"] == L.MULTI:
+        return "Multi-roaster: pitch a guest slot — 1 kg bags, story card (farm, altitude, process, cup score), roast date within 7 days."
+    if c["type"] == L.CHAIN:
+        return "Multi-outlet: pitch central procurement — fixed roast spec, monthly volume pricing, retail bags for the shelf."
+    return "Established: position as a second roaster / rotating single estate; walk-in cupping with the head barista."
+
+
 cafes = merge(L.CAFES, E.CAFE_UPDATES) + [dict(c) for c in E.NEW_CAFES]
+cafes = merge(cafes, W.PROFILE_UPDATES) + [dict(c) for c in W.NEW_CAFES_W2]
 roasters = merge(L.ROASTERS, E.ROASTER_UPDATES) + [dict(r) for r in E.NEW_ROASTERS]
+roasters = merge(roasters, W.ROASTER_PROFILE_UPDATES) + [dict(r) for r in W.NEW_ROASTERS_W2]
 channels = list(L.CHANNELS) + list(E.NEW_CHANNELS)
+
+names = [c["name"] for c in cafes]
+dupes = {n for n in names if names.count(n) > 1}
+if dupes:
+    raise SystemExit(f"Duplicate cafe names: {sorted(dupes)}")
 
 for c in cafes:
     assert c["tier"] in ("Premium", "Normal"), c["name"]
     assert c["status"] in STATUS_ORDER, c["name"]
     c["ig_url"] = ig_url(c.get("ig", ""))
     c["contact_route"] = first_contact(c)
+    c["roster"] = c.get("roster") or c.get("beans") or "Not published"
+    if not c.get("supplier"):
+        c["supplier"] = "Own roastery" if c.get("roasts", "").startswith("Yes") else W.NOT_PUB
+    c["offer"] = c.get("offer") or default_offer(c)
+    c["approach"] = c.get("approach") or default_approach(c)
 for r in roasters:
     r["ig_url"] = ig_url(r.get("ig", "").split(" ")[0])
 
@@ -100,9 +137,11 @@ hot.sort(key=lambda c: (STATUS_ORDER.index(c["status"]), c["priority"], c["tier"
 
 CAFE_COLS = [
     ("ID", "id", 7), ("Priority", "priority", 8), ("Status", "status", 18), ("Tier", "tier", 9), ("Name", "name", 30),
-    ("Type", "type", 22), ("Roasts in-house?", "roasts", 12), ("Beans / origins on menu", "beans", 32),
-    ("Region", "region", 10), ("State", "state", 14), ("City", "city", 16), ("Area / address", "area", 32),
-    ("Evidence (why this tier)", "evidence", 60), ("Pitch angle", "angle", 45), ("Best first contact", "contact_route", 16),
+    ("Type", "type", 22), ("Region", "region", 10), ("State", "state", 14), ("City", "city", 16), ("Area / address", "area", 32),
+    ("Roasts in-house?", "roasts", 14), ("Current coffee roster", "roster", 50), ("Supplier / roaster", "supplier", 32),
+    ("Price signals", "price", 22), ("Gap in their roster", "gap", 40), ("What we can offer", "offer", 45),
+    ("Approach strategy", "approach", 55), ("Evidence (why this tier)", "evidence", 60), ("Pitch angle", "angle", 40),
+    ("Best first contact", "contact_route", 16),
     ("Instagram", "ig", 24), ("Instagram URL", "ig_url", 34), ("Website", "web", 30), ("Email", "email", 28),
     ("Phone", "phone", 22), ("LinkedIn", "linkedin", 30), ("Listing (Zomato / EazyDiner / Reddit)", "listing", 34),
     ("Key people (public)", "people", 30), ("Source", "src", 45), ("Verify / notes", "verify", 40),
@@ -173,6 +212,27 @@ ws = wb.create_sheet("All Cafes (Premium+Normal)")
 write_table(ws, CAFE_COLS, cafes)
 highlight_cafes(ws, len(cafes))
 
+PROFILE_COLS = [
+    ("ID", "id", 7), ("Priority", "priority", 8), ("Status", "status", 18), ("Tier", "tier", 9), ("Name", "name", 28),
+    ("City", "city", 14), ("Roasts in-house?", "roasts", 14), ("Current coffee roster", "roster", 55),
+    ("Supplier / roaster", "supplier", 32), ("Price signals", "price", 20), ("Gap in their roster", "gap", 40),
+    ("What we can offer", "offer", 45), ("Approach strategy", "approach", 60), ("Best first contact", "contact_route", 16),
+    ("Instagram", "ig", 22), ("Key people (public)", "people", 28), ("Source", "src", 40),
+]
+profiled = [c for c in hot + [c for c in cafes if c["status"] == L.EST] if c["priority"] in ("A", "B")]
+ws = wb.create_sheet("Lead Profiles & Strategy")
+write_table(ws, PROFILE_COLS, profiled)
+ws.freeze_panes = "F2"
+ws.conditional_formatting.add(f"A2:{get_column_letter(len(PROFILE_COLS))}{len(profiled) + 1}",
+                              FormulaRule(formula=['$B2="A"'], fill=A_FILL))
+
+SUPPLY_COLS = [("Supplier / roaster", "supplier", 40), ("Cafe", "name", 32), ("City", "city", 16), ("Status", "status", 18),
+               ("Current coffee roster", "roster", 60), ("Source", "src", 50)]
+supply = sorted((c for c in cafes if c["supplier"] != W.NOT_PUB), key=lambda c: (c["supplier"], c["name"]))
+ws = wb.create_sheet("Supply Map")
+write_table(ws, SUPPLY_COLS, supply)
+ws.freeze_panes = "B2"
+
 ws = wb.create_sheet("Roasters")
 write_table(ws, ROASTER_COLS, roasters)
 ws.conditional_formatting.add(f"B2:B{len(roasters) + 1}", FormulaRule(formula=['$B2="Premium"'], fill=PREM_FILL))
@@ -195,14 +255,22 @@ all_states = {c["state"] for c in cafes} | {r["state"] for r in roasters}
 present = [s for s in STATE_ORDER if s in all_states]
 present += sorted(all_states - set(present))
 n_c, n_r = len(cafes) + 1, len(roasters) + 1
+
+
+def rng(cols, key, sheet, n):
+    letter = get_column_letter([k for _, k, _ in cols].index(key) + 1)
+    return f"{sheet}!${letter}$2:${letter}${n}"
+
+
+ST, TI, PR, STA = (rng(CAFE_COLS, k, AC, n_c) for k in ("state", "tier", "priority", "status"))
 for i, s in enumerate(present, 2):
     ws.cell(row=i, column=1, value=s)
-    ws.cell(row=i, column=2, value=f'=COUNTIF({AC}!$J$2:$J${n_c},A{i})')
-    ws.cell(row=i, column=3, value=f'=COUNTIFS({AC}!$J$2:$J${n_c},A{i},{AC}!$D$2:$D${n_c},"Premium")')
-    ws.cell(row=i, column=4, value=f'=COUNTIFS({AC}!$J$2:$J${n_c},A{i},{AC}!$D$2:$D${n_c},"Normal")')
-    ws.cell(row=i, column=5, value=f'=COUNTIFS({AC}!$J$2:$J${n_c},A{i},{AC}!$B$2:$B${n_c},"A")')
-    ws.cell(row=i, column=6, value=f'=COUNTIF({AC}!$J$2:$J${n_c},A{i})-COUNTIFS({AC}!$J$2:$J${n_c},A{i},{AC}!$C$2:$C${n_c},"Established")')
-    ws.cell(row=i, column=7, value=f"=COUNTIF(Roasters!$E$2:$E${n_r},A{i})")
+    ws.cell(row=i, column=2, value=f"=COUNTIF({ST},A{i})")
+    ws.cell(row=i, column=3, value=f'=COUNTIFS({ST},A{i},{TI},"Premium")')
+    ws.cell(row=i, column=4, value=f'=COUNTIFS({ST},A{i},{TI},"Normal")')
+    ws.cell(row=i, column=5, value=f'=COUNTIFS({ST},A{i},{PR},"A")')
+    ws.cell(row=i, column=6, value=f'=COUNTIF({ST},A{i})-COUNTIFS({ST},A{i},{STA},"Established")')
+    ws.cell(row=i, column=7, value=f"=COUNTIF({rng(ROASTER_COLS, 'state', 'Roasters', n_r)},A{i})")
 tot = len(present) + 2
 ws.cell(row=tot, column=1, value="Total")
 for j in range(2, 8):
@@ -226,6 +294,9 @@ PLAT = [
     ("News / trade press", "Restaurant India, Indian Retailer, Franchise India, World Coffee Portal, Hotelier India, BW Hotelier, ANI/ThePrint.",
      "Dated openings (Oro, Jacob's Brew House, Momoka, Pour Over Santushti, Gram Street, Cocoa & Katli, Stand By Juhu, Coffee Capital).",
      "Press-release driven: favours funded brands."),
+    ("Monthly openings roundups (wave 2)", "Foodies of India (Mumbai, Oct 2025–Oct 2026 monthly), Knocksense (Lucknow / Indore / Ahmedabad), The Lab Mag + Curly Tales + The Nod (Delhi NCR monthly), t2 (Kolkata cafe alerts).",
+     "~60 more 2025–26 openings (JOKER, Rola, Brevé, KĀPIBAR, Grahm, Tsubaki, MUVN, Belsta, Javaphile, Lizzu, Off Mrkt, Kokoy, One PourCent, Batter Bar, Cháfé Braz…).",
+     "Small new cafes rarely publish their roaster — profiled as 'Not published' with an ask-on-contact strategy."),
     ("City food media", "The Nod, Outlook Traveller (OT Pours), Curly Tales, The Lab Mag, LBB, Time Out, Esquire, Free Press Journal, t2 (Kolkata), Elle Decor.",
      "Monthly 'new openings' lists: The Drop, Therefore, In Good Co., ATE Omakase, Odd Culture, Traut, Flameback, Lento Pune.",
      "Covers metros far better than Tier-2 cities."),
@@ -272,6 +343,8 @@ lines = [
     ("", False),
     ("HOW TO USE", True),
     ("1. Start with 'Hot Leads (New & Upcoming)' — sorted Upcoming → New, then priority. Row colours: pink = upcoming, green = priority A, cream tier cell = Premium.", False),
+    ("1b. 'Lead Profiles & Strategy' — per priority A/B cafe: roasts in-house?, CURRENT COFFEE ROSTER (what they pour today), supplier/roaster, price signals, gap, what we can offer, approach strategy.", False),
+    ("1c. 'Supply Map' — every cafe whose supplier or own roastery is publicly known. Where a roster/supplier is 'Not published', ask on first contact and check the retail shelf / bag on the bar.", False),
     ("2. 'Best first contact' picks the most direct public channel found (email > Instagram DM > phone > LinkedIn > website > walk-in).", False),
     ("3. Every row has a Source link. 'Verify / notes' flags single-source facts, unconfirmed cities and handles not yet indexed by search.", False),
     ("4. 'Roasters' lists competitors and possible partners (guest-roast slots in multi-roaster cafes, co-roasting, distribution). 'Channel Partners' lists cafe consultants, barista academies, communities and events that reach cafes before launch.", False),
@@ -289,15 +362,18 @@ for i, (text, bold) in enumerate(lines, 1):
 r0 = len(lines) + 1
 HL = "'Hot Leads (New & Upcoming)'"
 count_rows = [
-    ("Cafes — total (Premium + Normal)", f"=COUNTA({AC}!$A$2:$A${n_c})"),
-    ("Cafes — Premium", f'=COUNTIF({AC}!$D$2:$D${n_c},"Premium")'),
-    ("Cafes — Normal", f'=COUNTIF({AC}!$D$2:$D${n_c},"Normal")'),
-    ("Cafes — Priority A", f'=COUNTIF({AC}!$B$2:$B${n_c},"A")'),
-    ("Hot leads (new & upcoming)", f"=COUNTA({HL}!$A$2:$A${len(hot) + 1})"),
-    ("Upcoming / coming soon", f'=COUNTIF({AC}!$C$2:$C${n_c},"Upcoming / Coming soon")'),
-    ("Multi-roaster cafes", f'=COUNTIF({AC}!$F$2:$F${n_c},"Multi-roaster cafe")'),
-    ("With an Instagram handle", f'=COUNTIF({AC}!$P$2:$P${n_c},"@*")'),
-    ("Roasters", f"=COUNTA(Roasters!$A$2:$A${n_r})"),
+    ("Cafes — total (Premium + Normal)", f"=COUNTA({rng(CAFE_COLS, 'id', AC, n_c)})"),
+    ("Cafes — Premium", f'=COUNTIF({TI},"Premium")'),
+    ("Cafes — Normal", f'=COUNTIF({TI},"Normal")'),
+    ("Cafes — Priority A", f'=COUNTIF({PR},"A")'),
+    ("Hot leads (new & upcoming)", f"=COUNTA({rng(CAFE_COLS, 'id', HL, len(hot) + 1)})"),
+    ("Upcoming / coming soon", f'=COUNTIF({STA},"Upcoming / Coming soon")'),
+    ("Opened in 2026", f'=COUNTIF({STA},"New (opened 2026)")'),
+    ("Multi-roaster cafes", f'=COUNTIF({rng(CAFE_COLS, "type", AC, n_c)},"Multi-roaster cafe")'),
+    ("Cafes that roast in-house", f'=COUNTIF({rng(CAFE_COLS, "roasts", AC, n_c)},"Yes*")'),
+    ("Supplier / roaster identified (not own roastery)", f"=COUNTA('Supply Map'!$A$2:$A${len(supply) + 1})-COUNTIF('Supply Map'!$A$2:$A${len(supply) + 1},\"Own roastery*\")"),
+    ("With an Instagram handle", f'=COUNTIF({rng(CAFE_COLS, "ig", AC, n_c)},"@*")'),
+    ("Roasters", f"=COUNTA({rng(ROASTER_COLS, 'id', 'Roasters', n_r)})"),
     ("Channel partners", f"=COUNTA('Channel Partners'!$A$2:$A${len(channels) + 1})"),
 ]
 for k, (label, formula) in enumerate(count_rows):
@@ -325,6 +401,8 @@ dump(os.path.join(CSV_DIR, "hot_leads_new_upcoming.csv"), CAFE_COLS, hot)
 dump(os.path.join(CSV_DIR, "cafes_premium_normal.csv"), CAFE_COLS, cafes)
 dump(os.path.join(CSV_DIR, "roasters.csv"), ROASTER_COLS, roasters)
 dump(os.path.join(CSV_DIR, "channel_partners.csv"), CHANNEL_COLS, channels)
+dump(os.path.join(CSV_DIR, "lead_profiles_strategy.csv"), PROFILE_COLS, profiled)
+dump(os.path.join(CSV_DIR, "supply_map.csv"), SUPPLY_COLS, supply)
 
 # ---- Markdown table of hot leads + external-roaster buyers
 def md_cell(v):
@@ -339,16 +417,18 @@ def md_contact(c):
 buyers = [c for c in cafes if c["status"] == L.EST and c["priority"] == "A"]
 with open(os.path.join(ROOT, "HOT_LEADS.md"), "w", encoding="utf-8") as f:
     f.write("# Hot leads — new & upcoming premium cafes\n\n")
-    f.write("Generated by `research/build.py` from `research/leads.py` + `research/enrichment.py`. "
-            "Full detail (evidence, sources, verify notes) is in the workbook.\n\n")
-    f.write("| ID | Pri | Status | Tier | Cafe | City | Contact found | Pitch |\n|---|---|---|---|---|---|---|---|\n")
+    f.write("Generated by `research/build.py` from `research/leads.py`, `enrichment.py` and `wave2.py`. "
+            "Full profiles (gap, offer, approach, sources, verify notes) are in the workbook's 'Lead Profiles & Strategy' tab.\n\n")
+    f.write("| ID | Pri | Status | Tier | Cafe | City | Roasts? | Current coffee roster | Supplier | Contact found |\n"
+            "|---|---|---|---|---|---|---|---|---|---|\n")
     for c in hot:
         f.write(f"| {c['id']} | {c['priority']} | {c['status']} | {c['tier']} | {md_cell(c['name'])} | {md_cell(c['city'])} | "
-                f"{md_cell(md_contact(c))} | {md_cell(c['angle'])} |\n")
-    f.write("\n## Established cafes that already buy from outside roasters (priority A)\n\n")
-    f.write("| ID | Cafe | Type | City | Contact found | Pitch |\n|---|---|---|---|---|---|\n")
+                f"{md_cell(c.get('roasts') or 'Unknown')} | {md_cell(c['roster'])} | {md_cell(c['supplier'])} | {md_cell(md_contact(c))} |\n")
+    f.write("\n## Established priority-A cafes (multi-roaster or already buying from outside roasters)\n\n")
+    f.write("| ID | Cafe | Type | City | Current coffee roster | Supplier | Contact found |\n|---|---|---|---|---|---|---|\n")
     for c in buyers:
-        f.write(f"| {c['id']} | {md_cell(c['name'])} | {c['type']} | {md_cell(c['city'])} | {md_cell(md_contact(c))} | {md_cell(c['angle'])} |\n")
+        f.write(f"| {c['id']} | {md_cell(c['name'])} | {c['type']} | {md_cell(c['city'])} | {md_cell(c['roster'])} | "
+                f"{md_cell(c['supplier'])} | {md_cell(md_contact(c))} |\n")
 
 print(f"cafes={len(cafes)} hot={len(hot)} roasters={len(roasters)} channels={len(channels)}")
 print(f"premium={sum(c['tier'] == 'Premium' for c in cafes)} normal={sum(c['tier'] == 'Normal' for c in cafes)} "
