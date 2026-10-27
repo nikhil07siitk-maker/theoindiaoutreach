@@ -2,27 +2,43 @@
 
 Who to sell premium roasted Indian specialty coffee beans to in **Maharashtra, Madhya Pradesh and everything north, east and west of it** (Gujarat, Goa, Rajasthan, Delhi NCR, Punjab/Chandigarh, Himachal, Uttarakhand, UP, Ladakh, West Bengal, Odisha, Bihar and the Northeast). South India is excluded on purpose.
 
-Research date: **27 Oct 2026** (two passes).
+Research date: **27 Oct 2026** (three passes).
 
 ## Files
 
 | File | What it is |
 |---|---|
-| `North_West_East_India_Specialty_Coffee_Leads.xlsx` | Main workbook. Tabs: Read Me · **Hot Leads (New & Upcoming)** · All Cafes (Premium+Normal) · **Lead Profiles & Strategy** · **Supply Map** · Roasters · Channel Partners · Excluded (Regular tier) · Summary by State · Platform Coverage |
-| `HOT_LEADS.md` | Quick-read table of the 90 new/upcoming cafés with their current coffee roster and supplier |
+| `North_West_East_India_Specialty_Coffee_Leads.xlsx` | Main workbook. Tabs: Read Me · **Hot Leads (New & Upcoming)** · All Cafes (Premium+Normal) · **Lead Profiles & Strategy** · **Supply Map** · Roasters · Channel Partners · Excluded (Regular tier) · Summary by State · **Coverage by City** · Platform Coverage |
+| `HOT_LEADS.md` | Quick-read table of the 91 new/upcoming cafés with their current coffee roster and supplier |
 | `csv/` | Every tab as CSV for a CRM: hot leads, all cafés, profiles & strategy, supply map, roasters, channel partners |
-| `research/leads.py` → `enrichment.py` → `wave2.py` | Source data in three passes (first discovery, contact enrichment, second pass with month-by-month openings and coffee-roster profiles). Every row has a source link |
+| `research/leads.py` → `enrichment.py` → `wave2.py` → `wave3.py` | Source data from four rounds: first discovery, a contact-enrichment pass, a second pass with month-by-month openings and coffee-roster profiles, and a third pass sweeping cities one by one. Every row has a source link |
 | `research/build.py` | Regenerates everything: `python3 research/build.py` |
 
 ## What's in it
 
-| | Pass 1 | Now |
-|---|---|---|
-| Cafés (Premium + Normal) | 152 | **204** (89 Premium, 115 Normal) |
-| New & upcoming (hot leads) | 42 | **90** (81 opened in 2026, 5 in late 2025, 4 announced or coming soon, including the unnamed Viman Nagar café, which is still in planning) |
-| Priority A | 37 | **61** |
-| Profiled with roster, gap, offer and approach | — | **154** (all priority A/B) |
-| Roasters | 72 | 76 |
+| | Pass 1 | Pass 2 | Now (pass 3) |
+|---|---|---|---|
+| Cafés (Premium + Normal) | 152 | 204 | **271** (111 Premium, 160 Normal) |
+| New & upcoming (hot leads) | 42 | 90 | **91** (82 opened in 2026, 5 in late 2025, 4 announced or coming soon) |
+| Priority A | 37 | 61 | **65** |
+| Multi-roaster cafés | 6 | 6 | **7** |
+| With an Instagram handle | 64 | 64 | **115** |
+| Profiled with roster, gap, offer and approach | — | 154 | **197** (all priority A/B) |
+| Roasters | 72 | 76 | **84** |
+
+### Coverage: how deep each city went (tab "Coverage by City")
+Pass 3 ran a separate Instagram sweep and web search for each city. The coverage tab counts leads per city with live formulas.
+- **Deep:** Mumbai, Delhi, Gurugram, Jaipur.
+- **Medium:** Pune, Thane/Navi Mumbai, Nagpur, Nashik, Ahmedabad, Surat, Vadodara, North Goa, Indore, Bhopal, Udaipur/Jodhpur, Noida, Chandigarh tricity, Lucknow, Kolkata.
+- **Light:** most other Tier-2/3 cities and the Northeast. Searched, but little shows up online and the specialty scene there is genuinely small.
+- **Thin, nothing found:** Gandhinagar, Bhavnagar, Ujjain, Kota, Ajmer and Bikaner (apart from Alchemist's Ajmer café), Jammu, Meerut, Cuttack, Jamshedpur, Itanagar.
+
+Pass 3 also corrected some leads:
+- **Highbrooks (Jabalpur):** roasts its own beans, so moved down to priority C.
+- **Three Beans (Nagpur):** trades as "Coffee Roasters", so it probably roasts in-house.
+- **More Over Coffee:** has 4 outlets across Raipur, Bhilai and Bilaspur.
+- **Mainline Coffee (Ahmedabad):** a multi-roaster café, now priority A.
+- **Ruby's Coffee Goa:** publishes its café stockists, so Bastardo and Dodaa Atelier are now on the Supply Map.
 
 ### Each lead's profile (tab "Lead Profiles & Strategy")
 For each café:

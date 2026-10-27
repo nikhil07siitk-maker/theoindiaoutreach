@@ -17,6 +17,7 @@ from openpyxl.utils import get_column_letter  # noqa: E402
 import enrichment as E  # noqa: E402
 import leads as L  # noqa: E402
 import wave2 as W  # noqa: E402
+import wave3 as W3  # noqa: E402
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 OUT_XLSX = os.path.join(ROOT, "North_West_East_India_Specialty_Coffee_Leads.xlsx")
@@ -27,7 +28,7 @@ STATE_ORDER = [
     "Maharashtra", "Gujarat", "Goa", "Madhya Pradesh", "Chhattisgarh", "Rajasthan", "Delhi", "Delhi NCR",
     "Delhi NCR (TBC)", "Haryana", "Uttar Pradesh", "Uttar Pradesh / Punjab", "Uttar Pradesh (TBC)", "Punjab",
     "Chandigarh", "Himachal Pradesh", "Uttarakhand", "Ladakh", "West Bengal", "West Bengal / Nagaland", "Odisha",
-    "Bihar", "Assam", "Meghalaya", "Sikkim", "Nagaland", "TBC",
+    "Bihar", "Jharkhand", "Assam", "Meghalaya", "Sikkim", "Nagaland", "Mizoram", "Manipur", "Tripura", "Jammu & Kashmir", "TBC",
 ]
 STATUS_ORDER = [L.UP_, L.NEW26, L.NEW25, L.EST]
 APPEND_FIELDS = ("evidence", "verify")
@@ -103,9 +104,11 @@ def default_approach(c):
 
 cafes = merge(L.CAFES, E.CAFE_UPDATES) + [dict(c) for c in E.NEW_CAFES]
 cafes = merge(cafes, W.PROFILE_UPDATES) + [dict(c) for c in W.NEW_CAFES_W2]
+cafes = merge(cafes, W3.CAFE_UPDATES_W3) + [dict(c) for c in W3.NEW_CAFES_W3]
 roasters = merge(L.ROASTERS, E.ROASTER_UPDATES) + [dict(r) for r in E.NEW_ROASTERS]
 roasters = merge(roasters, W.ROASTER_PROFILE_UPDATES) + [dict(r) for r in W.NEW_ROASTERS_W2]
-channels = list(L.CHANNELS) + list(E.NEW_CHANNELS)
+roasters = merge(roasters, W3.ROASTER_UPDATES_W3) + [dict(r) for r in W3.NEW_ROASTERS_W3]
+channels = list(L.CHANNELS) + list(E.NEW_CHANNELS) + list(W3.NEW_CHANNELS_W3)
 
 names = [c["name"] for c in cafes]
 dupes = {n for n in names if names.count(n) > 1}
@@ -280,6 +283,34 @@ for row in ws.iter_rows(min_row=2, max_row=tot):
     for cell in row:
         cell.font = Font(name=FONT, size=10, bold=cell.row == tot)
 ws.freeze_panes = "B2"
+
+# ---- City coverage matrix (how deep each city was searched; lead counts are live formulas)
+ws = wb.create_sheet("Coverage by City")
+cov_heads = [("State", 18), ("City / cluster", 34), ("Search depth", 12), ("Leads (cafes)", 12), ("Premium", 10),
+             ("How it was searched", 70), ("Note", 40)]
+for j, (h, w) in enumerate(cov_heads, 1):
+    cell = ws.cell(row=1, column=j, value=h)
+    cell.font, cell.fill = HEAD_FONT, HEAD_FILL
+    ws.column_dimensions[get_column_letter(j)].width = w
+CITY = rng(CAFE_COLS, "city", AC, n_c)
+
+
+def city_count(tokens, extra=""):
+    parts = []
+    for t in tokens:
+        crit = f'"{t[1:]}"' if t.startswith("=") else f'"*{t}*"'
+        parts.append(f"COUNTIFS({CITY},{crit}{extra})")
+    return "=" + "+".join(parts)
+
+
+for i, (state, city, depth, how, note) in enumerate(W3.COVERAGE, 2):
+    tokens = W3.COVERAGE_TOKENS.get(city) or [t.strip() for t in city.split("/")]
+    vals = [state, city, depth, city_count(tokens), city_count(tokens, f',{TI},"Premium"'), how, note]
+    for j, v in enumerate(vals, 1):
+        cell = ws.cell(row=i, column=j, value=v)
+        cell.font = BODY_FONT
+        cell.alignment = Alignment(wrap_text=True, vertical="top")
+ws.freeze_panes = "C2"
 
 # ---- Platform coverage
 ws = wb.create_sheet("Platform Coverage")
