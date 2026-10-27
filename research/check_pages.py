@@ -330,6 +330,18 @@ def supplier_hits(text, rterms, near=None):
     return hits
 
 
+STOCKIST_CTX = re.compile(r"stockists?|find us at|available at|where to (?:buy|find)|our partners?|partner caf|caf[eé]s? (?:serving|that serve|"
+                          r"pouring)|serving our|pouring our|brewing our|on (?:the|their) (?:bar|menu)|wholesale (?:partners?|clients?)", re.I)
+GENERIC_COFFEE_WORDS = {"cup", "dark", "roast", "flat", "white", "robusta", "arabica", "whole", "bean", "beans", "brewer's", "brewers",
+                        "handmade", "espresso", "filter", "black", "brew", "town", "nothing", "before", "drip", "pour", "over", "grind",
+                        "coffee", "cafe", "café", "the", "house", "co", "co.", "shop", "bar", "&", "and", "—", "-", "sns", "arista"}
+
+
+def generic_words_only(name):
+    """Names made only of everyday coffee words ('CUP', 'The Dark Roast', 'Whole Bean Co') can't be told apart from prose."""
+    return all(w.lower().strip("()") in GENERIC_COFFEE_WORDS for w in base_name(name).split())
+
+
 def windows(text, rx, pad=700):
     """Text around each mention of the lead's name, for pages that cover many cafes."""
     merged = []
@@ -342,11 +354,19 @@ def windows(text, rx, pad=700):
     return "\n…\n".join(text[s:e] for s, e in merged)
 
 
+SKIP_MAILBOX = {"careers", "career", "jobs", "hr", "recruitment", "hiring", "cv", "resume", "press", "media", "noreply", "no-reply"}
+
+
 def clean_emails(text):
+    """Business mailboxes only: no image names, platform addresses, HR/careers boxes or personal first.last addresses."""
     keep = []
     for e in EMAIL_RE.findall(text):
         low = e.lower()
+        local = low.split("@")[0]
         if re.search(r"\.(png|jpe?g|webp|svg|gif)$", low) or "@2x" in low or any(p in low.split("@")[1] for p in PLATFORM_EMAIL):
+            continue
+        if (any(t.rstrip("0123456789") in SKIP_MAILBOX for t in re.split(r"[._-]", local))
+                or re.fullmatch(r"[a-z]{3,}\.[a-z]{3,}", local)):
             continue
         if low not in (k.lower() for k in keep):
             keep.append(e)
@@ -591,16 +611,19 @@ def summarise(target, pages, texts, rterms, cafe_names):
             out["cost_for_two"] = out["cost_for_two"] or f["cost_for_two"]
             if role != "own":
                 continue
-            out["emails"] += [e for e in clean_emails(text) if e not in out["emails"]]
-            out["phones"] += [p for p in clean_phones(text) if p not in out["phones"]]
+            # a listing page shows other venues too: take contacts only from the text around the lead's own name
+            contact_text = text if own_site(url) else windows(text, name_rx, pad=400)
+            out["emails"] += [e for e in clean_emails(contact_text) if e not in out["emails"]]
+            out["phones"] += [p for p in clean_phones(contact_text) if p not in out["phones"]]
             if target["kind"] == "roaster":  # stockist / partner pages that name cafes in this file
                 for cname, rx, generic in cafe_names:
-                    if any(c["cafe"] == cname for c in out["cafes_named"]):
+                    if generic_words_only(cname) or any(c["cafe"] == cname for c in out["cafes_named"]):
                         continue
                     for m in rx.finditer(text):
-                        # a one-word name counts only as a list entry near coffee words, not mid-sentence ("Grounded in ...")
-                        if generic and (re.match(r" [a-z]", text[m.end(): m.end() + 2])
-                                        or not COFFEE_CTX.search(text[max(0, m.start() - 60): m.end() + 60])):
+                        # count it only as a stockist/partner entry, not a passing word ("Grounded in ...", "Dark Roast")
+                        if not STOCKIST_CTX.search(text[max(0, m.start() - 150): m.end() + 150]):
+                            continue
+                        if generic and re.match(r" [a-z]", text[m.end(): m.end() + 2]):
                             continue
                         out["cafes_named"].append({"cafe": cname, "snippet": snippet(text, m.start(), m.end()), "url": url})
                         break

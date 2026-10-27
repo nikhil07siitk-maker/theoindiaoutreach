@@ -104,13 +104,15 @@ Earlier passes worked from search-result snippets. Pass 4 found each lead's own 
   | Babka | Half-Light, G-Shot and Kokoro (a multi-roaster café) |
   | ATE | Caarabi (sister company) |
   | Genre | Hosted a Nandan Coffee takeover, so it is open to guest roasters |
+  | Artsy (Kolkata) | Blue Tokai and Bili Hu (stated on its own website) |
+  | The Little Place (Novotel Goa) | The Coffee Co |
 - **Cafés pouring imports (pitch an Indian replacement):** Mokai (Singapore-roasted, plus South American and African coffees), Cafe Sandoz (Italian beans), Coffee Capital (rotating international micro-lots), ATE (Peru Geisha) and Blondie (Ethiopia and Costa Rica on the slow bar).
 - **Group deals (one pitch, several outlets):**
   - Bhatia Hospitality: Common Time (3 outlets) and Sidewalk (5)
   - Bastian Hospitality: Blondie, Janu and The Blondie House
   - Javaphile: Worli, Pali Hill and Shelter
   - Chains: Perch (5), Town Coffee in Jaipur (4–5), Greko in Punjab, Cafe Buddy's Espresso (4 cities) and Book Bar
-- **Contacts added:** business phone numbers from public listings (LBB, Yappe, Trip.com) for One World, Coffee Therapy, RITUAL, Shelter, Bouffage, Coffeeboo, 801, Caffein, Coffee Stop, Absolute Coffee Brewers, Town Coffee, Brims, Kali Coffee and Curators. Websites were added for Caffein, Grind Bar and Greko.
+- **Contacts added:** business phone numbers from public listings (LBB, Yappe, Trip.com) for One World, Coffee Therapy, RITUAL, Shelter, Bouffage, Coffeeboo, 801, Caffein, Coffee Stop, Absolute Coffee Brewers, Town Coffee, Brims, Kali Coffee and Curators. Websites were added for Caffein and Grind Bar. Emails and phone numbers each business publishes on its own site are in the "Contacts on its own pages" column.
 - **New leads:** 16 cafés, mainly in Surat (from the Pulled coffee app), Goa (Candolim and Porvorim), Rajkot, Ludhiana and Bhopal, plus Roasted by Roseate. 4 roasters: Silk Road Coffee Company, Beverage Union, Kokoro and Bouee.
 - **Competitor intel (in the Roasters tab):**
   - Blue Tokai's wholesale offer bundles beans and an espresso machine for one monthly fee, with barista training. That is the bar to beat.
@@ -129,6 +131,8 @@ python3 research/build.py                                                   # fo
 - **Outputs:**
   - `research/page_findings.json` and `csv/page_findings.csv`.
   - In the workbook, "Web check (auto — verify)" columns and a **Web Check — Supplier Leads** sheet.
+  - This run read at least one page for 279 of 375 leads (491 pages in all). It found coffee-specific evidence for 133 cafés and published contacts for 23 cafés and 10 roasters.
+  - The supplier sheet has 17 pairs. Each carries a **Checked by hand** verdict: 11 confirmed (Artsy's two roasters each appear twice), 2 same-company and 4 rejected as roundup noise.
   - A roaster counts as a supplier only when supply wording sits next to its name ("roasts from", "brewing with", "powered by", "using"). On listing and article pages, the café's own name must also be nearby.
 - **Sites the checker doesn't open:** Zomato, Swiggy, Tripadvisor, RestaurantGuru, Justdial, Instagram and the search engines all refuse automated browsers. The checker records them as "not opened" and doesn't try to get around that. Their information came from ordinary web searches instead.
 - **Still to do:** the web-search budget ran out before the Guwahati, Shillong, Gangtok and Aizawl leads and most C-tier cafés could be searched. Those rows were checked only against the pages already on file.

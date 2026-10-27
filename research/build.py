@@ -162,6 +162,8 @@ for r in roasters:
         web_pairs.append(dict(name=x["cafe"], city=city, supplier=r["name"], how="Roaster's own page names the cafe",
                               snippet=x["snippet"], page_url=x["url"]))
 web_pairs.sort(key=lambda p: (p["name"], p["supplier"]))
+for p in web_pairs:
+    p["review"] = W4.WEB_PAIR_REVIEW.get((p["name"], p["supplier"]), "Not checked yet")
 
 cafes.sort(key=order_key)
 roasters.sort(key=lambda r: order_key(dict(r, priority="", tier=r["tier"])))
@@ -195,7 +197,7 @@ if web:
                   ("Pages read (web check)", "web_pages", 45)]
     ROASTER_COLS += [("Cafes named on its pages (auto — verify)", "web_cafes", 45), ("Web check (auto — verify)", "web_check", 50)]
 WEB_PAIR_COLS = [("Cafe", "name", 30), ("City", "city", 14), ("Roaster named", "supplier", 30), ("How it was found", "how", 30),
-                 ("Snippet", "snippet", 70), ("Page", "page_url", 45)]
+                 ("Checked by hand", "review", 36), ("Snippet", "snippet", 70), ("Page", "page_url", 45)]
 CHANNEL_COLS = [
     ("Category", "category", 18), ("Name", "name", 34), ("City", "city", 24), ("What it is", "what", 50),
     ("How to use it", "angle", 50), ("Instagram", "ig", 26), ("Website", "web", 40), ("Email", "email", 24),
