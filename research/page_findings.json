@@ -4,7 +4,7 @@
   "id": "C001",
   "name": "Linzz Cafe",
   "city": "Chhatrapati Sambhajinagar",
-  "checked_at": "2026-10-27T21:52:01+00:00",
+  "checked_at": "2026-10-27T23:11:48+00:00",
   "pages": [],
   "own": {},
   "mention": {},
@@ -20,7 +20,7 @@
   "id": "C002",
   "name": "EssPressOh Cafe",
   "city": "Chhatrapati Sambhajinagar",
-  "checked_at": "2026-10-27T21:52:01+00:00",
+  "checked_at": "2026-10-27T23:11:59+00:00",
   "pages": [
    {
     "url": "http://www.esspressoh.com/",
@@ -45,6 +45,14 @@
     "used": "own",
     "status": 200,
     "title": "Menu | EssPressOh Café – Specialty Coffees, Waffles & More"
+   },
+   {
+    "url": "https://yappe.in/maharashtra/aurangabad/ess-press-oh-cafe/2276331",
+    "final_url": "https://yappe.in/maharashtra/aurangabad/ess-press-oh-cafe/2276331",
+    "role": "mention",
+    "used": "name not on page",
+    "status": 200,
+    "title": "Ess Press Oh - Coffee shop - Aurangabad - Maharashtra | Yappe.in"
    }
   ],
   "own": {},
@@ -60,7 +68,8 @@
   "cafes_named": [],
   "urls_on_file": [
    "http://www.esspressoh.com/",
-   "http://esspressoh.com/about-us/"
+   "http://esspressoh.com/about-us/",
+   "https://yappe.in/maharashtra/aurangabad/ess-press-oh-cafe/2276331"
   ]
  },
  {
@@ -68,7 +77,7 @@
   "id": "C003",
   "name": "NoMeatNaan",
   "city": "Chhatrapati Sambhajinagar",
-  "checked_at": "2026-10-27T21:52:01+00:00",
+  "checked_at": "2026-10-27T23:11:48+00:00",
   "pages": [],
   "own": {},
   "mention": {},
@@ -84,7 +93,7 @@
   "id": "C004",
   "name": "Coffee Sanskruti",
   "city": "Kolhapur",
-  "checked_at": "2026-10-27T21:52:01+00:00",
+  "checked_at": "2026-10-27T23:11:59+00:00",
   "pages": [
    {
     "url": "https://www.coffeesanskruti.com/",
@@ -93,6 +102,14 @@
     "used": "own",
     "status": 200,
     "title": "Coffee Sanskruti"
+   },
+   {
+    "url": "https://yappe.in/maharashtra/kolhapur/coffee-sanskruti/225223",
+    "final_url": "https://yappe.in/maharashtra/kolhapur/coffee-sanskruti/225223",
+    "role": "mention",
+    "used": "mention",
+    "status": 200,
+    "title": "Coffee Sanskruti - Cafe - Kolhapur - Maharashtra | Yappe.in"
    }
   ],
   "own": {
@@ -113,7 +130,16 @@
     }
    ]
   },
-  "mention": {},
+  "mention": {
+   "commodity_brands": [
+    {
+     "term": "Starbucks",
+     "count": 1,
+     "snippet": "the plus point. The menu is not very unique, but they serve you good coffee in Starbucks style cups and Kolhapuri Rates ;) The place is very small. Little crowded duri",
+     "url": "https://yappe.in/maharashtra/kolhapur/coffee-sanskruti/225223"
+    }
+   ]
+  },
   "prices": [],
   "cost_for_two": "",
   "emails": [
@@ -124,7 +150,8 @@
   ],
   "cafes_named": [],
   "urls_on_file": [
-   "https://www.coffeesanskruti.com/"
+   "https://www.coffeesanskruti.com/",
+   "https://yappe.in/maharashtra/kolhapur/coffee-sanskruti/225223"
   ]
  },
  {
@@ -132,8 +159,17 @@
   "id": "C005",
   "name": "Grain de Cafe",
   "city": "Kolhapur",
-  "checked_at": "2026-10-27T21:52:01+00:00",
-  "pages": [],
+  "checked_at": "2026-10-27T23:12:00+00:00",
+  "pages": [
+   {
+    "url": "https://yappe.in/maharashtra/kolhapur/grain-de-cafe-experience-love-at-first-sip/225447",
+    "final_url": "https://yappe.in/maharashtra/kolhapur/grain-de-cafe-experience-love-at-first-sip/225447",
+    "role": "mention",
+    "used": "name not on page",
+    "status": 200,
+    "title": "Grain De Cafe - Coffee shop - Kolhapur - Maharashtra | Yappe.in"
+   }
+  ],
   "own": {},
   "mention": {},
   "prices": [],
@@ -141,15 +177,26 @@
   "emails": [],
   "phones": [],
   "cafes_named": [],
-  "urls_on_file": []
+  "urls_on_file": [
+   "https://yappe.in/maharashtra/kolhapur/grain-de-cafe-experience-love-at-first-sip/225447"
+  ]
  },
  {
   "kind": "cafe",
   "id": "C006",
   "name": "The Treaat Coffee",
   "city": "Kolhapur",
-  "checked_at": "2026-10-27T21:52:01+00:00",
-  "pages": [],
+  "checked_at": "2026-10-27T23:12:07+00:00",
+  "pages": [
+   {
+    "url": "https://yappe.in/maharashtra/kolhapur/the-treaat-coffee-in-kolhapur/657955",
+    "final_url": "https://yappe.in/maharashtra/kolhapur/the-treaat-coffee-in-kolhapur/657955",
+    "role": "mention",
+    "used": "mention",
+    "status": 200,
+    "title": "The Treaat Coffee in kolhapur - Coffee shop - Kolhapur - Maharashtra | Yappe.in"
+   }
+  ],
   "own": {},
   "mention": {},
   "prices": [],
@@ -157,7 +204,9 @@
   "emails": [],
   "phones": [],
   "cafes_named": [],
-  "urls_on_file": []
+  "urls_on_file": [
+   "https://yappe.in/maharashtra/kolhapur/the-treaat-coffee-in-kolhapur/657955"
+  ]
  },
  {
   "kind": "cafe",
@@ -413,7 +462,7 @@
   "id": "C012",
   "name": "BBRWN Cafe",
   "city": "Mumbai",
-  "checked_at": "2026-10-27T21:52:01+00:00",
+  "checked_at": "2026-10-27T23:12:00+00:00",
   "pages": [],
   "own": {},
   "mention": {},
@@ -1246,7 +1295,7 @@
   "id": "C029",
   "name": "Kerb Coffee Co.",
   "city": "Mumbai",
-  "checked_at": "2026-10-27T21:52:01+00:00",
+  "checked_at": "2026-10-27T23:12:00+00:00",
   "pages": [
    {
     "url": "https://www.glassdoor.co.in/Job/mumbai-barista-jobs-SRCH_IL.0",
@@ -1964,6 +2013,119 @@
  {
   "kind": "cafe",
   "id": "C041",
+  "name": "Vanilla Miel — Lower Parel",
+  "city": "Mumbai",
+  "checked_at": "2026-10-27T23:12:53+00:00",
+  "pages": [
+   {
+    "url": "https://curlytales.com/india/food/new-mumbai-restaurants-in-october-youll-want-to-tell-your-friends-about/",
+    "final_url": "https://curlytales.com/india/food/new-mumbai-restaurants-in-october-youll-want-to-tell-your-friends-about/",
+    "role": "mention",
+    "used": "mention",
+    "status": 200,
+    "title": "11 New Mumbai Restaurants In October You'll Want To Tell Your Friends About | Curly Tales"
+   },
+   {
+    "url": "https://www.restaurantindia.in/news/vanilla-miel-opens-second-mumbai-caf-at-lodha-signet-lower-parel.n17346",
+    "final_url": "https://www.restaurantindia.in/news/vanilla-miel-opens-second-mumbai-caf-at-lodha-signet-lower-parel.n17346",
+    "role": "mention",
+    "used": "mention",
+    "status": 200,
+    "title": "Vanilla Miel Opens Second Mumbai Café at Lodha Signet, Lower Parel - Restaurant India"
+   },
+   {
+    "url": "https://luxebook.in/?p=82147",
+    "final_url": "https://luxebook.in/heres-where-to-go-for-cafe-hopping-in-bandra/",
+    "role": "mention",
+    "used": "mention",
+    "status": 200,
+    "title": "Here's where to go cafe-hopping in Bandra"
+   },
+   {
+    "url": "https://finelychopped.net/?p=75976",
+    "final_url": "https://finelychopped.net/alone-on-valentines-day-in-a-bandra-cafe-vanilla-miel/",
+    "role": "mention",
+    "used": "mention",
+    "status": 200,
+    "title": "Alone on Valentine's Day in a Bandra Cafe....Vanilla Miel - Finelychopped by Kalyan Karmakar"
+   }
+  ],
+  "own": {},
+  "mention": {
+   "indian_origins": [
+    {
+     "term": "Chikmagalur",
+     "count": 1,
+     "snippet": "uses a micro-roasted, low-acidity medium-dark roast sourced from high-altitude Chikmagalur estates. The menu includes Honey Cinnamon Latté, Hot Crème Brûlée Latte (a take",
+     "url": "https://www.restaurantindia.in/news/vanilla-miel-opens-second-mumbai-caf-at-lodha-signet-lower-parel.n17346"
+    }
+   ],
+   "intl_origins": [
+    {
+     "term": "Vietnam",
+     "count": 2,
+     "snippet": "rûlée Latte (a take on a classic dessert - quintessentially Vanilla Miel), Iced Vietnamese Coffee, Iced Coconut Latte, Iced Vanilla Bean Shakerato and Iced Tiramisu Latte",
+     "url": "https://www.restaurantindia.in/news/vanilla-miel-opens-second-mumbai-caf-at-lodha-signet-lower-parel.n17346"
+    }
+   ],
+   "processes": [
+    {
+     "term": "Experimental lot",
+     "count": 1,
+     "snippet": "o, bring any caffeine snob here and they will surely be impressed by the cafe’s experimental roasters and specialty Arabica coffee. Luxebook Recommends: Sweet Potato Fries",
+     "url": "https://luxebook.in/?p=82147"
+    },
+    {
+     "term": "Single origin",
+     "count": 1,
+     "snippet": "ised what they meant when I had a bite of the banana cake with 70 per cent dark single origin chocolate. A sen … ting debate with my young server, Ansh, on the merits of fla",
+     "url": "https://finelychopped.net/?p=75976"
+    }
+   ],
+   "brew": [
+    {
+     "term": "Cold brew",
+     "count": 2,
+     "snippet": ", Vietnamese-style VM House Phin Cold Coffee, Iced Tiramisu Latte and flavoured cold brews. Food ranges from Heirloom Tomato Salad and Middle Eastern Platter to Miso Brai",
+     "url": "https://curlytales.com/india/food/new-mumbai-restaurants-in-october-youll-want-to-tell-your-friends-about/"
+    },
+    {
+     "term": "Cortado",
+     "count": 2,
+     "snippet": "23 minutes read In Bandra, where new cafes sprout faster than you can sip your cortado, it’s easy to lose track of where to head next. With every spot claiming to be",
+     "url": "https://luxebook.in/?p=82147"
+    },
+    {
+     "term": "Tasting flight / omakase",
+     "count": 1,
+     "snippet": "progressive Omakase Cocktail experience. The menu blends Indian flavours with modern European mixol",
+     "url": "https://curlytales.com/india/food/new-mumbai-restaurants-in-october-youll-want-to-tell-your-friends-about/"
+    }
+   ],
+   "signals": [
+    {
+     "term": "Wholesale / cafe partners",
+     "count": 1,
+     "snippet": "door. I used to think I hated the beige-white-brown colour palette, especially for cafes. I’ve been disappointed more than once with the clinical, post-renovation coffe",
+     "url": "https://luxebook.in/?p=82147"
+    }
+   ]
+  },
+  "prices": [],
+  "cost_for_two": "₹2,000 for two",
+  "emails": [],
+  "phones": [],
+  "cafes_named": [],
+  "urls_on_file": [
+   "https://curlytales.com/india/food/new-mumbai-restaurants-in-october-youll-want-to-tell-your-friends-about/",
+   "https://www.restaurantindia.in/news/vanilla-miel-opens-second-mumbai-caf-at-lodha-signet-lower-parel.n17346",
+   "https://luxebook.in/?p=82147",
+   "https://finelychopped.net/?p=75976"
+  ]
+ },
+ {
+  "kind": "cafe",
+  "id": "C042",
   "name": "Boojee Cafe — One BKC",
   "city": "Mumbai",
   "checked_at": "2026-10-27T21:52:02+00:00",
@@ -2039,7 +2201,7 @@
  },
  {
   "kind": "cafe",
-  "id": "C042",
+  "id": "C043",
   "name": "RITUAL daily coffee",
   "city": "Mumbai",
   "checked_at": "2026-10-27T21:52:02+00:00",
@@ -2103,7 +2265,7 @@
  },
  {
   "kind": "cafe",
-  "id": "C043",
+  "id": "C044",
   "name": "Shelter",
   "city": "Mumbai",
   "checked_at": "2026-10-27T21:52:01+00:00",
@@ -2168,7 +2330,7 @@
  },
  {
   "kind": "cafe",
-  "id": "C044",
+  "id": "C045",
   "name": "The Brew Cafe — Thakur Village",
   "city": "Mumbai",
   "checked_at": "2026-10-27T21:52:01+00:00",
@@ -2195,7 +2357,7 @@
  },
  {
   "kind": "cafe",
-  "id": "C045",
+  "id": "C046",
   "name": "bōkka coffee",
   "city": "Mumbai",
   "checked_at": "2026-10-27T21:52:02+00:00",
@@ -2240,7 +2402,7 @@
  },
  {
   "kind": "cafe",
-  "id": "C046",
+  "id": "C047",
   "name": "AlienKind",
   "city": "Mumbai",
   "checked_at": "2026-10-27T21:52:02+00:00",
@@ -2294,7 +2456,7 @@
  },
  {
   "kind": "cafe",
-  "id": "C047",
+  "id": "C048",
   "name": "Belsta Coffee",
   "city": "Mumbai",
   "checked_at": "2026-10-27T21:52:02+00:00",
@@ -2347,7 +2509,7 @@
  },
  {
   "kind": "cafe",
-  "id": "C048",
+  "id": "C049",
   "name": "Cafe Chikory",
   "city": "Mumbai",
   "checked_at": "2026-10-27T21:52:01+00:00",
@@ -2400,11 +2562,20 @@
  },
  {
   "kind": "cafe",
-  "id": "C049",
+  "id": "C050",
   "name": "Cafe Essence",
   "city": "Mumbai",
-  "checked_at": "2026-10-27T21:52:02+00:00",
-  "pages": [],
+  "checked_at": "2026-10-27T23:12:09+00:00",
+  "pages": [
+   {
+    "url": "https://wanderlog.com/place/details/2904960/essence-cafe",
+    "final_url": "https://wanderlog.com/place/details/2904960/essence-cafe",
+    "role": "mention",
+    "used": "mention",
+    "status": 200,
+    "title": "Essence Cafe, Whangarei, New Zealand - Reviews, Ratings, Tips and Why You Should Go – Wanderlog"
+   }
+  ],
   "own": {},
   "mention": {},
   "prices": [],
@@ -2412,11 +2583,13 @@
   "emails": [],
   "phones": [],
   "cafes_named": [],
-  "urls_on_file": []
+  "urls_on_file": [
+   "https://wanderlog.com/place/details/2904960/essence-cafe"
+  ]
  },
  {
   "kind": "cafe",
-  "id": "C050",
+  "id": "C051",
   "name": "Fold Bakehouse",
   "city": "Mumbai",
   "checked_at": "2026-10-27T21:52:02+00:00",
@@ -2443,7 +2616,7 @@
  },
  {
   "kind": "cafe",
-  "id": "C051",
+  "id": "C052",
   "name": "GOAT Brew",
   "city": "Mumbai",
   "checked_at": "2026-10-27T21:52:02+00:00",
@@ -2497,10 +2670,10 @@
  },
  {
   "kind": "cafe",
-  "id": "C052",
+  "id": "C053",
   "name": "Greenr",
   "city": "Mumbai",
-  "checked_at": "2026-10-27T21:52:01+00:00",
+  "checked_at": "2026-10-27T23:12:24+00:00",
   "pages": [
    {
     "url": "https://indianretailer.com/news/ballard-pier-opens-mumbai-retail-and-dining",
@@ -2509,22 +2682,49 @@
     "used": "mention",
     "status": 200,
     "title": "Rebel Foods Approves Fresh ESOP Grant as It Works Towards Profitability - Indian Retailer"
+   },
+   {
+    "url": "https://www.restaurantindia.in/news/greenr-opens-12th-outlet-in-mumbai-s-goregaon-as-plant-based-chain-expands.n17065",
+    "final_url": "https://www.restaurantindia.in/news/greenr-opens-12th-outlet-in-mumbai-s-goregaon-as-plant-based-chain-expands.n17065",
+    "role": "mention",
+    "used": "mention",
+    "status": 200,
+    "title": "Greenr Opens 12th Outlet in Mumbai’s Goregaon as Plant-Based Chain Expands - Restaurant India"
+   },
+   {
+    "url": "https://www.knocksense.com/mumbai/bandras-greenr-cafe-beckons-foodies-in-mumbai-to-embrace-sustainable-fare-choices",
+    "final_url": "https://www.knocksense.com/mumbai/before-mannat-became-srks-iconic-home-it-was-villa-vienna",
+    "role": "mention",
+    "used": "mention",
+    "status": 200,
+    "title": "Before SRK’s Mannat made headlines, Villa Vienna made history in Bandra"
+   },
+   {
+    "url": "https://elledecor.in/new-greenr-cafe-mumbai-by-studio-hohma-and-stand-design/",
+    "final_url": "https://elledecor.in/new-greenr-cafe-mumbai-by-studio-hohma-and-stand-design/",
+    "role": "mention",
+    "used": "mention",
+    "status": 200,
+    "title": "At Greenr Cafe’s in Breach Candy, simplicity meets Art Deco"
    }
   ],
   "own": {},
   "mention": {},
   "prices": [],
-  "cost_for_two": "",
+  "cost_for_two": "₹500 for two",
   "emails": [],
   "phones": [],
   "cafes_named": [],
   "urls_on_file": [
-   "https://indianretailer.com/news/ballard-pier-opens-mumbai-retail-and-dining"
+   "https://indianretailer.com/news/ballard-pier-opens-mumbai-retail-and-dining",
+   "https://www.restaurantindia.in/news/greenr-opens-12th-outlet-in-mumbai-s-goregaon-as-plant-based-chain-expands.n17065",
+   "https://www.knocksense.com/mumbai/bandras-greenr-cafe-beckons-foodies-in-mumbai-to-embrace-sustainable-fare-choices",
+   "https://elledecor.in/new-greenr-cafe-mumbai-by-studio-hohma-and-stand-design/"
   ]
  },
  {
   "kind": "cafe",
-  "id": "C053",
+  "id": "C054",
   "name": "Kala Ghoda Cafe",
   "city": "Mumbai",
   "checked_at": "2026-10-27T21:52:04+00:00",
@@ -2561,7 +2761,7 @@
  },
  {
   "kind": "cafe",
-  "id": "C054",
+  "id": "C055",
   "name": "The Blondie House",
   "city": "Mumbai",
   "checked_at": "2026-10-27T21:52:02+00:00",
@@ -2630,79 +2830,10 @@
  },
  {
   "kind": "cafe",
-  "id": "C055",
-  "name": "The Find Atelier",
-  "city": "Mumbai",
-  "checked_at": "2026-10-27T21:52:02+00:00",
-  "pages": [
-   {
-    "url": "https://foodiesofindia.wordpress.com/2026/06/01/june-2026-new-restaurants-in-mumbai-you-need-to-visit/",
-    "final_url": "https://foodiesofindia.wordpress.com/2026/06/01/june-2026-new-restaurants-in-mumbai-you-need-to-visit/",
-    "role": "mention",
-    "used": "mention",
-    "status": 200,
-    "title": "June 2026: New Restaurants in Mumbai You Need to Visit"
-   }
-  ],
-  "own": {},
-  "mention": {},
-  "prices": [],
-  "cost_for_two": "",
-  "emails": [],
-  "phones": [],
-  "cafes_named": [],
-  "urls_on_file": [
-   "https://foodiesofindia.wordpress.com/2026/06/01/june-2026-new-restaurants-in-mumbai-you-need-to-visit/"
-  ]
- },
- {
-  "kind": "cafe",
   "id": "C056",
-  "name": "Vanilla Miel — Lower Parel",
-  "city": "Mumbai",
-  "checked_at": "2026-10-27T21:52:01+00:00",
-  "pages": [
-   {
-    "url": "https://curlytales.com/india/food/new-mumbai-restaurants-in-october-youll-want-to-tell-your-friends-about/",
-    "final_url": "https://curlytales.com/india/food/new-mumbai-restaurants-in-october-youll-want-to-tell-your-friends-about/",
-    "role": "mention",
-    "used": "mention",
-    "status": 200,
-    "title": "11 New Mumbai Restaurants In October You'll Want To Tell Your Friends About | Curly Tales"
-   }
-  ],
-  "own": {},
-  "mention": {
-   "brew": [
-    {
-     "term": "Cold brew",
-     "count": 1,
-     "snippet": ", Vietnamese-style VM House Phin Cold Coffee, Iced Tiramisu Latte and flavoured cold brews. Food ranges from Heirloom Tomato Salad and Middle Eastern Platter to Miso Brai",
-     "url": "https://curlytales.com/india/food/new-mumbai-restaurants-in-october-youll-want-to-tell-your-friends-about/"
-    },
-    {
-     "term": "Tasting flight / omakase",
-     "count": 1,
-     "snippet": "progressive Omakase Cocktail experience. The menu blends Indian flavours with modern European mixol",
-     "url": "https://curlytales.com/india/food/new-mumbai-restaurants-in-october-youll-want-to-tell-your-friends-about/"
-    }
-   ]
-  },
-  "prices": [],
-  "cost_for_two": "₹2,000 for two",
-  "emails": [],
-  "phones": [],
-  "cafes_named": [],
-  "urls_on_file": [
-   "https://curlytales.com/india/food/new-mumbai-restaurants-in-october-youll-want-to-tell-your-friends-about/"
-  ]
- },
- {
-  "kind": "cafe",
-  "id": "C057",
   "name": "Angry Toast",
   "city": "Mumbai",
-  "checked_at": "2026-10-27T21:52:04+00:00",
+  "checked_at": "2026-10-27T23:12:17+00:00",
   "pages": [
    {
     "url": "https://www.timeout.com/mumbai/news/angry-toast-bandras-new-sandwich-shop-has-its-own-coffee-roastery-071626",
@@ -2711,14 +2842,36 @@
     "used": "mention",
     "status": 200,
     "title": "Angry Toast, a sandwich shop-cum-micro-roastery, opens in Mumbai's Bandra"
+   },
+   {
+    "url": "https://homegrown.co.in/homegrown-explore/angry-toast-opens-in-bandra-with-3-inch-sandwiches-an-in-house-coffee-roastery",
+    "final_url": "https://homegrown.co.in/homegrown-creators/beyond-the-white-cube-i-dwell-in-possibility-wants-to-reimagine-exhibitions-in-ahmedabad",
+    "role": "mention",
+    "used": "mention",
+    "status": 200,
+    "title": "‘I Dwell in Possibility’ Exhibition in Ahmedabad Explores Art, Climate, and Culture | Homegrown India"
    }
   ],
   "own": {},
   "mention": {
+   "indian_origins": [
+    {
+     "term": "Coorg / Kodagu",
+     "count": 1,
+     "snippet": "Dwarakanath and includes house blends sourced from Belur, Ratnagiri, Odisha and Coorg. Alongside classics like cappuccinos, flat whites and Spanish lattes, the menu",
+     "url": "https://homegrown.co.in/homegrown-explore/angry-toast-opens-in-bandra-with-3-inch-sandwiches-an-in-house-coffee-roastery"
+    },
+    {
+     "term": "Wayanad",
+     "count": 1,
+     "snippet": "with green tea, while the Kerala Vanilla Matcha uses vanilla beans sourced from Wayanad. Tender Coconut Matcha, along with blends featuring turmeric and saffron, round",
+     "url": "https://homegrown.co.in/homegrown-explore/angry-toast-opens-in-bandra-with-3-inch-sandwiches-an-in-house-coffee-roastery"
+    }
+   ],
    "intl_origins": [
     {
      "term": "Vietnam",
-     "count": 1,
+     "count": 2,
      "snippet": "ere are caffeine-free options too. The iced specialty menu includes taro latte, Vietnamese egg nog, pandan coffee, and hazelnut praline latte, among others. Who's behind",
      "url": "https://www.timeout.com/mumbai/news/angry-toast-bandras-new-sandwich-shop-has-its-own-coffee-roastery-071626"
     }
@@ -2726,9 +2879,17 @@
    "brew": [
     {
      "term": "Cold brew",
-     "count": 1,
+     "count": 2,
      "snippet": "Championship semi-finalist. Beyond the standard hot and cold coffee, matcha and cold brew, there are caffeine-free options too. The iced specialty menu includes taro lat",
      "url": "https://www.timeout.com/mumbai/news/angry-toast-bandras-new-sandwich-shop-has-its-own-coffee-roastery-071626"
+    }
+   ],
+   "signals": [
+    {
+     "term": "Coming soon",
+     "count": 1,
+     "snippet": "appeal of a hot sandwich fresh off the grill. Angry Toast, a new boutique café opening on Waterfield Road in Bandra, is hoping to become exactly that kind of stop. Sprea",
+     "url": "https://homegrown.co.in/homegrown-explore/angry-toast-opens-in-bandra-with-3-inch-sandwiches-an-in-house-coffee-roastery"
     }
    ]
   },
@@ -2738,39 +2899,13 @@
   "phones": [],
   "cafes_named": [],
   "urls_on_file": [
-   "https://www.timeout.com/mumbai/news/angry-toast-bandras-new-sandwich-shop-has-its-own-coffee-roastery-071626"
+   "https://www.timeout.com/mumbai/news/angry-toast-bandras-new-sandwich-shop-has-its-own-coffee-roastery-071626",
+   "https://homegrown.co.in/homegrown-explore/angry-toast-opens-in-bandra-with-3-inch-sandwiches-an-in-house-coffee-roastery"
   ]
  },
  {
   "kind": "cafe",
-  "id": "C058",
-  "name": "NAKED Coffee Roasters",
-  "city": "Mumbai",
-  "checked_at": "2026-10-27T21:52:03+00:00",
-  "pages": [
-   {
-    "url": "https://foodiesofindia.wordpress.com/2025/11/03/25-new-restaurants-cafes-in-mumbai-you-need-to-try-this-november-2025/",
-    "final_url": "https://foodiesofindia.wordpress.com/2025/11/03/25-new-restaurants-cafes-in-mumbai-you-need-to-try-this-november-2025/",
-    "role": "mention",
-    "used": "mention",
-    "status": 200,
-    "title": "25 New Restaurants & Cafés in Mumbai You Need to Try This November 2025"
-   }
-  ],
-  "own": {},
-  "mention": {},
-  "prices": [],
-  "cost_for_two": "",
-  "emails": [],
-  "phones": [],
-  "cafes_named": [],
-  "urls_on_file": [
-   "https://foodiesofindia.wordpress.com/2025/11/03/25-new-restaurants-cafes-in-mumbai-you-need-to-try-this-november-2025/"
-  ]
- },
- {
-  "kind": "cafe",
-  "id": "C059",
+  "id": "C057",
   "name": "Bouffage Cafe and Bistro",
   "city": "Nagpur",
   "checked_at": "2026-10-27T21:52:02+00:00",
@@ -2841,7 +2976,7 @@
  },
  {
   "kind": "cafe",
-  "id": "C060",
+  "id": "C058",
   "name": "Oro's India",
   "city": "Nagpur",
   "checked_at": "2026-10-27T21:52:01+00:00",
@@ -2873,7 +3008,7 @@
  },
  {
   "kind": "cafe",
-  "id": "C061",
+  "id": "C059",
   "name": "Retreat Cafe & Eatery",
   "city": "Nagpur",
   "checked_at": "2026-10-27T21:52:04+00:00",
@@ -2900,10 +3035,79 @@
  },
  {
   "kind": "cafe",
-  "id": "C062",
+  "id": "C060",
+  "name": "Three Beans Coffee Roasters",
+  "city": "Nagpur",
+  "checked_at": "2026-10-27T23:12:40+00:00",
+  "pages": [
+   {
+    "url": "https://www.eazydiner.com/nagpur/three-beans-coffee-bar-dharampeth-nagpur-700706",
+    "final_url": "https://www.eazydiner.com/nagpur/three-beans-coffee-bar-dharampeth-nagpur-700706",
+    "role": "own",
+    "used": "own",
+    "status": 200,
+    "title": "Three Beans Coffee Bar in Dharampeth, Nagpur | Get Upto 50% Off"
+   },
+   {
+    "url": "https://rokazu.com/coffee-shops-in-nagpur-india/",
+    "final_url": "https://rokazu.com/coffee-shops-in-nagpur-india/",
+    "role": "mention",
+    "used": "mention",
+    "status": 200,
+    "title": "Best Coffee Shops in Nagpur, India: Top Spots for a Perfect Brew - Rokazu"
+   },
+   {
+    "url": "https://housing.com/news/best-cafes-in-nagpur",
+    "final_url": "https://housing.com/news/best-cafes-in-nagpur",
+    "role": "mention",
+    "used": "failed",
+    "status": 406,
+    "title": "Security Alert"
+   },
+   {
+    "url": "https://insider.in/coffee-home-brewing-101-learn-everything-coffee-nagpur-jan31-2024/event",
+    "final_url": "https://insider.in/online",
+    "role": "mention",
+    "used": "name not on page",
+    "status": 200,
+    "title": "Loading https://insider.in/online",
+    "error": "Page.eval_on_selector_all: Execution context was destroyed, most likely because of a navigation"
+   }
+  ],
+  "own": {
+   "commodity_brands": [
+    {
+     "term": "Starbucks",
+     "count": 1,
+     "snippet": "just too watered ... M Madhav Dadwe It’s surprising that a global brand like Starbucks chooses to serve masala chai while focusing primarily on coffee, yet still deli",
+     "url": "https://www.eazydiner.com/nagpur/three-beans-coffee-bar-dharampeth-nagpur-700706"
+    }
+   ]
+  },
+  "mention": {},
+  "prices": [
+   {
+    "snippet": "s Coffee Bar? The cost of two at Three Beans Coffee Bar is ₹ 600. You can save EXTRA",
+    "url": "https://www.eazydiner.com/nagpur/three-beans-coffee-bar-dharampeth-nagpur-700706"
+   }
+  ],
+  "cost_for_two": "₹ 600 for two",
+  "emails": [],
+  "phones": [],
+  "cafes_named": [],
+  "urls_on_file": [
+   "https://rokazu.com/coffee-shops-in-nagpur-india/",
+   "https://www.eazydiner.com/nagpur/three-beans-coffee-bar-dharampeth-nagpur-700706",
+   "https://housing.com/news/best-cafes-in-nagpur",
+   "https://insider.in/coffee-home-brewing-101-learn-everything-coffee-nagpur-jan31-2024/event"
+  ]
+ },
+ {
+  "kind": "cafe",
+  "id": "C061",
   "name": "Brewin Cafe",
   "city": "Nagpur",
-  "checked_at": "2026-10-27T21:52:03+00:00",
+  "checked_at": "2026-10-27T23:12:28+00:00",
   "pages": [],
   "own": {},
   "mention": {},
@@ -2916,7 +3120,7 @@
  },
  {
   "kind": "cafe",
-  "id": "C063",
+  "id": "C062",
   "name": "Coffeeboo Specialty Coffee",
   "city": "Nagpur",
   "checked_at": "2026-10-27T21:52:02+00:00",
@@ -2970,34 +3174,18 @@
  },
  {
   "kind": "cafe",
-  "id": "C064",
+  "id": "C063",
   "name": "The Coffee Project — Nagpur (4th outlet)",
   "city": "Nagpur",
-  "checked_at": "2026-10-27T21:52:01+00:00",
-  "pages": [],
-  "own": {},
-  "mention": {},
-  "prices": [],
-  "cost_for_two": "",
-  "emails": [],
-  "phones": [],
-  "cafes_named": [],
-  "urls_on_file": []
- },
- {
-  "kind": "cafe",
-  "id": "C065",
-  "name": "Three Beans Coffee Roasters",
-  "city": "Nagpur",
-  "checked_at": "2026-10-27T21:52:04+00:00",
+  "checked_at": "2026-10-27T23:12:59+00:00",
   "pages": [
    {
-    "url": "https://rokazu.com/coffee-shops-in-nagpur-india/",
-    "final_url": "https://rokazu.com/coffee-shops-in-nagpur-india/",
+    "url": "https://www.explurger.com/pd/gsgajcg87cicfutk7",
+    "final_url": "https://www.explurger.com/pd/gsgajcg87cicfutk7",
     "role": "mention",
-    "used": "mention",
+    "used": "name not on page",
     "status": 200,
-    "title": "Best Coffee Shops in Nagpur, India: Top Spots for a Perfect Brew - Rokazu"
+    "title": "The Brew Crew | Nagpur | Why People Come Here? | Explurger"
    }
   ],
   "own": {},
@@ -3008,12 +3196,12 @@
   "phones": [],
   "cafes_named": [],
   "urls_on_file": [
-   "https://rokazu.com/coffee-shops-in-nagpur-india/"
+   "https://www.explurger.com/pd/gsgajcg87cicfutk7"
   ]
  },
  {
   "kind": "cafe",
-  "id": "C066",
+  "id": "C064",
   "name": "Pilgrim — Multi-Roaster Speciality Coffee House",
   "city": "Nashik",
   "checked_at": "2026-10-27T21:52:03+00:00",
@@ -3058,10 +3246,10 @@
  },
  {
   "kind": "cafe",
-  "id": "C067",
+  "id": "C065",
   "name": "Cafe Bliss",
   "city": "Nashik",
-  "checked_at": "2026-10-27T21:52:02+00:00",
+  "checked_at": "2026-10-27T23:12:15+00:00",
   "pages": [
    {
     "url": "https://www.zomato.com/nashik/cafe-bliss-college-road",
@@ -3070,6 +3258,30 @@
     "used": "not opened (site refuses automated browsers)",
     "status": 0,
     "title": ""
+   },
+   {
+    "url": "https://yappe.in/maharashtra/nashik/cafe-bliss/134419",
+    "final_url": "https://yappe.in/maharashtra/nashik/cafe-bliss/134419",
+    "role": "mention",
+    "used": "mention",
+    "status": 200,
+    "title": "Cafe Bliss - Cafe - Nashik - Maharashtra | Yappe.in"
+   },
+   {
+    "url": "https://wanderlog.com/place/details/1138754/cafe-bliss",
+    "final_url": "https://wanderlog.com/place/details/1138754/cafe-bliss",
+    "role": "mention",
+    "used": "mention",
+    "status": 200,
+    "title": "Cafe Bliss, Nashik, India - Reviews, Ratings, Tips and Why You Should Go – Wanderlog"
+   },
+   {
+    "url": "https://nashikcity.in/?p=1082",
+    "final_url": "https://nashikcity.in/?p=1082",
+    "role": "mention",
+    "used": "failed",
+    "status": 504,
+    "title": "504 Gateway Timeout"
    }
   ],
   "own": {},
@@ -3080,12 +3292,15 @@
   "phones": [],
   "cafes_named": [],
   "urls_on_file": [
-   "https://www.zomato.com/nashik/cafe-bliss-college-road"
+   "https://www.zomato.com/nashik/cafe-bliss-college-road",
+   "https://yappe.in/maharashtra/nashik/cafe-bliss/134419",
+   "https://wanderlog.com/place/details/1138754/cafe-bliss",
+   "https://nashikcity.in/?p=1082"
   ]
  },
  {
   "kind": "cafe",
-  "id": "C068",
+  "id": "C066",
   "name": "70 Beans",
   "city": "Navi Mumbai",
   "checked_at": "2026-10-27T21:52:01+00:00",
@@ -3165,7 +3380,7 @@
  },
  {
   "kind": "cafe",
-  "id": "C069",
+  "id": "C067",
   "name": "Panache Specialty Coffee",
   "city": "Navi Mumbai",
   "checked_at": "2026-10-27T21:52:04+00:00",
@@ -3201,7 +3416,7 @@
  },
  {
   "kind": "cafe",
-  "id": "C070",
+  "id": "C068",
   "name": "Cafe Lento — Pune",
   "city": "Pune",
   "checked_at": "2026-10-27T21:52:03+00:00",
@@ -3237,7 +3452,7 @@
  },
  {
   "kind": "cafe",
-  "id": "C071",
+  "id": "C069",
   "name": "Momoka",
   "city": "Pune",
   "checked_at": "2026-10-27T21:52:02+00:00",
@@ -3291,7 +3506,7 @@
  },
  {
   "kind": "cafe",
-  "id": "C072",
+  "id": "C070",
   "name": "One World — The Coffee Studio",
   "city": "Pune",
   "checked_at": "2026-10-27T21:52:02+00:00",
@@ -3382,7 +3597,7 @@
  },
  {
   "kind": "cafe",
-  "id": "C073",
+  "id": "C071",
   "name": "Unnamed specialty cafe — Viman Nagar (in planning)",
   "city": "Pune",
   "checked_at": "2026-10-27T21:52:04+00:00",
@@ -3409,7 +3624,7 @@
  },
  {
   "kind": "cafe",
-  "id": "C074",
+  "id": "C072",
   "name": "Book Bar",
   "city": "Pune",
   "checked_at": "2026-10-27T21:52:03+00:00",
@@ -3463,7 +3678,7 @@
  },
  {
   "kind": "cafe",
-  "id": "C075",
+  "id": "C073",
   "name": "Cafe Serenity — Baner (relocating)",
   "city": "Pune",
   "checked_at": "2026-10-27T21:52:02+00:00",
@@ -3490,7 +3705,7 @@
  },
  {
   "kind": "cafe",
-  "id": "C076",
+  "id": "C074",
   "name": "Caffeowl Coffee",
   "city": "Pune",
   "checked_at": "2026-10-27T21:52:02+00:00",
@@ -3517,7 +3732,7 @@
  },
  {
   "kind": "cafe",
-  "id": "C077",
+  "id": "C075",
   "name": "Salt & Coffee",
   "city": "Pune",
   "checked_at": "2026-10-27T21:52:04+00:00",
@@ -3544,7 +3759,7 @@
  },
  {
   "kind": "cafe",
-  "id": "C078",
+  "id": "C076",
   "name": "Aeka's Coffee",
   "city": "Pune",
   "checked_at": "2026-10-27T21:52:03+00:00",
@@ -3604,7 +3819,7 @@
  },
  {
   "kind": "cafe",
-  "id": "C079",
+  "id": "C077",
   "name": "Godaam Speciality Coffee Co.",
   "city": "Pune",
   "checked_at": "2026-10-27T21:52:02+00:00",
@@ -3776,7 +3991,7 @@
  },
  {
   "kind": "cafe",
-  "id": "C080",
+  "id": "C078",
   "name": "Tham Coffee",
   "city": "Pune",
   "checked_at": "2026-10-27T21:52:02+00:00",
@@ -3817,7 +4032,7 @@
  },
  {
   "kind": "cafe",
-  "id": "C081",
+  "id": "C079",
   "name": "Zen Cafe",
   "city": "Pune",
   "checked_at": "2026-10-27T21:52:04+00:00",
@@ -3939,23 +4154,52 @@
  },
  {
   "kind": "cafe",
-  "id": "C082",
+  "id": "C080",
   "name": "Beanery Cafe & Eatery",
   "city": "Pune",
-  "checked_at": "2026-10-27T21:52:03+00:00",
-  "pages": [],
+  "checked_at": "2026-10-27T23:12:45+00:00",
+  "pages": [
+   {
+    "url": "https://curlytales.com/india/food/new-restaurants-in-pune-to-check-out-this-august-including-a-boho-cafe-a-dream-lakeside-spot/",
+    "final_url": "https://curlytales.com/india/food/new-restaurants-in-pune-to-check-out-this-august-including-a-boho-cafe-a-dream-lakeside-spot/",
+    "role": "mention",
+    "used": "mention",
+    "status": 200,
+    "title": "Top 10 Best New Restaurants In Pune | Curly Tales"
+   },
+   {
+    "url": "https://www.district.in/dining/pune/beanery-cafe-senapati-bapat-road",
+    "final_url": "https://www.district.in/dining/pune/beanery-cafe-senapati-bapat-road",
+    "role": "mention",
+    "used": "name not on page",
+    "status": 200,
+    "title": "Beanery Cafe | Senapati Bapat Road, Pune | Book Table"
+   }
+  ],
   "own": {},
-  "mention": {},
+  "mention": {
+   "brew": [
+    {
+     "term": "Cold brew",
+     "count": 1,
+     "snippet": "d unhurried conversations. You cannot miss out on their Agli Olio Pasta, Lychee Cold Brew Coffee, and Burnt Basque Cheesecake. They also have a live coffee-making counte",
+     "url": "https://curlytales.com/india/food/new-restaurants-in-pune-to-check-out-this-august-including-a-boho-cafe-a-dream-lakeside-spot/"
+    }
+   ]
+  },
   "prices": [],
   "cost_for_two": "",
   "emails": [],
   "phones": [],
   "cafes_named": [],
-  "urls_on_file": []
+  "urls_on_file": [
+   "https://curlytales.com/india/food/new-restaurants-in-pune-to-check-out-this-august-including-a-boho-cafe-a-dream-lakeside-spot/",
+   "https://www.district.in/dining/pune/beanery-cafe-senapati-bapat-road"
+  ]
  },
  {
   "kind": "cafe",
-  "id": "C083",
+  "id": "C081",
   "name": "Christopher's Cafe & Bakehouse",
   "city": "Pune",
   "checked_at": "2026-10-27T21:52:03+00:00",
@@ -3982,11 +4226,20 @@
  },
  {
   "kind": "cafe",
-  "id": "C084",
+  "id": "C082",
   "name": "Coffee Nation",
   "city": "Pune",
-  "checked_at": "2026-10-27T21:52:02+00:00",
-  "pages": [],
+  "checked_at": "2026-10-27T23:13:07+00:00",
+  "pages": [
+   {
+    "url": "https://yappe.in/maharashtra/pune/coffee-nation/319288",
+    "final_url": "https://yappe.in/maharashtra/pune/coffee-nation/319288",
+    "role": "mention",
+    "used": "mention",
+    "status": 200,
+    "title": "Coffee Nation - Coffee shop - Pune - Maharashtra | Yappe.in"
+   }
+  ],
   "own": {},
   "mention": {},
   "prices": [],
@@ -3994,14 +4247,16 @@
   "emails": [],
   "phones": [],
   "cafes_named": [],
-  "urls_on_file": []
+  "urls_on_file": [
+   "https://yappe.in/maharashtra/pune/coffee-nation/319288"
+  ]
  },
  {
   "kind": "cafe",
-  "id": "C085",
+  "id": "C083",
   "name": "Handmade Cafe",
   "city": "Pune",
-  "checked_at": "2026-10-27T21:52:04+00:00",
+  "checked_at": "2026-10-27T23:12:47+00:00",
   "pages": [
    {
     "url": "https://curlytales.com/india/food/victorian-themed-cafe-to-k-drama-like-eatery-new-restaurants-to-try-in-pune-this-february/",
@@ -4010,6 +4265,14 @@
     "used": "mention",
     "status": 200,
     "title": "Victorian-Themed Cafe To K-Drama-Like Eatery, 10 New Restaurants To Try In Pune This February | Curly Tales"
+   },
+   {
+    "url": "https://www.inkl.com/news/this-coffee-shops-branding-showcases-handcrafted-brilliance",
+    "final_url": "https://www.inkl.com/news/this-coffee-shops-branding-showcases-handcrafted-brilliance",
+    "role": "mention",
+    "used": "failed",
+    "status": 403,
+    "title": "Just a moment..."
    }
   ],
   "own": {},
@@ -4020,47 +4283,102 @@
   "phones": [],
   "cafes_named": [],
   "urls_on_file": [
-   "https://curlytales.com/india/food/victorian-themed-cafe-to-k-drama-like-eatery-new-restaurants-to-try-in-pune-this-february/"
+   "https://curlytales.com/india/food/victorian-themed-cafe-to-k-drama-like-eatery-new-restaurants-to-try-in-pune-this-february/",
+   "https://www.inkl.com/news/this-coffee-shops-branding-showcases-handcrafted-brilliance"
+  ]
+ },
+ {
+  "kind": "cafe",
+  "id": "C084",
+  "name": "Lune Cafe & Patisserie",
+  "city": "Pune",
+  "checked_at": "2026-10-27T23:13:03+00:00",
+  "pages": [
+   {
+    "url": "https://uppercrustindia.com/online-edition/v99/files/basic-html/page154.html",
+    "final_url": "https://uppercrustindia.com/online-edition/v99/files/basic-html/page154.html",
+    "role": "mention",
+    "used": "name not on page",
+    "status": 200,
+    "title": "Page 154 - UpperCrust e-Magazine Third Quarter 2024"
+   },
+   {
+    "url": "https://www.mypunepulse.com/?p=166176",
+    "final_url": "https://www.mypunepulse.com/13-cozy-cafes-in-pune-perfect-for-working-reading-relaxing/",
+    "role": "mention",
+    "used": "name not on page",
+    "status": 200,
+    "title": "13 Cozy Cafés in Pune Perfect for Working, Reading & Relaxing - PUNE PULSE"
+   }
+  ],
+  "own": {},
+  "mention": {},
+  "prices": [],
+  "cost_for_two": "",
+  "emails": [],
+  "phones": [],
+  "cafes_named": [],
+  "urls_on_file": [
+   "https://uppercrustindia.com/online-edition/v99/files/basic-html/page154.html",
+   "https://www.mypunepulse.com/?p=166176"
+  ]
+ },
+ {
+  "kind": "cafe",
+  "id": "C085",
+  "name": "Midori Coffee and Eatery",
+  "city": "Pune",
+  "checked_at": "2026-10-27T23:12:34+00:00",
+  "pages": [
+   {
+    "url": "https://www.eazydiner.com/pune/midori-coffee-and-eatery-baner-pune-702845",
+    "final_url": "https://www.eazydiner.com/pune/midori-coffee-and-eatery-baner-pune-702845",
+    "role": "own",
+    "used": "own",
+    "status": 200,
+    "title": "Midori Coffee And Eatery in Baner, Pune | Get Upto 50% Off"
+   },
+   {
+    "url": "https://curlytales.com/these-new-restaurants-in-pune-are-a-must-try/amp/",
+    "final_url": "https://curlytales.com/these-new-restaurants-in-pune-are-a-must-try/amp/",
+    "role": "mention",
+    "used": "mention",
+    "status": 200,
+    "title": "10 New Restaurants To Try This Month In Pune For A Gastronomic Delight! | Curly Tales"
+   }
+  ],
+  "own": {
+   "signals": [
+    {
+     "term": "Wholesale / cafe partners",
+     "count": 1,
+     "snippet": "ful solo visit. The service wa... V Vivek Kanojia I was looking up on the net for cafes in Pune, and this one popped up. I thought why not? Let’s go and check it out.",
+     "url": "https://www.eazydiner.com/pune/midori-coffee-and-eatery-baner-pune-702845"
+    }
+   ]
+  },
+  "mention": {},
+  "prices": [
+   {
+    "snippet": "And Eatery? The cost of two at Midori Coffee And Eatery is ₹ 800. You can save EXTRA",
+    "url": "https://www.eazydiner.com/pune/midori-coffee-and-eatery-baner-pune-702845"
+   }
+  ],
+  "cost_for_two": "₹ 800 for two",
+  "emails": [],
+  "phones": [],
+  "cafes_named": [],
+  "urls_on_file": [
+   "https://www.eazydiner.com/pune/midori-coffee-and-eatery-baner-pune-702845",
+   "https://curlytales.com/these-new-restaurants-in-pune-are-a-must-try/amp/"
   ]
  },
  {
   "kind": "cafe",
   "id": "C086",
-  "name": "Lune Cafe & Patisserie",
-  "city": "Pune",
-  "checked_at": "2026-10-27T21:52:03+00:00",
-  "pages": [],
-  "own": {},
-  "mention": {},
-  "prices": [],
-  "cost_for_two": "",
-  "emails": [],
-  "phones": [],
-  "cafes_named": [],
-  "urls_on_file": []
- },
- {
-  "kind": "cafe",
-  "id": "C087",
-  "name": "Midori Coffee and Eatery",
-  "city": "Pune",
-  "checked_at": "2026-10-27T21:52:03+00:00",
-  "pages": [],
-  "own": {},
-  "mention": {},
-  "prices": [],
-  "cost_for_two": "",
-  "emails": [],
-  "phones": [],
-  "cafes_named": [],
-  "urls_on_file": []
- },
- {
-  "kind": "cafe",
-  "id": "C088",
   "name": "The Beans Talk Cafe",
   "city": "Pune",
-  "checked_at": "2026-10-27T21:52:02+00:00",
+  "checked_at": "2026-10-27T23:13:26+00:00",
   "pages": [
    {
     "url": "https://echai.ventures/grid/pune/the-beans-talk-cafe",
@@ -4069,58 +4387,49 @@
     "used": "name not on page",
     "status": 200,
     "title": "eChai · Founder network and startup events across 25+ cities in 10+ countries"
-   }
-  ],
-  "own": {},
-  "mention": {},
-  "prices": [],
-  "cost_for_two": "",
-  "emails": [],
-  "phones": [],
-  "cafes_named": [],
-  "urls_on_file": [
-   "https://echai.ventures/grid/pune/the-beans-talk-cafe"
-  ]
- },
- {
-  "kind": "cafe",
-  "id": "C089",
-  "name": "Cafe Buddy's Espresso — Thane",
-  "city": "Thane",
-  "checked_at": "2026-10-27T21:52:04+00:00",
-  "pages": [
+   },
    {
-    "url": "https://rokazu.com/coffee-shops-in-thane-india/",
-    "final_url": "https://rokazu.com/coffee-shops-in-thane-india/",
+    "url": "https://lbb.in/pune/rooftop-cafe-in-pune",
+    "final_url": "https://lbb.in/pune/rooftop-cafe-in-pune/",
     "role": "mention",
     "used": "mention",
     "status": 200,
-    "title": "The Ultimate Guide to the Best Coffee Shops in Thane, India - Rokazu"
+    "title": "The Beans Talk Cafe Rooftop Cafes In Pune | LBB Pune"
    },
    {
-    "url": "https://echai.ventures/grid/mumbai/cafe-buddy-s-espresso-best-cafe-in-thane",
-    "final_url": "https://echai.ventures/",
+    "url": "https://yappe.in/maharashtra/pune/the-beans-talk-cafe/320087",
+    "final_url": "https://yappe.in/maharashtra/pune/the-beans-talk-cafe/320087",
     "role": "mention",
-    "used": "name not on page",
+    "used": "mention",
     "status": 200,
-    "title": "eChai · Founder network and startup events across 25+ cities in 10+ countries"
+    "title": "The Beans Talk Cafe - Cafe - Pune - Maharashtra | Yappe.in"
    }
   ],
   "own": {},
   "mention": {},
-  "prices": [],
+  "prices": [
+   {
+    "snippet": "r of shakes like, brownie latte, chocolate and espresso for INR 160. If you’re not a co",
+    "url": "https://lbb.in/pune/rooftop-cafe-in-pune"
+   },
+   {
+    "snippet": "parle-g, only after eight and smoreo milkshakes starting at INR 110. The Beans Talk Ca",
+    "url": "https://lbb.in/pune/rooftop-cafe-in-pune"
+   }
+  ],
   "cost_for_two": "",
   "emails": [],
   "phones": [],
   "cafes_named": [],
   "urls_on_file": [
-   "https://rokazu.com/coffee-shops-in-thane-india/",
-   "https://echai.ventures/grid/mumbai/cafe-buddy-s-espresso-best-cafe-in-thane"
+   "https://echai.ventures/grid/pune/the-beans-talk-cafe",
+   "https://lbb.in/pune/rooftop-cafe-in-pune",
+   "https://yappe.in/maharashtra/pune/the-beans-talk-cafe/320087"
   ]
  },
  {
   "kind": "cafe",
-  "id": "C090",
+  "id": "C087",
   "name": "Mainline Coffee",
   "city": "Ahmedabad",
   "checked_at": "2026-10-27T21:52:03+00:00",
@@ -4181,7 +4490,7 @@
  },
  {
   "kind": "cafe",
-  "id": "C091",
+  "id": "C088",
   "name": "The Dark Roast",
   "city": "Ahmedabad",
   "checked_at": "2026-10-27T21:52:03+00:00",
@@ -4283,7 +4592,7 @@
  },
  {
   "kind": "cafe",
-  "id": "C092",
+  "id": "C089",
   "name": "Z27 Coffee Bar",
   "city": "Ahmedabad",
   "checked_at": "2026-10-27T21:52:02+00:00",
@@ -4360,7 +4669,7 @@
  },
  {
   "kind": "cafe",
-  "id": "C093",
+  "id": "C090",
   "name": "Blockheads",
   "city": "Ahmedabad",
   "checked_at": "2026-10-27T21:52:04+00:00",
@@ -4422,7 +4731,7 @@
  },
  {
   "kind": "cafe",
-  "id": "C094",
+  "id": "C091",
   "name": "Brewgarten",
   "city": "Ahmedabad",
   "checked_at": "2026-10-27T21:52:03+00:00",
@@ -4509,7 +4818,125 @@
  },
  {
   "kind": "cafe",
-  "id": "C095",
+  "id": "C092",
+  "name": "Mleko",
+  "city": "Ahmedabad",
+  "checked_at": "2026-10-27T23:12:56+00:00",
+  "pages": [
+   {
+    "url": "https://www.district.in/dining/ahmedabad/mould-art-space-x-mleko-adalaj",
+    "final_url": "https://www.district.in/dining/ahmedabad/mould-art-space-x-mleko-adalaj",
+    "role": "own",
+    "used": "own",
+    "status": 200,
+    "title": "MOULD Art Space X Mleko | Adalaj, Ahmedabad"
+   },
+   {
+    "url": "https://theappbarista.com/blog/best-cafes-ahmedabad",
+    "final_url": "https://theappbarista.com/blog/best-cafes-ahmedabad",
+    "role": "mention",
+    "used": "name not on page",
+    "status": 200,
+    "title": "Best Cafes in Ahmedabad - Top 6 Picks"
+   },
+   {
+    "url": "https://knocksense.com/ahmedabad/coffee-chronicles-mleko-cafes-enchanting-presence-in-ahmedabad-is-winning-over-hearts",
+    "final_url": "https://www.knocksense.com/ahmedabad/from-papon-to-ar-rahman-9-big-upcoming-events-in-ahmedabad-to-book-tickets-for",
+    "role": "mention",
+    "used": "mention",
+    "status": 200,
+    "title": "9 big upcoming events in Ahmedabad to book tickets For"
+   },
+   {
+    "url": "https://wanderlog.com/place/details/12011532/mleko",
+    "final_url": "https://wanderlog.com/place/details/12011532/mleko",
+    "role": "mention",
+    "used": "mention",
+    "status": 200,
+    "title": "Mleko Specialty Coffee House and Bakery, Ahmedabad, India - Reviews, Ratings, Tips and Why You Should Go – Wanderlog"
+   }
+  ],
+  "own": {
+   "brew": [
+    {
+     "term": "V60",
+     "count": 1,
+     "snippet": "real breath of fresh air compared to many cafés. What we ordered & loved: • The V60 manual brew — the Whisky Barrel Ice Pour Over version — was superb: smooth, wel",
+     "url": "https://www.district.in/dining/ahmedabad/mould-art-space-x-mleko-adalaj"
+    },
+    {
+     "term": "Pour over",
+     "count": 1,
+     "snippet": "y cafés. What we ordered & loved: • The V60 manual brew — the Whisky Barrel Ice Pour Over version — was superb: smooth, well-balanced and a great flavour experience. • T",
+     "url": "https://www.district.in/dining/ahmedabad/mould-art-space-x-mleko-adalaj"
+    },
+    {
+     "term": "Cold brew",
+     "count": 1,
+     "snippet": "was superb: smooth, well-balanced and a great flavour experience. • The Classic Cold Brew (and the fact that you can ask for a refill at discounted price) was a bonus. •",
+     "url": "https://www.district.in/dining/ahmedabad/mould-art-space-x-mleko-adalaj"
+    }
+   ]
+  },
+  "mention": {
+   "indian_origins": [
+    {
+     "term": "Karnataka",
+     "count": 1,
+     "snippet": "Mleko sources specialty beans from Kokoro Coffee and Kalledevarapura Estate in Karnataka. Employing state-of-the-art machinery, including a La Marzocco Linea Mini espre",
+     "url": "https://knocksense.com/ahmedabad/coffee-chronicles-mleko-cafes-enchanting-presence-in-ahmedabad-is-winning-over-hearts"
+    }
+   ],
+   "intl_origins": [
+    {
+     "term": "Vietnam",
+     "count": 2,
+     "snippet": "gel, red pepper bagel, almond croissant 2 Enjoy quality espresso drinks such as Vietnamese coffee and lemon mint iced tea 3 Experienc … rlog makes planning a trip so effo",
+     "url": "https://wanderlog.com/place/details/12011532/mleko"
+    }
+   ],
+   "brew": [
+    {
+     "term": "Cortado",
+     "count": 1,
+     "snippet": "u and popular items Slide 1 of 13 Menu•Full menu Chicken sandwich Avocado toast Cortado Iced coffee Cookie Lassi Bagel Hummus Cheesecake Croissant Latte Chocolate brow",
+     "url": "https://wanderlog.com/place/details/12011532/mleko"
+    }
+   ],
+   "roasters": [
+    {
+     "term": "Kokoro Coffee",
+     "count": 1,
+     "snippet": "fect space to unwind and feel at home. Renowned for its coffee expertise, Mleko sources specialty beans from Kokoro Coffee and Kalledevarapura Estate in Karnataka. Employing state-of-the-art machinery, including a La Marzocco",
+     "url": "https://knocksense.com/ahmedabad/coffee-chronicles-mleko-cafes-enchanting-presence-in-ahmedabad-is-winning-over-hearts"
+    }
+   ],
+   "estates": [
+    {
+     "term": "Kalledevarapura Estate",
+     "count": 1,
+     "snippet": "for its coffee expertise, Mleko sources specialty beans from Kokoro Coffee and Kalledevarapura Estate in Karnataka. Employing state-of-the-art machinery, including a La Marzocco Lin",
+     "url": "https://knocksense.com/ahmedabad/coffee-chronicles-mleko-cafes-enchanting-presence-in-ahmedabad-is-winning-over-hearts"
+    }
+   ]
+  },
+  "prices": [],
+  "cost_for_two": "₹900 for two",
+  "emails": [],
+  "phones": [
+   "+91 90165 12904"
+  ],
+  "cafes_named": [],
+  "urls_on_file": [
+   "https://theappbarista.com/blog/best-cafes-ahmedabad",
+   "https://knocksense.com/ahmedabad/coffee-chronicles-mleko-cafes-enchanting-presence-in-ahmedabad-is-winning-over-hearts",
+   "https://wanderlog.com/place/details/12011532/mleko",
+   "https://www.district.in/dining/ahmedabad/mould-art-space-x-mleko-adalaj"
+  ]
+ },
+ {
+  "kind": "cafe",
+  "id": "C093",
   "name": "OCD Culture",
   "city": "Ahmedabad",
   "checked_at": "2026-10-27T21:52:03+00:00",
@@ -4629,10 +5056,10 @@
  },
  {
   "kind": "cafe",
-  "id": "C096",
+  "id": "C094",
   "name": "Cafe Deli — Novotel Ahmedabad",
   "city": "Ahmedabad",
-  "checked_at": "2026-10-27T21:52:02+00:00",
+  "checked_at": "2026-10-27T23:13:44+00:00",
   "pages": [
    {
     "url": "https://www.knocksense.com/ahmedabad/9-new-restaurants-in-ahmedabad-bringing-fresh-flavours-to-the-table",
@@ -4641,26 +5068,69 @@
     "used": "name not on page",
     "status": 200,
     "title": "9 new restaurants in Ahmedabad"
+   },
+   {
+    "url": "https://www.eazydiner.com/ahmedabad/cafe-deli-tel-novotel-ahmedabad-697631",
+    "final_url": "https://www.eazydiner.com/ahmedabad/cafe-deli-tel-novotel-ahmedabad-697631",
+    "role": "mention",
+    "used": "mention",
+    "status": 200,
+    "title": "Cafe Deli -Tel in Novotel, Ahmedabad | Get Upto 50% Off"
+   },
+   {
+    "url": "https://english.loktej.com/article/13619/whatsapp:/send",
+    "final_url": "https://english.loktej.com/article/13619/discover-caf%C3%A9-deli-tel--novotel-ahmedabad-introduces-a-new-caf%C3%A9-concept-for-coffee-enthusiasts-and-late-night-connoisseurs",
+    "role": "mention",
+    "used": "name not on page",
+    "status": 200,
+    "title": "Discover Café Deli-Tel: Novotel Ahmedabad introduces a new cafe concept for coffee enthusiasts and late-night connoisseu"
    }
   ],
   "own": {},
-  "mention": {},
+  "mention": {
+   "indian_origins": [
+    {
+     "term": "Baba Budangiri",
+     "count": 1,
+     "snippet": "% Off + 25% Off Cafe En Route 5.0 Satellite, West Ahmedabad % 20% Off + 25% Off Baba Budan Cafe 3.5 Bodakdev, West Ahmedabad % 15% Off + 25% Off Viva Star Coffee 5.0 Thal",
+     "url": "https://www.eazydiner.com/ahmedabad/cafe-deli-tel-novotel-ahmedabad-697631"
+    }
+   ],
+   "brew": [
+    {
+     "term": "Cold brew",
+     "count": 1,
+     "snippet": "at Cafe-Deli Tel!!! Lovely experience! The Pastry was delicious and the Sunrise Cold Brew is too amazing!!! Must Visit Place! j Jason Borges Great place for official m",
+     "url": "https://www.eazydiner.com/ahmedabad/cafe-deli-tel-novotel-ahmedabad-697631"
+    }
+   ]
+  },
   "prices": [],
-  "cost_for_two": "",
+  "cost_for_two": "₹ 1500 for two",
   "emails": [],
   "phones": [],
   "cafes_named": [],
   "urls_on_file": [
-   "https://www.knocksense.com/ahmedabad/9-new-restaurants-in-ahmedabad-bringing-fresh-flavours-to-the-table"
+   "https://www.knocksense.com/ahmedabad/9-new-restaurants-in-ahmedabad-bringing-fresh-flavours-to-the-table",
+   "https://www.eazydiner.com/ahmedabad/cafe-deli-tel-novotel-ahmedabad-697631",
+   "https://english.loktej.com/article/13619/whatsapp:/send"
   ]
  },
  {
   "kind": "cafe",
-  "id": "C097",
+  "id": "C095",
   "name": "Insitu (Unsettle cafe)",
   "city": "Ahmedabad",
-  "checked_at": "2026-10-27T21:52:04+00:00",
+  "checked_at": "2026-10-27T23:13:01+00:00",
   "pages": [
+   {
+    "url": "https://www.eazydiner.com/ahmedabad/insitu-restaurant-thaltej-west-ahmedabad-712698",
+    "final_url": "https://www.eazydiner.com/ahmedabad/insitu-restaurant-thaltej-west-ahmedabad-712698",
+    "role": "own",
+    "used": "own",
+    "status": 200,
+    "title": "Insitu Restaurant in Thaltej, West Ahmedabad | Get Upto 50% Off"
+   },
    {
     "url": "https://curlytales.com/india/food/enjoy-different-vibes-under-one-roof-at-ahmedabads-new-cafe-insitu/",
     "final_url": "https://curlytales.com/india/food/enjoy-different-vibes-under-one-roof-at-ahmedabads-new-cafe-insitu/",
@@ -4668,22 +5138,32 @@
     "used": "mention",
     "status": 200,
     "title": "Enjoy 4 Different Vibes Under One Roof At Ahmedabad's New Cafe, Insitu | Curly Tales"
+   },
+   {
+    "url": "https://www.eazydiner.com/ahmedabad/unsettle-thaltej-west-ahmedabad-712923",
+    "final_url": "https://www.eazydiner.com/ahmedabad/unsettle-thaltej-west-ahmedabad-712923",
+    "role": "mention",
+    "used": "mention",
+    "status": 200,
+    "title": "Unsettle in Thaltej, West Ahmedabad | Get Upto 50% Off"
    }
   ],
   "own": {},
   "mention": {},
   "prices": [],
-  "cost_for_two": "",
+  "cost_for_two": "₹ 1900 for two",
   "emails": [],
   "phones": [],
   "cafes_named": [],
   "urls_on_file": [
-   "https://curlytales.com/india/food/enjoy-different-vibes-under-one-roof-at-ahmedabads-new-cafe-insitu/"
+   "https://curlytales.com/india/food/enjoy-different-vibes-under-one-roof-at-ahmedabads-new-cafe-insitu/",
+   "https://www.eazydiner.com/ahmedabad/insitu-restaurant-thaltej-west-ahmedabad-712698",
+   "https://www.eazydiner.com/ahmedabad/unsettle-thaltej-west-ahmedabad-712923"
   ]
  },
  {
   "kind": "cafe",
-  "id": "C098",
+  "id": "C096",
   "name": "KOMO by Kaffa",
   "city": "Ahmedabad",
   "checked_at": "2026-10-27T21:52:03+00:00",
@@ -4719,38 +5199,19 @@
  },
  {
   "kind": "cafe",
-  "id": "C099",
-  "name": "Mleko",
-  "city": "Ahmedabad",
-  "checked_at": "2026-10-27T21:52:03+00:00",
-  "pages": [
-   {
-    "url": "https://theappbarista.com/blog/best-cafes-ahmedabad",
-    "final_url": "https://theappbarista.com/blog/best-cafes-ahmedabad",
-    "role": "mention",
-    "used": "name not on page",
-    "status": 200,
-    "title": "Best Cafes in Ahmedabad - Top 6 Picks"
-   }
-  ],
-  "own": {},
-  "mention": {},
-  "prices": [],
-  "cost_for_two": "",
-  "emails": [],
-  "phones": [],
-  "cafes_named": [],
-  "urls_on_file": [
-   "https://theappbarista.com/blog/best-cafes-ahmedabad"
-  ]
- },
- {
-  "kind": "cafe",
-  "id": "C100",
+  "id": "C097",
   "name": "Niro by Nini's",
   "city": "Ahmedabad",
-  "checked_at": "2026-10-27T21:52:02+00:00",
+  "checked_at": "2026-10-27T23:14:01+00:00",
   "pages": [
+   {
+    "url": "https://www.eazydiner.com/ahmedabad/niro-by-ninis-thaltej-west-ahmedabad-715432",
+    "final_url": "https://www.eazydiner.com/ahmedabad/niro-by-ninis-thaltej-west-ahmedabad-715432",
+    "role": "own",
+    "used": "own",
+    "status": 200,
+    "title": "Niro By Nini's in Thaltej, West Ahmedabad | Get Upto 50% Off"
+   },
    {
     "url": "https://theappbarista.com/blog/best-cafes-ahmedabad",
     "final_url": "https://theappbarista.com/blog/best-cafes-ahmedabad",
@@ -4758,25 +5219,35 @@
     "used": "name not on page",
     "status": 200,
     "title": "Best Cafes in Ahmedabad - Top 6 Picks"
+   },
+   {
+    "url": "https://curlytales.com/not-ready-to-call-it-a-night-after-garba-ahmedabad-restaurants-open-till-late-this-navratri/",
+    "final_url": "https://curlytales.com/not-ready-to-call-it-a-night-after-garba-ahmedabad-restaurants-open-till-late-this-navratri/",
+    "role": "mention",
+    "used": "name not on page",
+    "status": 200,
+    "title": "Not Ready To Call It A Night After Garba? 5 Ahmedabad Restaurants Open Till Late This Navratri | Curly Tales"
    }
   ],
   "own": {},
   "mention": {},
   "prices": [],
-  "cost_for_two": "",
+  "cost_for_two": "₹ 1000 for two",
   "emails": [],
   "phones": [],
   "cafes_named": [],
   "urls_on_file": [
-   "https://theappbarista.com/blog/best-cafes-ahmedabad"
+   "https://theappbarista.com/blog/best-cafes-ahmedabad",
+   "https://www.eazydiner.com/ahmedabad/niro-by-ninis-thaltej-west-ahmedabad-715432",
+   "https://curlytales.com/not-ready-to-call-it-a-night-after-garba-ahmedabad-restaurants-open-till-late-this-navratri/"
   ]
  },
  {
   "kind": "cafe",
-  "id": "C101",
+  "id": "C098",
   "name": "Caffotto",
   "city": "Rajkot",
-  "checked_at": "2026-10-27T21:52:04+00:00",
+  "checked_at": "2026-10-27T23:13:01+00:00",
   "pages": [],
   "own": {},
   "mention": {},
@@ -4789,10 +5260,10 @@
  },
  {
   "kind": "cafe",
-  "id": "C102",
+  "id": "C099",
   "name": "Dough & Doppio",
   "city": "Rajkot",
-  "checked_at": "2026-10-27T21:52:03+00:00",
+  "checked_at": "2026-10-27T23:13:03+00:00",
   "pages": [
    {
     "url": "https://kupi.com/en/explore/india/rajkot/dough-and-doppio",
@@ -4816,10 +5287,10 @@
  },
  {
   "kind": "cafe",
-  "id": "C103",
+  "id": "C100",
   "name": "JD's Cafe",
   "city": "Rajkot",
-  "checked_at": "2026-10-27T21:52:03+00:00",
+  "checked_at": "2026-10-27T23:12:56+00:00",
   "pages": [],
   "own": {},
   "mention": {},
@@ -4832,7 +5303,7 @@
  },
  {
   "kind": "cafe",
-  "id": "C104",
+  "id": "C101",
   "name": "Crush Coffee",
   "city": "Rajkot",
   "checked_at": "2026-10-27T21:52:02+00:00",
@@ -4881,10 +5352,10 @@
  },
  {
   "kind": "cafe",
-  "id": "C105",
+  "id": "C102",
   "name": "BB Specialty Coffee & Brunch",
   "city": "Surat",
-  "checked_at": "2026-10-27T21:52:04+00:00",
+  "checked_at": "2026-10-27T23:13:01+00:00",
   "pages": [],
   "own": {},
   "mention": {},
@@ -4897,7 +5368,7 @@
  },
  {
   "kind": "cafe",
-  "id": "C106",
+  "id": "C103",
   "name": "Meraki The Coffee House",
   "city": "Surat",
   "checked_at": "2026-10-27T21:52:03+00:00",
@@ -5009,10 +5480,10 @@
  },
  {
   "kind": "cafe",
-  "id": "C107",
+  "id": "C104",
   "name": "40 Feet Coffee",
   "city": "Surat",
-  "checked_at": "2026-10-27T21:52:03+00:00",
+  "checked_at": "2026-10-27T23:12:56+00:00",
   "pages": [],
   "own": {},
   "mention": {},
@@ -5025,7 +5496,7 @@
  },
  {
   "kind": "cafe",
-  "id": "C108",
+  "id": "C105",
   "name": "Blue Can Coffee",
   "city": "Surat",
   "checked_at": "2026-10-27T21:52:02+00:00",
@@ -5061,10 +5532,10 @@
  },
  {
   "kind": "cafe",
-  "id": "C109",
+  "id": "C106",
   "name": "Enso Coffee",
   "city": "Surat",
-  "checked_at": "2026-10-27T21:52:04+00:00",
+  "checked_at": "2026-10-27T23:13:01+00:00",
   "pages": [
    {
     "url": "https://www.pulled.coffee/shop/enso-coffee-surat",
@@ -5088,10 +5559,10 @@
  },
  {
   "kind": "cafe",
-  "id": "C110",
+  "id": "C107",
   "name": "Livestream Coffee",
   "city": "Surat",
-  "checked_at": "2026-10-27T21:52:03+00:00",
+  "checked_at": "2026-10-27T23:13:03+00:00",
   "pages": [
    {
     "url": "https://www.pulled.coffee/shop/livestream-coffee-vesu-surat",
@@ -5115,10 +5586,10 @@
  },
  {
   "kind": "cafe",
-  "id": "C111",
+  "id": "C108",
   "name": "Lower Ground Coffee",
   "city": "Surat",
-  "checked_at": "2026-10-27T21:52:03+00:00",
+  "checked_at": "2026-10-27T23:12:56+00:00",
   "pages": [
    {
     "url": "https://www.pulled.coffee/shop/lower-ground-coffee-surat-2",
@@ -5142,10 +5613,10 @@
  },
  {
   "kind": "cafe",
-  "id": "C112",
+  "id": "C109",
   "name": "Moonstruck Coffee",
   "city": "Surat",
-  "checked_at": "2026-10-27T21:52:02+00:00",
+  "checked_at": "2026-10-27T23:14:01+00:00",
   "pages": [
    {
     "url": "https://www.pulled.coffee/shop/moonstruck-coffee-surat-2",
@@ -5169,10 +5640,10 @@
  },
  {
   "kind": "cafe",
-  "id": "C113",
+  "id": "C110",
   "name": "Nothing Before Coffee — SNS Arista",
   "city": "Surat",
-  "checked_at": "2026-10-27T21:52:04+00:00",
+  "checked_at": "2026-10-27T23:13:02+00:00",
   "pages": [
    {
     "url": "https://www.pulled.coffee/shop/nothing-before-coffee-sns-arista-vesu-surat-surat-2",
@@ -5196,7 +5667,7 @@
  },
  {
   "kind": "cafe",
-  "id": "C114",
+  "id": "C111",
   "name": "The Flat White Coffee House",
   "city": "Surat",
   "checked_at": "2026-10-27T21:52:03+00:00",
@@ -5223,7 +5694,7 @@
  },
  {
   "kind": "cafe",
-  "id": "C115",
+  "id": "C112",
   "name": "XPC Coffee Experience Center",
   "city": "Surat",
   "checked_at": "2026-10-27T21:52:03+00:00",
@@ -5267,7 +5738,7 @@
  },
  {
   "kind": "cafe",
-  "id": "C116",
+  "id": "C113",
   "name": "801",
   "city": "Surat",
   "checked_at": "2026-10-27T21:52:02+00:00",
@@ -5332,7 +5803,7 @@
  },
  {
   "kind": "cafe",
-  "id": "C117",
+  "id": "C114",
   "name": "Cafe Pulp",
   "city": "Surat",
   "checked_at": "2026-10-27T21:52:04+00:00",
@@ -5368,7 +5839,7 @@
  },
  {
   "kind": "cafe",
-  "id": "C118",
+  "id": "C115",
   "name": "Odd Three Coffee Club",
   "city": "Surat",
   "checked_at": "2026-10-27T21:52:03+00:00",
@@ -5395,7 +5866,7 @@
  },
  {
   "kind": "cafe",
-  "id": "C119",
+  "id": "C116",
   "name": "Brewito Coffee",
   "city": "Vadodara",
   "checked_at": "2026-10-27T21:52:03+00:00",
@@ -5431,7 +5902,7 @@
  },
  {
   "kind": "cafe",
-  "id": "C120",
+  "id": "C117",
   "name": "Curators Coffee",
   "city": "Vadodara",
   "checked_at": "2026-10-27T21:52:02+00:00",
@@ -5520,7 +5991,7 @@
  },
  {
   "kind": "cafe",
-  "id": "C121",
+  "id": "C118",
   "name": "Caffein Cafe",
   "city": "Vadodara",
   "checked_at": "2026-10-27T21:52:06+00:00",
@@ -5617,7 +6088,7 @@
  },
  {
   "kind": "cafe",
-  "id": "C122",
+  "id": "C119",
   "name": "Coffee Yard",
   "city": "Vadodara",
   "checked_at": "2026-10-27T21:52:03+00:00",
@@ -5676,23 +6147,39 @@
  },
  {
   "kind": "cafe",
-  "id": "C123",
+  "id": "C120",
   "name": "Cleo's Coffee & More",
   "city": "Vadodara",
-  "checked_at": "2026-10-27T21:52:03+00:00",
-  "pages": [],
+  "checked_at": "2026-10-27T23:13:04+00:00",
+  "pages": [
+   {
+    "url": "https://www.eazydiner.com/vadodara/cleos-coffee-more-manjalpur-vadodara-703401",
+    "final_url": "https://www.eazydiner.com/vadodara/cleos-coffee-more-manjalpur-vadodara-703401",
+    "role": "own",
+    "used": "own",
+    "status": 200,
+    "title": "Cleo's Coffee & More in Manjalpur, Vadodara | Get Upto 50% Off"
+   }
+  ],
   "own": {},
   "mention": {},
-  "prices": [],
-  "cost_for_two": "",
+  "prices": [
+   {
+    "snippet": "Coffee & More? The cost of two at Cleo's Coffee & More is ₹ 1500. You can save EXTRA",
+    "url": "https://www.eazydiner.com/vadodara/cleos-coffee-more-manjalpur-vadodara-703401"
+   }
+  ],
+  "cost_for_two": "₹ 1500 for two",
   "emails": [],
   "phones": [],
   "cafes_named": [],
-  "urls_on_file": []
+  "urls_on_file": [
+   "https://www.eazydiner.com/vadodara/cleos-coffee-more-manjalpur-vadodara-703401"
+  ]
  },
  {
   "kind": "cafe",
-  "id": "C124",
+  "id": "C121",
   "name": "Babka Goa",
   "city": "Anjuna",
   "checked_at": "2026-10-27T21:52:02+00:00",
@@ -5746,7 +6233,7 @@
  },
  {
   "kind": "cafe",
-  "id": "C125",
+  "id": "C122",
   "name": "Grind Bar",
   "city": "Anjuna",
   "checked_at": "2026-10-27T21:52:08+00:00",
@@ -5885,7 +6372,7 @@
  },
  {
   "kind": "cafe",
-  "id": "C126",
+  "id": "C123",
   "name": "Whole Bean Co",
   "city": "Anjuna",
   "checked_at": "2026-10-27T21:52:03+00:00",
@@ -5921,7 +6408,7 @@
  },
  {
   "kind": "cafe",
-  "id": "C127",
+  "id": "C124",
   "name": "Indiroom (at Pincode Bungalow)",
   "city": "Assagao",
   "checked_at": "2026-10-27T21:52:03+00:00",
@@ -5992,10 +6479,10 @@
  },
  {
   "kind": "cafe",
-  "id": "C128",
+  "id": "C125",
   "name": "Coffee Culture at The Unseen (hotel)",
   "city": "Assagao",
-  "checked_at": "2026-10-27T21:52:02+00:00",
+  "checked_at": "2026-10-27T23:14:30+00:00",
   "pages": [
    {
     "url": "https://www.district.in/blog/speciality-coffee-cafes-goa",
@@ -6004,6 +6491,38 @@
     "used": "name not on page",
     "status": 200,
     "title": "Speciality Coffee in Goa for Coffee Lovers"
+   },
+   {
+    "url": "https://www.restaurantindia.in/news/restaurant-india-news-coffee-culture-enters-hospitality-with-unseen-world-s-first-coffee-focused.n14245",
+    "final_url": "https://www.restaurantindia.in/news/restaurant-india-news-coffee-culture-enters-hospitality-with-unseen-world-s-first-coffee-focused.n14245",
+    "role": "mention",
+    "used": "name not on page",
+    "status": 200,
+    "title": "Restaurant India News: Coffee Culture Enters Hospitality with ‘Unseen’—World’s First Coffee-Focused Boutique Hotel in Go"
+   },
+   {
+    "url": "https://www.thegoan.net/tg-life-sunday/unseen-assagao-brewing-a-new-chapter-of-‘coffee-culture’-in-goa/138406.html",
+    "final_url": "https://www.thegoan.net/tg-life-sunday/unseen-assagao-brewing-a-new-chapter-of-%E2%80%98coffee-culture%E2%80%99-in-goa/138406.html",
+    "role": "mention",
+    "used": "name not on page",
+    "status": 200,
+    "title": "Unseen Assagao: Brewing a new chapter of ‘Coffee Culture’ in Goa | The Goan"
+   },
+   {
+    "url": "https://lbb.in/goa/unseen-assagao-goa-review",
+    "final_url": "https://lbb.in/goa/unseen-assagao-goa-review/",
+    "role": "mention",
+    "used": "name not on page",
+    "status": 200,
+    "title": "Unseen Assagao, Goa: All About This Coffee-First Boutique Hotel | LBB"
+   },
+   {
+    "url": "https://itsgoa.com/unseen-assagao-where-the-world-of-coffee-finds-its-home-in-goa",
+    "final_url": "https://itsgoa.com/unseen-assagao-where-the-world-of-coffee-finds-its-home-in-goa",
+    "role": "mention",
+    "used": "failed",
+    "status": 403,
+    "title": "Just a moment..."
    }
   ],
   "own": {},
@@ -6014,12 +6533,16 @@
   "phones": [],
   "cafes_named": [],
   "urls_on_file": [
-   "https://www.district.in/blog/speciality-coffee-cafes-goa"
+   "https://www.district.in/blog/speciality-coffee-cafes-goa",
+   "https://www.restaurantindia.in/news/restaurant-india-news-coffee-culture-enters-hospitality-with-unseen-world-s-first-coffee-focused.n14245",
+   "https://www.thegoan.net/tg-life-sunday/unseen-assagao-brewing-a-new-chapter-of-‘coffee-culture’-in-goa/138406.html",
+   "https://lbb.in/goa/unseen-assagao-goa-review",
+   "https://itsgoa.com/unseen-assagao-where-the-world-of-coffee-finds-its-home-in-goa"
   ]
  },
  {
   "kind": "cafe",
-  "id": "C129",
+  "id": "C126",
   "name": "Coffee Stop",
   "city": "Benaulim",
   "checked_at": "2026-10-27T21:52:08+00:00",
@@ -6055,7 +6578,7 @@
  },
  {
   "kind": "cafe",
-  "id": "C130",
+  "id": "C127",
   "name": "AAMI Café & Bistro",
   "city": "Candolim",
   "checked_at": "2026-10-27T21:52:03+00:00",
@@ -6082,10 +6605,10 @@
  },
  {
   "kind": "cafe",
-  "id": "C131",
+  "id": "C128",
   "name": "Dodaa Atelier",
   "city": "Candolim",
-  "checked_at": "2026-10-27T21:52:03+00:00",
+  "checked_at": "2026-10-27T23:13:04+00:00",
   "pages": [],
   "own": {},
   "mention": {},
@@ -6098,7 +6621,7 @@
  },
  {
   "kind": "cafe",
-  "id": "C132",
+  "id": "C129",
   "name": "The Little Place (Novotel Goa Candolim)",
   "city": "Candolim",
   "checked_at": "2026-10-27T21:52:02+00:00",
@@ -6142,10 +6665,10 @@
  },
  {
   "kind": "cafe",
-  "id": "C133",
+  "id": "C130",
   "name": "Souza Coffee",
   "city": "Colva",
-  "checked_at": "2026-10-27T21:52:08+00:00",
+  "checked_at": "2026-10-27T23:13:02+00:00",
   "pages": [
    {
     "url": "https://www.zomato.com/goa/souza-coffee-colva",
@@ -6178,11 +6701,19 @@
  },
  {
   "kind": "cafe",
-  "id": "C134",
+  "id": "C131",
   "name": "Mon Petit Frère",
   "city": "Colva",
-  "checked_at": "2026-10-27T21:52:03+00:00",
+  "checked_at": "2026-10-27T23:13:28+00:00",
   "pages": [
+   {
+    "url": "https://www.district.in/dining/goa/mon-petit-frère-café-colva",
+    "final_url": "https://www.district.in/dining/goa/mon-petit-fr%C3%A8re-caf%C3%A9-colva",
+    "role": "own",
+    "used": "own",
+    "status": 200,
+    "title": "Mon Petit Frère Café | Colva, Goa | Continental Restaurant"
+   },
    {
     "url": "https://www.flamingotravels.co.in/blog/2026/10/cafes-to-visit-in-goa",
     "final_url": "https://www.flamingotravels.co.in/blog/2026/10/cafes-to-visit-in-goa",
@@ -6190,22 +6721,61 @@
     "used": "mention",
     "status": 200,
     "title": "10 Cafes to Visit in Goa: North & South Goa 2026-27 Guide"
+   },
+   {
+    "url": "https://makeithappen.co.in/restaurant/mon-petit-frere/",
+    "final_url": "https://makeithappen.co.in/restaurant/mon-petit-frere/",
+    "role": "mention",
+    "used": "mention",
+    "status": 200,
+    "title": "Mon Petit Frère - Make It Happen"
+   },
+   {
+    "url": "https://thenodmag.com/content/south-goa-monsoon-travel-food-hotel-stay-bars-restaurant-guide",
+    "final_url": "https://thenodmag.com/content/south-goa-monsoon-travel-food-hotel-stay-bars-restaurant-guide",
+    "role": "mention",
+    "used": "mention",
+    "status": 200,
+    "title": "25 places to eat, drink and stay in South Goa this monsoon - The Nod Mag"
    }
   ],
-  "own": {},
-  "mention": {},
+  "own": {
+   "intl_origins": [
+    {
+     "term": "Vietnam",
+     "count": 1,
+     "snippet": "searched far and wide for a good coffee in all of Goa, and finally got the best Vietnamese Coffee. The waiter suggested us great dishes, and the basque cheesecake was ama",
+     "url": "https://www.district.in/dining/goa/mon-petit-frère-café-colva"
+    }
+   ]
+  },
+  "mention": {
+   "brew": [
+    {
+     "term": "Cold brew",
+     "count": 1,
+     "snippet": "have quite the gin collection (definitely try the Really Good Gin Cocktail with cold brew seaweed)—and expansive brunch offerings that span burgers, pasta, smoothie bowl",
+     "url": "https://thenodmag.com/content/south-goa-monsoon-travel-food-hotel-stay-bars-restaurant-guide"
+    }
+   ]
+  },
   "prices": [],
-  "cost_for_two": "",
+  "cost_for_two": "₹700 for two",
   "emails": [],
-  "phones": [],
+  "phones": [
+   "+91 86982 06528"
+  ],
   "cafes_named": [],
   "urls_on_file": [
-   "https://www.flamingotravels.co.in/blog/2026/10/cafes-to-visit-in-goa"
+   "https://www.flamingotravels.co.in/blog/2026/10/cafes-to-visit-in-goa",
+   "https://www.district.in/dining/goa/mon-petit-frère-café-colva",
+   "https://makeithappen.co.in/restaurant/mon-petit-frere/",
+   "https://thenodmag.com/content/south-goa-monsoon-travel-food-hotel-stay-bars-restaurant-guide"
   ]
  },
  {
   "kind": "cafe",
-  "id": "C135",
+  "id": "C132",
   "name": "Affo — Santa Inez",
   "city": "Panjim",
   "checked_at": "2026-10-27T21:52:03+00:00",
@@ -6232,7 +6802,7 @@
  },
  {
   "kind": "cafe",
-  "id": "C136",
+  "id": "C133",
   "name": "Larder & Folk",
   "city": "Panjim",
   "checked_at": "2026-10-27T21:52:02+00:00",
@@ -6304,7 +6874,7 @@
  },
  {
   "kind": "cafe",
-  "id": "C137",
+  "id": "C134",
   "name": "Cháfé Braz",
   "city": "Panjim",
   "checked_at": "2026-10-27T21:52:08+00:00",
@@ -6349,7 +6919,7 @@
  },
  {
   "kind": "cafe",
-  "id": "C138",
+  "id": "C135",
   "name": "Asro Cafe & Food Lab",
   "city": "Porvorim",
   "checked_at": "2026-10-27T21:52:03+00:00",
@@ -6385,10 +6955,10 @@
  },
  {
   "kind": "cafe",
-  "id": "C139",
+  "id": "C136",
   "name": "Bastardo",
   "city": "Porvorim",
-  "checked_at": "2026-10-27T21:52:03+00:00",
+  "checked_at": "2026-10-27T23:13:05+00:00",
   "pages": [],
   "own": {},
   "mention": {},
@@ -6401,7 +6971,7 @@
  },
  {
   "kind": "cafe",
-  "id": "C140",
+  "id": "C137",
   "name": "Cafe Robusta",
   "city": "Porvorim",
   "checked_at": "2026-10-27T21:52:02+00:00",
@@ -6437,7 +7007,7 @@
  },
  {
   "kind": "cafe",
-  "id": "C141",
+  "id": "C138",
   "name": "Joey's",
   "city": "Porvorim",
   "checked_at": "2026-10-27T21:52:08+00:00",
@@ -6473,10 +7043,10 @@
  },
  {
   "kind": "cafe",
-  "id": "C142",
+  "id": "C139",
   "name": "Cafe Lento — Goa",
   "city": "Saligao",
-  "checked_at": "2026-10-27T21:52:03+00:00",
+  "checked_at": "2026-10-27T23:13:28+00:00",
   "pages": [
    {
     "url": "https://yourstory.com/ys-life/the-second-house-goa-lento-cafe",
@@ -6500,7 +7070,7 @@
  },
  {
   "kind": "cafe",
-  "id": "C143",
+  "id": "C140",
   "name": "alag.",
   "city": "Siolim",
   "checked_at": "2026-10-27T21:52:03+00:00",
@@ -6572,7 +7142,7 @@
  },
  {
   "kind": "cafe",
-  "id": "C144",
+  "id": "C141",
   "name": "Coffee Therapy Artisan",
   "city": "Bhopal",
   "checked_at": "2026-10-27T21:52:03+00:00",
@@ -6626,7 +7196,7 @@
  },
  {
   "kind": "cafe",
-  "id": "C145",
+  "id": "C142",
   "name": "Coffeio",
   "city": "Bhopal",
   "checked_at": "2026-10-27T21:52:08+00:00",
@@ -6653,7 +7223,7 @@
  },
  {
   "kind": "cafe",
-  "id": "C146",
+  "id": "C143",
   "name": "Cafe Amado",
   "city": "Bhopal",
   "checked_at": "2026-10-27T21:52:03+00:00",
@@ -6680,7 +7250,7 @@
  },
  {
   "kind": "cafe",
-  "id": "C147",
+  "id": "C144",
   "name": "Coffea",
   "city": "Bhopal",
   "checked_at": "2026-10-27T21:52:03+00:00",
@@ -6707,50 +7277,18 @@
  },
  {
   "kind": "cafe",
-  "id": "C148",
+  "id": "C145",
   "name": "Latte Love",
   "city": "Bhopal",
-  "checked_at": "2026-10-27T21:52:03+00:00",
-  "pages": [],
-  "own": {},
-  "mention": {},
-  "prices": [],
-  "cost_for_two": "",
-  "emails": [],
-  "phones": [],
-  "cafes_named": [],
-  "urls_on_file": []
- },
- {
-  "kind": "cafe",
-  "id": "C149",
-  "name": "The Coffee Shop (TCS) — Bhopal",
-  "city": "Bhopal",
-  "checked_at": "2026-10-27T21:52:08+00:00",
-  "pages": [],
-  "own": {},
-  "mention": {},
-  "prices": [],
-  "cost_for_two": "",
-  "emails": [],
-  "phones": [],
-  "cafes_named": [],
-  "urls_on_file": []
- },
- {
-  "kind": "cafe",
-  "id": "C150",
-  "name": "The Ten Suites",
-  "city": "Bhopal",
-  "checked_at": "2026-10-27T21:52:03+00:00",
+  "checked_at": "2026-10-27T23:14:30+00:00",
   "pages": [
    {
-    "url": "https://medium.com/@arunfabapr/the-best-coffee-shops-cafes-of-bhopal-7fb517e85e35",
-    "final_url": "https://medium.com/@arunfabapr/the-best-coffee-shops-cafes-of-bhopal-7fb517e85e35",
+    "url": "https://www.freepressjournal.in/bhopal/from-poha-jalebi-to-coffee-and-books-bhopals-caf-culture-is-growing",
+    "final_url": "https://www.freepressjournal.in/bhopal/from-poha-jalebi-to-coffee-and-books-bhopals-caf-culture-is-growing",
     "role": "mention",
-    "used": "failed",
-    "status": 403,
-    "title": "Attention Required! | Cloudflare"
+    "used": "name not on page",
+    "status": 200,
+    "title": "From poha-jalebi to coffee and books, Bhopal’s café culture is growing"
    }
   ],
   "own": {},
@@ -6761,16 +7299,33 @@
   "phones": [],
   "cafes_named": [],
   "urls_on_file": [
-   "https://medium.com/@arunfabapr/the-best-coffee-shops-cafes-of-bhopal-7fb517e85e35"
+   "https://www.freepressjournal.in/bhopal/from-poha-jalebi-to-coffee-and-books-bhopals-caf-culture-is-growing"
   ]
  },
  {
   "kind": "cafe",
-  "id": "C151",
-  "name": "Barista Cafe Gwalior",
-  "city": "Gwalior",
-  "checked_at": "2026-10-27T21:52:03+00:00",
-  "pages": [],
+  "id": "C146",
+  "name": "The Coffee Shop (TCS) — Bhopal",
+  "city": "Bhopal",
+  "checked_at": "2026-10-27T23:13:09+00:00",
+  "pages": [
+   {
+    "url": "https://yappe.in/madhya-pradesh/bhopal/tea-friends/123963",
+    "final_url": "https://yappe.in/madhya-pradesh/bhopal/tea-friends/123963",
+    "role": "mention",
+    "used": "mention",
+    "status": 200,
+    "title": "Sharikh The Coffee Shop(Tcs) - Coffee shop - Bhopal - Madhya Pradesh | Yappe.in"
+   },
+   {
+    "url": "https://www.freepressjournal.in/bhopal/bhopals-best-brews-10-cafs-you-must-go-for-coffee",
+    "final_url": "https://www.freepressjournal.in/bhopal/bhopals-best-brews-10-cafs-you-must-go-for-coffee",
+    "role": "mention",
+    "used": "name not on page",
+    "status": 200,
+    "title": "Bhopal’s Best Brews: 10 Cafés You Must Go For Coffee"
+   }
+  ],
   "own": {},
   "mention": {},
   "prices": [],
@@ -6778,15 +7333,63 @@
   "emails": [],
   "phones": [],
   "cafes_named": [],
-  "urls_on_file": []
+  "urls_on_file": [
+   "https://yappe.in/madhya-pradesh/bhopal/tea-friends/123963",
+   "https://www.freepressjournal.in/bhopal/bhopals-best-brews-10-cafs-you-must-go-for-coffee"
+  ]
  },
  {
   "kind": "cafe",
-  "id": "C152",
+  "id": "C147",
+  "name": "The Ten Suites",
+  "city": "Bhopal",
+  "checked_at": "2026-10-27T23:13:38+00:00",
+  "pages": [
+   {
+    "url": "https://medium.com/@arunfabapr/the-best-coffee-shops-cafes-of-bhopal-7fb517e85e35",
+    "final_url": "https://medium.com/@arunfabapr/the-best-coffee-shops-cafes-of-bhopal-7fb517e85e35",
+    "role": "mention",
+    "used": "failed",
+    "status": 403,
+    "title": "Attention Required! | Cloudflare"
+   },
+   {
+    "url": "https://wanderlog.com/place/details/4012486/the-ten-suites",
+    "final_url": "https://wanderlog.com/place/details/4012486/the-ten-suites",
+    "role": "mention",
+    "used": "mention",
+    "status": 200,
+    "title": "The Ten Suites, Bhopal, India - Reviews, Ratings, Tips and Why You Should Go – Wanderlog"
+   }
+  ],
+  "own": {},
+  "mention": {},
+  "prices": [],
+  "cost_for_two": "",
+  "emails": [],
+  "phones": [],
+  "cafes_named": [],
+  "urls_on_file": [
+   "https://medium.com/@arunfabapr/the-best-coffee-shops-cafes-of-bhopal-7fb517e85e35",
+   "https://wanderlog.com/place/details/4012486/the-ten-suites"
+  ]
+ },
+ {
+  "kind": "cafe",
+  "id": "C148",
   "name": "GLAAMZ",
   "city": "Gwalior",
-  "checked_at": "2026-10-27T21:52:03+00:00",
-  "pages": [],
+  "checked_at": "2026-10-27T23:14:38+00:00",
+  "pages": [
+   {
+    "url": "https://echai.ventures/grid/gwalior/cafes",
+    "final_url": "https://echai.ventures/",
+    "role": "mention",
+    "used": "name not on page",
+    "status": 200,
+    "title": "eChai · Founder network and startup events across 25+ cities in 10+ countries"
+   }
+  ],
   "own": {},
   "mention": {},
   "prices": [],
@@ -6794,11 +7397,13 @@
   "emails": [],
   "phones": [],
   "cafes_named": [],
-  "urls_on_file": []
+  "urls_on_file": [
+   "https://echai.ventures/grid/gwalior/cafes"
+  ]
  },
  {
   "kind": "cafe",
-  "id": "C153",
+  "id": "C149",
   "name": "DripCo Speciality Coffee Brewers",
   "city": "Indore",
   "checked_at": "2026-10-27T21:52:08+00:00",
@@ -6986,10 +7591,10 @@
  },
  {
   "kind": "cafe",
-  "id": "C154",
+  "id": "C150",
   "name": "Ça|va",
   "city": "Indore",
-  "checked_at": "2026-10-27T21:52:03+00:00",
+  "checked_at": "2026-10-27T23:13:38+00:00",
   "pages": [],
   "own": {},
   "mention": {},
@@ -7002,7 +7607,7 @@
  },
  {
   "kind": "cafe",
-  "id": "C155",
+  "id": "C151",
   "name": "Absolute Coffee Brewers",
   "city": "Indore",
   "checked_at": "2026-10-27T21:52:03+00:00",
@@ -7091,10 +7696,10 @@
  },
  {
   "kind": "cafe",
-  "id": "C156",
+  "id": "C152",
   "name": "Ground Zero / Habit (56 Dukan cluster)",
   "city": "Indore",
-  "checked_at": "2026-10-27T21:52:03+00:00",
+  "checked_at": "2026-10-27T23:14:44+00:00",
   "pages": [
    {
     "url": "https://www.stanzaliving.com/blog/cafes-in-indore",
@@ -7103,6 +7708,14 @@
     "used": "failed",
     "status": 403,
     "title": "ERROR: The request could not be satisfied"
+   },
+   {
+    "url": "https://yappe.in/madhya-pradesh/indore/habit-coffee-lounge/640872",
+    "final_url": "https://yappe.in/madhya-pradesh/indore/habit-coffee-lounge/640872",
+    "role": "mention",
+    "used": "name not on page",
+    "status": 200,
+    "title": "Habit - Coffee Lounge - Coffee shop - Indore - Madhya Pradesh | Yappe.in"
    }
   ],
   "own": {},
@@ -7113,12 +7726,13 @@
   "phones": [],
   "cafes_named": [],
   "urls_on_file": [
-   "https://www.stanzaliving.com/blog/cafes-in-indore"
+   "https://www.stanzaliving.com/blog/cafes-in-indore",
+   "https://yappe.in/madhya-pradesh/indore/habit-coffee-lounge/640872"
   ]
  },
  {
   "kind": "cafe",
-  "id": "C157",
+  "id": "C153",
   "name": "Love Over Coffee — Indore",
   "city": "Indore",
   "checked_at": "2026-10-27T21:52:08+00:00",
@@ -7150,7 +7764,7 @@
  },
  {
   "kind": "cafe",
-  "id": "C158",
+  "id": "C154",
   "name": "Sip Coffee",
   "city": "Indore",
   "checked_at": "2026-10-27T21:52:03+00:00",
@@ -7191,10 +7805,10 @@
  },
  {
   "kind": "cafe",
-  "id": "C159",
+  "id": "C155",
   "name": "Highbrooks Cafe",
   "city": "Jabalpur",
-  "checked_at": "2026-10-27T21:52:03+00:00",
+  "checked_at": "2026-10-27T23:13:50+00:00",
   "pages": [
    {
     "url": "https://wanderlog.com/place/details/10602229/the-highbrooks-cafe",
@@ -7203,25 +7817,114 @@
     "used": "mention",
     "status": 200,
     "title": "The Highbrooks Cafe, Jabalpur, India - Reviews, Ratings, Tips and Why You Should Go – Wanderlog"
+   },
+   {
+    "url": "https://www.outlookindia.com/amp/story/outlook-spotlight/the-highbrooks-cafe-a-cafe-and-roaster-revolutionizing-the-international-coffee-industry-with-their-one-of-kind-app-news-197268",
+    "final_url": "https://www.outlookindia.com/amp/story/outlook-spotlight/the-highbrooks-cafe-a-cafe-and-roaster-revolutionizing-the-international-coffee-industry-with-their-one-of-kind-app-news-197268",
+    "role": "mention",
+    "used": "failed",
+    "status": 410,
+    "title": ""
+   },
+   {
+    "url": "https://www.latestly.com/agency-news/business-news-the-highbrooks-cafe-the-coffee-brand-that-has-become-synonymous-with-quality-and-innovation-3715997.html",
+    "final_url": "https://www.latestly.com/agency-news/business-news-the-highbrooks-cafe-the-coffee-brand-that-has-become-synonymous-with-quality-and-innovation-3715997.html",
+    "role": "mention",
+    "used": "failed",
+    "status": 403,
+    "title": "ERROR: The request could not be satisfied"
+   },
+   {
+    "url": "https://curlytales.com/madhya-pradeshs-famous-highbrooks-cafe-is-now-in-delhi",
+    "final_url": "https://curlytales.com/madhya-pradeshs-famous-highbrooks-cafe-is-now-in-delhi/",
+    "role": "mention",
+    "used": "mention",
+    "status": 200,
+    "title": "Madhya Pradesh's Famous Highbrooks Cafe Is Now In Delhi And We Can't Wait To Relish The Creamy Brews | Curly Tales"
+   },
+   {
+    "url": "https://yappe.in/madhya-pradesh/jabalpur/the-highbrooks-cafe/375731",
+    "final_url": "https://yappe.in/madhya-pradesh/jabalpur/the-highbrooks-cafe/375731",
+    "role": "mention",
+    "used": "mention",
+    "status": 200,
+    "title": "The Highbrooks Cafe - Cafe - Jabalpur - Madhya Pradesh | Yappe.in"
    }
   ],
   "own": {},
-  "mention": {},
+  "mention": {
+   "intl_origins": [
+    {
+     "term": "Vietnam",
+     "count": 1,
+     "snippet": "sso and more. Picture Credits: Highbrooks Cafe In iced brews, you can try the Vietnamese Shakerato, besides Dark Chocolate Chip Frappe, Classic Iced Latte, Banoffee Fra",
+     "url": "https://curlytales.com/madhya-pradeshs-famous-highbrooks-cafe-is-now-in-delhi"
+    }
+   ],
+   "brew": [
+    {
+     "term": "V60",
+     "count": 1,
+     "snippet": "cafe also pours out unique technique coffees like French Press, Aeropress, and V60 Pour Overs. View this post on Instagram A post shared by The Highbrooks",
+     "url": "https://curlytales.com/madhya-pradeshs-famous-highbrooks-cafe-is-now-in-delhi"
+    },
+    {
+     "term": "Pour over",
+     "count": 1,
+     "snippet": "e also pours out unique technique coffees like French Press, Aeropress, and V60 Pour Overs. View this post on Instagram A post shared by The Highbrooks Cafe (@the",
+     "url": "https://curlytales.com/madhya-pradeshs-famous-highbrooks-cafe-is-now-in-delhi"
+    },
+    {
+     "term": "AeroPress",
+     "count": 1,
+     "snippet": "ides these, the cafe also pours out unique technique coffees like French Press, Aeropress, and V60 Pour Overs. View this post on Instagram A post shared by The H",
+     "url": "https://curlytales.com/madhya-pradeshs-famous-highbrooks-cafe-is-now-in-delhi"
+    },
+    {
+     "term": "French press",
+     "count": 1,
+     "snippet": "the eyes. Besides these, the cafe also pours out unique technique coffees like French Press, Aeropress, and V60 Pour Overs. View this post on Instagram A post shar",
+     "url": "https://curlytales.com/madhya-pradeshs-famous-highbrooks-cafe-is-now-in-delhi"
+    },
+    {
+     "term": "Cold brew",
+     "count": 1,
+     "snippet": "s And More From soothing classic brews, infusion brewers, slow manual brews to cold brews, iced frappes and sensuous non-coffee beverages, Highbrooks Cafe has a lot to o",
+     "url": "https://curlytales.com/madhya-pradeshs-famous-highbrooks-cafe-is-now-in-delhi"
+    },
+    {
+     "term": "South Indian filter",
+     "count": 1,
+     "snippet": "e (@thehighbrooks) Also Read: Explore These Amazing Delhi Places For Fantastic Filter Coffee! Dunk Your Soul Into The Magical Hot Chocolates Apart from coffee, you can al",
+     "url": "https://curlytales.com/madhya-pradeshs-famous-highbrooks-cafe-is-now-in-delhi"
+    },
+    {
+     "term": "Flat white",
+     "count": 1,
+     "snippet": "t to offer. Among classic brews, you can relish sips of Cappuccino, Cafe Mocha, Flat White coffee, Macchiato, Americano, Espresso and more. Picture Credits: Highbrooks C",
+     "url": "https://curlytales.com/madhya-pradeshs-famous-highbrooks-cafe-is-now-in-delhi"
+    }
+   ]
+  },
   "prices": [],
   "cost_for_two": "",
   "emails": [],
   "phones": [],
   "cafes_named": [],
   "urls_on_file": [
-   "https://wanderlog.com/place/details/10602229/the-highbrooks-cafe"
+   "https://wanderlog.com/place/details/10602229/the-highbrooks-cafe",
+   "https://www.outlookindia.com/amp/story/outlook-spotlight/the-highbrooks-cafe-a-cafe-and-roaster-revolutionizing-the-international-coffee-industry-with-their-one-of-kind-app-news-197268",
+   "https://www.latestly.com/agency-news/business-news-the-highbrooks-cafe-the-coffee-brand-that-has-become-synonymous-with-quality-and-innovation-3715997.html",
+   "https://curlytales.com/madhya-pradeshs-famous-highbrooks-cafe-is-now-in-delhi",
+   "https://yappe.in/madhya-pradesh/jabalpur/the-highbrooks-cafe/375731"
   ]
  },
  {
   "kind": "cafe",
-  "id": "C160",
+  "id": "C156",
   "name": "More Over Coffee",
   "city": "Raipur",
-  "checked_at": "2026-10-27T21:53:21+00:00",
+  "checked_at": "2026-10-27T23:14:44+00:00",
   "pages": [
    {
     "url": "https://www.explurger.com/pd/rz7zg4kg7fgr8ev06",
@@ -7241,12 +7944,11 @@
   "cafes_named": [],
   "urls_on_file": [
    "https://www.explurger.com/pd/rz7zg4kg7fgr8ev06"
-  ],
-  "shard": null
+  ]
  },
  {
   "kind": "cafe",
-  "id": "C161",
+  "id": "C157",
   "name": "The Usual",
   "city": "Jaipur",
   "checked_at": "2026-10-27T21:52:08+00:00",
@@ -7282,7 +7984,7 @@
  },
  {
   "kind": "cafe",
-  "id": "C162",
+  "id": "C158",
   "name": "Carbon — Vaishali Nagar (3rd outpost)",
   "city": "Jaipur",
   "checked_at": "2026-10-27T21:52:03+00:00",
@@ -7400,7 +8102,7 @@
  },
  {
   "kind": "cafe",
-  "id": "C163",
+  "id": "C159",
   "name": "Jacob's Brew House — Jaipur",
   "city": "Jaipur",
   "checked_at": "2026-10-27T21:52:03+00:00",
@@ -7485,7 +8187,7 @@
  },
  {
   "kind": "cafe",
-  "id": "C164",
+  "id": "C160",
   "name": "Traut Coffee House",
   "city": "Jaipur",
   "checked_at": "2026-10-27T21:52:03+00:00",
@@ -7535,10 +8237,10 @@
  },
  {
   "kind": "cafe",
-  "id": "C165",
+  "id": "C161",
   "name": "Beans & Bun Cafe",
   "city": "Jaipur",
-  "checked_at": "2026-10-27T21:52:09+00:00",
+  "checked_at": "2026-10-27T23:13:09+00:00",
   "pages": [],
   "own": {},
   "mention": {},
@@ -7551,7 +8253,7 @@
  },
  {
   "kind": "cafe",
-  "id": "C166",
+  "id": "C162",
   "name": "Cafe Nola — Jaipur",
   "city": "Jaipur",
   "checked_at": "2026-10-27T21:52:04+00:00",
@@ -7605,7 +8307,7 @@
  },
  {
   "kind": "cafe",
-  "id": "C167",
+  "id": "C163",
   "name": "The Little Coffee Shop (TLCS)",
   "city": "Jaipur",
   "checked_at": "2026-10-27T21:52:03+00:00",
@@ -7655,7 +8357,7 @@
  },
  {
   "kind": "cafe",
-  "id": "C168",
+  "id": "C164",
   "name": "Cafe Earnest",
   "city": "Jaipur",
   "checked_at": "2026-10-27T21:52:03+00:00",
@@ -7717,7 +8419,7 @@
  },
  {
   "kind": "cafe",
-  "id": "C169",
+  "id": "C165",
   "name": "Town Coffee",
   "city": "Jaipur",
   "checked_at": "2026-10-27T21:52:09+00:00",
@@ -7865,27 +8567,47 @@
  },
  {
   "kind": "cafe",
-  "id": "C170",
+  "id": "C166",
   "name": "Hustlers Cafe",
   "city": "Jaipur",
-  "checked_at": "2026-10-27T21:52:04+00:00",
-  "pages": [],
+  "checked_at": "2026-10-27T23:13:49+00:00",
+  "pages": [
+   {
+    "url": "https://www.eazydiner.com/jaipur/hustlers-cafe-jaipur-717927",
+    "final_url": "https://www.eazydiner.com/jaipur/hustlers-cafe-jaipur-717927",
+    "role": "own",
+    "used": "own",
+    "status": 200,
+    "title": "Hustlers Café in Siddharth Nagar, Jaipur | Get Upto 50% Off"
+   }
+  ],
   "own": {},
   "mention": {},
   "prices": [],
-  "cost_for_two": "",
+  "cost_for_two": "₹ 500 for two",
   "emails": [],
   "phones": [],
   "cafes_named": [],
-  "urls_on_file": []
+  "urls_on_file": [
+   "https://www.eazydiner.com/jaipur/hustlers-cafe-jaipur-717927"
+  ]
  },
  {
   "kind": "cafe",
-  "id": "C171",
+  "id": "C167",
   "name": "The House of Coffee",
   "city": "Jaipur",
-  "checked_at": "2026-10-27T21:52:03+00:00",
-  "pages": [],
+  "checked_at": "2026-10-27T23:13:58+00:00",
+  "pages": [
+   {
+    "url": "https://www.eazydiner.com/jaipur/the-house-of-coffee-c-scheme-jaipur-696081",
+    "final_url": "https://www.eazydiner.com/jaipur/the-house-of-coffee-c-scheme-jaipur-696081",
+    "role": "mention",
+    "used": "name not on page",
+    "status": 200,
+    "title": "The House Of Coffee in C Scheme, Jaipur | Get Upto 50% Off"
+   }
+  ],
   "own": {},
   "mention": {},
   "prices": [],
@@ -7893,11 +8615,13 @@
   "emails": [],
   "phones": [],
   "cafes_named": [],
-  "urls_on_file": []
+  "urls_on_file": [
+   "https://www.eazydiner.com/jaipur/the-house-of-coffee-c-scheme-jaipur-696081"
+  ]
  },
  {
   "kind": "cafe",
-  "id": "C172",
+  "id": "C168",
   "name": "KaCoBa",
   "city": "Jaipur",
   "checked_at": "2026-10-27T21:52:03+00:00",
@@ -7967,7 +8691,7 @@
  },
  {
   "kind": "cafe",
-  "id": "C173",
+  "id": "C169",
   "name": "Birajo",
   "city": "Jodhpur",
   "checked_at": "2026-10-27T21:52:09+00:00",
@@ -8003,10 +8727,10 @@
  },
  {
   "kind": "cafe",
-  "id": "C174",
+  "id": "C170",
   "name": "Cafe Frespresso",
   "city": "Jodhpur",
-  "checked_at": "2026-10-27T21:52:04+00:00",
+  "checked_at": "2026-10-27T23:14:05+00:00",
   "pages": [
    {
     "url": "https://explorejodhpur.com/best-coffee-spots-in-jodhpur/",
@@ -8015,6 +8739,22 @@
     "used": "name not on page",
     "status": 200,
     "title": "Best Coffee Spots in Jodhpur (2026 Guide) - Explore Jodhpur"
+   },
+   {
+    "url": "https://www.holidify.com/pages/cafes-in-jodhpur-4502.html",
+    "final_url": "https://www.holidify.com/pages/cafes-in-jodhpur-4502.html",
+    "role": "mention",
+    "used": "mention",
+    "status": 200,
+    "title": "14 Cafes in Jodhpur to Catch Up Over Coffee - Holidify"
+   },
+   {
+    "url": "https://rajyatri.com/?p=2494",
+    "final_url": "https://rajyatri.com/?p=2494",
+    "role": "mention",
+    "used": "name not on page",
+    "status": 200,
+    "title": "New Places in Rajasthan, Weekend Getaways & Things to Do"
    }
   ],
   "own": {},
@@ -8025,12 +8765,14 @@
   "phones": [],
   "cafes_named": [],
   "urls_on_file": [
-   "https://explorejodhpur.com/best-coffee-spots-in-jodhpur/"
+   "https://explorejodhpur.com/best-coffee-spots-in-jodhpur/",
+   "https://www.holidify.com/pages/cafes-in-jodhpur-4502.html",
+   "https://rajyatri.com/?p=2494"
   ]
  },
  {
   "kind": "cafe",
-  "id": "C175",
+  "id": "C171",
   "name": "O'Brew",
   "city": "Udaipur",
   "checked_at": "2026-10-27T21:52:03+00:00",
@@ -8095,10 +8837,10 @@
  },
  {
   "kind": "cafe",
-  "id": "C176",
+  "id": "C172",
   "name": "Bachgen Cafe / The Laughing Bean / Black Kettle",
   "city": "Udaipur",
-  "checked_at": "2026-10-27T21:52:03+00:00",
+  "checked_at": "2026-10-27T23:15:02+00:00",
   "pages": [
    {
     "url": "https://www.shoppingbazar.in/specialty-coffee-udaipur-third-wave-cafes/",
@@ -8107,6 +8849,22 @@
     "used": "name not on page",
     "status": 200,
     "title": "Specialty Coffee in Udaipur: Where Third-Wave Culture Has Arrived - Shopping Bazar"
+   },
+   {
+    "url": "https://echai.ventures/grid/udaipur/coffee-culture",
+    "final_url": "https://echai.ventures/",
+    "role": "mention",
+    "used": "name not on page",
+    "status": 200,
+    "title": "eChai · Founder network and startup events across 25+ cities in 10+ countries"
+   },
+   {
+    "url": "https://api.eazydiner.com/food-trends/5-must-visit-cafes-in-udaipur",
+    "final_url": "https://www.eazydiner.com/food-trends/5-must-visit-cafes-in-udaipur",
+    "role": "mention",
+    "used": "name not on page",
+    "status": 200,
+    "title": "5 Must-Visit Cafés In Udaipur"
    }
   ],
   "own": {},
@@ -8117,15 +8875,17 @@
   "phones": [],
   "cafes_named": [],
   "urls_on_file": [
-   "https://www.shoppingbazar.in/specialty-coffee-udaipur-third-wave-cafes/"
+   "https://www.shoppingbazar.in/specialty-coffee-udaipur-third-wave-cafes/",
+   "https://echai.ventures/grid/udaipur/coffee-culture",
+   "https://api.eazydiner.com/food-trends/5-must-visit-cafes-in-udaipur"
   ]
  },
  {
   "kind": "cafe",
-  "id": "C177",
+  "id": "C173",
   "name": "CUP",
   "city": "New Delhi",
-  "checked_at": "2026-10-27T21:52:10+00:00",
+  "checked_at": "2026-10-27T23:13:13+00:00",
   "pages": [
    {
     "url": "https://www.oteats.outlooktraveller.com/features/guides/delhis-newest-openings-that-you-must-look-out-for-this-february",
@@ -8151,7 +8911,7 @@
  },
  {
   "kind": "cafe",
-  "id": "C178",
+  "id": "C174",
   "name": "Coffee Bond (Cafe Bond) — CP & Karkardooma",
   "city": "New Delhi",
   "checked_at": "2026-10-27T21:52:04+00:00",
@@ -8222,7 +8982,7 @@
  },
  {
   "kind": "cafe",
-  "id": "C179",
+  "id": "C175",
   "name": "Lizzu",
   "city": "New Delhi",
   "checked_at": "2026-10-27T21:52:04+00:00",
@@ -8258,7 +9018,7 @@
  },
  {
   "kind": "cafe",
-  "id": "C180",
+  "id": "C176",
   "name": "Off Mrkt",
   "city": "New Delhi",
   "checked_at": "2026-10-27T21:52:03+00:00",
@@ -8285,7 +9045,7 @@
  },
  {
   "kind": "cafe",
-  "id": "C181",
+  "id": "C177",
   "name": "Common Time — Khan Market",
   "city": "New Delhi",
   "checked_at": "2026-10-27T21:52:10+00:00",
@@ -8368,7 +9128,7 @@
  },
  {
   "kind": "cafe",
-  "id": "C182",
+  "id": "C178",
   "name": "Cortasso Coffee and Bakehouse",
   "city": "New Delhi",
   "checked_at": "2026-10-27T21:52:04+00:00",
@@ -8431,7 +9191,7 @@
  },
  {
   "kind": "cafe",
-  "id": "C183",
+  "id": "C179",
   "name": "In Good Co.",
   "city": "New Delhi",
   "checked_at": "2026-10-27T21:52:04+00:00",
@@ -8533,7 +9293,7 @@
  },
  {
   "kind": "cafe",
-  "id": "C184",
+  "id": "C180",
   "name": "The Drop",
   "city": "New Delhi",
   "checked_at": "2026-10-27T21:52:03+00:00",
@@ -8666,7 +9426,7 @@
  },
  {
   "kind": "cafe",
-  "id": "C185",
+  "id": "C181",
   "name": "Therefore",
   "city": "New Delhi",
   "checked_at": "2026-10-27T21:52:10+00:00",
@@ -8693,7 +9453,7 @@
  },
  {
   "kind": "cafe",
-  "id": "C186",
+  "id": "C182",
   "name": "Cafe Sandoz",
   "city": "New Delhi",
   "checked_at": "2026-10-27T21:52:04+00:00",
@@ -8747,7 +9507,7 @@
  },
  {
   "kind": "cafe",
-  "id": "C187",
+  "id": "C183",
   "name": "Coffee Gram",
   "city": "New Delhi",
   "checked_at": "2026-10-27T21:52:04+00:00",
@@ -8774,7 +9534,53 @@
  },
  {
   "kind": "cafe",
-  "id": "C188",
+  "id": "C184",
+  "name": "FES Cafe & Desserts",
+  "city": "New Delhi",
+  "checked_at": "2026-10-27T23:14:14+00:00",
+  "pages": [
+   {
+    "url": "https://www.indianretailer.com/news/fes-opens-indias-first-cookie-focused-flagship-cafe-delhi",
+    "final_url": "https://www.indianretailer.com/news/ballard-pier-opens-mumbai-retail-and-dining",
+    "role": "mention",
+    "used": "name not on page",
+    "status": 200,
+    "title": "Ballard Pier Opens in Mumbai With Retail and Dining - Indian Retailer"
+   },
+   {
+    "url": "https://www.worldcoffeeportal.com/news/indias-fes-cafe-appoints-former-blue-tokai-executive-following-1m-fundraise/",
+    "final_url": "https://www.worldcoffeeportal.com/news/indias-fes-cafe-appoints-former-blue-tokai-executive-following-1m-fundraise/",
+    "role": "mention",
+    "used": "name not on page",
+    "status": 200,
+    "title": "India’s FES Cafe appoints former Blue Tokai executive following $1m fundraise"
+   },
+   {
+    "url": "https://www.restaurantindia.in/news/restaurant-india-news-fes-cafe-secures-1-million-pre-series-a-funding-led-by-12-flags-to-drive-delhi.n14394",
+    "final_url": "https://www.restaurantindia.in/news/restaurant-india-news-fes-cafe-secures-1-million-pre-series-a-funding-led-by-12-flags-to-drive-delhi.n14394",
+    "role": "mention",
+    "used": "name not on page",
+    "status": 200,
+    "title": "Restaurant India News: FES Cafe Secures ~$1 Million Pre-Series A Funding Led by 12 Flags to Drive Delhi NCR Expansion - "
+   }
+  ],
+  "own": {},
+  "mention": {},
+  "prices": [],
+  "cost_for_two": "",
+  "emails": [],
+  "phones": [],
+  "cafes_named": [],
+  "urls_on_file": [
+   "https://www.indianretailer.com/news/fes-opens-indias-first-cookie-focused-flagship-cafe-delhi",
+   "https://www.worldcoffeeportal.com/news/indias-fes-cafe-appoints-former-blue-tokai-executive-following-1m-fundraise/",
+   "https://www.restaurantindia.in/news/restaurant-india-news-fes-cafe-secures-1-million-pre-series-a-funding-led-by-12-flags-to-drive-delhi.n14394",
+   "https://indianretailer.com/news/fes-opens-indias-first-cookie-focused-flagship-cafe-delhi"
+  ]
+ },
+ {
+  "kind": "cafe",
+  "id": "C185",
   "name": "Perch Wine & Coffee Bar",
   "city": "New Delhi",
   "checked_at": "2026-10-27T21:52:03+00:00",
@@ -8837,7 +9643,7 @@
  },
  {
   "kind": "cafe",
-  "id": "C189",
+  "id": "C186",
   "name": "T's Tiramisu",
   "city": "New Delhi",
   "checked_at": "2026-10-27T21:52:10+00:00",
@@ -8873,7 +9679,7 @@
  },
  {
   "kind": "cafe",
-  "id": "C190",
+  "id": "C187",
   "name": "Brims",
   "city": "New Delhi",
   "checked_at": "2026-10-27T21:52:04+00:00",
@@ -8924,7 +9730,7 @@
  },
  {
   "kind": "cafe",
-  "id": "C191",
+  "id": "C188",
   "name": "Genre",
   "city": "New Delhi",
   "checked_at": "2026-10-27T21:52:04+00:00",
@@ -9013,7 +9819,7 @@
  },
  {
   "kind": "cafe",
-  "id": "C192",
+  "id": "C189",
   "name": "Marcel's",
   "city": "New Delhi",
   "checked_at": "2026-10-27T21:52:03+00:00",
@@ -9058,7 +9864,7 @@
  },
  {
   "kind": "cafe",
-  "id": "C193",
+  "id": "C190",
   "name": "Seven Seeds",
   "city": "New Delhi",
   "checked_at": "2026-10-27T21:52:10+00:00",
@@ -9134,34 +9940,62 @@
  },
  {
   "kind": "cafe",
-  "id": "C194",
+  "id": "C191",
   "name": "Charcha",
   "city": "New Delhi",
-  "checked_at": "2026-10-27T21:52:04+00:00",
-  "pages": [],
+  "checked_at": "2026-10-27T23:14:20+00:00",
+  "pages": [
+   {
+    "url": "https://www.eazydiner.com/delhi-ncr/charcha-kamla-nagar-north-delhi-682737",
+    "final_url": "https://www.eazydiner.com/delhi-ncr/charcha-kamla-nagar-north-delhi-682737",
+    "role": "own",
+    "used": "own",
+    "status": 200,
+    "title": "Charcha in Kamla Nagar | Get Upto 50% Off"
+   },
+   {
+    "url": "https://so.city/delhi/article/cafe-charcha-has-flung-its-doors-open-in-kamla-nagar-we-cant-keep-calm",
+    "final_url": "https://so.city/delhi/article/cafe-charcha-has-flung-its-doors-open-in-kamla-nagar-we-cant-keep-calm",
+    "role": "mention",
+    "used": "mention",
+    "status": 200,
+    "title": "Charcha - When Coffee Meets Cocktail In Kamla Nagar, Delhi | So Delhi"
+   }
+  ],
   "own": {},
   "mention": {},
   "prices": [],
-  "cost_for_two": "",
+  "cost_for_two": "₹ 1000 for two",
   "emails": [],
   "phones": [],
   "cafes_named": [],
-  "urls_on_file": []
+  "urls_on_file": [
+   "https://www.eazydiner.com/delhi-ncr/charcha-kamla-nagar-north-delhi-682737",
+   "https://so.city/delhi/article/cafe-charcha-has-flung-its-doors-open-in-kamla-nagar-we-cant-keep-calm"
+  ]
  },
  {
   "kind": "cafe",
-  "id": "C195",
-  "name": "FES Cafe & Desserts",
+  "id": "C192",
+  "name": "Mira's",
   "city": "New Delhi",
-  "checked_at": "2026-10-27T21:52:04+00:00",
+  "checked_at": "2026-10-27T23:15:37+00:00",
   "pages": [
    {
-    "url": "https://www.indianretailer.com/news/fes-opens-indias-first-cookie-focused-flagship-cafe-delhi",
-    "final_url": "https://www.indianretailer.com/news/ballard-pier-opens-mumbai-retail-and-dining",
+    "url": "https://delhiitesmagazine.com/new-in-town-delhis-hottest-new-places-to-try-in-august-2025/",
+    "final_url": "https://delhiitesmagazine.com/new-in-town-delhis-hottest-new-places-to-try-in-august-2025/",
     "role": "mention",
-    "used": "name not on page",
+    "used": "mention",
     "status": 200,
-    "title": "Ballard Pier Opens in Mumbai With Retail and Dining - Indian Retailer"
+    "title": "New in Town: Delhi’s Hottest New Places to Try in August 2025 – Delhiites Lifestyle Magazine"
+   },
+   {
+    "url": "https://www.platform-mag.com/lifestyle/an-afternoon-at-miras.html",
+    "final_url": "https://www.platform-mag.com/lifestyle/an-afternoon-at-miras.html",
+    "role": "mention",
+    "used": "mention",
+    "status": 200,
+    "title": "An Afternoon at Mira's"
    }
   ],
   "own": {},
@@ -9172,31 +10006,16 @@
   "phones": [],
   "cafes_named": [],
   "urls_on_file": [
-   "https://www.indianretailer.com/news/fes-opens-indias-first-cookie-focused-flagship-cafe-delhi"
+   "https://delhiitesmagazine.com/new-in-town-delhis-hottest-new-places-to-try-in-august-2025/",
+   "https://www.platform-mag.com/lifestyle/an-afternoon-at-miras.html"
   ]
  },
  {
   "kind": "cafe",
-  "id": "C196",
-  "name": "Mira's",
-  "city": "New Delhi",
-  "checked_at": "2026-10-27T21:52:03+00:00",
-  "pages": [],
-  "own": {},
-  "mention": {},
-  "prices": [],
-  "cost_for_two": "",
-  "emails": [],
-  "phones": [],
-  "cafes_named": [],
-  "urls_on_file": []
- },
- {
-  "kind": "cafe",
-  "id": "C197",
+  "id": "C193",
   "name": "Nun Kun",
   "city": "New Delhi",
-  "checked_at": "2026-10-27T21:52:10+00:00",
+  "checked_at": "2026-10-27T23:13:13+00:00",
   "pages": [],
   "own": {},
   "mention": {},
@@ -9209,7 +10028,7 @@
  },
  {
   "kind": "cafe",
-  "id": "C198",
+  "id": "C194",
   "name": "Public Supply",
   "city": "New Delhi",
   "checked_at": "2026-10-27T21:52:04+00:00",
@@ -9263,7 +10082,7 @@
  },
  {
   "kind": "cafe",
-  "id": "C199",
+  "id": "C195",
   "name": "Second Born",
   "city": "New Delhi",
   "checked_at": "2026-10-27T21:52:04+00:00",
@@ -9325,10 +10144,10 @@
  },
  {
   "kind": "cafe",
-  "id": "C200",
+  "id": "C196",
   "name": "IKVITI",
   "city": "New Delhi",
-  "checked_at": "2026-10-27T21:52:03+00:00",
+  "checked_at": "2026-10-27T23:15:37+00:00",
   "pages": [
    {
     "url": "https://brewatlas.co/delhi/cafes/food",
@@ -9361,7 +10180,7 @@
  },
  {
   "kind": "cafe",
-  "id": "C201",
+  "id": "C197",
   "name": "Cafe By Soul",
   "city": "Delhi NCR",
   "checked_at": "2026-10-27T21:52:10+00:00",
@@ -9406,7 +10225,7 @@
  },
  {
   "kind": "cafe",
-  "id": "C202",
+  "id": "C198",
   "name": "The Black Coffee Cafe",
   "city": "Noida",
   "checked_at": "2026-10-27T21:52:04+00:00",
@@ -9459,7 +10278,7 @@
  },
  {
   "kind": "cafe",
-  "id": "C203",
+  "id": "C199",
   "name": "Beige Coffee",
   "city": "Faridabad",
   "checked_at": "2026-10-27T21:52:05+00:00",
@@ -9507,7 +10326,7 @@
  },
  {
   "kind": "cafe",
-  "id": "C204",
+  "id": "C200",
   "name": "Kokoy",
   "city": "Gurugram",
   "checked_at": "2026-10-27T21:52:03+00:00",
@@ -9572,7 +10391,7 @@
  },
  {
   "kind": "cafe",
-  "id": "C205",
+  "id": "C201",
   "name": "Odd Culture",
   "city": "Gurugram",
   "checked_at": "2026-10-27T21:52:11+00:00",
@@ -9623,7 +10442,7 @@
  },
  {
   "kind": "cafe",
-  "id": "C206",
+  "id": "C202",
   "name": "Altogether Experimental (ATE) — Omakase",
   "city": "Gurugram",
   "checked_at": "2026-10-27T21:52:04+00:00",
@@ -9794,7 +10613,7 @@
  },
  {
   "kind": "cafe",
-  "id": "C207",
+  "id": "C203",
   "name": "Oro",
   "city": "Gurugram",
   "checked_at": "2026-10-27T21:52:05+00:00",
@@ -9853,7 +10672,7 @@
  },
  {
   "kind": "cafe",
-  "id": "C208",
+  "id": "C204",
   "name": "Ammy's Coffee — Galleria Market",
   "city": "Gurugram",
   "checked_at": "2026-10-27T21:52:03+00:00",
@@ -9898,7 +10717,76 @@
  },
  {
   "kind": "cafe",
-  "id": "C209",
+  "id": "C205",
+  "name": "ButterHands cafe",
+  "city": "Gurugram",
+  "checked_at": "2026-10-27T23:14:50+00:00",
+  "pages": [
+   {
+    "url": "https://www.thelabmagofficial.com/new-tables-for-october-the-delhi-ncr-restaurants-cafes-and-bars-to-try/",
+    "final_url": "https://www.thelabmagofficial.com/new-tables-for-october-the-delhi-ncr-restaurants-cafes-and-bars-to-try/",
+    "role": "mention",
+    "used": "mention",
+    "status": 200,
+    "title": "New Tables for October: The Delhi NCR Restaurants, Cafés and Bars to Try - The Lab Mag"
+   },
+   {
+    "url": "https://www.passionateinmarketing.com/?p=760546",
+    "final_url": "https://www.passionateinmarketing.com/butterhands-expands-its-gurugram-presence-with-a-new-cafe-at-dlf-summit-plaza/",
+    "role": "mention",
+    "used": "mention",
+    "status": 200,
+    "title": "ButterHands Expands Gurugram Presence With New Café"
+   },
+   {
+    "url": "https://indianretailer.com/news/butterhands-makes-delhi-ncr-debut-flagship-store-saket",
+    "final_url": "https://indianretailer.com/news/rebel-foods-approves-fresh-esop-grant-it-works-towards-profitability",
+    "role": "mention",
+    "used": "mention",
+    "status": 200,
+    "title": "Rebel Foods Approves Fresh ESOP Grant as It Works Towards Profitability - Indian Retailer"
+   },
+   {
+    "url": "https://www.restaurantindia.in/news/restaurant-india-news-butterhands-debuts-at-select-citywalk-as-melt-house-founders-expand-dessert.n14869",
+    "final_url": "https://www.restaurantindia.in/news/restaurant-india-news-butterhands-debuts-at-select-citywalk-as-melt-house-founders-expand-dessert.n14869",
+    "role": "mention",
+    "used": "mention",
+    "status": 200,
+    "title": "Restaurant India News: ButterHands Debuts at Select Citywalk as Melt House Founders Expand Dessert Portfolio - Restauran"
+   }
+  ],
+  "own": {},
+  "mention": {
+   "brew": [
+    {
+     "term": "Cold brew",
+     "count": 1,
+     "snippet": "rry Shortcake Matcha’ and the ‘ButterBrew’ based on a South Indian Filter Kaapi Cold Brew. ButterHands began as an experiment in the Melt House kitchen, when the team s",
+     "url": "https://www.passionateinmarketing.com/?p=760546"
+    },
+    {
+     "term": "South Indian filter",
+     "count": 1,
+     "snippet": "the ‘Strawberry Shortcake Matcha’ and the ‘ButterBrew’ based on a South Indian Filter Kaapi Cold Brew. ButterHands began as an experiment in the Melt House kitchen, when",
+     "url": "https://www.passionateinmarketing.com/?p=760546"
+    }
+   ]
+  },
+  "prices": [],
+  "cost_for_two": "",
+  "emails": [],
+  "phones": [],
+  "cafes_named": [],
+  "urls_on_file": [
+   "https://www.thelabmagofficial.com/new-tables-for-october-the-delhi-ncr-restaurants-cafes-and-bars-to-try/",
+   "https://www.passionateinmarketing.com/?p=760546",
+   "https://indianretailer.com/news/butterhands-makes-delhi-ncr-debut-flagship-store-saket",
+   "https://www.restaurantindia.in/news/restaurant-india-news-butterhands-debuts-at-select-citywalk-as-melt-house-founders-expand-dessert.n14869"
+  ]
+ },
+ {
+  "kind": "cafe",
+  "id": "C206",
   "name": "1000% Artisan Coffee Bar",
   "city": "Gurugram",
   "checked_at": "2026-10-27T21:52:11+00:00",
@@ -9945,23 +10833,7 @@
  },
  {
   "kind": "cafe",
-  "id": "C209",
-  "name": "Lucky's Coffee Garage",
-  "city": "Lucknow",
-  "checked_at": "2026-10-27T21:38:51+00:00",
-  "pages": [],
-  "own": {},
-  "mention": {},
-  "prices": [],
-  "cost_for_two": "",
-  "emails": [],
-  "phones": [],
-  "cafes_named": [],
-  "urls_on_file": []
- },
- {
-  "kind": "cafe",
-  "id": "C210",
+  "id": "C207",
   "name": "Fig at MG",
   "city": "Gurugram",
   "checked_at": "2026-10-27T21:52:04+00:00",
@@ -9988,34 +10860,7 @@
  },
  {
   "kind": "cafe",
-  "id": "C211",
-  "name": "ButterHands cafe",
-  "city": "Gurugram",
-  "checked_at": "2026-10-27T21:52:05+00:00",
-  "pages": [
-   {
-    "url": "https://www.thelabmagofficial.com/new-tables-for-october-the-delhi-ncr-restaurants-cafes-and-bars-to-try/",
-    "final_url": "https://www.thelabmagofficial.com/new-tables-for-october-the-delhi-ncr-restaurants-cafes-and-bars-to-try/",
-    "role": "mention",
-    "used": "mention",
-    "status": 200,
-    "title": "New Tables for October: The Delhi NCR Restaurants, Cafés and Bars to Try - The Lab Mag"
-   }
-  ],
-  "own": {},
-  "mention": {},
-  "prices": [],
-  "cost_for_two": "",
-  "emails": [],
-  "phones": [],
-  "cafes_named": [],
-  "urls_on_file": [
-   "https://www.thelabmagofficial.com/new-tables-for-october-the-delhi-ncr-restaurants-cafes-and-bars-to-try/"
-  ]
- },
- {
-  "kind": "cafe",
-  "id": "C212",
+  "id": "C208",
   "name": "Lume and Lime",
   "city": "Gurugram",
   "checked_at": "2026-10-27T21:52:03+00:00",
@@ -10051,7 +10896,7 @@
  },
  {
   "kind": "cafe",
-  "id": "C213",
+  "id": "C209",
   "name": "Kali Coffee",
   "city": "Panchkula",
   "checked_at": "2026-10-27T21:52:11+00:00",
@@ -10169,7 +11014,7 @@
  },
  {
   "kind": "cafe",
-  "id": "C214",
+  "id": "C210",
   "name": "Kapai Coffee House",
   "city": "Kanpur",
   "checked_at": "2026-10-27T21:52:04+00:00",
@@ -10223,7 +11068,7 @@
  },
  {
   "kind": "cafe",
-  "id": "C215",
+  "id": "C211",
   "name": "Sidewalk",
   "city": "Kanpur",
   "checked_at": "2026-10-27T21:52:05+00:00",
@@ -10330,7 +11175,7 @@
  },
  {
   "kind": "cafe",
-  "id": "C216",
+  "id": "C212",
   "name": "Brekka",
   "city": "Lucknow",
   "checked_at": "2026-10-27T21:52:03+00:00",
@@ -10357,7 +11202,7 @@
  },
  {
   "kind": "cafe",
-  "id": "C217",
+  "id": "C213",
   "name": "Lumie — Fine Bakes & Speciality Coffee",
   "city": "Lucknow",
   "checked_at": "2026-10-27T21:52:11+00:00",
@@ -10384,7 +11229,7 @@
  },
  {
   "kind": "cafe",
-  "id": "C218",
+  "id": "C214",
   "name": "One PourCent",
   "city": "Lucknow",
   "checked_at": "2026-10-27T21:52:04+00:00",
@@ -10447,7 +11292,7 @@
  },
  {
   "kind": "cafe",
-  "id": "C219",
+  "id": "C215",
   "name": "Overflow Coffee",
   "city": "Lucknow",
   "checked_at": "2026-10-27T21:52:05+00:00",
@@ -10629,7 +11474,7 @@
  },
  {
   "kind": "cafe",
-  "id": "C220",
+  "id": "C216",
   "name": "CHACOCO",
   "city": "Lucknow",
   "checked_at": "2026-10-27T21:52:03+00:00",
@@ -10657,7 +11502,7 @@
  },
  {
   "kind": "cafe",
-  "id": "C221",
+  "id": "C217",
   "name": "Coffee Terminal 2",
   "city": "Lucknow",
   "checked_at": "2026-10-27T21:52:11+00:00",
@@ -10711,7 +11556,7 @@
  },
  {
   "kind": "cafe",
-  "id": "C222",
+  "id": "C218",
   "name": "Philtre & Co.",
   "city": "Lucknow",
   "checked_at": "2026-10-27T21:52:05+00:00",
@@ -10747,7 +11592,7 @@
  },
  {
   "kind": "cafe",
-  "id": "C223",
+  "id": "C219",
   "name": "Baskè",
   "city": "Lucknow",
   "checked_at": "2026-10-27T21:52:06+00:00",
@@ -10792,7 +11637,7 @@
  },
  {
   "kind": "cafe",
-  "id": "C224",
+  "id": "C220",
   "name": "Habidade",
   "city": "Noida",
   "checked_at": "2026-10-27T21:52:03+00:00",
@@ -10923,7 +11768,7 @@
  },
  {
   "kind": "cafe",
-  "id": "C225",
+  "id": "C221",
   "name": "Colocal Chocolates",
   "city": "Noida",
   "checked_at": "2026-10-27T21:52:11+00:00",
@@ -10977,7 +11822,7 @@
  },
  {
   "kind": "cafe",
-  "id": "C226",
+  "id": "C222",
   "name": "The Haven Coffee House",
   "city": "Noida",
   "checked_at": "2026-10-27T21:52:05+00:00",
@@ -11040,11 +11885,19 @@
  },
  {
   "kind": "cafe",
-  "id": "C227",
+  "id": "C223",
   "name": "Alma Bakery & Cafe",
   "city": "Noida",
-  "checked_at": "2026-10-27T21:52:06+00:00",
+  "checked_at": "2026-10-27T23:15:16+00:00",
   "pages": [
+   {
+    "url": "https://www.eazydiner.com/delhi-ncr/alma-bakery-cafe-sector-104-noida-703271",
+    "final_url": "https://www.eazydiner.com/delhi-ncr/alma-bakery-cafe-sector-104-noida-703271",
+    "role": "own",
+    "used": "own",
+    "status": 200,
+    "title": "Alma Bakery & Cafe in Sector 104, Noida | Get Upto 50% Off"
+   },
    {
     "url": "https://magicpin.in/blog/india/noida/food-and-beverage/best-cafes-in-noida-for-work-from-cafe",
     "final_url": "https://magicpin.in/blog/india/noida/food-and-beverage/best-cafes-in-noida-for-work-from-cafe",
@@ -11052,25 +11905,44 @@
     "used": "name not on page",
     "status": 200,
     "title": "Best Cafes in Noida for Work-From-Café: Your October 2026 Guide | magicpin blog"
+   },
+   {
+    "url": "https://asianlite.com/2024/lite-blogs/noidas-almas-bakery-a-central-perk-experience",
+    "final_url": "https://asianlite.com/2024/lite-blogs/noidas-almas-bakery-a-central-perk-experience/",
+    "role": "mention",
+    "used": "name not on page",
+    "status": 200,
+    "title": "Noida's Alma's Bakery: A 'Central Perk' Experience - Asian News from UK"
+   },
+   {
+    "url": "https://www.slurrp.com/article/these-cafés-have-changed-the-coffee-culture-in-noida-1640601735378",
+    "final_url": "https://www.slurrp.com/article/these-caf%C3%A9s-have-changed-the-coffee-culture-in-noida-1640601735378",
+    "role": "mention",
+    "used": "name not on page",
+    "status": 200,
+    "title": "These Cafés Have Changed The Coffee Culture In Noida"
    }
   ],
   "own": {},
   "mention": {},
   "prices": [],
-  "cost_for_two": "",
+  "cost_for_two": "₹ 1000 for two",
   "emails": [],
   "phones": [],
   "cafes_named": [],
   "urls_on_file": [
-   "https://magicpin.in/blog/india/noida/food-and-beverage/best-cafes-in-noida-for-work-from-cafe"
+   "https://magicpin.in/blog/india/noida/food-and-beverage/best-cafes-in-noida-for-work-from-cafe",
+   "https://www.eazydiner.com/delhi-ncr/alma-bakery-cafe-sector-104-noida-703271",
+   "https://asianlite.com/2024/lite-blogs/noidas-almas-bakery-a-central-perk-experience",
+   "https://www.slurrp.com/article/these-cafés-have-changed-the-coffee-culture-in-noida-1640601735378"
   ]
  },
  {
   "kind": "cafe",
-  "id": "C228",
+  "id": "C224",
   "name": "Tan Coffee",
   "city": "Noida",
-  "checked_at": "2026-10-27T21:52:04+00:00",
+  "checked_at": "2026-10-27T23:15:44+00:00",
   "pages": [
    {
     "url": "https://www.district.in/blog/specialty-coffee-noida",
@@ -11079,6 +11951,14 @@
     "used": "mention",
     "status": 200,
     "title": "Specialty Coffee Spots in Noida"
+   },
+   {
+    "url": "https://wanderlog.com/place/details/10567892/tan-coffee",
+    "final_url": "https://wanderlog.com/place/details/10567892/tan-coffee",
+    "role": "mention",
+    "used": "mention",
+    "status": 200,
+    "title": "Tan Coffee | Noida, Uttar Pradesh, Noida, India - Reviews, Ratings, Tips and Why You Should Go – Wanderlog"
    }
   ],
   "own": {},
@@ -11113,28 +11993,49 @@
   "phones": [],
   "cafes_named": [],
   "urls_on_file": [
-   "https://www.district.in/blog/specialty-coffee-noida"
+   "https://www.district.in/blog/specialty-coffee-noida",
+   "https://wanderlog.com/place/details/10567892/tan-coffee"
   ]
  },
  {
   "kind": "cafe",
-  "id": "C229",
+  "id": "C225",
   "name": "Cafe Meraki — Prayagraj",
   "city": "Prayagraj",
-  "checked_at": "2026-10-27T21:52:11+00:00",
-  "pages": [],
+  "checked_at": "2026-10-27T23:13:27+00:00",
+  "pages": [
+   {
+    "url": "https://www.eazydiner.com/prayagraj/cafe-meraki-civil-lines-prayagraj-691222/reviews",
+    "final_url": "https://www.eazydiner.com/prayagraj/cafe-meraki-civil-lines-prayagraj-691222/reviews",
+    "role": "own",
+    "used": "own",
+    "status": 200,
+    "title": "Reviews & Ratings of Cafe Meraki, Civil Lines, Prayagraj"
+   },
+   {
+    "url": "https://www.eazydiner.com/prayagraj/cafe-meraki-civil-lines-prayagraj-691222",
+    "final_url": "https://www.eazydiner.com/prayagraj/cafe-meraki-civil-lines-prayagraj-691222",
+    "role": "own",
+    "used": "own",
+    "status": 200,
+    "title": "Cafe Meraki in Civil Lines, Prayagraj | Get Upto 50% Off"
+   }
+  ],
   "own": {},
   "mention": {},
   "prices": [],
-  "cost_for_two": "",
+  "cost_for_two": "₹ 650 for two",
   "emails": [],
   "phones": [],
   "cafes_named": [],
-  "urls_on_file": []
+  "urls_on_file": [
+   "https://www.eazydiner.com/prayagraj/cafe-meraki-civil-lines-prayagraj-691222/reviews",
+   "https://www.eazydiner.com/prayagraj/cafe-meraki-civil-lines-prayagraj-691222"
+  ]
  },
  {
   "kind": "cafe",
-  "id": "C230",
+  "id": "C226",
   "name": "Svas — Specialty Coffee, Matcha & Bakes",
   "city": "Varanasi",
   "checked_at": "2026-10-27T21:52:05+00:00",
@@ -11170,7 +12071,7 @@
  },
  {
   "kind": "cafe",
-  "id": "C231",
+  "id": "C227",
   "name": "Kohi — The Cafe",
   "city": "Amritsar",
   "checked_at": "2026-10-27T21:52:06+00:00",
@@ -11240,10 +12141,10 @@
  },
  {
   "kind": "cafe",
-  "id": "C232",
+  "id": "C228",
   "name": "Greko : God's Own Coffee",
   "city": "Amritsar",
-  "checked_at": "2026-10-27T21:53:22+00:00",
+  "checked_at": "2026-10-27T23:15:44+00:00",
   "pages": [
    {
     "url": "https://www.eazydiner.com/amritsar/greko-katra-ahluwalia-amritsar-701223",
@@ -11281,15 +12182,14 @@
    "https://www.eazydiner.com/amritsar/greko-katra-ahluwalia-amritsar-701223",
    "https://www.eazydiner.com/amritsar/drip-by-greko-ranjit-avenue-amritsar-713134",
    "https://www.eazydiner.com/amritsar/greko-reserve-ranjit-avenue-amritsar-700958"
-  ],
-  "shard": null
+  ]
  },
  {
   "kind": "cafe",
-  "id": "C233",
+  "id": "C229",
   "name": "Wht Blk — Art Coffee House",
   "city": "Jalandhar",
-  "checked_at": "2026-10-27T21:52:11+00:00",
+  "checked_at": "2026-10-27T23:13:27+00:00",
   "pages": [],
   "own": {},
   "mention": {},
@@ -11302,7 +12202,7 @@
  },
  {
   "kind": "cafe",
-  "id": "C234",
+  "id": "C230",
   "name": "Coso Cafe",
   "city": "Ludhiana",
   "checked_at": "2026-10-27T21:52:05+00:00",
@@ -11329,7 +12229,7 @@
  },
  {
   "kind": "cafe",
-  "id": "C235",
+  "id": "C231",
   "name": "Elgin Cafe",
   "city": "Ludhiana",
   "checked_at": "2026-10-27T21:52:06+00:00",
@@ -11383,7 +12283,7 @@
  },
  {
   "kind": "cafe",
-  "id": "C236",
+  "id": "C232",
   "name": "HeeBee Coffee",
   "city": "Ludhiana",
   "checked_at": "2026-10-27T21:52:04+00:00",
@@ -11410,7 +12310,7 @@
  },
  {
   "kind": "cafe",
-  "id": "C237",
+  "id": "C233",
   "name": "Cafe Rue 18",
   "city": "Ludhiana",
   "checked_at": "2026-10-27T21:52:11+00:00",
@@ -11455,7 +12355,7 @@
  },
  {
   "kind": "cafe",
-  "id": "C238",
+  "id": "C234",
   "name": "Batter Bar — CP67 Mohali",
   "city": "Mohali",
   "checked_at": "2026-10-27T21:52:05+00:00",
@@ -11517,34 +12417,7 @@
  },
  {
   "kind": "cafe",
-  "id": "C238",
-  "name": "Barista Diner",
-  "city": "Srinagar",
-  "checked_at": "2026-10-27T21:38:37+00:00",
-  "pages": [
-   {
-    "url": "https://www.restaurantindia.in/news/barista-opens-its-largest-cafe-at-dal-lake-srinagar.n11298",
-    "final_url": "https://www.restaurantindia.in/news/barista-opens-its-largest-cafe-at-dal-lake-srinagar.n11298",
-    "role": "mention",
-    "used": "mention",
-    "status": 200,
-    "title": "Barista Opens its Largest Cafe at Dal Lake, Srinagar - Restaurant India"
-   }
-  ],
-  "own": {},
-  "mention": {},
-  "prices": [],
-  "cost_for_two": "",
-  "emails": [],
-  "phones": [],
-  "cafes_named": [],
-  "urls_on_file": [
-   "https://www.restaurantindia.in/news/barista-opens-its-largest-cafe-at-dal-lake-srinagar.n11298"
-  ]
- },
- {
-  "kind": "cafe",
-  "id": "C239",
+  "id": "C235",
   "name": "Pull and Pour Speciality Coffee",
   "city": "Mohali",
   "checked_at": "2026-10-27T21:52:06+00:00",
@@ -11596,30 +12469,22 @@
  },
  {
   "kind": "cafe",
-  "id": "C239",
-  "name": "Daily Daily Coffeemakers",
-  "city": "TBC",
-  "checked_at": "2026-10-27T21:39:29+00:00",
-  "pages": [],
-  "own": {},
-  "mention": {},
-  "prices": [],
-  "cost_for_two": "",
-  "emails": [],
-  "phones": [],
-  "cafes_named": [],
-  "urls_on_file": []
- },
- {
-  "kind": "cafe",
-  "id": "C240",
+  "id": "C236",
   "name": "Graph Cafe",
   "city": "Chandigarh",
-  "checked_at": "2026-10-27T21:52:04+00:00",
+  "checked_at": "2026-10-27T23:15:50+00:00",
   "pages": [
    {
     "url": "https://travell.cc/chandigarh/best-cafes-in-chandigarh/",
     "final_url": "https://travell.cc/chandigarh/best-cafes-in-chandigarh/",
+    "role": "mention",
+    "used": "name not on page",
+    "status": 200,
+    "title": "best cafes in chandigarh (2026) | travell.cc"
+   },
+   {
+    "url": "https://travell-xyz.pages.dev/chandigarh/best-cafes-in-chandigarh",
+    "final_url": "https://travell-xyz.pages.dev/chandigarh/best-cafes-in-chandigarh/",
     "role": "mention",
     "used": "name not on page",
     "status": 200,
@@ -11634,15 +12499,16 @@
   "phones": [],
   "cafes_named": [],
   "urls_on_file": [
-   "https://travell.cc/chandigarh/best-cafes-in-chandigarh/"
+   "https://travell.cc/chandigarh/best-cafes-in-chandigarh/",
+   "https://travell-xyz.pages.dev/chandigarh/best-cafes-in-chandigarh"
   ]
  },
  {
   "kind": "cafe",
-  "id": "C241",
+  "id": "C237",
   "name": "Kamaa Cafe / Beige Cafe / The Hedgehog Cafe",
   "city": "Chandigarh",
-  "checked_at": "2026-10-27T21:52:11+00:00",
+  "checked_at": "2026-10-27T23:14:09+00:00",
   "pages": [
    {
     "url": "https://chdlife.com/top-14-best-cafes-in-chandigarh/",
@@ -11651,6 +12517,46 @@
     "used": "name not on page",
     "status": 200,
     "title": "Top 14 Best Cafes In Chandigarh 2026: Areas, Ratings & Reviews"
+   },
+   {
+    "url": "https://www.eazydiner.com/chandigarh/kamaa-cafe-sector-7-chandigarh-682510",
+    "final_url": "https://www.eazydiner.com/chandigarh/kamaa-cafe-sector-7-chandigarh-682510",
+    "role": "mention",
+    "used": "name not on page",
+    "status": 200,
+    "title": "Kamaa Cafe in Sector 7, Chandigarh | Get Upto 50% Off"
+   },
+   {
+    "url": "https://www.archdaily.com/999687/beige-cafe-and-bakery-arcab",
+    "final_url": "https://www.archdaily.com/999687/beige-cafe-and-bakery-arcab",
+    "role": "mention",
+    "used": "name not on page",
+    "status": 200,
+    "title": "BEIGE Café & Bakery / Arch.Lab | ArchDaily"
+   },
+   {
+    "url": "https://wanderlog.com/place/details/10156453/beige-cafe--bakery",
+    "final_url": "https://wanderlog.com/place/details/10156453/beige-cafe--bakery",
+    "role": "mention",
+    "used": "name not on page",
+    "status": 200,
+    "title": "Beige Cafe, Chandigarh, India - Reviews, Ratings, Tips and Why You Should Go – Wanderlog"
+   },
+   {
+    "url": "https://wanderlog.com/place/details/1324911/the-hedgehog-cafe",
+    "final_url": "https://wanderlog.com/place/details/1324911/the-hedgehog-cafe",
+    "role": "mention",
+    "used": "name not on page",
+    "status": 200,
+    "title": "The Hedgehog Cafe, Chandigarh, India - Reviews, Ratings, Tips and Why You Should Go – Wanderlog"
+   },
+   {
+    "url": "https://shoutlo.com/articles/hedgehog-cafe-for-writers-and-bookworms",
+    "final_url": "https://www.shoutlo.com/articles/hedgehog-cafe-for-writers-and-bookworms",
+    "role": "mention",
+    "used": "name not on page",
+    "status": 200,
+    "title": "Hedgehog Cafe For Writers & Bookworms"
    }
   ],
   "own": {},
@@ -11661,15 +12567,20 @@
   "phones": [],
   "cafes_named": [],
   "urls_on_file": [
-   "https://chdlife.com/top-14-best-cafes-in-chandigarh/"
+   "https://chdlife.com/top-14-best-cafes-in-chandigarh/",
+   "https://www.eazydiner.com/chandigarh/kamaa-cafe-sector-7-chandigarh-682510",
+   "https://www.archdaily.com/999687/beige-cafe-and-bakery-arcab",
+   "https://wanderlog.com/place/details/10156453/beige-cafe--bakery",
+   "https://wanderlog.com/place/details/1324911/the-hedgehog-cafe",
+   "https://shoutlo.com/articles/hedgehog-cafe-for-writers-and-bookworms"
   ]
  },
  {
   "kind": "cafe",
-  "id": "C242",
+  "id": "C238",
   "name": "Rustic Door",
   "city": "Chandigarh",
-  "checked_at": "2026-10-27T21:52:05+00:00",
+  "checked_at": "2026-10-27T23:14:33+00:00",
   "pages": [
    {
     "url": "https://travell.cc/chandigarh/best-cafes-in-chandigarh/",
@@ -11678,6 +12589,22 @@
     "used": "name not on page",
     "status": 200,
     "title": "best cafes in chandigarh (2026) | travell.cc"
+   },
+   {
+    "url": "https://wanderlog.com/place/details/1395128/rustic-door-chandigarh",
+    "final_url": "https://wanderlog.com/place/details/1395128/rustic-door-chandigarh",
+    "role": "mention",
+    "used": "mention",
+    "status": 200,
+    "title": "Rustic Door Chandigarh, Chandigarh, India - Reviews, Ratings, Tips and Why You Should Go – Wanderlog"
+   },
+   {
+    "url": "https://www.tripoto.com/chandigarh/trips/the-5-most-instragrammable-cafe-s-in-chandigarh-5a45da7d804d0",
+    "final_url": "https://www.tripoto.com/chandigarh/trips/the-5-most-instragrammable-cafe-s-in-chandigarh-5a45da7d804d0",
+    "role": "mention",
+    "used": "failed",
+    "status": 403,
+    "title": "Just a moment..."
    }
   ],
   "own": {},
@@ -11688,12 +12615,14 @@
   "phones": [],
   "cafes_named": [],
   "urls_on_file": [
-   "https://travell.cc/chandigarh/best-cafes-in-chandigarh/"
+   "https://travell.cc/chandigarh/best-cafes-in-chandigarh/",
+   "https://wanderlog.com/place/details/1395128/rustic-door-chandigarh",
+   "https://www.tripoto.com/chandigarh/trips/the-5-most-instragrammable-cafe-s-in-chandigarh-5a45da7d804d0"
   ]
  },
  {
   "kind": "cafe",
-  "id": "C243",
+  "id": "C239",
   "name": "Backstreet Cafe",
   "city": "Chandigarh",
   "checked_at": "2026-10-27T21:52:06+00:00",
@@ -11720,7 +12649,7 @@
  },
  {
   "kind": "cafe",
-  "id": "C244",
+  "id": "C240",
   "name": "Offlimits",
   "city": "Kasol",
   "checked_at": "2026-10-27T21:52:04+00:00",
@@ -11783,7 +12712,7 @@
  },
  {
   "kind": "cafe",
-  "id": "C245",
+  "id": "C241",
   "name": "The Little Sisters",
   "city": "Manali",
   "checked_at": "2026-10-27T21:52:11+00:00",
@@ -11837,10 +12766,10 @@
  },
  {
   "kind": "cafe",
-  "id": "C246",
+  "id": "C242",
   "name": "The Other Space",
   "city": "McLeodganj",
-  "checked_at": "2026-10-27T21:52:05+00:00",
+  "checked_at": "2026-10-27T23:14:57+00:00",
   "pages": [
    {
     "url": "https://dharamshalaguide.com/cafes-in-mcleodganj/",
@@ -11849,6 +12778,30 @@
     "used": "mention",
     "status": 200,
     "title": "Loading https://dharamshalaguide.com/cafes-in-mcleodganj/"
+   },
+   {
+    "url": "https://urbanaut.app/spot/the-other-space",
+    "final_url": "https://urbanaut.app/spot/the-other-space",
+    "role": "mention",
+    "used": "mention",
+    "status": 200,
+    "title": "The Other Space | Eat / Drink in Kangra"
+   },
+   {
+    "url": "https://travelcoffee.in/blog/best-cafes-in-mcleodganj",
+    "final_url": "https://travelcoffee.in/blog/best-cafes-in-mcleodganj",
+    "role": "mention",
+    "used": "mention",
+    "status": 200,
+    "title": "Best Cafes in McLeodganj 2026: Views, Breakfast, Coffee"
+   },
+   {
+    "url": "https://curlytales.com/5-best-breakfast-spots-in-mcleodganj-to-start-the-day-on-a-hearty-note",
+    "final_url": "https://curlytales.com/5-best-breakfast-spots-in-mcleodganj-to-start-the-day-on-a-hearty-note/",
+    "role": "mention",
+    "used": "mention",
+    "status": 200,
+    "title": "5 Best Breakfast Spots In McLeodGanj To Start The Day On a Hearty Note"
    }
   ],
   "own": {},
@@ -11877,12 +12830,15 @@
   "phones": [],
   "cafes_named": [],
   "urls_on_file": [
-   "https://dharamshalaguide.com/cafes-in-mcleodganj/"
+   "https://dharamshalaguide.com/cafes-in-mcleodganj/",
+   "https://urbanaut.app/spot/the-other-space",
+   "https://travelcoffee.in/blog/best-cafes-in-mcleodganj",
+   "https://curlytales.com/5-best-breakfast-spots-in-mcleodganj-to-start-the-day-on-a-hearty-note"
   ]
  },
  {
   "kind": "cafe",
-  "id": "C247",
+  "id": "C243",
   "name": "Aristella Cafe & Bar",
   "city": "Dehradun",
   "checked_at": "2026-10-27T21:52:06+00:00",
@@ -11981,10 +12937,10 @@
  },
  {
   "kind": "cafe",
-  "id": "C248",
+  "id": "C244",
   "name": "Brewer's Cafe",
   "city": "Dehradun",
-  "checked_at": "2026-10-27T21:52:04+00:00",
+  "checked_at": "2026-10-27T23:15:56+00:00",
   "pages": [
    {
     "url": "https://farzicafedehradun.com/best-cafe-in-dehradun.html",
@@ -11993,6 +12949,14 @@
     "used": "mention",
     "status": 200,
     "title": "Best Café in Dehradun (2026), Ranked & Compared | Farzi Café"
+   },
+   {
+    "url": "https://housing.com/news/cafes-in-dehradun",
+    "final_url": "https://housing.com/news/cafes-in-dehradun",
+    "role": "mention",
+    "used": "failed",
+    "status": 406,
+    "title": "Security Alert"
    }
   ],
   "own": {},
@@ -12018,15 +12982,16 @@
   "phones": [],
   "cafes_named": [],
   "urls_on_file": [
-   "https://farzicafedehradun.com/best-cafe-in-dehradun.html"
+   "https://farzicafedehradun.com/best-cafe-in-dehradun.html",
+   "https://housing.com/news/cafes-in-dehradun"
   ]
  },
  {
   "kind": "cafe",
-  "id": "C249",
+  "id": "C245",
   "name": "Kohi Co-Working Cafe",
   "city": "Rishikesh",
-  "checked_at": "2026-10-27T21:52:11+00:00",
+  "checked_at": "2026-10-27T23:14:09+00:00",
   "pages": [
    {
     "url": "https://www.baliyogaschool.com/10-best-cafes-in-rishikesh-for-food-vibe-and-best-working-space/",
@@ -12050,7 +13015,7 @@
  },
  {
   "kind": "cafe",
-  "id": "C250",
+  "id": "C246",
   "name": "Roasted by Roseate",
   "city": "Rishikesh",
   "checked_at": "2026-10-27T21:52:05+00:00",
@@ -12086,7 +13051,7 @@
  },
  {
   "kind": "cafe",
-  "id": "C251",
+  "id": "C247",
   "name": "The Metta Cafe",
   "city": "Leh",
   "checked_at": "2026-10-27T21:52:07+00:00",
@@ -12140,10 +13105,10 @@
  },
  {
   "kind": "cafe",
-  "id": "C252",
+  "id": "C248",
   "name": "Brazil Cafe / Corretto / Coffee Culture Leh",
   "city": "Leh",
-  "checked_at": "2026-10-27T21:52:04+00:00",
+  "checked_at": "2026-10-27T23:16:09+00:00",
   "pages": [
    {
     "url": "https://www.tripadvisor.in/Restaurants-g297625-zfg9900-Leh_Leh_District_Ladakh.html",
@@ -12152,6 +13117,22 @@
     "used": "not opened (site refuses automated browsers)",
     "status": 0,
     "title": ""
+   },
+   {
+    "url": "https://wanderlog.com/place/details/1061238",
+    "final_url": "https://wanderlog.com/place/details/1061238",
+    "role": "mention",
+    "used": "name not on page",
+    "status": 200,
+    "title": "Coffee Culture Ladakh, Leh, India - Reviews, Ratings, Tips and Why You Should Go – Wanderlog"
+   },
+   {
+    "url": "https://wanderlog.com/place/details/1324876",
+    "final_url": "https://wanderlog.com/place/details/1324876",
+    "role": "mention",
+    "used": "name not on page",
+    "status": 200,
+    "title": "Metta Cafe, Leh, India - Reviews, Ratings, Tips and Why You Should Go – Wanderlog"
    }
   ],
   "own": {},
@@ -12162,15 +13143,17 @@
   "phones": [],
   "cafes_named": [],
   "urls_on_file": [
-   "https://www.tripadvisor.in/Restaurants-g297625-zfg9900-Leh_Leh_District_Ladakh.html"
+   "https://www.tripadvisor.in/Restaurants-g297625-zfg9900-Leh_Leh_District_Ladakh.html",
+   "https://wanderlog.com/place/details/1061238",
+   "https://wanderlog.com/place/details/1324876"
   ]
  },
  {
   "kind": "cafe",
-  "id": "C253",
+  "id": "C249",
   "name": "Specialty Coffee House",
   "city": "TBC",
-  "checked_at": "2026-10-27T21:52:11+00:00",
+  "checked_at": "2026-10-27T23:14:09+00:00",
   "pages": [],
   "own": {},
   "mention": {},
@@ -12183,7 +13166,7 @@
  },
  {
   "kind": "cafe",
-  "id": "C254",
+  "id": "C250",
   "name": "Flameback Cafe & Kitchen",
   "city": "Kolkata",
   "checked_at": "2026-10-27T21:52:05+00:00",
@@ -12240,7 +13223,7 @@
  },
  {
   "kind": "cafe",
-  "id": "C255",
+  "id": "C251",
   "name": "Kulture — Specialty Coffee & Bistro",
   "city": "Kolkata",
   "checked_at": "2026-10-27T21:52:07+00:00",
@@ -12385,7 +13368,7 @@
  },
  {
   "kind": "cafe",
-  "id": "C256",
+  "id": "C252",
   "name": "Artsy — Coffee & Culture",
   "city": "Kolkata",
   "checked_at": "2026-10-27T21:52:04+00:00",
@@ -12531,7 +13514,7 @@
  },
  {
   "kind": "cafe",
-  "id": "C257",
+  "id": "C253",
   "name": "COLAB Artisanal Coffee",
   "city": "Kolkata",
   "checked_at": "2026-10-27T21:52:12+00:00",
@@ -12586,34 +13569,7 @@
  },
  {
   "kind": "cafe",
-  "id": "C258",
-  "name": "Cafe Buddy's Espresso — Kolkata",
-  "city": "Kolkata",
-  "checked_at": "2026-10-27T21:52:05+00:00",
-  "pages": [
-   {
-    "url": "https://t2online.in/goodlife/food-beverage/a-new-menu-awaits-at-cafe-buddy-s-espresso-as-they-complete-one-t2-checked-it-out/454228",
-    "final_url": "https://t2online.in/goodlife/food-beverage/a-new-menu-awaits-at-cafe-buddy-s-espresso-as-they-complete-one-t2-checked-it-out/454228",
-    "role": "mention",
-    "used": "mention",
-    "status": 200,
-    "title": "A new menu awaits at Cafe Buddys Espresso as they complete one t2 checked it out | t2ONLINE"
-   }
-  ],
-  "own": {},
-  "mention": {},
-  "prices": [],
-  "cost_for_two": "",
-  "emails": [],
-  "phones": [],
-  "cafes_named": [],
-  "urls_on_file": [
-   "https://t2online.in/goodlife/food-beverage/a-new-menu-awaits-at-cafe-buddy-s-espresso-as-they-complete-one-t2-checked-it-out/454228"
-  ]
- },
- {
-  "kind": "cafe",
-  "id": "C259",
+  "id": "C254",
   "name": "Cafe Captain Americano",
   "city": "Kolkata",
   "checked_at": "2026-10-27T21:52:07+00:00",
@@ -12675,10 +13631,10 @@
  },
  {
   "kind": "cafe",
-  "id": "C260",
+  "id": "C255",
   "name": "Amari Coffee — New Town",
   "city": "Kolkata",
-  "checked_at": "2026-10-27T21:52:04+00:00",
+  "checked_at": "2026-10-27T23:16:09+00:00",
   "pages": [],
   "own": {},
   "mention": {},
@@ -12691,7 +13647,7 @@
  },
  {
   "kind": "cafe",
-  "id": "C261",
+  "id": "C256",
   "name": "Cafe 108",
   "city": "Kolkata",
   "checked_at": "2026-10-27T21:52:12+00:00",
@@ -12718,10 +13674,10 @@
  },
  {
   "kind": "cafe",
-  "id": "C262",
+  "id": "C257",
   "name": "Line Up Coffee — New Town",
   "city": "Kolkata",
-  "checked_at": "2026-10-27T21:52:05+00:00",
+  "checked_at": "2026-10-27T23:14:57+00:00",
   "pages": [],
   "own": {},
   "mention": {},
@@ -12734,23 +13690,43 @@
  },
  {
   "kind": "cafe",
-  "id": "C263",
+  "id": "C258",
   "name": "Cafe82",
   "city": "Kolkata",
-  "checked_at": "2026-10-27T21:52:07+00:00",
-  "pages": [],
+  "checked_at": "2026-10-27T23:15:30+00:00",
+  "pages": [
+   {
+    "url": "https://www.eazydiner.com/kolkata/cafe-82-ballygunge-kolkata-699730",
+    "final_url": "https://www.eazydiner.com/kolkata/cafe-82-ballygunge-kolkata-699730",
+    "role": "own",
+    "used": "own",
+    "status": 200,
+    "title": "Cafe 82 in Ballygunge, Kolkata | Get Upto 50% Off"
+   },
+   {
+    "url": "https://yappe.in/west-bengal/kolkata/cafe-82/176916",
+    "final_url": "https://yappe.in/west-bengal/kolkata/cafe-82/176916",
+    "role": "mention",
+    "used": "name not on page",
+    "status": 200,
+    "title": "Café 82 - Cafe - Kolkata - West Bengal | Yappe.in"
+   }
+  ],
   "own": {},
   "mention": {},
   "prices": [],
-  "cost_for_two": "",
+  "cost_for_two": "₹ 900 for two",
   "emails": [],
   "phones": [],
   "cafes_named": [],
-  "urls_on_file": []
+  "urls_on_file": [
+   "https://www.eazydiner.com/kolkata/cafe-82-ballygunge-kolkata-699730",
+   "https://yappe.in/west-bengal/kolkata/cafe-82/176916"
+  ]
  },
  {
   "kind": "cafe",
-  "id": "C264",
+  "id": "C259",
   "name": "PICO — Pizzeria & Coffee Bar",
   "city": "Kolkata",
   "checked_at": "2026-10-27T21:52:06+00:00",
@@ -12980,7 +13956,7 @@
  },
  {
   "kind": "cafe",
-  "id": "C265",
+  "id": "C260",
   "name": "Whizz Coffee (by Craft Coffee Box)",
   "city": "Kolkata",
   "checked_at": "2026-10-27T21:52:12+00:00",
@@ -13007,7 +13983,7 @@
  },
  {
   "kind": "cafe",
-  "id": "C266",
+  "id": "C261",
   "name": "8th Day Cafe & Bakery",
   "city": "Kolkata",
   "checked_at": "2026-10-27T21:52:05+00:00",
@@ -13061,11 +14037,36 @@
  },
  {
   "kind": "cafe",
-  "id": "C267",
+  "id": "C262",
   "name": "TheCoffeeShop — Siliguri",
   "city": "Siliguri",
-  "checked_at": "2026-10-27T21:52:07+00:00",
-  "pages": [],
+  "checked_at": "2026-10-27T23:15:52+00:00",
+  "pages": [
+   {
+    "url": "https://wanderlog.com/place/details/747245/the-coffee-shop",
+    "final_url": "https://wanderlog.com/place/details/747245/the-coffee-shop",
+    "role": "mention",
+    "used": "name not on page",
+    "status": 200,
+    "title": "The Coffee Shop, Siliguri, India - Reviews, Ratings, Tips and Why You Should Go – Wanderlog"
+   },
+   {
+    "url": "https://yappe.in/west-bengal/siliguri/the-coffee-shop/64387",
+    "final_url": "https://yappe.in/west-bengal/siliguri/the-coffee-shop/64387",
+    "role": "mention",
+    "used": "name not on page",
+    "status": 200,
+    "title": "The Coffee Shop - Restaurant - Siliguri - West Bengal | Yappe.in"
+   },
+   {
+    "url": "https://myplatereview.blogspot.com/2018/08/coffee-pizza-pasta-thecoffeeshop-siliguri-myplatereview.html",
+    "final_url": "https://myplatereview.blogspot.com/2018/08/coffee-pizza-pasta-thecoffeeshop-siliguri-myplatereview.html",
+    "role": "mention",
+    "used": "name not on page",
+    "status": 200,
+    "title": "My Plate Review: Perfectly brewed coffee with delicious pizza @ THE COFFEE SHOP SILIGURI #RestaurantReview"
+   }
+  ],
   "own": {},
   "mention": {},
   "prices": [],
@@ -13073,11 +14074,15 @@
   "emails": [],
   "phones": [],
   "cafes_named": [],
-  "urls_on_file": []
+  "urls_on_file": [
+   "https://wanderlog.com/place/details/747245/the-coffee-shop",
+   "https://yappe.in/west-bengal/siliguri/the-coffee-shop/64387",
+   "https://myplatereview.blogspot.com/2018/08/coffee-pizza-pasta-thecoffeeshop-siliguri-myplatereview.html"
+  ]
  },
  {
   "kind": "cafe",
-  "id": "C268",
+  "id": "C263",
   "name": "Kruti Coffee",
   "city": "Bhubaneswar",
   "checked_at": "2026-10-27T21:52:06+00:00",
@@ -13206,27 +14211,28 @@
  },
  {
   "kind": "cafe",
-  "id": "C269",
-  "name": "Cafe Buddy's Espresso — Patna",
-  "city": "Patna",
-  "checked_at": "2026-10-27T21:52:12+00:00",
-  "pages": [],
-  "own": {},
-  "mention": {},
-  "prices": [],
-  "cost_for_two": "",
-  "emails": [],
-  "phones": [],
-  "cafes_named": [],
-  "urls_on_file": []
- },
- {
-  "kind": "cafe",
-  "id": "C270",
+  "id": "C264",
   "name": "Cafe 13",
   "city": "Patna",
-  "checked_at": "2026-10-27T21:52:05+00:00",
-  "pages": [],
+  "checked_at": "2026-10-27T23:15:11+00:00",
+  "pages": [
+   {
+    "url": "https://wanderlog.com/place/details/2849923",
+    "final_url": "https://wanderlog.com/place/details/2849923",
+    "role": "mention",
+    "used": "mention",
+    "status": 200,
+    "title": "Cafe 13, Patna, India - Reviews, Ratings, Tips and Why You Should Go – Wanderlog"
+   },
+   {
+    "url": "https://www.eazydiner.com/food-trends/restaurant-spotlight-cafe-13-boring-road-patna",
+    "final_url": "https://www.eazydiner.com/food-trends/restaurant-spotlight-cafe-13-boring-road-patna",
+    "role": "mention",
+    "used": "mention",
+    "status": 200,
+    "title": "Restaurant Spotlight: Café 13, A Perfect Spot To Indulge In A Range Of Coffees, Decadent Desserts, And Delicious Food Am"
+   }
+  ],
   "own": {},
   "mention": {},
   "prices": [],
@@ -13234,14 +14240,45 @@
   "emails": [],
   "phones": [],
   "cafes_named": [],
-  "urls_on_file": []
+  "urls_on_file": [
+   "https://wanderlog.com/place/details/2849923",
+   "https://www.eazydiner.com/food-trends/restaurant-spotlight-cafe-13-boring-road-patna"
+  ]
  },
  {
   "kind": "cafe",
-  "id": "C271",
+  "id": "C265",
+  "name": "Cafe Hideout",
+  "city": "Patna",
+  "checked_at": "2026-10-27T23:18:14+00:00",
+  "pages": [
+   {
+    "url": "https://www.pulled.coffee/shop/cafe-hideout-patna-5",
+    "final_url": "https://www.pulled.coffee/shop/cafe-hideout-patna-5",
+    "role": "mention",
+    "used": "failed",
+    "status": 402,
+    "title": "Deployment Paused"
+   }
+  ],
+  "own": {},
+  "mention": {},
+  "prices": [],
+  "cost_for_two": "",
+  "emails": [],
+  "phones": [],
+  "cafes_named": [],
+  "urls_on_file": [
+   "https://www.pulled.coffee/shop/cafe-hideout-patna-5"
+  ],
+  "shard": null
+ },
+ {
+  "kind": "cafe",
+  "id": "C266",
   "name": "BrewHaus",
   "city": "Ranchi",
-  "checked_at": "2026-10-27T21:52:07+00:00",
+  "checked_at": "2026-10-27T23:15:52+00:00",
   "pages": [],
   "own": {},
   "mention": {},
@@ -13254,11 +14291,19 @@
  },
  {
   "kind": "cafe",
-  "id": "C272",
+  "id": "C267",
   "name": "11th Avenue Cafe & Bistro",
   "city": "Guwahati",
-  "checked_at": "2026-10-27T21:52:06+00:00",
+  "checked_at": "2026-10-27T23:16:44+00:00",
   "pages": [
+   {
+    "url": "https://www.eazydiner.com/guwahati/11th-avenue-cafe-bistro-chandmari-guwahati-695932",
+    "final_url": "https://www.eazydiner.com/guwahati/11th-avenue-cafe-bistro-chandmari-guwahati-695932",
+    "role": "own",
+    "used": "own",
+    "status": 200,
+    "title": "11th Avenue Cafe Bistro in Rajgarh Road, Guwahati | Get Upto 50% Off"
+   },
    {
     "url": "https://yappe.in/assam/guwahati/coffee-shop",
     "final_url": "https://yappe.in/assam/guwahati/coffee-shop",
@@ -13266,72 +14311,34 @@
     "used": "mention",
     "status": 200,
     "title": "Best Top Rated Coffee shop in Guwahati, Assam, India | Yappe.in"
-   }
-  ],
-  "own": {},
-  "mention": {},
-  "prices": [],
-  "cost_for_two": "",
-  "emails": [],
-  "phones": [],
-  "cafes_named": [],
-  "urls_on_file": [
-   "https://yappe.in/assam/guwahati/coffee-shop"
-  ]
- },
- {
-  "kind": "cafe",
-  "id": "C273",
-  "name": "The Bean Journal Boutique Cafe",
-  "city": "Guwahati",
-  "checked_at": "2026-10-27T21:52:12+00:00",
-  "pages": [
+   },
    {
-    "url": "https://yappe.in/assam/guwahati/coffee-shop",
-    "final_url": "https://yappe.in/assam/guwahati/coffee-shop",
+    "url": "https://wanderlog.com/place/details/2849378",
+    "final_url": "https://wanderlog.com/place/details/2849378",
     "role": "mention",
     "used": "mention",
     "status": 200,
-    "title": "Best Top Rated Coffee shop in Guwahati, Assam, India | Yappe.in"
-   }
-  ],
-  "own": {},
-  "mention": {},
-  "prices": [],
-  "cost_for_two": "",
-  "emails": [],
-  "phones": [],
-  "cafes_named": [],
-  "urls_on_file": [
-   "https://yappe.in/assam/guwahati/coffee-shop"
-  ]
- },
- {
-  "kind": "cafe",
-  "id": "C274",
-  "name": "Cafe 138",
-  "city": "Guwahati",
-  "checked_at": "2026-10-27T21:52:05+00:00",
-  "pages": [],
-  "own": {},
-  "mention": {},
-  "prices": [],
-  "cost_for_two": "",
-  "emails": [],
-  "phones": [],
-  "cafes_named": [],
-  "urls_on_file": []
- },
- {
-  "kind": "cafe",
-  "id": "C275",
-  "name": "Cherry Bean Cafe",
-  "city": "Shillong",
-  "checked_at": "2026-10-27T21:52:07+00:00",
-  "pages": [
+    "title": "11th Avenue Cafe Bistro, Guwahati, India - Reviews, Ratings, Tips and Why You Should Go – Wanderlog"
+   },
    {
-    "url": "https://wanderon.in/blogs/cafes-in-shillong",
-    "final_url": "https://wanderon.in/blogs/cafes-in-shillong",
+    "url": "https://m.guwahatiplus.com/article/5-guwahati-cafes-that-make-great-hangout-spots/14224",
+    "final_url": "https://guwahatiplus.com/article/5-guwahati-cafes-that-make-great-hangout-spots/14224",
+    "role": "mention",
+    "used": "failed",
+    "status": 404,
+    "title": "Not Found"
+   },
+   {
+    "url": "https://eastmojo.com/news/2020/11/18/cuppa-nirvana-if-coffee-is-your-fix-these-five-guwahati-cafes-are-a-must-for-you/",
+    "final_url": "https://eastmojo.com/news/2020/11/18/cuppa-nirvana-if-coffee-is-your-fix-these-five-guwahati-cafes-are-a-must-for-you/",
+    "role": "mention",
+    "used": "mention",
+    "status": 200,
+    "title": "Cuppa Nirvana: If Coffee is your fix, these five Guwahati Cafes are a must for you - EastMojo"
+   },
+   {
+    "url": "https://wanderon.in/blogs/best-coffee-shops-in-guwahati",
+    "final_url": "https://wanderon.in/blogs/best-coffee-shops-in-guwahati",
     "role": "mention",
     "used": "failed",
     "status": 429,
@@ -13341,21 +14348,282 @@
   "own": {},
   "mention": {},
   "prices": [],
+  "cost_for_two": "₹ 900 for two",
+  "emails": [],
+  "phones": [],
+  "cafes_named": [],
+  "urls_on_file": [
+   "https://yappe.in/assam/guwahati/coffee-shop",
+   "https://www.eazydiner.com/guwahati/11th-avenue-cafe-bistro-chandmari-guwahati-695932",
+   "https://wanderlog.com/place/details/2849378",
+   "https://m.guwahatiplus.com/article/5-guwahati-cafes-that-make-great-hangout-spots/14224",
+   "https://eastmojo.com/news/2020/11/18/cuppa-nirvana-if-coffee-is-your-fix-these-five-guwahati-cafes-are-a-must-for-you/",
+   "https://wanderon.in/blogs/best-coffee-shops-in-guwahati"
+  ]
+ },
+ {
+  "kind": "cafe",
+  "id": "C268",
+  "name": "The Bean Journal Boutique Cafe",
+  "city": "Guwahati",
+  "checked_at": "2026-10-27T23:14:39+00:00",
+  "pages": [
+   {
+    "url": "https://yappe.in/assam/guwahati/coffee-shop",
+    "final_url": "https://yappe.in/assam/guwahati/coffee-shop",
+    "role": "mention",
+    "used": "mention",
+    "status": 200,
+    "title": "Best Top Rated Coffee shop in Guwahati, Assam, India | Yappe.in"
+   },
+   {
+    "url": "https://wanderlog.com/place/details/3064314/the-bean-journal-boutique-café",
+    "final_url": "https://wanderlog.com/place/details/3064314/the-bean-journal-boutique-caf%C3%A9",
+    "role": "mention",
+    "used": "mention",
+    "status": 200,
+    "title": "The Bean Journal Boutique Café, Guwahati, India - Reviews, Ratings, Tips and Why You Should Go – Wanderlog"
+   },
+   {
+    "url": "https://www.outlooktraveller.com/experiences/food-and-drink/6-best-places-to-eat-in-guwahati",
+    "final_url": "https://www.outlooktraveller.com/experiences/food-and-drink/6-best-places-to-eat-in-guwahati",
+    "role": "mention",
+    "used": "mention",
+    "status": 200,
+    "title": "Top Budget-Friendly Cafes In Guwahati | Outlook Traveller"
+   },
+   {
+    "url": "https://zeezest.com/food/cafes-guwahati-3102",
+    "final_url": "https://zeezest.com/food/cafes-guwahati-3102",
+    "role": "mention",
+    "used": "failed",
+    "status": -1,
+    "title": "",
+    "error": "Page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://zeezest.com/food/cafes-guwahati-3102"
+   }
+  ],
+  "own": {},
+  "mention": {},
+  "prices": [],
   "cost_for_two": "",
   "emails": [],
   "phones": [],
   "cafes_named": [],
   "urls_on_file": [
-   "https://wanderon.in/blogs/cafes-in-shillong"
+   "https://yappe.in/assam/guwahati/coffee-shop",
+   "https://wanderlog.com/place/details/3064314/the-bean-journal-boutique-café",
+   "https://www.outlooktraveller.com/experiences/food-and-drink/6-best-places-to-eat-in-guwahati",
+   "https://zeezest.com/food/cafes-guwahati-3102"
   ]
  },
  {
   "kind": "cafe",
-  "id": "C276",
+  "id": "C269",
+  "name": "Black Art Coffee",
+  "city": "Guwahati",
+  "checked_at": "2026-10-27T23:18:33+00:00",
+  "pages": [
+   {
+    "url": "https://eastmojo.com/lifestyle/2020/08/31/black-art-coffee-in-guwahati-celebrating-art-one-cup-at-a-time/",
+    "final_url": "https://eastmojo.com/lifestyle/2020/08/31/black-art-coffee-in-guwahati-celebrating-art-one-cup-at-a-time/",
+    "role": "mention",
+    "used": "mention",
+    "status": 200,
+    "title": "Black Art Coffee in Guwahati: Celebrating art, one cup at a time"
+   },
+   {
+    "url": "https://yappe.in/assam/guwahati/black-art-coffee/2079700",
+    "final_url": "https://yappe.in/assam/guwahati/black-art-coffee/2079700",
+    "role": "mention",
+    "used": "mention",
+    "status": 200,
+    "title": "Black Art Coffee - Cafe - Guwahati - Assam | Yappe.in"
+   },
+   {
+    "url": "https://eastmojo.com/news/2020/11/18/cuppa-nirvana-if-coffee-is-your-fix-these-five-guwahati-cafes-are-a-must-for-you/",
+    "final_url": "https://eastmojo.com/news/2020/11/18/cuppa-nirvana-if-coffee-is-your-fix-these-five-guwahati-cafes-are-a-must-for-you/",
+    "role": "mention",
+    "used": "mention",
+    "status": 200,
+    "title": "Cuppa Nirvana: If Coffee is your fix, these five Guwahati Cafes are a must for you - EastMojo"
+   }
+  ],
+  "own": {},
+  "mention": {
+   "indian_origins": [
+    {
+     "term": "Chikmagalur",
+     "count": 1,
+     "snippet": "d top quality Arabica beans (100%) exclusively gotten from coffee fields across Chikmagalur, Karnataka, which we then brew manually at our own cafe. As for all our food in",
+     "url": "https://eastmojo.com/lifestyle/2020/08/31/black-art-coffee-in-guwahati-celebrating-art-one-cup-at-a-time/"
+    },
+    {
+     "term": "Karnataka",
+     "count": 1,
+     "snippet": "Arabica beans (100%) exclusively gotten from coffee fields across Chikmagalur, Karnataka, which we then brew manually at our own cafe. As for all our food ingredients,",
+     "url": "https://eastmojo.com/lifestyle/2020/08/31/black-art-coffee-in-guwahati-celebrating-art-one-cup-at-a-time/"
+    }
+   ],
+   "intl_origins": [
+    {
+     "term": "Vietnam",
+     "count": 2,
+     "snippet": "d much more. Some of Goswami’s best selling items include Aeropress cold brew, Vietnamese Coffee, Honey Latte, Chicken Meaty Loader, Bombay Sandwich, and Alfredo Pasta.",
+     "url": "https://eastmojo.com/lifestyle/2020/08/31/black-art-coffee-in-guwahati-celebrating-art-one-cup-at-a-time/"
+    }
+   ],
+   "brew": [
+    {
+     "term": "AeroPress",
+     "count": 2,
+     "snippet": "ffee drinkers quality beverages using manual methods of brewing like Pour over, Aeropress, and Cold brew. When he isn’t brewing quality coffee, Goswami is expressing his",
+     "url": "https://eastmojo.com/lifestyle/2020/08/31/black-art-coffee-in-guwahati-celebrating-art-one-cup-at-a-time/"
+    },
+    {
+     "term": "Cold brew",
+     "count": 2,
+     "snippet": "uality beverages using manual methods of brewing like Pour over, Aeropress, and Cold brew. When he isn’t brewing quality coffee, Goswami is expressing his artistic side",
+     "url": "https://eastmojo.com/lifestyle/2020/08/31/black-art-coffee-in-guwahati-celebrating-art-one-cup-at-a-time/"
+    },
+    {
+     "term": "Pour over",
+     "count": 1,
+     "snippet": "Guwahati coffee drinkers quality beverages using manual methods of brewing like Pour over, Aeropress, and Cold brew. When he isn’t brewing quality coffee, Goswami is exp",
+     "url": "https://eastmojo.com/lifestyle/2020/08/31/black-art-coffee-in-guwahati-celebrating-art-one-cup-at-a-time/"
+    }
+   ],
+   "commodity_brands": [
+    {
+     "term": "Starbucks",
+     "count": 1,
+     "snippet": "fect! ????❤️ Pink fleur 37 months ago Finally found a coffee shop better than Starbucks ???? It is worth every penny and quality coffee beans are used. And the Vietnam",
+     "url": "https://yappe.in/assam/guwahati/black-art-coffee/2079700"
+    }
+   ]
+  },
+  "prices": [
+   {
+    "snippet": "still enjoy a delicious meal with coffee for two people at Rs 500, which is a cheap p",
+    "url": "https://eastmojo.com/lifestyle/2020/08/31/black-art-coffee-in-guwahati-celebrating-art-one-cup-at-a-time/"
+   }
+  ],
+  "cost_for_two": "",
+  "emails": [],
+  "phones": [],
+  "cafes_named": [],
+  "urls_on_file": [
+   "https://eastmojo.com/lifestyle/2020/08/31/black-art-coffee-in-guwahati-celebrating-art-one-cup-at-a-time/",
+   "https://yappe.in/assam/guwahati/black-art-coffee/2079700",
+   "https://eastmojo.com/news/2020/11/18/cuppa-nirvana-if-coffee-is-your-fix-these-five-guwahati-cafes-are-a-must-for-you/"
+  ],
+  "shard": null
+ },
+ {
+  "kind": "cafe",
+  "id": "C270",
+  "name": "Cafe 138",
+  "city": "Guwahati",
+  "checked_at": "2026-10-27T23:15:20+00:00",
+  "pages": [
+   {
+    "url": "https://assamtribune.com/guwahati/books-brews-backdrops-inside-guwahatis-caf-driven-youth-renaissance-1582803",
+    "final_url": "https://assamtribune.com/guwahati/books-brews-backdrops-inside-guwahatis-caf-driven-youth-renaissance-1582803",
+    "role": "mention",
+    "used": "name not on page",
+    "status": 200,
+    "title": "Books, brews & backdrops: Inside Guwahati’s café-driven youth Renaissance"
+   }
+  ],
+  "own": {},
+  "mention": {},
+  "prices": [],
+  "cost_for_two": "",
+  "emails": [],
+  "phones": [],
+  "cafes_named": [],
+  "urls_on_file": [
+   "https://assamtribune.com/guwahati/books-brews-backdrops-inside-guwahatis-caf-driven-youth-renaissance-1582803"
+  ]
+ },
+ {
+  "kind": "cafe",
+  "id": "C271",
+  "name": "Cherry Bean Cafe",
+  "city": "Shillong",
+  "checked_at": "2026-10-27T23:16:25+00:00",
+  "pages": [
+   {
+    "url": "https://wanderon.in/blogs/cafes-in-shillong",
+    "final_url": "https://wanderon.in/blogs/cafes-in-shillong",
+    "role": "mention",
+    "used": "failed",
+    "status": 429,
+    "title": "Vercel Security Checkpoint"
+   },
+   {
+    "url": "https://www.district.in/dining/shillong/cherrry-bean-café-police-bazaar",
+    "final_url": "https://www.district.in/dining/shillong/cherrry-bean-caf%C3%A9-police-bazaar",
+    "role": "mention",
+    "used": "mention",
+    "status": 200,
+    "title": "Cherrry bean Café | Police Bazaar, Shillong"
+   },
+   {
+    "url": "https://curlytales.com/rajkummar-rao-spotted-at-a-cosy-shillong-cafe-its-specialty-coffee-is-worth-a-trip-to-meghalaya/",
+    "final_url": "https://curlytales.com/rajkummar-rao-spotted-at-a-cosy-shillong-cafe-its-specialty-coffee-is-worth-a-trip-to-meghalaya/",
+    "role": "mention",
+    "used": "name not on page",
+    "status": 200,
+    "title": "Rajkummar Rao Spotted At A Cosy Shillong Cafe & Its Specialty Coffee Is Worth A Trip To Meghalaya | Curly Tales"
+   },
+   {
+    "url": "https://hubnetwork.in/rajkummar-rao-patraleka-add-warmth-to-shillongs-enchanting-winter-this-season-with-cherrry-bean-cafe",
+    "final_url": "https://hubnetwork.in/rajkummar-rao-patraleka-add-warmth-to-shillongs-enchanting-winter-this-season-with-cherrry-bean-cafe",
+    "role": "mention",
+    "used": "failed",
+    "status": 403,
+    "title": "Attention Required! | Cloudflare"
+   },
+   {
+    "url": "https://meghalayanews24.com/?p=7158",
+    "final_url": "https://meghalayanews24.com/?p=7158",
+    "role": "mention",
+    "used": "failed",
+    "status": -1,
+    "title": "",
+    "error": "Page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://meghalayanews24.com/?p=7158"
+   }
+  ],
+  "own": {},
+  "mention": {},
+  "prices": [],
+  "cost_for_two": "",
+  "emails": [],
+  "phones": [],
+  "cafes_named": [],
+  "urls_on_file": [
+   "https://wanderon.in/blogs/cafes-in-shillong",
+   "https://www.district.in/dining/shillong/cherrry-bean-café-police-bazaar",
+   "https://curlytales.com/rajkummar-rao-spotted-at-a-cosy-shillong-cafe-its-specialty-coffee-is-worth-a-trip-to-meghalaya/",
+   "https://hubnetwork.in/rajkummar-rao-patraleka-add-warmth-to-shillongs-enchanting-winter-this-season-with-cherrry-bean-cafe",
+   "https://meghalayanews24.com/?p=7158"
+  ]
+ },
+ {
+  "kind": "cafe",
+  "id": "C272",
   "name": "ML 05 Cafe",
   "city": "Shillong",
-  "checked_at": "2026-10-27T21:52:06+00:00",
+  "checked_at": "2026-10-27T23:17:09+00:00",
   "pages": [
+   {
+    "url": "https://www.eazydiner.com/shillong/ml-05-cafe-east-khasi-hill-shillong-696936",
+    "final_url": "https://www.eazydiner.com/shillong/ml-05-cafe-east-khasi-hill-shillong-696936",
+    "role": "own",
+    "used": "own",
+    "status": 200,
+    "title": "ML 05 Cafe in East Khasi Hill, Shillong | Get Upto 50% Off"
+   },
    {
     "url": "https://xtsy.one/cafes-in-shillong",
     "final_url": "https://xtsy.one/cafes-in-shillong",
@@ -13363,6 +14631,22 @@
     "used": "mention",
     "status": 200,
     "title": "12 Best Cafés in Shillong (2026): Prices & Picks"
+   },
+   {
+    "url": "https://www.hotelpolotowers.com/our-cafes/ml-05.html",
+    "final_url": "https://www.hotelpolotowers.com/our-cafes/ml-05.html",
+    "role": "mention",
+    "used": "failed",
+    "status": 404,
+    "title": "404 - Page Not Found"
+   },
+   {
+    "url": "https://wanderlog.com/place/details/851004/ml-05-cafe",
+    "final_url": "https://wanderlog.com/place/details/851004/ml-05-cafe",
+    "role": "mention",
+    "used": "mention",
+    "status": 200,
+    "title": "ML 05 Cafe, Shillong, India - Reviews, Ratings, Tips and Why You Should Go – Wanderlog"
    }
   ],
   "own": {},
@@ -13414,21 +14698,33 @@
     "url": "https://xtsy.one/cafes-in-shillong"
    }
   ],
-  "cost_for_two": "",
+  "cost_for_two": "₹ 900 for two",
   "emails": [],
   "phones": [],
   "cafes_named": [],
   "urls_on_file": [
-   "https://xtsy.one/cafes-in-shillong"
+   "https://xtsy.one/cafes-in-shillong",
+   "https://www.hotelpolotowers.com/our-cafes/ml-05.html",
+   "https://www.eazydiner.com/shillong/ml-05-cafe-east-khasi-hill-shillong-696936",
+   "https://wanderlog.com/place/details/851004/ml-05-cafe"
   ]
  },
  {
   "kind": "cafe",
-  "id": "C277",
+  "id": "C273",
   "name": "Bisauni — Gangtok Speciality Coffee Shop",
   "city": "Gangtok",
-  "checked_at": "2026-10-27T21:52:12+00:00",
-  "pages": [],
+  "checked_at": "2026-10-27T23:14:49+00:00",
+  "pages": [
+   {
+    "url": "https://eastmojo.com/sikkim/2021/04/20/gangtoks-best-coffee-spots-where-to-get-your-caffeine-hit/",
+    "final_url": "https://eastmojo.com/sikkim/2021/04/20/gangtoks-best-coffee-spots-where-to-get-your-caffeine-hit/",
+    "role": "mention",
+    "used": "name not on page",
+    "status": 200,
+    "title": "Gangtok’s best coffee spots: Where to get your caffeine hit - EastMojo"
+   }
+  ],
   "own": {},
   "mention": {},
   "prices": [],
@@ -13436,14 +14732,16 @@
   "emails": [],
   "phones": [],
   "cafes_named": [],
-  "urls_on_file": []
+  "urls_on_file": [
+   "https://eastmojo.com/sikkim/2021/04/20/gangtoks-best-coffee-spots-where-to-get-your-caffeine-hit/"
+  ]
  },
  {
   "kind": "cafe",
-  "id": "C278",
+  "id": "C274",
   "name": "Rolling Bean Cafe",
   "city": "Gangtok",
-  "checked_at": "2026-10-27T21:52:05+00:00",
+  "checked_at": "2026-10-27T23:15:20+00:00",
   "pages": [
    {
     "url": "https://travelsetu.com/apps/blog/coffee-culture-in-gangtok-best-cafes-to-visit",
@@ -13452,6 +14750,14 @@
     "used": "mention",
     "status": 200,
     "title": "Coffee Culture in Gangtok: Best Cafes to Visit"
+   },
+   {
+    "url": "https://eastmojo.com/sikkim/2021/04/20/gangtoks-best-coffee-spots-where-to-get-your-caffeine-hit/",
+    "final_url": "https://eastmojo.com/sikkim/2021/04/20/gangtoks-best-coffee-spots-where-to-get-your-caffeine-hit/",
+    "role": "mention",
+    "used": "name not on page",
+    "status": 200,
+    "title": "Gangtok’s best coffee spots: Where to get your caffeine hit - EastMojo"
    }
   ],
   "own": {},
@@ -13497,28 +14803,58 @@
   "phones": [],
   "cafes_named": [],
   "urls_on_file": [
-   "https://travelsetu.com/apps/blog/coffee-culture-in-gangtok-best-cafes-to-visit"
+   "https://travelsetu.com/apps/blog/coffee-culture-in-gangtok-best-cafes-to-visit",
+   "https://eastmojo.com/sikkim/2021/04/20/gangtoks-best-coffee-spots-where-to-get-your-caffeine-hit/"
   ]
  },
  {
   "kind": "cafe",
-  "id": "C279",
+  "id": "C275",
   "name": "The Coffee Shop — Gangtok",
   "city": "Gangtok",
-  "checked_at": "2026-10-27T21:52:07+00:00",
-  "pages": [],
+  "checked_at": "2026-10-27T23:16:32+00:00",
+  "pages": [
+   {
+    "url": "https://wanderlog.com/place/details/1139067/the-coffee-shop",
+    "final_url": "https://wanderlog.com/place/details/1139067/the-coffee-shop",
+    "role": "mention",
+    "used": "mention",
+    "status": 200,
+    "title": "The Coffee Shop, Gangtok, India - Reviews, Ratings, Tips and Why You Should Go – Wanderlog"
+   },
+   {
+    "url": "https://eastmojo.com/sikkim/2021/04/20/gangtoks-best-coffee-spots-where-to-get-your-caffeine-hit/",
+    "final_url": "https://eastmojo.com/sikkim/2021/04/20/gangtoks-best-coffee-spots-where-to-get-your-caffeine-hit/",
+    "role": "mention",
+    "used": "mention",
+    "status": 200,
+    "title": "Gangtok’s best coffee spots: Where to get your caffeine hit - EastMojo"
+   }
+  ],
   "own": {},
-  "mention": {},
+  "mention": {
+   "brew": [
+    {
+     "term": "Cortado",
+     "count": 1,
+     "snippet": "in Burger, Cannelloni, and Neapolitan Pizza. Team up with a cup of steaming hot Cortado or Macchiato – you’re sorted for the day. If you’re fond of cold coffee, their",
+     "url": "https://eastmojo.com/sikkim/2021/04/20/gangtoks-best-coffee-spots-where-to-get-your-caffeine-hit/"
+    }
+   ]
+  },
   "prices": [],
   "cost_for_two": "",
   "emails": [],
   "phones": [],
   "cafes_named": [],
-  "urls_on_file": []
+  "urls_on_file": [
+   "https://wanderlog.com/place/details/1139067/the-coffee-shop",
+   "https://eastmojo.com/sikkim/2021/04/20/gangtoks-best-coffee-spots-where-to-get-your-caffeine-hit/"
+  ]
  },
  {
   "kind": "cafe",
-  "id": "C280",
+  "id": "C276",
   "name": "Naga Coffee Express",
   "city": "Dimapur",
   "checked_at": "2026-10-27T21:52:07+00:00",
@@ -13554,10 +14890,10 @@
  },
  {
   "kind": "cafe",
-  "id": "C281",
+  "id": "C277",
   "name": "14 Beans Cafe",
   "city": "Aizawl",
-  "checked_at": "2026-10-27T21:52:12+00:00",
+  "checked_at": "2026-10-27T23:15:10+00:00",
   "pages": [
    {
     "url": "https://oddessemania.in/best-cafes-in-aizawl/",
@@ -13566,6 +14902,30 @@
     "used": "mention",
     "status": 200,
     "title": "Best Cafes In Aizawl To Visit In 2026 | Oddessemania"
+   },
+   {
+    "url": "https://curlytales.com/web-stories/chef-sarah-todd-indulges-in-a-grand-feast-at-14beans-in-aizawl-mizoram-curly-tales",
+    "final_url": "https://curlytales.com/web-stories/chef-sarah-todd-indulges-in-a-grand-feast-at-14beans-in-aizawl-mizoram-curly-tales/",
+    "role": "mention",
+    "used": "name not on page",
+    "status": 200,
+    "title": "Chef Sarah Todd Indulges In A Grand Feast At 14Beans In Aizawl, Mizoram | Curly Tales"
+   },
+   {
+    "url": "https://www.indiatodayne.in/visualstories/webstories/cool-cafes-in-northeast-to-warm-up-your-soul-182214-26-10-2024",
+    "final_url": "https://www.indiatodayne.in/visualstories/webstories/cool-cafes-in-northeast-to-warm-up-your-soul-182214-26-10-2024",
+    "role": "mention",
+    "used": "name not on page",
+    "status": 200,
+    "title": "Cool cafes in Northeast to warm up your soul"
+   },
+   {
+    "url": "https://wanderon.in/blogs/cafes-in-aizawl",
+    "final_url": "https://wanderon.in/blogs/cafes-in-aizawl",
+    "role": "mention",
+    "used": "failed",
+    "status": 429,
+    "title": "Vercel Security Checkpoint"
    }
   ],
   "own": {},
@@ -13593,32 +14953,81 @@
   "phones": [],
   "cafes_named": [],
   "urls_on_file": [
-   "https://oddessemania.in/best-cafes-in-aizawl/"
+   "https://oddessemania.in/best-cafes-in-aizawl/",
+   "https://curlytales.com/web-stories/chef-sarah-todd-indulges-in-a-grand-feast-at-14beans-in-aizawl-mizoram-curly-tales",
+   "https://www.indiatodayne.in/visualstories/webstories/cool-cafes-in-northeast-to-warm-up-your-soul-182214-26-10-2024",
+   "https://wanderon.in/blogs/cafes-in-aizawl"
   ]
  },
  {
   "kind": "cafe",
-  "id": "C282",
+  "id": "C278",
   "name": "Aizawl Coffee House",
   "city": "Aizawl",
-  "checked_at": "2026-10-27T21:52:05+00:00",
-  "pages": [],
+  "checked_at": "2026-10-27T23:15:30+00:00",
+  "pages": [
+   {
+    "url": "https://wanderon.in/blogs/cafes-in-aizawl",
+    "final_url": "https://wanderon.in/blogs/cafes-in-aizawl",
+    "role": "mention",
+    "used": "failed",
+    "status": 429,
+    "title": "Vercel Security Checkpoint"
+   },
+   {
+    "url": "https://eastmojo.com/top-news/2024/12/10/mizoram-gets-northeast-indias-first-coffee-experience-centre/",
+    "final_url": "https://eastmojo.com/top-news/2024/12/10/mizoram-gets-northeast-indias-first-coffee-experience-centre/",
+    "role": "mention",
+    "used": "mention",
+    "status": 200,
+    "title": "Mizoram gets Northeast India’s first coffee experience centre"
+   }
+  ],
   "own": {},
-  "mention": {},
+  "mention": {
+   "indian_origins": [
+    {
+     "term": "Mizoram",
+     "count": 3,
+     "snippet": "iangte, founder of ELK Business House. “This centre is about breaking barriers. Mizoram has a rich coffee heritage, and this is our way of giving people the tools and",
+     "url": "https://eastmojo.com/top-news/2024/12/10/mizoram-gets-northeast-indias-first-coffee-experience-centre/"
+    }
+   ]
+  },
   "prices": [],
   "cost_for_two": "",
   "emails": [],
   "phones": [],
   "cafes_named": [],
-  "urls_on_file": []
+  "urls_on_file": [
+   "https://wanderon.in/blogs/cafes-in-aizawl",
+   "https://eastmojo.com/top-news/2024/12/10/mizoram-gets-northeast-indias-first-coffee-experience-centre/"
+  ]
  },
  {
   "kind": "cafe",
-  "id": "C283",
+  "id": "C279",
   "name": "books and coffee",
   "city": "Imphal",
-  "checked_at": "2026-10-27T21:52:07+00:00",
-  "pages": [],
+  "checked_at": "2026-10-27T23:17:02+00:00",
+  "pages": [
+   {
+    "url": "https://rootsandleisure.com/books-coffee-imphal-manipur/",
+    "final_url": "https://rootsandleisure.com/books-coffee-imphal-manipur/",
+    "role": "mention",
+    "used": "mention",
+    "status": 200,
+    "title": "In Conversation with Beeshantam Yumnam, the Owner of Books & Coffee in Imphal - Roots and Leisure"
+   },
+   {
+    "url": "https://yappe.in/manipur/imphal/books-coffee/52441",
+    "final_url": "https://yappe.in/manipur/imphal/books-coffee/52441",
+    "role": "mention",
+    "used": "mention",
+    "status": 200,
+    "title": "Books & Coffee - Book store - Imphal - Manipur | Yappe.in"
+   }
+  ],
   "own": {},
   "mention": {},
   "prices": [],
@@ -13626,15 +15035,43 @@
   "emails": [],
   "phones": [],
   "cafes_named": [],
-  "urls_on_file": []
+  "urls_on_file": [
+   "https://rootsandleisure.com/books-coffee-imphal-manipur/",
+   "https://yappe.in/manipur/imphal/books-coffee/52441"
+  ]
  },
  {
   "kind": "cafe",
-  "id": "C284",
+  "id": "C280",
   "name": "Frespresso Agartala",
   "city": "Agartala",
-  "checked_at": "2026-10-27T21:52:07+00:00",
-  "pages": [],
+  "checked_at": "2026-10-27T23:17:33+00:00",
+  "pages": [
+   {
+    "url": "https://wanderlog.com/place/details/2678472/cafe-frespresso",
+    "final_url": "https://wanderlog.com/place/details/2678472/cafe-frespresso",
+    "role": "mention",
+    "used": "name not on page",
+    "status": 200,
+    "title": "Cafe Frespresso, Agartala, India - Reviews, Ratings, Tips and Why You Should Go – Wanderlog"
+   },
+   {
+    "url": "https://au.trip.com/travel-guide/foods/Agartala-15408-restaurant/Cafe%20Frespresso-35013741",
+    "final_url": "https://au.trip.com/restaurant/india/west-tripura/detail/cafe-frespresso-35013741/",
+    "role": "mention",
+    "used": "name not on page",
+    "status": 200,
+    "title": "2026 Cafe Frespresso (, Agartala) - Restaurant reviews, menu & contact | Trip.com"
+   },
+   {
+    "url": "https://wanderon.in/blogs/cafes-in-agartala",
+    "final_url": "https://wanderon.in/blogs/cafes-in-agartala",
+    "role": "mention",
+    "used": "failed",
+    "status": 429,
+    "title": "Vercel Security Checkpoint"
+   }
+  ],
   "own": {},
   "mention": {},
   "prices": [],
@@ -13642,7 +15079,11 @@
   "emails": [],
   "phones": [],
   "cafes_named": [],
-  "urls_on_file": []
+  "urls_on_file": [
+   "https://wanderlog.com/place/details/2678472/cafe-frespresso",
+   "https://au.trip.com/travel-guide/foods/Agartala-15408-restaurant/Cafe%20Frespresso-35013741",
+   "https://wanderon.in/blogs/cafes-in-agartala"
+  ]
  },
  {
   "kind": "roaster",
@@ -14076,6 +15517,43 @@
  {
   "kind": "roaster",
   "id": "R007",
+  "name": "NAKED Coffee Roasters",
+  "city": "Mumbai",
+  "checked_at": "2026-10-27T23:18:33+00:00",
+  "pages": [
+   {
+    "url": "https://www.afaqs.com/news/brands/radhika-seth-and-meghna-kaur-launch-coffee-brand-naked-9480876",
+    "final_url": "https://www.afaqs.com/news/brands/wow-momo-foods-to-enter-sri-lanka-eyes-uae-us-for-qsr-expansion-12753292",
+    "role": "mention",
+    "used": "name not on page",
+    "status": 200,
+    "title": "FMCG veteran Suresh Ramachandran launches a playbook for scaling consumer businesses"
+   },
+   {
+    "url": "https://indianretailer.com/news/retail-india-news-radhika-seth-and-meghna-kaur-launch-naked-coffee-brand-india",
+    "final_url": "https://indianretailer.com/news/funding-alert-luxury-watch-brand-rotoris-raises-rs-70-cr-series-round",
+    "role": "mention",
+    "used": "name not on page",
+    "status": 200,
+    "title": "{Funding Alert} Luxury Watch Brand Rotoris Raises Rs 70 Cr in Series A Round - Indian Retailer"
+   }
+  ],
+  "own": {},
+  "mention": {},
+  "prices": [],
+  "cost_for_two": "",
+  "emails": [],
+  "phones": [],
+  "cafes_named": [],
+  "urls_on_file": [
+   "https://www.afaqs.com/news/brands/radhika-seth-and-meghna-kaur-launch-coffee-brand-naked-9480876",
+   "https://indianretailer.com/news/retail-india-news-radhika-seth-and-meghna-kaur-launch-naked-coffee-brand-india"
+  ],
+  "shard": null
+ },
+ {
+  "kind": "roaster",
+  "id": "R008",
   "name": "Nandan Coffee",
   "city": "Mumbai",
   "checked_at": "2026-10-27T21:52:07+00:00",
@@ -14180,7 +15658,7 @@
  },
  {
   "kind": "roaster",
-  "id": "R008",
+  "id": "R009",
   "name": "Silk Road Coffee Company",
   "city": "Mumbai",
   "checked_at": "2026-10-27T21:52:07+00:00",
@@ -14224,7 +15702,7 @@
  },
  {
   "kind": "roaster",
-  "id": "R009",
+  "id": "R010",
   "name": "Subko Coffee Roasters",
   "city": "Mumbai",
   "checked_at": "2026-10-27T21:52:12+00:00",
@@ -14509,7 +15987,7 @@
  },
  {
   "kind": "roaster",
-  "id": "R010",
+  "id": "R011",
   "name": "Toffee Coffee Roasters",
   "city": "Mumbai",
   "checked_at": "2026-10-27T21:52:05+00:00",
@@ -14636,7 +16114,7 @@
  },
  {
   "kind": "roaster",
-  "id": "R011",
+  "id": "R012",
   "name": "Toise Coffee Roastery & Brew Studio",
   "city": "Mumbai",
   "checked_at": "2026-10-27T21:52:07+00:00",
@@ -14686,7 +16164,7 @@
  },
  {
   "kind": "roaster",
-  "id": "R012",
+  "id": "R013",
   "name": "Tulum Coffee (Tulum Coffee Bar, Chembur)",
   "city": "Mumbai",
   "checked_at": "2026-10-27T21:52:07+00:00",
@@ -14737,7 +16215,7 @@
  },
  {
   "kind": "roaster",
-  "id": "R013",
+  "id": "R014",
   "name": "Beverage Union",
   "city": "Mumbai",
   "checked_at": "2026-10-27T21:52:12+00:00",
@@ -14779,7 +16257,7 @@
  },
  {
   "kind": "roaster",
-  "id": "R014",
+  "id": "R015",
   "name": "Corridor Seven Coffee Roasters",
   "city": "Nagpur",
   "checked_at": "2026-10-27T21:52:06+00:00",
@@ -15086,10 +16564,10 @@
  },
  {
   "kind": "roaster",
-  "id": "R015",
+  "id": "R016",
   "name": "Parera Coffee",
   "city": "Nagpur",
-  "checked_at": "2026-10-27T21:52:07+00:00",
+  "checked_at": "2026-10-27T23:17:02+00:00",
   "pages": [
    {
     "url": "https://www.thewaytocoffee.com/roasters/parera-coffee",
@@ -15113,10 +16591,10 @@
  },
  {
   "kind": "roaster",
-  "id": "R016",
+  "id": "R017",
   "name": "Antidote Coffee Roasters",
   "city": "Nashik",
-  "checked_at": "2026-10-27T21:52:07+00:00",
+  "checked_at": "2026-10-27T23:17:33+00:00",
   "pages": [
    {
     "url": "https://www.thewaytocoffee.com/roasters/antidote-coffee-roasters",
@@ -15140,7 +16618,7 @@
  },
  {
   "kind": "roaster",
-  "id": "R017",
+  "id": "R018",
   "name": "7 Elements Coffee Roasters",
   "city": "Pune",
   "checked_at": "2026-10-27T21:52:12+00:00",
@@ -15203,7 +16681,7 @@
  },
  {
   "kind": "roaster",
-  "id": "R018",
+  "id": "R019",
   "name": "729 Grams Coffee Roasters",
   "city": "Pune",
   "checked_at": "2026-10-27T21:52:07+00:00",
@@ -15249,7 +16727,7 @@
  },
  {
   "kind": "roaster",
-  "id": "R019",
+  "id": "R020",
   "name": "Grey Soul Coffee Roasters",
   "city": "Pune",
   "checked_at": "2026-10-27T21:52:07+00:00",
@@ -15546,7 +17024,7 @@
  },
  {
   "kind": "roaster",
-  "id": "R020",
+  "id": "R021",
   "name": "Coffeeverse (Pune cafe planned)",
   "city": "Ahmedabad",
   "checked_at": "2026-10-27T21:52:07+00:00",
@@ -15643,10 +17121,10 @@
  },
  {
   "kind": "roaster",
-  "id": "R021",
+  "id": "R022",
   "name": "Korebi",
   "city": "Ahmedabad",
-  "checked_at": "2026-10-27T21:52:12+00:00",
+  "checked_at": "2026-10-27T23:15:10+00:00",
   "pages": [
    {
     "url": "https://www.indiancoffeeguide.com/locations",
@@ -15679,7 +17157,7 @@
  },
  {
   "kind": "roaster",
-  "id": "R022",
+  "id": "R023",
   "name": "Coffeeverse",
   "city": "Ahmedabad",
   "checked_at": "2026-10-27T21:52:07+00:00",
@@ -15776,7 +17254,7 @@
  },
  {
   "kind": "roaster",
-  "id": "R023",
+  "id": "R024",
   "name": "Roastery Cultur",
   "city": "Ahmedabad",
   "checked_at": "2026-10-27T21:52:08+00:00",
@@ -15812,7 +17290,7 @@
  },
  {
   "kind": "roaster",
-  "id": "R024",
+  "id": "R025",
   "name": "Kaffa Coffee Roasters",
   "city": "Ahmedabad",
   "checked_at": "2026-10-27T21:52:07+00:00",
@@ -15848,10 +17326,10 @@
  },
  {
   "kind": "roaster",
-  "id": "R025",
+  "id": "R026",
   "name": "Bouee Coffee Roasters",
   "city": "Surat",
-  "checked_at": "2026-10-27T21:52:12+00:00",
+  "checked_at": "2026-10-27T23:15:10+00:00",
   "pages": [
    {
     "url": "https://www.pulled.coffee/shop/bouee-coffee-roasters-surat",
@@ -15875,7 +17353,7 @@
  },
  {
   "kind": "roaster",
-  "id": "R026",
+  "id": "R027",
   "name": "Coffee Culture",
   "city": "Surat",
   "checked_at": "2026-10-27T21:52:07+00:00",
@@ -16066,7 +17544,7 @@
  },
  {
   "kind": "roaster",
-  "id": "R027",
+  "id": "R028",
   "name": "The Good Stuff Cafe",
   "city": "Surat",
   "checked_at": "2026-10-27T21:52:08+00:00",
@@ -16117,7 +17595,7 @@
  },
  {
   "kind": "roaster",
-  "id": "R028",
+  "id": "R029",
   "name": "G-Shot Coffee Roastery & Cafe",
   "city": "Assagao",
   "checked_at": "2026-10-27T21:52:07+00:00",
@@ -16153,10 +17631,10 @@
  },
  {
   "kind": "roaster",
-  "id": "R029",
+  "id": "R030",
   "name": "Ruby's Coffee Goa",
   "city": "Goa",
-  "checked_at": "2026-10-27T21:52:12+00:00",
+  "checked_at": "2026-10-27T23:15:10+00:00",
   "pages": [
    {
     "url": "https://www.thewaytocoffee.com/roasters/ruby-s-coffee-goa",
@@ -16180,7 +17658,7 @@
  },
  {
   "kind": "roaster",
-  "id": "R030",
+  "id": "R031",
   "name": "Sussegado Coffee Roasters",
   "city": "Goa",
   "checked_at": "2026-10-27T21:52:08+00:00",
@@ -16216,7 +17694,7 @@
  },
  {
   "kind": "roaster",
-  "id": "R031",
+  "id": "R032",
   "name": "Kokoro Coffee",
   "city": "Goa",
   "checked_at": "2026-10-27T21:52:08+00:00",
@@ -16243,7 +17721,7 @@
  },
  {
   "kind": "roaster",
-  "id": "R032",
+  "id": "R033",
   "name": "nada",
   "city": "Panjim",
   "checked_at": "2026-10-27T21:52:07+00:00",
@@ -16279,10 +17757,10 @@
  },
  {
   "kind": "roaster",
-  "id": "R033",
+  "id": "R034",
   "name": "Cafe Handcrafted & Roastery",
   "city": "Bhopal",
-  "checked_at": "2026-10-27T21:52:12+00:00",
+  "checked_at": "2026-10-27T23:15:10+00:00",
   "pages": [
    {
     "url": "https://www.tripadvisor.com/Restaurant_Review-g319726-d19418225-Reviews-Handcrafted_Cafe_and_Roastery-Bhopal_Bhopal_District_Madhya_Pradesh.html",
@@ -16315,7 +17793,7 @@
  },
  {
   "kind": "roaster",
-  "id": "R034",
+  "id": "R035",
   "name": "Siolim Specialty Coffee Roasters",
   "city": "Indore",
   "checked_at": "2026-10-27T21:52:08+00:00",
@@ -16498,10 +17976,10 @@
  },
  {
   "kind": "roaster",
-  "id": "R035",
+  "id": "R036",
   "name": "Indian Bean",
   "city": "Jaipur",
-  "checked_at": "2026-10-27T21:52:08+00:00",
+  "checked_at": "2026-10-27T23:17:02+00:00",
   "pages": [
    {
     "url": "https://www.thewaytocoffee.com/roasters/indian-bean",
@@ -16525,10 +18003,10 @@
  },
  {
   "kind": "roaster",
-  "id": "R036",
+  "id": "R037",
   "name": "Zupreme Coffee",
   "city": "Jaipur",
-  "checked_at": "2026-10-27T21:52:07+00:00",
+  "checked_at": "2026-10-27T23:17:33+00:00",
   "pages": [
    {
     "url": "https://www.indiancoffeeguide.com/locations",
@@ -16561,10 +18039,10 @@
  },
  {
   "kind": "roaster",
-  "id": "R037",
+  "id": "R038",
   "name": "Brewtown Coffee Roasters",
   "city": "Jaipur",
-  "checked_at": "2026-10-27T21:52:12+00:00",
+  "checked_at": "2026-10-27T23:15:10+00:00",
   "pages": [
    {
     "url": "https://www.thewaytocoffee.com/roasters/brewtown-coffee-roasters",
@@ -16588,10 +18066,10 @@
  },
  {
   "kind": "roaster",
-  "id": "R038",
+  "id": "R039",
   "name": "CAPULUSBEANS Coffee Roasters",
   "city": "Jaipur",
-  "checked_at": "2026-10-27T21:52:08+00:00",
+  "checked_at": "2026-10-27T23:15:30+00:00",
   "pages": [
    {
     "url": "https://www.thewaytocoffee.com/roasters/capulusbeans-coffee-roasters",
@@ -16615,7 +18093,7 @@
  },
  {
   "kind": "roaster",
-  "id": "R039",
+  "id": "R040",
   "name": "Coffee Sutra",
   "city": "Jaipur",
   "checked_at": "2026-10-27T21:52:08+00:00",
@@ -16690,7 +18168,7 @@
  },
  {
   "kind": "roaster",
-  "id": "R040",
+  "id": "R041",
   "name": "Half-Light Coffee Roasters",
   "city": "Jaipur",
   "checked_at": "2026-10-27T21:52:07+00:00",
@@ -16778,10 +18256,10 @@
  },
  {
   "kind": "roaster",
-  "id": "R041",
+  "id": "R042",
   "name": "Noir Coffee House & Roastery",
   "city": "Jaipur",
-  "checked_at": "2026-10-27T21:52:12+00:00",
+  "checked_at": "2026-10-27T23:15:10+00:00",
   "pages": [
    {
     "url": "https://www.thewaytocoffee.com/roasters/noir-coffee-house-roastery",
@@ -16805,10 +18283,10 @@
  },
  {
   "kind": "roaster",
-  "id": "R042",
+  "id": "R043",
   "name": "Taffeta Coffee",
   "city": "Jaipur",
-  "checked_at": "2026-10-27T21:52:08+00:00",
+  "checked_at": "2026-10-27T23:15:30+00:00",
   "pages": [
    {
     "url": "https://www.thewaytocoffee.com/roasters/taffeta-coffee",
@@ -16832,7 +18310,7 @@
  },
  {
   "kind": "roaster",
-  "id": "R043",
+  "id": "R044",
   "name": "Alchemist Coffee Company",
   "city": "Jaipur",
   "checked_at": "2026-10-27T21:52:08+00:00",
@@ -16928,7 +18406,7 @@
  },
  {
   "kind": "roaster",
-  "id": "R044",
+  "id": "R045",
   "name": "First Crack Coffee Roasters",
   "city": "Jodhpur",
   "checked_at": "2026-10-27T21:52:07+00:00",
@@ -16973,7 +18451,7 @@
  },
  {
   "kind": "roaster",
-  "id": "R045",
+  "id": "R046",
   "name": "AOSA Roastery & Bakehouse",
   "city": "Udaipur",
   "checked_at": "2026-10-27T21:52:13+00:00",
@@ -17009,7 +18487,7 @@
  },
  {
   "kind": "roaster",
-  "id": "R046",
+  "id": "R047",
   "name": "BROOT Coffee Roasters",
   "city": "New Delhi",
   "checked_at": "2026-10-27T21:52:08+00:00",
@@ -17272,7 +18750,7 @@
  },
  {
   "kind": "roaster",
-  "id": "R047",
+  "id": "R048",
   "name": "Devan's South Indian Coffee & Tea",
   "city": "New Delhi",
   "checked_at": "2026-10-27T21:52:08+00:00",
@@ -17308,7 +18786,7 @@
  },
  {
   "kind": "roaster",
-  "id": "R048",
+  "id": "R049",
   "name": "Kaffa Cerrado — The Roastery",
   "city": "New Delhi",
   "checked_at": "2026-10-27T21:52:07+00:00",
@@ -17393,7 +18871,7 @@
  },
  {
   "kind": "roaster",
-  "id": "R049",
+  "id": "R050",
   "name": "Caarabi Coffee Roasters",
   "city": "New Delhi",
   "checked_at": "2026-10-27T21:52:13+00:00",
@@ -17460,10 +18938,10 @@
  },
  {
   "kind": "roaster",
-  "id": "R050",
+  "id": "R051",
   "name": "El Bueno Coffee Roasters",
   "city": "New Delhi",
-  "checked_at": "2026-10-27T21:52:08+00:00",
+  "checked_at": "2026-10-27T23:15:30+00:00",
   "pages": [
    {
     "url": "https://brewatlas.co/delhi/cafes",
@@ -17496,10 +18974,10 @@
  },
  {
   "kind": "roaster",
-  "id": "R051",
+  "id": "R052",
   "name": "Libertario Coffee Roasters (Coffeeco India Pvt Ltd)",
   "city": "New Delhi",
-  "checked_at": "2026-10-27T21:52:08+00:00",
+  "checked_at": "2026-10-27T23:17:02+00:00",
   "pages": [
    {
     "url": "https://brewatlas.co/delhi/cafes",
@@ -17532,10 +19010,10 @@
  },
  {
   "kind": "roaster",
-  "id": "R052",
+  "id": "R053",
   "name": "Pour Over Coffee Roasters (POCR)",
   "city": "New Delhi",
-  "checked_at": "2026-10-27T21:52:07+00:00",
+  "checked_at": "2026-10-27T23:17:33+00:00",
   "pages": [
    {
     "url": "https://www.franchiseindia.com/insights/en/news/pour-over-coffee-roasters-targets-100-outlets-by-2030.59848",
@@ -17568,10 +19046,10 @@
  },
  {
   "kind": "roaster",
-  "id": "R053",
+  "id": "R054",
   "name": "Quick Brown Fox Coffee Roasters",
   "city": "New Delhi",
-  "checked_at": "2026-10-27T21:52:13+00:00",
+  "checked_at": "2026-10-27T23:15:10+00:00",
   "pages": [
    {
     "url": "https://www.thewaytocoffee.com/roasters/quick-brown-fox-coffee-roasters",
@@ -17595,7 +19073,7 @@
  },
  {
   "kind": "roaster",
-  "id": "R054",
+  "id": "R055",
   "name": "Rossette Coffee Lab",
   "city": "New Delhi",
   "checked_at": "2026-10-27T21:52:08+00:00",
@@ -18016,7 +19494,7 @@
  },
  {
   "kind": "roaster",
-  "id": "R055",
+  "id": "R056",
   "name": "BrewClan Coffee Roasters",
   "city": "New Delhi",
   "checked_at": "2026-10-27T21:52:08+00:00",
@@ -18231,10 +19709,10 @@
  },
  {
   "kind": "roaster",
-  "id": "R056",
+  "id": "R057",
   "name": "Shack Coffee Co.",
   "city": "New Delhi",
-  "checked_at": "2026-10-27T21:52:07+00:00",
+  "checked_at": "2026-10-27T23:17:33+00:00",
   "pages": [
    {
     "url": "https://brewatlas.co/delhi/cafes",
@@ -18267,7 +19745,7 @@
  },
  {
   "kind": "roaster",
-  "id": "R057",
+  "id": "R058",
   "name": "Blue Tokai Coffee Roasters",
   "city": "New Delhi",
   "checked_at": "2026-10-27T21:52:13+00:00",
@@ -18535,10 +20013,10 @@
  },
  {
   "kind": "roaster",
-  "id": "R058",
+  "id": "R059",
   "name": "93 Degrees Coffee Roasters",
   "city": "Gurugram",
-  "checked_at": "2026-10-27T21:52:09+00:00",
+  "checked_at": "2026-10-27T23:15:30+00:00",
   "pages": [
    {
     "url": "https://in.linkedin.com/company/93-degrees-coffee-roasters",
@@ -18571,7 +20049,7 @@
  },
  {
   "kind": "roaster",
-  "id": "R059",
+  "id": "R060",
   "name": "First Coffee",
   "city": "Gurugram",
   "checked_at": "2026-10-27T21:52:08+00:00",
@@ -18607,7 +20085,7 @@
  },
  {
   "kind": "roaster",
-  "id": "R060",
+  "id": "R061",
   "name": "Gram Street Coffee",
   "city": "Gurugram",
   "checked_at": "2026-10-27T21:52:07+00:00",
@@ -18652,7 +20130,7 @@
  },
  {
   "kind": "roaster",
-  "id": "R061",
+  "id": "R062",
   "name": "Okiru Coffee Roasters",
   "city": "Panchkula",
   "checked_at": "2026-10-27T21:52:13+00:00",
@@ -18740,7 +20218,7 @@
  },
  {
   "kind": "roaster",
-  "id": "R062",
+  "id": "R063",
   "name": "4689 SHIROPAGU Coffee Roasters",
   "city": "Varanasi",
   "checked_at": "2026-10-27T21:52:09+00:00",
@@ -18776,10 +20254,10 @@
  },
  {
   "kind": "roaster",
-  "id": "R063",
+  "id": "R064",
   "name": "Doubleshot Coffee Roasters",
   "city": "Amritsar",
-  "checked_at": "2026-10-27T21:52:10+00:00",
+  "checked_at": "2026-10-27T23:17:06+00:00",
   "pages": [
    {
     "url": "https://doubleshotcoffee.in/",
@@ -18813,7 +20291,7 @@
  },
  {
   "kind": "roaster",
-  "id": "R064",
+  "id": "R065",
   "name": "The Aroma Coffee Roaster & Bakers",
   "city": "Jalandhar",
   "checked_at": "2026-10-27T21:52:07+00:00",
@@ -18858,7 +20336,7 @@
  },
  {
   "kind": "roaster",
-  "id": "R065",
+  "id": "R066",
   "name": "Ikkis Coffee Roasters",
   "city": "Chandigarh",
   "checked_at": "2026-10-27T21:52:13+00:00",
@@ -19005,10 +20483,10 @@
  },
  {
   "kind": "roaster",
-  "id": "R066",
+  "id": "R067",
   "name": "Kaapi La Roasters",
   "city": "Chandigarh",
-  "checked_at": "2026-10-27T21:52:40+00:00",
+  "checked_at": "2026-10-27T23:16:03+00:00",
   "pages": [
    {
     "url": "https://kaapilaroasters.com/",
@@ -19052,7 +20530,7 @@
  },
  {
   "kind": "roaster",
-  "id": "R067",
+  "id": "R068",
   "name": "Moonpeak Espresso",
   "city": "McLeodganj",
   "checked_at": "2026-10-27T21:52:10+00:00",
@@ -19108,7 +20586,7 @@
  },
  {
   "kind": "roaster",
-  "id": "R068",
+  "id": "R069",
   "name": "Dylan's Toasted & Roasted",
   "city": "Old Manali",
   "checked_at": "2026-10-27T21:52:07+00:00",
@@ -19144,10 +20622,10 @@
  },
  {
   "kind": "roaster",
-  "id": "R069",
+  "id": "R070",
   "name": "Crafty Beanz Cafe and Roastery",
   "city": "Leh",
-  "checked_at": "2026-10-27T21:52:13+00:00",
+  "checked_at": "2026-10-27T23:15:10+00:00",
   "pages": [
    {
     "url": "https://www.tripadvisor.in/Restaurants-g297625-c8-Leh_Leh_District_Ladakh.html",
@@ -19180,7 +20658,7 @@
  },
  {
   "kind": "roaster",
-  "id": "R070",
+  "id": "R071",
   "name": "Curious Life Coffee Roasters",
   "city": "Jaipur",
   "checked_at": "2026-10-27T21:52:40+00:00",
@@ -19282,7 +20760,7 @@
  },
  {
   "kind": "roaster",
-  "id": "R071",
+  "id": "R072",
   "name": "Savorworks Coffee & Chocolate",
   "city": "New Delhi",
   "checked_at": "2026-10-27T21:52:10+00:00",
@@ -19318,10 +20796,10 @@
  },
  {
   "kind": "roaster",
-  "id": "R072",
+  "id": "R073",
   "name": "Craft Coffee India",
   "city": "Kolkata",
-  "checked_at": "2026-10-27T21:52:07+00:00",
+  "checked_at": "2026-10-27T23:17:49+00:00",
   "pages": [
    {
     "url": "https://www.thewaytocoffee.com/roasters/craft-coffee-india",
@@ -19330,6 +20808,22 @@
     "used": "failed",
     "status": 404,
     "title": "Page Not Found | The Way To Coffee"
+   },
+   {
+    "url": "https://www.outlooktraveller.com/experiences/food-and-drink/craft-coffee-opens-in-kolkatas-salt-lake",
+    "final_url": "https://www.outlooktraveller.com/experiences/food-and-drink/craft-coffee-opens-in-kolkatas-salt-lake",
+    "role": "mention",
+    "used": "name not on page",
+    "status": 200,
+    "title": "Craft Coffee Opens In Kolkata's Salt Lake | Outlook Traveller"
+   },
+   {
+    "url": "https://www.restaurantindia.in/news/craft-coffee-opens-2nd-outlet-at-salt-lake-kolkata.n20634",
+    "final_url": "https://www.restaurantindia.in/news/craft-coffee-opens-2nd-outlet-at-salt-lake-kolkata.n20634",
+    "role": "mention",
+    "used": "name not on page",
+    "status": 200,
+    "title": "Craft Coffee Opens 2nd Outlet at Salt Lake, Kolkata - Restaurant India"
    }
   ],
   "own": {},
@@ -19340,15 +20834,17 @@
   "phones": [],
   "cafes_named": [],
   "urls_on_file": [
-   "https://www.thewaytocoffee.com/roasters/craft-coffee-india"
+   "https://www.thewaytocoffee.com/roasters/craft-coffee-india",
+   "https://www.outlooktraveller.com/experiences/food-and-drink/craft-coffee-opens-in-kolkatas-salt-lake",
+   "https://www.restaurantindia.in/news/craft-coffee-opens-2nd-outlet-at-salt-lake-kolkata.n20634"
   ]
  },
  {
   "kind": "roaster",
-  "id": "R073",
+  "id": "R074",
   "name": "Potboiler Coffee",
   "city": "Kolkata",
-  "checked_at": "2026-10-27T21:52:13+00:00",
+  "checked_at": "2026-10-27T23:15:10+00:00",
   "pages": [
    {
     "url": "https://www.thewaytocoffee.com/roasters/potboiler-coffee",
@@ -19372,7 +20868,7 @@
  },
  {
   "kind": "roaster",
-  "id": "R074",
+  "id": "R075",
   "name": "The Bean Co Roasters",
   "city": "Kolkata",
   "checked_at": "2026-10-27T21:52:40+00:00",
@@ -19429,10 +20925,10 @@
  },
  {
   "kind": "roaster",
-  "id": "R075",
+  "id": "R076",
   "name": "30 Days Coffee Roasters",
   "city": "Kolkata",
-  "checked_at": "2026-10-27T21:52:10+00:00",
+  "checked_at": "2026-10-27T23:17:06+00:00",
   "pages": [
    {
     "url": "https://www.thewaytocoffee.com/roasters/30-days-coffee-roasters",
@@ -19456,10 +20952,10 @@
  },
  {
   "kind": "roaster",
-  "id": "R076",
+  "id": "R077",
   "name": "Kollaborative Coffee Roasters",
   "city": "Kolkata",
-  "checked_at": "2026-10-27T21:52:07+00:00",
+  "checked_at": "2026-10-27T23:17:49+00:00",
   "pages": [
    {
     "url": "https://www.thewaytocoffee.com/roasters/kollaborative-coffee-roasters",
@@ -19483,10 +20979,10 @@
  },
  {
   "kind": "roaster",
-  "id": "R077",
+  "id": "R078",
   "name": "Yours Truly Coffee Roasters",
   "city": "Kolkata",
-  "checked_at": "2026-10-27T21:52:13+00:00",
+  "checked_at": "2026-10-27T23:15:10+00:00",
   "pages": [
    {
     "url": "https://www.thewaytocoffee.com/roasters/yours-truly-coffee-roasters",
@@ -19510,10 +21006,10 @@
  },
  {
   "kind": "roaster",
-  "id": "R078",
+  "id": "R079",
   "name": "Koraput Coffee",
   "city": "Bhubaneswar",
-  "checked_at": "2026-10-27T21:52:40+00:00",
+  "checked_at": "2026-10-27T23:16:03+00:00",
   "pages": [
    {
     "url": "https://www.thewaytocoffee.com/roasters/koraput-coffee",
@@ -19537,7 +21033,7 @@
  },
  {
   "kind": "roaster",
-  "id": "R079",
+  "id": "R080",
   "name": "Deomali Coffee Cafe & Roastery",
   "city": "Bhubaneswar",
   "checked_at": "2026-10-27T21:52:10+00:00",
@@ -19669,7 +21165,53 @@
  },
  {
   "kind": "roaster",
-  "id": "R080",
+  "id": "R081",
+  "name": "ODYSSA Coffee",
+  "city": "Bhubaneswar",
+  "checked_at": "2026-10-27T23:18:49+00:00",
+  "pages": [
+   {
+    "url": "https://www.localsamosa.com/business/odyssa-coffee-10652672",
+    "final_url": "https://www.localsamosa.com/business/essentials-for-karva-chauth-from-homegrown-brands-12753608",
+    "role": "mention",
+    "used": "mention",
+    "status": 200,
+    "title": "From Puja Thaalis to Shringar Sets: Explore Essentials For Karva Chauth!"
+   },
+   {
+    "url": "https://sambadenglish.com/news-from-around-the-state/odyssa-coffee-hosts-delhi-food-walks-founder-anubhav-sapra-for-odyssa-unscrypted-10586016",
+    "final_url": "https://sambadenglish.com/news-from-around-the-state/odyssa-coffee-hosts-delhi-food-walks-founder-anubhav-sapra-for-odyssa-unscrypted-10586016",
+    "role": "mention",
+    "used": "mention",
+    "status": 200,
+    "title": "ODYSSA Coffee hosts Delhi Food Walks Founder Anubhav Sapra for ‘ODYSSA UNSCRYPTED’"
+   }
+  ],
+  "own": {},
+  "mention": {
+   "indian_origins": [
+    {
+     "term": "Koraput",
+     "count": 5,
+     "snippet": "o-founder Anshuman Rath is building a coffee revolution. With direct trade from Koraput growers, this outlier brand is kickstarting third-wave coffee culture in Tier-2",
+     "url": "https://www.localsamosa.com/business/odyssa-coffee-10652672"
+    }
+   ]
+  },
+  "prices": [],
+  "cost_for_two": "",
+  "emails": [],
+  "phones": [],
+  "cafes_named": [],
+  "urls_on_file": [
+   "https://www.localsamosa.com/business/odyssa-coffee-10652672",
+   "https://sambadenglish.com/news-from-around-the-state/odyssa-coffee-hosts-delhi-food-walks-founder-anubhav-sapra-for-odyssa-unscrypted-10586016"
+  ],
+  "shard": null
+ },
+ {
+  "kind": "roaster",
+  "id": "R082",
   "name": "Smokey Falls",
   "city": "Meghalaya",
   "checked_at": "2026-10-27T21:52:07+00:00",
@@ -19705,7 +21247,7 @@
  },
  {
   "kind": "roaster",
-  "id": "R081",
+  "id": "R083",
   "name": "Zizira",
   "city": "Shillong",
   "checked_at": "2026-10-27T21:52:13+00:00",
@@ -19741,10 +21283,10 @@
  },
  {
   "kind": "roaster",
-  "id": "R082",
+  "id": "R084",
   "name": "7000 Steps Coffee",
   "city": "Shillong",
-  "checked_at": "2026-10-27T21:52:40+00:00",
+  "checked_at": "2026-10-27T23:16:12+00:00",
   "pages": [
    {
     "url": "https://www.7000steps.com/",
@@ -19801,6 +21343,14 @@
     "used": "failed",
     "status": 404,
     "title": "Page Not Found | The Way To Coffee"
+   },
+   {
+    "url": "https://theshillongtimes.com/2025/06/15/the-booming-cafe-culture-in-shillong",
+    "final_url": "https://theshillongtimes.com/2025/06/15/the-booming-cafe-culture-in-shillong/",
+    "role": "mention",
+    "used": "mention",
+    "status": 200,
+    "title": "The Booming Café Culture in Shillong | The Shillong Times"
    }
   ],
   "own": {
@@ -19927,15 +21477,207 @@
   "urls_on_file": [
    "https://www.7000steps.com/",
    "https://www.7000steps.com/blogs/7000-steps-coffee/why-single-origin-coffee-from-indias-northeast-is-your-cafes-secret-weapon-2025",
-   "https://www.thewaytocoffee.com/roasters/7000-steps-coffee"
+   "https://www.thewaytocoffee.com/roasters/7000-steps-coffee",
+   "https://theshillongtimes.com/2025/06/15/the-booming-cafe-culture-in-shillong"
   ]
  },
  {
   "kind": "roaster",
-  "id": "R083",
+  "id": "R085",
+  "name": "Smoky Falls Tribe Coffee",
+  "city": "Shillong",
+  "checked_at": "2026-10-27T23:19:06+00:00",
+  "pages": [
+   {
+    "url": "https://mbda.gov.in/smoky-falls-tribe-coffee-taking-meghalaya%E2%80%99s-high-quality-indigenous-coffee-world",
+    "final_url": "https://mbda.gov.in/smoky-falls-tribe-coffee-taking-meghalaya%e2%80%99s-high-quality-indigenous-coffee-world/",
+    "role": "mention",
+    "used": "mention",
+    "status": 200,
+    "title": ""
+   },
+   {
+    "url": "https://wanderlog.com/place/details/1325173",
+    "final_url": "https://wanderlog.com/place/details/1325173",
+    "role": "mention",
+    "used": "mention",
+    "status": 200,
+    "title": "Smoky Falls Tribe Coffee Meghalaya's Finest, Shillong, India - Reviews, Ratings, Tips and Why You Should Go – Wanderlog"
+   }
+  ],
+  "own": {},
+  "mention": {
+   "indian_origins": [
+    {
+     "term": "Meghalaya",
+     "count": 6,
+     "snippet": "S & PUBLICATIONS Home Knowledge Portal Stories Smoky Falls Tribe Coffee: Taking Meghalaya’s high quality indigenous coffee to the world Meghalaya, with its altitudes of",
+     "url": "https://mbda.gov.in/smoky-falls-tribe-coffee-taking-meghalaya%E2%80%99s-high-quality-indigenous-coffee-world"
+    }
+   ]
+  },
+  "prices": [],
+  "cost_for_two": "",
+  "emails": [],
+  "phones": [],
+  "cafes_named": [],
+  "urls_on_file": [
+   "https://mbda.gov.in/smoky-falls-tribe-coffee-taking-meghalaya%E2%80%99s-high-quality-indigenous-coffee-world",
+   "https://wanderlog.com/place/details/1325173"
+  ],
+  "shard": null
+ },
+ {
+  "kind": "roaster",
+  "id": "R086",
+  "name": "Sikkim Coffee",
+  "city": "Gangtok",
+  "checked_at": "2026-10-27T23:19:12+00:00",
+  "pages": [
+   {
+    "url": "https://eastmojo.com/sikkim/2021/04/20/gangtoks-best-coffee-spots-where-to-get-your-caffeine-hit/",
+    "final_url": "https://eastmojo.com/sikkim/2021/04/20/gangtoks-best-coffee-spots-where-to-get-your-caffeine-hit/",
+    "role": "mention",
+    "used": "mention",
+    "status": 200,
+    "title": "Gangtok’s best coffee spots: Where to get your caffeine hit - EastMojo"
+   },
+   {
+    "url": "https://wanderlog.com/place/details/8767410/sikkim-coffee-local-cafe",
+    "final_url": "https://wanderlog.com/place/details/8767410/sikkim-coffee-local-cafe",
+    "role": "mention",
+    "used": "mention",
+    "status": 200,
+    "title": "Sikkim Coffee, Gangtok, India - Reviews, Ratings, Tips and Why You Should Go – Wanderlog"
+   }
+  ],
+  "own": {},
+  "mention": {
+   "indian_origins": [
+    {
+     "term": "Nagaland",
+     "count": 1,
+     "snippet": "s (2,066) West Bengal (1,772) World (10,518) Yoga Day (11) Trending Stories Nagaland: Pangolin Cup 2026 kicks off in Meluri to promote wildlife conservation IIT Guw",
+     "url": "https://eastmojo.com/sikkim/2021/04/20/gangtoks-best-coffee-spots-where-to-get-your-caffeine-hit/"
+    }
+   ],
+   "brew": [
+    {
+     "term": "Flat white",
+     "count": 1,
+     "snippet": "ee snob who likes to discuss beans and roasts, or just someone who wants a good flat white, we’ve cut t … Rs 600++ Location: Tharo line Lal bazar, lower, MG Marg, near D",
+     "url": "https://eastmojo.com/sikkim/2021/04/20/gangtoks-best-coffee-spots-where-to-get-your-caffeine-hit/"
+    }
+   ]
+  },
+  "prices": [],
+  "cost_for_two": "",
+  "emails": [],
+  "phones": [],
+  "cafes_named": [],
+  "urls_on_file": [
+   "https://eastmojo.com/sikkim/2021/04/20/gangtoks-best-coffee-spots-where-to-get-your-caffeine-hit/",
+   "https://wanderlog.com/place/details/8767410/sikkim-coffee-local-cafe"
+  ],
+  "shard": null
+ },
+ {
+  "kind": "roaster",
+  "id": "R087",
+  "name": "Jüro Coffee House",
+  "city": "Chumoukedima",
+  "checked_at": "2026-10-27T23:19:19+00:00",
+  "pages": [
+   {
+    "url": "https://mokokchungtimes.com/juro-coffee-house-announces-the-opening-of-a-new-live-roaster-roastery-unit/?amp=1",
+    "final_url": "https://mokokchungtimes.com/juro-coffee-house-announces-the-opening-of-a-new-live-roaster-roastery-unit/?amp=1",
+    "role": "mention",
+    "used": "mention",
+    "status": 200,
+    "title": "Jüro Coffee House announces the opening of a new ‘Live Roaster Roastery Unit’"
+   }
+  ],
+  "own": {},
+  "mention": {
+   "indian_origins": [
+    {
+     "term": "Nagaland",
+     "count": 4,
+     "snippet": "etor of Jüro Coffee House and Roastery for going the extra mile and putting the Nagaland coffee scene on the global map. With a seamless and integrated coffee supply c",
+     "url": "https://mokokchungtimes.com/juro-coffee-house-announces-the-opening-of-a-new-live-roaster-roastery-unit/?amp=1"
+    }
+   ]
+  },
+  "prices": [],
+  "cost_for_two": "",
+  "emails": [],
+  "phones": [],
+  "cafes_named": [],
+  "urls_on_file": [
+   "https://mokokchungtimes.com/juro-coffee-house-announces-the-opening-of-a-new-live-roaster-roastery-unit/?amp=1"
+  ],
+  "shard": null
+ },
+ {
+  "kind": "roaster",
+  "id": "R088",
+  "name": "Shiro Roastery",
+  "city": "Dimapur",
+  "checked_at": "2026-10-27T23:19:27+00:00",
+  "pages": [
+   {
+    "url": "https://theprint.in/feature/dimapur-to-kohima-nagaland-cafe-boom-signals-there-is-peace/1101341",
+    "final_url": "https://theprint.in/feature/dimapur-to-kohima-nagaland-cafe-boom-signals-there-is-peace/1101341/",
+    "role": "mention",
+    "used": "mention",
+    "status": 200,
+    "title": "Dimapur to Kohima, Nagaland’s café boom signals one thing – there is peace"
+   },
+   {
+    "url": "https://yappe.in/nagaland/dimapur/shiro-roastery/1629968",
+    "final_url": "https://yappe.in/nagaland/dimapur/shiro-roastery/1629968",
+    "role": "mention",
+    "used": "mention",
+    "status": 200,
+    "title": "Shiro Roastery - Coffee shop - Dimapur - Nagaland | Yappe.in"
+   }
+  ],
+  "own": {},
+  "mention": {
+   "indian_origins": [
+    {
+     "term": "Nagaland",
+     "count": 1,
+     "snippet": "alford Rd, Bank Colony, Walford Colony, Dimapur, Nagaland 797112, India Dimapur Nagaland About Shiro Roastery is a coffee shop located in Dimapur, Nagaland. The averag",
+     "url": "https://yappe.in/nagaland/dimapur/shiro-roastery/1629968"
+    }
+   ],
+   "processes": [
+    {
+     "term": "Single origin",
+     "count": 1,
+     "snippet": "fé, Shiro Roastery, decked in Instagram-able white, minimalist interiors serves single-origin coffee along with an assortment of delectable foods, including ‘exotic’ options",
+     "url": "https://theprint.in/feature/dimapur-to-kohima-nagaland-cafe-boom-signals-there-is-peace/1101341"
+    }
+   ]
+  },
+  "prices": [],
+  "cost_for_two": "",
+  "emails": [],
+  "phones": [],
+  "cafes_named": [],
+  "urls_on_file": [
+   "https://theprint.in/feature/dimapur-to-kohima-nagaland-cafe-boom-signals-there-is-peace/1101341",
+   "https://yappe.in/nagaland/dimapur/shiro-roastery/1629968"
+  ],
+  "shard": null
+ },
+ {
+  "kind": "roaster",
+  "id": "R089",
   "name": "Été Coffee Roasters",
   "city": "Nagaland",
-  "checked_at": "2026-10-27T21:52:10+00:00",
+  "checked_at": "2026-10-27T23:17:06+00:00",
   "pages": [
    {
     "url": "https://www.thewaytocoffee.com/roasters/ete-coffee-roasters",
@@ -19959,10 +21701,10 @@
  },
  {
   "kind": "roaster",
-  "id": "R084",
+  "id": "R090",
   "name": "CountrybeanCoffee",
   "city": "Aizawl",
-  "checked_at": "2026-10-27T21:52:07+00:00",
+  "checked_at": "2026-10-27T23:17:49+00:00",
   "pages": [
    {
     "url": "https://www.thewaytocoffee.com/roasters/countrybeancoffee",
@@ -19986,7 +21728,7 @@
  },
  {
   "kind": "roaster",
-  "id": "R085",
+  "id": "R091",
   "name": "Bermiok Coffee Company",
   "city": "Darjeeling region",
   "checked_at": "2026-10-27T21:52:13+00:00",
@@ -20031,7 +21773,7 @@
  },
  {
   "kind": "roaster",
-  "id": "R086",
+  "id": "R092",
   "name": "Bloom Coffee Roasters",
   "city": "TBC",
   "checked_at": "2026-10-27T21:52:40+00:00",
@@ -20118,10 +21860,10 @@
  },
  {
   "kind": "roaster",
-  "id": "R087",
+  "id": "R093",
   "name": "KASA Coffee",
   "city": "TBC",
-  "checked_at": "2026-10-27T21:52:10+00:00",
+  "checked_at": "2026-10-27T23:17:06+00:00",
   "pages": [
    {
     "url": "https://www.thewaytocoffee.com/roasters/kasa-coffee",
@@ -20145,10 +21887,10 @@
  },
  {
   "kind": "roaster",
-  "id": "R088",
+  "id": "R094",
   "name": "NS Coffee Roastery",
   "city": "TBC",
-  "checked_at": "2026-10-27T21:52:07+00:00",
+  "checked_at": "2026-10-27T23:17:49+00:00",
   "pages": [
    {
     "url": "https://www.thewaytocoffee.com/roasters/ns-coffee-roastery",

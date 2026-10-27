@@ -693,14 +693,19 @@ def load_findings(path):
 
 
 def merge_shards():
-    """--merge: fold the shard files into page_findings.json (the most recent check of a lead wins)."""
+    """--merge: fold the shard files into page_findings.json (the most recent check of a lead wins), then match it to the
+    current lead files: IDs follow the latest build, and leads that have since been removed are dropped."""
     done = load_findings(OUT_JSON)
     for path in sorted(glob.glob(os.path.join(SHARD_DIR, "page_findings.*.json"))):
         for key, f in load_findings(path).items():
             if key not in done or f.get("checked_at", "") >= done[key].get("checked_at", ""):
                 done[key] = {k: v for k, v in f.items() if k != "shard"}
+    current = {(t["kind"], t["name"]): t["id"] for t in load_targets()}
+    gone = sorted(n for k, n in done if (k, n) not in current)
+    done = {key: dict(f, id=current[key]) for key, f in done.items() if key in current}
     write_outputs(list(done.values()))
-    print(f"{len(done)} leads in {os.path.relpath(OUT_JSON, ROOT)} and {os.path.relpath(OUT_CSV, ROOT)}")
+    print(f"{len(done)} leads in {os.path.relpath(OUT_JSON, ROOT)} and {os.path.relpath(OUT_CSV, ROOT)}"
+          + (f"; dropped {len(gone)} no longer in the lead files: {', '.join(gone)}" if gone else ""))
 
 
 def write_outputs(findings, json_path=None, with_csv=True):

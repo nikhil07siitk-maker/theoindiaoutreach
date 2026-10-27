@@ -1,9 +1,15 @@
 """Wave 4 (27 Oct 2026): page-level verification. One web search per lead to find its own pages, listings and press,
 then research/check_pages.py read those pages. These are the curated corrections and profile updates from that pass;
 the raw auto-extracted evidence lives in research/page_findings.json and csv/page_findings.csv.
+Pass 4b (same day) ran the same search + page check over the Northeast, East and C-priority leads that the first
+pass ran out of search budget for.
 """
 
-from leads import C, R, X, WEST, CENTRAL, NORTH, NEW26, INDIE, MULTI, RCAFE, CHAIN, ALLDAY, HOTEL
+from leads import C, R, X, WEST, CENTRAL, NORTH, EAST, NE, NEW26, INDIE, MULTI, RCAFE, CHAIN, ALLDAY, HOTEL
+
+W4B = "Wave 4b: "
+BUDDYS = ("Cafe Buddy's Espresso is a franchise chain — 92–100+ outlets worldwide, ₹20–30 lakh per franchise "
+          "(Franchise India) — Regular tier, central menu.")
 
 RI = "https://www.restaurantindia.in/news/"
 NOT_INDEXED = ("Wave 4: not found in a web search beyond its source roundup — confirm it is open (Instagram / Google Maps) "
@@ -15,6 +21,14 @@ REMOVE_W4 = {
                              "(Valley News, Jun 2026). Added in error from an Instagram search.",
     "Daily Daily Coffeemakers": "Not in India — Daily Daily Coffeemakers is in Auckland, New Zealand (Wanderlog). Added in error.",
     "Barista Diner": "Barista Coffee chain flagship format (its 5th 'Diner', Dal Lake, Srinagar) — Regular-tier chain.",
+    # pass 4b
+    "Cafe Buddy's Espresso — Thane": BUDDYS,
+    "Cafe Buddy's Espresso — Kolkata": BUDDYS,
+    "Cafe Buddy's Espresso — Patna": BUDDYS,
+    "Barista Cafe Gwalior": "Barista-branded outlets (City Center, Jhansi Rd, Haveli Highway) — the Barista chain, or a look-alike "
+                            "using its name (one reviewer says it is not on the Barista app); Regular tier, poor coffee reviews.",
+    "The Find Atelier": "A 24–25-seat weekend supper club in Bandra (sisters Aalisha & Riona Sable; Homegrown, Slurrp), not a cafe.",
+    "NAKED Coffee Roasters": "A roaster brand, not a cafe — moved to the Roasters sheet (wave 4b).",
 }
 
 CAFE_UPDATES_W4 = {
@@ -316,11 +330,153 @@ CAFE_UPDATES_W4 = {
     "1000% Artisan Coffee Bar": dict(verify="Wave 4: District shows it as closed — confirm it is operating."),
     "Fig at MG": dict(verify="Wave 4: not found; a 'Fig at Museo' (DLF Ph IV, Sec 28) exists — confirm the name."),
     "Baskè": dict(area="Comfort Hotel Vista, Golf City, Ansal API"),
-    "Barista Cafe Gwalior": dict(verify="Wave 4: check whether this is a Barista Coffee chain outlet (Regular tier)."),
     "Naga Coffee Express": dict(verify="Wave 4: not found; Dimapur's Nagaland Coffee shop (Naga Coffee Pvt Ltd) and Shiro Roastery are the known specialty names."),
     "KaCoBa": dict(area="Narain Niwas Palace, Narayan Singh Rd", verify="Wave 4: also called 'Kassa Coffee Bar' — may be the KASA Coffee roaster."),
     "IKVITI": dict(roster="Small-batch, all-electric roasting of Indian estates; weekend community meet-ups (residential area)."),
     "Kala Ghoda Cafe": dict(roster="Own blend of organic beans (origin not named); cafe + gallery + wine."),
+
+    # ------------------------------------------------------------ Pass 4b — Northeast & East
+    "11th Avenue Cafe & Bistro": dict(price="EazyDiner 4.1 (~1.3K)", roster="Dark-roast Indian estate Arabica; Vietnamese cold coffee; popular with a young crowd.",
+                                      verify=W4B + "EazyDiner lists it in Chandmari; the earlier source says Tayabulla Rd — confirm the outlet."),
+    "The Bean Journal Boutique Cafe": dict(area="50 Lamb Rd, Uzan Bazar", phone="+91 97066 55295 (Wanderlog / Zeezest)", price="₹600+ for two",
+                                           roster="Boutique cafe with a Mediterranean food menu; coffee not published."),
+    "Cherry Bean Cafe": dict(area="GS Rd, opp. Broadway Hotel, Police Bazar (spelled 'Cherrry Bean Café')", people="Agnish Paul (owner)",
+                             price="₹500–1,000 for two", roster="'Specialty coffee' cafe opened 2023; national press when actor Rajkummar Rao visited (Curly Tales).",
+                             approach="Small, owner-run and press-friendly: pitch a Northeast single origin with a story card for the bar.",
+                             src="https://curlytales.com/rajkummar-rao-spotted-at-a-cosy-shillong-cafe-its-specialty-coffee-is-worth-a-trip-to-meghalaya/"),
+    "ML 05 Cafe": dict(tier="Normal", roster="Biker-themed cafe; coffee reviews mixed.", web="https://www.hotelpolotowers.com/our-cafes/ml-05.html",
+                       evidence="Wave 4b: one of the Hotel Polo Towers group's cafes (its website).",
+                       approach="Reach it through the Hotel Polo Towers group (hotel + several cafes) rather than the cafe alone."),
+    "The Coffee Shop — Gangtok": dict(area="MG Marg (deck over MG Marg)", roster="Cappuccino, Swiss hot chocolate; known for its MG Marg deck."),
+    "14 Beans Cafe": dict(area="College Veng, near the taxi stand / SBI ATM", roster="Plant-filled cafe with valley views; global menu (lamington, avocado toast); coffee not detailed.",
+                          evidence="Wave 4b: featured by Curly Tales (chef Sarah Todd) and India Today NE's 'cool cafes' (Oct 2024)."),
+    "books and coffee": dict(area="Indo-Myanmar Rd, Makha Leirak", people="Beeshantam Yumnam (founder)", phone="+91 97741 77130 (Yappe)",
+                             roster="Bookstore-cafe since 2013: rental bookstore on the ground floor, cafe upstairs (3 floors); 4.1 (785)."),
+    "Frespresso Agartala": dict(area="L.N. Bari Rd, near Ganaraj Chowmuhani", phone="+91 98626 77602 (Trip.com)", roster="Cosy cafe: coffee, pastries, sandwiches.",
+                                verify=W4B + "may belong to the Frespresso coffee chain (it also runs an IIT-ISM Dhanbad outlet) — check."),
+    "Cafe82": dict(roster="Coffee and desserts; EazyDiner 4.6 (271) for Ballygunge; one reviewer calls it more hookah lounge than cafe."),
+    "TheCoffeeShop — Siliguri": dict(roster="Coffee, pizza and bakery cafe; cafe mocha, cinnamon coffee; 4.0 (191) — no specialty signals."),
+    "Cafe 13": dict(area="1st floor, Surya Crystal, Boring Rd", phone="+91 95255 66665 (alwaysdial)",
+                    roster="Handcrafted coffees, frappes and shakes; swings and chalkboard decor."),
+
+    # ------------------------------------------------------------ Pass 4b — C-priority leads
+    "EssPressOh Cafe": dict(area="API Rd, MIDC Chilkalthana (listed as 'Ess Press Oh')", price="4.1 (148)"),
+    "Coffee Sanskruti": dict(area="S2 Royal Classic, Rajarampuri 3rd Lane, near Jain Temple", phone="+91 96737 35453 (Yappe)",
+                             roster="Small coffee bar: hot and cold coffees; 4.4 (97); closed Mondays."),
+    "Grain de Cafe": dict(area="NCC Bhavan Rd, opp. Shivaji University, Vidya Nagar", phone="+91 95957 09599 (Yappe)",
+                          roster="Cafe-restaurant used for parties; 4.2 (740); food reviews mixed."),
+    "The Treaat Coffee": dict(area="Shop 8, Shahaji Law College Complex, Rajarampuri Main Rd", phone="+91 96042 57000 (Yappe)",
+                              roster="Shakes, smoothies, hazelnut mocha; 4.4 (54)."),
+    "Cafe Essence": dict(verify=W4B + "only an 'Essence Cafe' listing found (location not stated) — confirm. Mulund already has Blue Tokai and Third Wave outlets."),
+    "Greenr": dict(area="Goregaon (International Business Park, Oberoi Garden City — 12th outlet), Pali Hill (Bandra), Breach Candy; also NCR",
+                   price="~₹2,500 for two (Bandra)", roster="Plant-based menu with 'specialty coffee' (Goregaon); roaster not named.",
+                   approach="12-outlet plant-based chain: central-procurement pitch — a house espresso plus an oat-milk-friendly single estate.",
+                   src=RI + "greenr-opens-12th-outlet-in-mumbai-s-goregaon-as-plant-based-chain-expands.n17065"),
+    "Vanilla Miel — Lower Parel": dict(
+        priority="B", people="Isha & Mansi Shetty (founders)",
+        roster="Micro-roasted, low-acidity MEDIUM-DARK roast from high-altitude Chikmagalur estates; honey-cinnamon, crème-brûlée and tiramisu lattes, "
+               "iced Vietnamese, vanilla-bean shakerato; orange-basil and spiced-guava cold brews; 'VM House Phin'; ceremonial matcha.",
+        supplier="Not published (Chikmagalur estates, medium-dark)", gap="One medium-dark espresso profile; no light roast or pour-over.",
+        offer="A light/medium single estate for a filter or pour-over slot, plus a seasonal lot for dessert pairing.",
+        approach="Dessert-led brand: pitch a coffee-and-dessert pairing tasting at Lodha Signet and a co-branded seasonal lot.",
+        src=RI + "vanilla-miel-opens-second-mumbai-caf-at-lodha-signet-lower-parel.n17346"),
+    "Angry Toast": dict(area="Waterfield Rd, Bandra W (450 sq ft; opened 16 Jul 2026)", people="Blabber Hospitality; Suhas Dwarakanath (coffee lead, WBC semi-finalist)",
+                        roster="On-site micro-roastery; hot and cold coffee, cold brew, matcha, taro latte; 3-inch sandwiches sold in pairs.",
+                        offer="Green coffee / guest lots for its micro-roastery.", approach="They roast: pitch green lots to the coffee lead.",
+                        src="https://www.timeout.com/mumbai/news/angry-toast-bandras-new-sandwich-shop-has-its-own-coffee-roastery-071626"),
+    "The Coffee Project — Nagpur (4th outlet)": dict(verify=W4B + "not found; 'The Coffee Project' is a Philippine chain. Nagpur alternatives: The Brew Crew (Bajaj Nagar), All That's Coffee (Sadar)."),
+    "Three Beans Coffee Roasters": dict(
+        type=CHAIN, priority="B", roasts="Unclear — trades as 'Coffee Roasters', but a company profile says it serves coffee from well-regarded Indian roasters",
+        supplier="Not published (outside Indian specialty roasters, per a company profile)",
+        area="Civil Lines (Sunnydale, Rajlaxmi Marg) + Coffee Bar, Gorepeth (Janki Apts, JB Thakkar Marg) + Dharampeth",
+        price="₹600 for two; EazyDiner 4.1 (~3K)", roster="Cold brews, matcha lattes, frappes; the Coffee Bar format adds cocktails; hosts home-brewing workshops (Insider, Jan 2024).",
+        approach="3-outlet Nagpur group buying from outside roasters: pitch a guest single estate and co-host a brewing workshop.",
+        evidence="Wave 4b: est. 2017, 20+ staff (company profile)."),
+    "Cafe Bliss": dict(people="Founded 2010 by a Culinary Institute of America graduate", price="~₹650 for two; 4.1 (~1.1K)",
+                       roster="Cafe mocha, hot chocolate, black teas, all-day breakfast."),
+    "Beanery Cafe & Eatery": dict(area="Beside Chaturshrungi Temple, Senapati Bapat Rd", price="₹1,200–1,500 for two",
+                                  roster="Live coffee counter (brewed to your choice); lychee cold brew; European food; District 3.6–3.8."),
+    "Christopher's Cafe & Bakehouse": dict(area="Goodwill Enclave 4, opp. Suman Business Park, Kalyani Nagar", price="~₹1,000 for two",
+                                           roster="Victorian-themed all-day restaurant and bakehouse; coffee not a focus."),
+    "Coffee Nation": dict(roster="Casual coffee and light meals on FC Rd; Nutella shake; ~1.6K ratings."),
+    "Handmade Cafe": dict(area="Merchant's Bungalow, 3C South Ave, Kalyani Nagar (10 am–7 pm)", people="Three friends (founders)",
+                          roster="'Community living room' cafe; pet-friendly; coffee menu not published."),
+    "Lune Cafe & Patisserie": dict(area="Sapphire Apts, Lane 6, Ganga Fortune Society, Koregaon Park",
+                                   roster="Tiramisu latte, pistachio affogato (UpperCrust); dessert-led; pet- and work-friendly."),
+    "Midori Coffee and Eatery": dict(area="Baner (Sairaj Apts / Lalit Estate); Curly Tales lists Kharadi", price="₹800–1,100 for two; 4.1 (~490)",
+                                     roster="Boho bungalow cafe; coconut ice latte; wood-fired pizza."),
+    "The Beans Talk Cafe": dict(area="2nd floor, Viman Nagar Rd, opp. Wellness Forever, Clover Park", phone="+91 84849 58128 (Yappe)",
+                                roster="Rooftop European-style cafe; croissant wheel; cold coffee shakes ₹160; 4.3 (758)."),
+    "Cafe Deli — Novotel Ahmedabad": dict(supplier="The Coffee Co (launch report)", price="~₹1,500 for two",
+                                          roster="'Café Deli-Tel': espressos, cappuccinos, cold brews (Sunrise Cold Brew), 'artisanal blends' from Coffee Co; 7 am–2 am.",
+                                          approach="Accor hotel cafe already on The Coffee Co (as is Novotel Goa's The Little Place) — only worth it through Accor F&B procurement."),
+    "Insitu (Unsettle cafe)": dict(area="Near RK Farm, off Sindhu Bhavan Marg, Thaltej", price="₹1,900 for two (Unsettle ~₹1,100); 4.6 (310)",
+                                   roster="Restaurant with a rooftop, the Unsettle cafe and a coffee + mocktail section."),
+    "Mleko": dict(
+        tier="Premium", priority="B", supplier="Kokoro Coffee + Kalledevarapura Estate (Karnataka)",
+        area="Commerce Six Roads (8 am–midnight) + Bodakdev (inside Shozo Bakers); the Adalaj outlet with MOULD Art Space may be closed",
+        roster="Specialty coffee on a La Marzocco Linea Mini; beans from Kokoro Coffee and Kalledevarapura Estate; bakes (cinnamon rolls, croissants, tarts).",
+        gap="Two Karnataka sources; no rotating guest lot named.", offer="A rotating guest single estate from another region (Northeast, Araku) for espresso or filter.",
+        approach="Already buys from two sources: pitch a guest-lot slot across the outlets.",
+        evidence="Wave 4b: Knocksense — 'sources specialty beans from Kokoro Coffee and Kalledevarapura Estate'.",
+        src="https://knocksense.com/ahmedabad/coffee-chronicles-mleko-cafes-enchanting-presence-in-ahmedabad-is-winning-over-hearts"),
+    "Niro by Nini's": dict(area="Gulbai Tekra + Thaltej (Sindhu Bhavan)", price="~₹1,000 for two", roster="Cafe/European food — pasta, rice bowls; coffee not a focus."),
+    "Cleo's Coffee & More": dict(price="₹1,000–1,500 for two; 4.3 (~300)", roster="Garden cafe; pizza and fast food; coffee not detailed."),
+    "Coffee Culture at The Unseen (hotel)": dict(
+        people="Gaurav Narang (Coffee Culture founder, 2004)",
+        roster="Coffee omakase at the cafe; artisanal roastery + bakehouse; 'Uncultured' coffee-and-spirits speakeasy; 24-hour slow-drip cold brew; 11 rooms.",
+        approach="Coffee Culture (34 outlets, 22 cities) roasts its own — a green / guest-lot pitch only.",
+        src=RI + "restaurant-india-news-coffee-culture-enters-hospitality-with-unseen-world-s-first-coffee-focused.n14245"),
+    "Mon Petit Frère": dict(area="H No 10/1, 1st Ward, near Colva Church",
+                            roster="Four-table bakery cafe (12 covers): sourdough, Basque cheesecake, breakfast; coffee 'strong and perfect'; closed Mondays."),
+    "The Coffee Shop (TCS) — Bhopal": dict(area="'Sharikh The Coffee Shop', Kilol Park Marg, Professors Colony (3 pm–midnight)", phone="+91 98934 28407 (Yappe)",
+                                           roster="Iced teas, sodas, coffee; 4.4 (795) — no specialty signals."),
+    "The Ten Suites": dict(area="10 Civil Lines, Professors Colony", roster="Garden cafe of a 10-room boutique hotel; guests praise the coffee."),
+    "GLAAMZ": dict(roster="Bakery + cafe + terrace (eChai: 'Glaamz Bakery | Cafe | Terrace', City Centre)."),
+    "Ground Zero / Habit (56 Dukan cluster)": dict(area="Habit — Coffee Lounge: UG-27 One Centre, 56 Dukan", people="Owners: a lawyer and an IT professional (listing)",
+                                                   roster="Habit coffee lounge 4.7 (159), 11 am–11:30 pm.", verify=W4B + "'Ground Zero' not found."),
+    "Highbrooks Cafe": dict(people="Sanket Sharma & Vipul Abhishek (founders, 2018)", phone="+91 91311 00094 (Yappe)",
+                            area="Muskan Plaza (Shatabdipuram Ph 2) + Food Republic, Jabalpur; a Delhi outlet (Curly Tales)",
+                            roster="Manual brews (V60, AeroPress, French press) + espresso; shakes; work-friendly.",
+                            verify=W4B + "outlet list differs by source (earlier: Adarsh Nagar + Vijay Nagar)."),
+    "Hustlers Cafe": dict(price="~₹500 for two", roster="Fast-food cafe; coffee not detailed."),
+    "The House of Coffee": dict(area="G/F, F58 Sunder Marg, C Scheme; possible 2nd branch at Centre Court, Malviya Nagar", price="~₹900 for two; 4.6 (201)",
+                                roster="Coffee, shakes, pizza, sandwiches; opens 8:30 am."),
+    "Cafe Frespresso": dict(roster="Hot and cold coffees with Clock Tower views (Holidify)."),
+    "Bachgen Cafe / The Laughing Bean / Black Kettle": dict(
+        verify=W4B + "none of the three names found. Udaipur's specialty names instead: Coffee Culture Udaipur (own CC Roastery), Brew Villa (Goram Ghat), Jheel's Ginger Coffee Bar."),
+    "Charcha": dict(area="Bunglow Rd, Kamla Nagar + 'When Coffee Met Cocktail', F-15/A Vijay Nagar",
+                    roster="Cafe-bar: coffee or cocktails with quirky food (Bhoot Jolokia momos); 3.9 (226); ~₹1,000 for two."),
+    "FES Cafe & Desserts": dict(
+        type=CHAIN, priority="B", people="Vidur Mayor (founder)",
+        area="Meherchand Market; cookie flagship at Lodhi Art District; Galleria Market (Gurugram)",
+        roster="Dessert-first cafe chain; coffee secondary; 'Coffee Raves'; 'ethically sourced coffee' at an event.",
+        evidence="Wave 4b: raised ~$1M pre-Series A (12 Flags) for Delhi NCR expansion and hired a former Blue Tokai executive (World Coffee Portal).",
+        approach="Funded, expanding and hiring coffee talent: pitch a house espresso + one single estate at chain pricing before a supplier is locked in.",
+        src="https://www.worldcoffeeportal.com/news/indias-fes-cafe-appoints-former-blue-tokai-executive-following-1m-fundraise/"),
+    "Mira's": dict(roster="All-day cafe (new, Aug 2025): Vietnamese iced latte, tiramisu bar, Neapolitan pizza; named after the founders' grandmother."),
+    "ButterHands cafe": dict(
+        type=CHAIN, priority="B", people="Melt House founders",
+        area="Select Citywalk, Saket (flagship) + Galleria Market (Sep 2026) + DLF Summit Plaza (mid-Sep 2026), Gurugram; began at 32nd Avenue",
+        roster="NY-style stuffed cookies + coffee; 'ButterBrew' = South Indian filter-kaapi cold brew.",
+        offer="A single-estate cold-brew lot (or a filter-kaapi-style blend) for ButterBrew.", approach="Fast-growing 3-outlet dessert chain: pitch the cold-brew lot.",
+        src="https://indianretailer.com/news/butterhands-makes-delhi-ncr-debut-flagship-store-saket"),
+    "Alma Bakery & Cafe": dict(price="~₹1,000 for two; 4.4 (1.5K)", roster="Bakery (2018) + cafe (2019); cappuccino with in-house sourdough; plant-filled 'Central Perk' room."),
+    "Tan Coffee": dict(roster="Rooftop cafe; mocha, Nutella croissant; no bean information."),
+    "Cafe Meraki — Prayagraj": dict(supplier="Blue Tokai (per a reviewer)", area="18 C/28A Sarojini Naidu Marg, Civil Lines", price="~₹650 for two; 4.3 (483)",
+                                    roster="Coffee cafe brewing Blue Tokai beans (reviewer: 'aromatic').", gap="On Blue Tokai, the standard national brand.",
+                                    approach="Offer a fresher single estate at matched wholesale pricing, alongside or instead of Blue Tokai."),
+    "Kamaa Cafe / Beige Cafe / The Hedgehog Cafe": dict(
+        roster="Kamaa: sushi/subs, cinnamon coffee (4.7, 33). Beige Café & Bakery (Madhya Marg): 'house-roasted specialty coffee' (Arch.Lab design). "
+               "Hedgehog: book cafe, freshly brewed coffee.",
+        verify=W4B + "Beige says its coffee is house-roasted — if it roasts, treat it as a green-lot lead."),
+    "Rustic Door": dict(area="SCO 2, 10-D, Sector 10", phone="+91 172 6530234 (Tripoto)", roster="Kitchen lounge and bar (2014), Italian food; coffee secondary."),
+    "The Other Space": dict(priority="B", area="Jogiwara Rd, Sudher (above McLeodganj)",
+                            roster="Sister cafe of Illiterati; co-working + quiet room; iced lattes, cappuccinos; cinnamon rolls; valley balcony.",
+                            approach="Pitch both cafes (Illiterati + The Other Space) together; seasonal tourist and remote-worker trade."),
+    "Brazil Cafe / Corretto / Coffee Culture Leh": dict(
+        roster="'Cafe Culture Ladakh' (Zangsti Rd area): 'freshly roasted' coffee from 7 am.",
+        verify=W4B + "Brazil Cafe and Corretto not found."),
 }
 # not found in a web search beyond their source roundup
 for _n in ("BBRWN Cafe", "Grahm Cafe", "KĀPIBAR", "MUVN Coffee", "Tsubaki Artisanal Coffee", "Tuskin Coffee", "Off Mrkt", "Therefore",
@@ -328,7 +484,10 @@ for _n in ("BBRWN Cafe", "Grahm Cafe", "KĀPIBAR", "MUVN Coffee", "Tsubaki Artis
            "Pouring Veranda", "Affo — Santa Inez", "T's Tiramisu", "Caffotto", "40 Feet Coffee", "Odd Three Coffee Club", "Birajo",
            "Svas — Specialty Coffee, Matcha & Bakes", "Wht Blk — Art Coffee House", "Coso Cafe", "The Little Sisters", "Kohi Co-Working Cafe",
            "Nun Kun", "Amari Coffee — New Town", "Cafe 108", "Line Up Coffee — New Town", "Salt & Coffee", "Coffeio", "Souza Coffee",
-           "Fold Bakehouse", "Dodaa Atelier", "Bastardo"):
+           "Fold Bakehouse", "Dodaa Atelier", "Bastardo",
+           # pass 4b
+           "Cafe 138", "Bisauni — Gangtok Speciality Coffee Shop", "Rolling Bean Cafe", "Aizawl Coffee House", "NoMeatNaan", "JD's Cafe",
+           "Latte Love", "Graph Cafe", "Brewer's Cafe"):
     CAFE_UPDATES_W4.setdefault(_n, {})["verify"] = NOT_INDEXED
 
 ROASTER_UPDATES_W4 = {
@@ -352,6 +511,7 @@ ROASTER_UPDATES_W4 = {
     "Half-Light Coffee Roasters": dict(evidence="Stocked by Babka (Anjuna, Goa) — wave 4."),
     "G-Shot Coffee Roastery & Cafe": dict(evidence="Stocked by Babka (Anjuna) — wave 4."),
     "KASA Coffee": dict(verify="Wave 4: possibly linked to 'Kassa Coffee Bar' (KaCoBa, Narain Niwas Palace, Jaipur)."),
+    "7000 Steps Coffee": dict(evidence="Wave 4b: Shillong Times (Jun 2025) — Shillong's new cafe wave pours local brands such as 7000 Steps."),
 }
 
 NEW_ROASTERS_W4 = [
@@ -359,13 +519,40 @@ NEW_ROASTERS_W4 = [
       evidence="Roasts for Mazi Coffee Bar & Kitchen (Santacruz).",
       src="https://www.freepressjournal.in/lifestyle/food-review-mazi-coffee-bar-and-kitchen-mumbai-offers-inventive-coffee-creations-and-delectable-dishes",
       verify="City not stated."),
-    R(name="Kokoro Coffee", region=WEST, state="Goa", city="Goa (TBC)", model="Community-driven roaster", evidence="Stocked by Babka (Anjuna).",
-      src="https://lbb.in/goa/babka-coffee-shop-desserts-anjuna", verify="City not confirmed."),
+    R(name="Kokoro Coffee", region=WEST, state="Goa", city="Goa (TBC)", model="Community-driven roaster",
+      evidence="Stocked by Babka (Anjuna); supplies Mleko (Ahmedabad) alongside Kalledevarapura Estate (wave 4b).",
+      src="https://lbb.in/goa/babka-coffee-shop-desserts-anjuna", verify="City not confirmed (a Knocksense piece groups it with Karnataka estates)."),
     R(name="Silk Road Coffee Company", region=WEST, state="Maharashtra", city="Mumbai", model="3,500 sq ft roastery + bakehouse, Versova (150+ guests; manual brew bar, Slayer)",
       evidence="Opened 2026 (Restaurant India).", src=RI + "silk-road-coffee-company-opens-3500-sq-ft-roastery-and-bakehouse-in-versova.n17287",
       verify="A local guide links the name to Project Hum Versova — unconfirmed."),
     R(name="Bouee Coffee Roasters", region=WEST, state="Gujarat", city="Surat", model="Roaster", evidence="Listed as a Surat roaster on Pulled.",
       src="https://www.pulled.coffee/shop/bouee-coffee-roasters-surat", verify="Single listing."),
+    # pass 4b
+    R(name="NAKED Coffee Roasters", region=WEST, state="Maharashtra", city="Mumbai",
+      model="Specialty roaster brand: 9 coffees incl. micro- and nano-lots from 8 estates in India and abroad; single-serve pour-over bags; D2C first, "
+            "then quick commerce, B2B and cafes",
+      people="Radhika Seth & Meghna Kaur (creators) with co-founders Naheel Koroth and Akash Thakkar",
+      evidence="Launch coverage (afaqs, Indian Retailer); a roasting masterclass was held at 'Naked Coffee Roasters, Mumbai' (Aug 2025).",
+      angle="Competitor for cafe accounts once its B2B arm opens; creator reach makes it a strong consumer brand.",
+      src="https://www.afaqs.com/news/brands/radhika-seth-and-meghna-kaur-launch-coffee-brand-naked-9480876",
+      verify="Moved from the cafe list (wave 4b); a Lower Parel location was listed earlier."),
+    R(name="Sikkim Coffee", region=NE, state="Sikkim", city="Gangtok", model="Roaster-cafe on MG Marg with its own roaster on site; local Sikkim beans",
+      evidence="'Own roasting set-up'; Americano and lattes; Tibetan-style room (EastMojo 2021, Wanderlog).",
+      angle="Peer: swap / co-brand Northeast lots, or green lots for its roaster.",
+      src="https://eastmojo.com/sikkim/2021/04/20/gangtoks-best-coffee-spots-where-to-get-your-caffeine-hit/", verify="Listing and blog sources only."),
+    R(name="Shiro Roastery", region=NE, state="Nagaland", city="Dimapur", model="Roaster-cafe (Feb 2022), Walford Rd, Bank Colony: bean-to-cup, single origins, pour-over",
+      people="Rowang Debbarma (founder; ex-Amazon Prime photographer, Bengaluru)", evidence="4.5 (227) on Yappe; covered by ThePrint's Nagaland cafe-boom feature.",
+      angle="Peer in Dimapur: green lots or a Northeast co-roast.", src="https://theprint.in/feature/dimapur-to-kohima-nagaland-cafe-boom-signals-there-is-peace/1101341"),
+    R(name="Smoky Falls Tribe Coffee", region=NE, state="Meghalaya", city="Shillong", model="Meghalaya coffee roaster (2015) + small cafe in OB Shopping Mall",
+      evidence="Indigenous Meghalaya coffee (MBDA, Govt of Meghalaya).", angle="Competitor / peer for Shillong cafes; source of Meghalaya lots.",
+      src="https://mbda.gov.in/smoky-falls-tribe-coffee-taking-meghalaya%E2%80%99s-high-quality-indigenous-coffee-world"),
+    R(name="ODYSSA Coffee", region=EAST, state="Odisha", city="Bhubaneswar", model="Koraput small-batch roaster turned retail brand; first coffee bar with LOOKS Salon, Patia",
+      evidence="Local Samosa brand feature; Sambad English on the Patia coffee bar.", angle="Peer / competitor in Odisha; Koraput lots.",
+      src="https://www.localsamosa.com/business/odyssa-coffee-10652672"),
+    R(name="Jüro Coffee House", region=NE, state="Nagaland", city="Chumoukedima (near Dimapur)",
+      model="Cafe with a live roastery (inaugurated 17 Jan 2025), CT Square, 7th Mile; parent Lithanro (2021); green beans from 12 Nagaland districts",
+      evidence="Roastery opened by Nagaland minister N. Jacob Zhimomi (Mokokchung Times).", angle="Peer / competitor; Nagaland lots.",
+      src="https://mokokchungtimes.com/juro-coffee-house-announces-the-opening-of-a-new-live-roaster-roastery-unit/?amp=1"),
 ]
 
 NEW_CAFES_W4 = [
@@ -403,6 +590,19 @@ NEW_CAFES_W4 = [
       evidence="Coffee and sandwiches; pure veg; ~₹500 for two.", src="https://www.eazydiner.com/bhopal/coffea-arera-colony-bhopal-689070"),
     C(tier="Premium", priority="C", name="Roasted by Roseate", type=HOTEL, region=NORTH, state="Uttarakhand", city="Rishikesh", area="The Roseate Ganges (also New Delhi, Gurugram)",
       evidence="Roseate hotels' coffee cafe brand with co-working space.", src="https://roseatehotels.com/cafes/"),
+    # pass 4b
+    C(tier="Premium", priority="B", name="Black Art Coffee", type=INDIE, region=NE, state="Assam", city="Guwahati",
+      area="2nd floor, Divine Tower, Shantipur, Bharalumukh", people="Gitartha Goswami (founder)", phone="+91 99572 23710 (Yappe)",
+      roster="Third-wave cafe (Feb 2020): 100% Arabica 'exclusively from Chikmagalur', brewed manually — pour-over, AeroPress, cold brew; "
+             "best sellers AeroPress cold brew, Vietnamese coffee, honey latte; Brahmaputra view; 4.6 (355).",
+      supplier="Not published (Chikmagalur Arabica)", gap="Chikmagalur only; no Northeast or other-region estate.",
+      offer="A Northeast single origin and a second-region estate for the pour-over bar.",
+      evidence="Founder set out to bring third-wave coffee to Guwahati (EastMojo, Aug 2020).",
+      approach="Manual-brew-led: pitch a rotating single estate for pour-over plus a Northeast-origin lot.",
+      src="https://eastmojo.com/lifestyle/2020/08/31/black-art-coffee-in-guwahati-celebrating-art-one-cup-at-a-time/",
+      verify="Sources are from 2020 plus a directory listing — confirm the current menu."),
+    C(tier="Normal", priority="C", name="Cafe Hideout", type=INDIE, region=EAST, state="Bihar", city="Patna", area="Sabzibagh",
+      evidence="Pulled lists it as a specialty coffee shop.", src="https://www.pulled.coffee/shop/cafe-hideout-patna-5", verify="Single generic listing."),
 ]
 
 NEW_CHANNELS_W4 = [
@@ -420,6 +620,16 @@ NEW_CHANNELS_W4 = [
       src="https://www.freepressjournal.in/indore/brewing-dreams-into-reality-meet-the-passionate-founders-of-indore-brewing-club-stirring-up-a-revolution-one-cup-at-a-time"),
     X(category="Producer / exporter", name="Nagaland Coffee (Naga Coffee Pvt Ltd)", city="Dimapur", what="Roasted + green Nagaland coffee; sole-exporter MoU with the Govt of Nagaland; Dimapur coffee shop (2018).",
       angle="Source / co-brand Nagaland lots, or a competitor for NE cafes.", src="https://rootsandleisure.com/nagaland-coffee-shop-dimapur/"),
+    # pass 4b
+    X(category="Government programme", name="Coffees of Nagaland mission", city="Kohima",
+      what="₹175-crore central mission (launched 18 May 2026) to build a traceable single-origin specialty coffee economy: cluster farming, "
+           "processing, branding, exports and coffee tourism; pilot clusters Tuophema (Arabica) and Ghotovi (Robusta).",
+      angle="Source traceable Nagaland lots and use the mission's branding with Northeast cafes.",
+      src="https://morungexpress.com/coffees-of-nagaland-is-truly-a-whole-of-india-approach-bringing-all-stakeholders-together-scindia"),
+    X(category="Producer / supplier", name="ELK Business House — coffee experience centre", city="Aizawl",
+      what="Opened what it calls Northeast India's first coffee experience centre (Dec 2024): brewing demos and tastings.",
+      angle="Mizoram's local supplier — a competitor for Aizawl cafes or a partner for tasting events.",
+      src="https://eastmojo.com/top-news/2024/12/10/mizoram-gets-northeast-indias-first-coffee-experience-centre/"),
 ]
 
 # Hand check of the auto-found pairs on the 'Web Check — Supplier Leads' sheet: (cafe, roaster) -> verdict.
@@ -434,6 +644,7 @@ WEB_PAIR_REVIEW = {
     ("Indiroom (at Pincode Bungalow)", "Caarabi Coffee Roasters"): "Confirmed — 'roasted by New Delhi's Caarabi Coffee'",
     ("KOMO by Kaffa", "Kaffa Coffee Roasters"): "Same owner (Kaffa's own cafe)",
     ("Meraki The Coffee House", "Curious Life Coffee Roasters"): "Not a supplier link — different city's entry in a roundup",
+    ("Mleko", "Kokoro Coffee"): "Confirmed — 'sources specialty beans from Kokoro Coffee and Kalledevarapura Estate'",
     ("OCD Culture", "Roastery Cultur"): "Not a supplier link — adjacent rows in a cafe list",
     ("Svas — Specialty Coffee, Matcha & Bakes", "4689 SHIROPAGU Coffee Roasters"): "Not a supplier link — two separate recommendations",
     ("The Dark Roast", "Blue Tokai Coffee Roasters"): "Confirmed — reviewer: 'brewing with Blue Tokai beans'",
