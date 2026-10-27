@@ -1,4 +1,4 @@
-# Hosts check_pages.py opens: the lead URLs on file, the search engines and the main listing sites.
+# Hosts check_pages.py opens: the lead URLs on file and in discovered_urls.json, and the main listing sites.
 # Cafe websites found through search are not known in advance, so an allowlist will miss them:
 # full network access is the practical setting for this script.
 729gramscoffee.com
@@ -20,13 +20,13 @@ doubleshotcoffee.in
 echai.ventures
 elledecor.in
 esspressoh.com
+example.com
 explorejodhpur.com
 farzicafedehradun.com
 foodiesofindia.wordpress.com
 greysoul.coffee
 himlocal.com
 homegrown.co.in
-html.duckduckgo.com
 ikkis.coffee
 in.linkedin.com
 indianretailer.com
@@ -48,7 +48,6 @@ restaurant-guru.in
 rokazu.com
 rossettecoffee.com
 sidewalkindia.com
-sites.google.com
 sprudge.com
 t2online.in
 theappbarista.com
@@ -65,7 +64,6 @@ wanderon.in
 www.7000steps.com
 www.artsyinkolkata.com
 www.baliyogaschool.com
-www.bing.com
 www.coffeesanskruti.com
 www.corner.inc
 www.cosmopolitan.in
@@ -81,7 +79,6 @@ www.glassdoor.co.in
 www.indiancoffeebeans.com
 www.indiancoffeeguide.com
 www.indianretailer.com
-www.instagram.com
 www.justdial.com
 www.knocksense.com
 www.kuberproperty.in
@@ -100,7 +97,6 @@ www.siolim.coffee
 www.slurrp.com
 www.stanzaliving.com
 www.stayvista.com
-www.swiggy.com
 www.thelabmagofficial.com
 www.thestylelist.in
 www.thewaytocoffee.com

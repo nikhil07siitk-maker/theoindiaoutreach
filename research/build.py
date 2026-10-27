@@ -20,6 +20,7 @@ import enrichment as E  # noqa: E402
 import leads as L  # noqa: E402
 import wave2 as W  # noqa: E402
 import wave3 as W3  # noqa: E402
+import wave4 as W4  # noqa: E402
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 OUT_XLSX = os.path.join(ROOT, "North_West_East_India_Specialty_Coffee_Leads.xlsx")
@@ -107,10 +108,16 @@ def default_approach(c):
 cafes = merge(L.CAFES, E.CAFE_UPDATES) + [dict(c) for c in E.NEW_CAFES]
 cafes = merge(cafes, W.PROFILE_UPDATES) + [dict(c) for c in W.NEW_CAFES_W2]
 cafes = merge(cafes, W3.CAFE_UPDATES_W3) + [dict(c) for c in W3.NEW_CAFES_W3]
+cafes = merge(cafes, W4.CAFE_UPDATES_W4) + [dict(c) for c in W4.NEW_CAFES_W4]
+missing = set(W4.REMOVE_W4) - {c["name"] for c in cafes}
+if missing:
+    raise SystemExit(f"REMOVE_W4 names with no matching lead: {sorted(missing)}")
+cafes = [c for c in cafes if c["name"] not in W4.REMOVE_W4]
 roasters = merge(L.ROASTERS, E.ROASTER_UPDATES) + [dict(r) for r in E.NEW_ROASTERS]
 roasters = merge(roasters, W.ROASTER_PROFILE_UPDATES) + [dict(r) for r in W.NEW_ROASTERS_W2]
 roasters = merge(roasters, W3.ROASTER_UPDATES_W3) + [dict(r) for r in W3.NEW_ROASTERS_W3]
-channels = list(L.CHANNELS) + list(E.NEW_CHANNELS) + list(W3.NEW_CHANNELS_W3)
+roasters = merge(roasters, W4.ROASTER_UPDATES_W4) + [dict(r) for r in W4.NEW_ROASTERS_W4]
+channels = list(L.CHANNELS) + list(E.NEW_CHANNELS) + list(W3.NEW_CHANNELS_W3) + list(W4.NEW_CHANNELS_W4)
 
 names = [c["name"] for c in cafes]
 dupes = {n for n in names if names.count(n) > 1}
@@ -140,7 +147,7 @@ for c in cafes:
     w = web.get(("cafe", c["name"]))
     if not w:
         continue
-    c.update({k: v for k, v in CP.summary_fields(w).items() if k in ("web_check", "ig_followers", "web_contacts", "web_pages")})
+    c.update({k: v for k, v in CP.summary_fields(w).items() if k in ("web_check", "web_contacts", "web_pages")})
     for role, how in (("own", "Named on the cafe's own pages / listing"), ("mention", "Named in an article about the cafe")):
         for h in w.get(role, {}).get("roasters", []):
             web_pairs.append(dict(name=c["name"], city=c["city"], supplier=h["term"], how=how, snippet=h["snippet"], page_url=h["url"]))
@@ -184,8 +191,8 @@ ROASTER_COLS = [
     ("LinkedIn", "linkedin", 40), ("Key people (public)", "people", 34), ("Source", "src", 45), ("Verify / notes", "verify", 30),
 ]
 if web:
-    CAFE_COLS += [("Web check: roster evidence (auto — verify)", "web_check", 60), ("IG followers", "ig_followers", 11),
-                  ("Contacts on its own pages", "web_contacts", 30), ("Pages read (web check)", "web_pages", 45)]
+    CAFE_COLS += [("Web check: roster evidence (auto — verify)", "web_check", 60), ("Contacts on its own pages", "web_contacts", 30),
+                  ("Pages read (web check)", "web_pages", 45)]
     ROASTER_COLS += [("Cafes named on its pages (auto — verify)", "web_cafes", 45), ("Web check (auto — verify)", "web_check", 50)]
 WEB_PAIR_COLS = [("Cafe", "name", 30), ("City", "city", 14), ("Roaster named", "supplier", 30), ("How it was found", "how", 30),
                  ("Snippet", "snippet", 70), ("Page", "page_url", 45)]
@@ -257,8 +264,7 @@ PROFILE_COLS = [
     ("Instagram", "ig", 22), ("Key people (public)", "people", 28), ("Source", "src", 40),
 ]
 if web:
-    PROFILE_COLS += [("Web check: roster evidence (auto — verify)", "web_check", 60), ("IG followers", "ig_followers", 11),
-                     ("Contacts on its own pages", "web_contacts", 30)]
+    PROFILE_COLS += [("Web check: roster evidence (auto — verify)", "web_check", 60), ("Contacts on its own pages", "web_contacts", 30)]
 profiled =[c for c in hot + [c for c in cafes if c["status"] == L.EST] if c["priority"] in ("A", "B")]
 ws = wb.create_sheet("Lead Profiles & Strategy")
 write_table(ws, PROFILE_COLS, profiled)
@@ -287,7 +293,7 @@ ws = wb.create_sheet("Channel Partners")
 write_table(ws, CHANNEL_COLS, channels)
 
 ws = wb.create_sheet("Excluded (Regular tier)")
-write_table(ws, [("Operator", "name", 40), ("Why excluded", "why", 90)], [dict(name=n, why=w) for n, w in L.EXCLUDED])
+write_table(ws, [("Operator", "name", 40), ("Why excluded", "why", 90)], [dict(name=n, why=w) for n, w in list(L.EXCLUDED) + list(W4.REMOVE_W4.items())])
 
 # ---- Region summary with live formulas
 ws = wb.create_sheet("Summary by State")
@@ -431,7 +437,7 @@ lines = [
 if web:
     lines += [
         ("WEB CHECK (research/check_pages.py)", True),
-        ("Columns and the sheet marked 'auto — verify' were extracted automatically from each lead's own site, listing, Instagram bio and articles: roasters named, origins/estates, processes, brew methods, prices, opening/hiring signals and published contacts. Each item has a snippet and page in csv/page_findings.csv and research/page_findings.json. Check by eye before quoting it to the cafe.", False),
+        ("Columns and the sheet marked 'auto — verify' were extracted automatically from each lead's own site, listings and articles: roasters named, origins/estates, processes, brew methods, prices, opening/hiring signals and published contacts. Each item has a snippet and page in csv/page_findings.csv and research/page_findings.json. Check by eye before quoting it to the cafe.", False),
         ("'Web Check — Supplier Leads' pairs cafes with roasters named on the cafe's pages, in articles about it, or on the roaster's stockist pages. 'Named in an article' is the weakest evidence.", False),
         ("", False),
     ]
@@ -505,7 +511,7 @@ def md_contact(c):
 buyers = [c for c in cafes if c["status"] == L.EST and c["priority"] == "A"]
 with open(os.path.join(ROOT, "HOT_LEADS.md"), "w", encoding="utf-8") as f:
     f.write("# Hot leads — new & upcoming premium cafes\n\n")
-    f.write("Generated by `research/build.py` from `research/leads.py`, `enrichment.py` and `wave2.py`. "
+    f.write("Generated by `research/build.py` from `research/leads.py`, `enrichment.py`, `wave2.py`, `wave3.py` and `wave4.py`. "
             "Full profiles (gap, offer, approach, sources, verify notes) are in the workbook's 'Lead Profiles & Strategy' tab.\n\n")
     f.write("| ID | Pri | Status | Tier | Cafe | City | Roasts? | Current coffee roster | Supplier | Contact found |\n"
             "|---|---|---|---|---|---|---|---|---|---|\n")

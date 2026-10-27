@@ -1,0 +1,944 @@
+{
+ "cafe:1000% Artisan Coffee Bar": [
+  "https://oteats.outlooktraveller.com/features/guides/5-best-cafes-in-gurugram-for-coffee-vibes-brunch",
+  "https://www.district.in/dining/ncr/1000-artisan-coffee-bar-dlf-phase-4-gurgaon"
+ ],
+ "cafe:70 Beans": [
+  "https://wanderlog.com/place/details/1506623/70beans",
+  "https://www.district.in/dining/mumbai/70-beans-1-vashi-navi-mumbai",
+  "https://yappe.in/maharashtra/navi-mumbai/70beans/766982",
+  "https://curlytales.com/ice-cream-sandwiches-at-70-beans-cafe-in-navi-mumbai/"
+ ],
+ "cafe:801": [
+  "https://yappe.in/gujarat/surat/801-specialty-coffee-more/401138",
+  "https://echai.ventures/surat/cafes/across-surat"
+ ],
+ "cafe:8th Day Cafe & Bakery": [
+  "https://t2online.in/goodlife/food-beverage/8th-day-caf----bakery-brews-big-in-new-town-with-its-fifth-kolkata-outlet/2003182"
+ ],
+ "cafe:Absolute Coffee Brewers": [
+  "https://yappe.in/madhya-pradesh/indore/absolute-coffee-brewers-specialty-coffee/1761487",
+  "https://knocksense.com/indore/calling-coffee-enthusiasts-check-out-these-5-must-visit-spots-in-indore-for-a-divine-caffeine-fix",
+  "https://curlytales.com/indore-has-a-messy-nutella-strawberry-cheesecake-thats-going-viral-we-got-you-all-the-deets",
+  "https://www.townscript.com/e/coffee-brewers-showcase-indore-420341"
+ ],
+ "cafe:AlienKind": [
+  "https://www.restaurantindia.in/news/alienkind-opens-its-biggest-outlet-in-mumbais-oshiwara.n16757",
+  "https://indianretailer.com/news/alienkind-expands-retail-presence-first-mumbai-outlet"
+ ],
+ "cafe:Altogether Experimental (ATE) — Omakase": [
+  "https://www.restaurantindia.in/news/restaurant-india-news-ate-omakase-introduces-omakase-style-coffee-format-in-gurugram.n16015",
+  "https://www.indianretailer.com/franchisetv/archives/news/ate-omakase-introduces-curated-coffee-format-gurugram",
+  "https://www.district.in/events/ate-omakase-a-multicourse-coffee-experience-may28-2026-buy-tickets",
+  "https://www.esquireindia.co.in/amp/story/food-and-drinks/where-to-drink/ate-omakase-coffee-in-gurgaon",
+  "https://oteats.outlooktraveller.com/features/guides/delhi-ncrs-cafe-scene-has-levelled-up-heres-everywhere-you-need-to-be",
+  "https://www.district.in/blog/specialty-coffee-destinations-gurugram"
+ ],
+ "cafe:Ammy's Coffee — Galleria Market": [
+  "https://www.restaurantindia.in/news/restaurant-india-news-ammy-s-coffee-expands-to-galleria-gurgaon-gk-new-delhi.n13541"
+ ],
+ "cafe:Aristella Cafe & Bar": [
+  "https://wanderlog.com/place/details/8018878/aristella-cafe-and-bar",
+  "https://doondiningguide.blogspot.com/2025/10/best-cafe-in-dehradun-why-aristella.html"
+ ],
+ "cafe:Artsy — Coffee & Culture": [
+  "https://www.thestatesman.com/supplements/8thday/wind-and-the-windows-1503345945.html",
+  "https://rootsandleisure.com/artsy-cafe-kolkata/",
+  "https://www.localsamosa.com/food-and-drinks/artisanal-cafes-in-kolkata-7313373"
+ ],
+ "cafe:Babka Goa": [
+  "https://lbb.in/goa/babka-coffee-shop-desserts-anjuna",
+  "https://www.knocksense.com/goa/check-out-babka-in-anjuna-for-your-elaborate-breakfast-fix-with-some-kick-ass-coffee",
+  "https://wanderlog.com/place/details/791542/babka-goa-coffee-bar--bakery--patisserie-anjuna"
+ ],
+ "cafe:Barista Diner": [
+  "https://www.restaurantindia.in/news/barista-opens-its-largest-cafe-at-dal-lake-srinagar.n11298"
+ ],
+ "cafe:Baskè": [
+  "https://www.lucknowwants.com/new-in-town/baskè-lucknows-newest-gem-for-artisanal-bakes-specialty-coffee",
+  "https://businessworld.in/article/move-aside-tea-lucknow-now-brews-its-own-coffee-culture--457546"
+ ],
+ "cafe:Batter Bar — CP67 Mohali": [
+  "https://babushahi.com/trends.php?id=221174",
+  "https://shoutlo.com/restaurants/batter-bar-sector-7-chandigarh"
+ ],
+ "cafe:Beige Coffee": [
+  "https://www.district.in/dining/ncr/beige-coffee-sector-15-faridabad"
+ ],
+ "cafe:Belsta Coffee": [
+  "https://curlytales.com/india/food/serving-cappuccinos-starting-at-mumbais-cutest-coffee-spot-runs-on-an-activa/"
+ ],
+ "cafe:Blockheads": [
+  "https://www.knocksense.com/ahmedabad/a-musical-escape-in-abad-head-to-blockheads-cafe-inspired-by-japanese-listening-bar-culture",
+  "https://homegrown.co.in/homegrown-explore/beyond-open-mics-dj-sets-cafs-across-india-are-building-music-centric-communities"
+ ],
+ "cafe:Blue Can Coffee": [
+  "https://www.pulled.coffee/shop/blue-can-coffee-surat"
+ ],
+ "cafe:Boojee Cafe — One BKC": [
+  "https://www.timeout.com/mumbai/news/boojee-cafe-is-opening-a-new-outlet-at-one-bkc-in-mumbai-082026",
+  "https://curlytales.com/india/food/mumbaikars-boojee-cafe-is-coming-to-bkc-with-its-signature-brews-bites/",
+  "https://www.freepressjournal.in/lifestyle/from-bandra-to-sobo-boojee-cafe-brings-its-classic-brews-brunch-to-south-mumbai"
+ ],
+ "cafe:Book Bar": [
+  "https://www.freepressjournal.in/lifestyle/more-than-a-caf-inside-avneesh-gadgils-book-bar-dream-now-brewing-in-mumbai",
+  "https://www.localsamosa.com/food-and-drinks/book-cafes-in-pune-9356580",
+  "https://www.timeout.com/mumbai/restaurants/book-bar"
+ ],
+ "cafe:Bouffage Cafe and Bistro": [
+  "https://curlytales.com/every-coffee-lover-must-head-to-bouffage-cafe-in-nagpur",
+  "https://www.nagpurtoday.in/inside-the-grand-feast-a-conversation-with-anshul-and-dewansh-jaiswal-of-bouffage/",
+  "https://wanderlog.com/place/details/3061288/bouffage-cafe-and-bistro"
+ ],
+ "cafe:Brevé (Running Late by Brevé)": [
+  "https://www.freepressjournal.in/lifestyle/build-your-own-breakfast-board-at-mumbais-newest-caf-run-club-brev-20-that-doesnt-compromise-on-protein-calories",
+  "https://curlytales.com/bandras-cafe-breve-is-where-your-gym-goals-and-cake-cravings-finally-shake-hands/",
+  "https://www.restaurantindia.in/news/restaurant-india-news-brev-opens-new-flagship-caf-in-bandra-expands-community-focused-coffee-concept.n16397"
+ ],
+ "cafe:Brewgarten": [
+  "https://knocksense.com/ahmedabad/international-coffee-day-8-must-visit-coffee-places-in-ahmedabad-for-the-perfect-brew",
+  "https://yappe.in/gujarat/ahmedabad/brewgarten/293459"
+ ],
+ "cafe:Brewito Coffee": [
+  "https://wanderlog.com/place/details/7542169",
+  "https://www.pulled.coffee/shop/cafe-brewito-best-cafe-in-vadodara-best-specialty-coffee-in-town-vadodara"
+ ],
+ "cafe:Brims": [
+  "https://delhiitesmagazine.com/new-in-town-january-2025/"
+ ],
+ "cafe:CHACOCO": [
+  "https://www.knocksense.com/lucknow/ditch-the-old-cafes-lucknows-newest-chacoco-is-brewing-something-specialheres-why-youll-love-it"
+ ],
+ "cafe:COLAB Artisanal Coffee": [
+  "https://curlytales.com/colab-is-a-cosy-hideout-in-kolkata-for-artisanal-coffees-stuffed-buns-and-pancakes",
+  "https://obeta.ttef.in/my-kolkata/places/artisanal-coffee-of-colab-cafe-is-creating-a-buzz-among-coffee-lovers/cid/1854387",
+  "https://www.district.in/dining/kolkata/colab-coffee-desapriya-park-desapriya-park",
+  "https://t2online.in/goodlife/food-beverage/world-cappuccino-day-special--where-to-sip-the-perfect-cup-in-kolkata/2001999"
+ ],
+ "cafe:CUP": [
+  "https://oteats.outlooktraveller.com/features/guides/delhis-newest-openings-that-you-must-look-out-for-this-february"
+ ],
+ "cafe:Cafe Buddy's Espresso — Kolkata": [
+  "https://t2online.in/goodlife/food-beverage/a-new-menu-awaits-at-cafe-buddy-s-espresso-as-they-complete-one-t2-checked-it-out/454228"
+ ],
+ "cafe:Cafe Buddy's Espresso — Thane": [
+  "https://echai.ventures/grid/mumbai/cafe-buddy-s-espresso-best-cafe-in-thane"
+ ],
+ "cafe:Cafe By Soul": [
+  "https://www.tribuneindia.com/news/business/sip-the-new-trend-5-must-visit-premium-coffee-cafes-in-delhi-ncr-2026/",
+  "https://www.eazydiner.com/delhi-ncr/cafe-by-soul-dlf-phase-1-gurgaon-672222",
+  "https://www.eazydiner.com/delhi-ncr/cafe-by-soul-sector-65-gurgaon-690535/reviews"
+ ],
+ "cafe:Cafe Captain Americano": [
+  "https://curlytales.com/kolkata-gets-its-first-naga-cafe-serving-freshly-brewed-coffee-and-naga-specialities-like-ocean-latte-pork-rice-bowl-and-more",
+  "https://morungexpress.com/nagalands-caf-captain-americano-among-times-food-nightlife-award-winners",
+  "https://www.leadstal.com/sb/cafe-captain-americano"
+ ],
+ "cafe:Cafe Chikory": [
+  "https://www.district.in/dining/mumbai/cafe-chikory-fort"
+ ],
+ "cafe:Cafe Earnest": [
+  "https://wanderlog.com/place/details/9129203/cafe-earnest-speciality-coffee-bakery--pizzeria",
+  "https://yappe.in/rajasthan/jaipur/cafe-earnest/288401",
+  "https://curlytales.com/web-stories/8-best-coffee-places-in-jaipur-for-your-fix-of-caffeine"
+ ],
+ "cafe:Cafe Lento — Pune": [
+  "https://thenodmag.com/content/pune-chennai-jaipur-kolkata-ahmedabad-new-restaurants-bars-menus-june-2026",
+  "https://yourstory.com/ys-life/the-second-house-goa-lento-cafe"
+ ],
+ "cafe:Cafe Nola — Jaipur": [
+  "https://www.indianretailer.com/news/cafe-nola-enters-jaipur-all-day-dining-focus",
+  "https://indianretailer.com/franchisetv/archives/news/cafe-nola-opens-jaipur-all-day-cafe-concept",
+  "https://www.restaurantindia.in/news/restaurant-india-news-caf-nola-brings-all-day-dining-and-specialty-coffee-strategy-to-jaipur.n15650"
+ ],
+ "cafe:Cafe Pulp": [
+  "https://www.eazydiner.com/surat/cafe-pulp-dumas-surat-704820",
+  "https://www.eazydiner.com/surat/cafe-pulp-dumas-surat-704820/reviews"
+ ],
+ "cafe:Cafe Quattro — Babulnath": [
+  "https://www.restaurantindia.in/news/caf-quattro-opens-second-outlet-in-babulnath-south-mumbai.n16988",
+  "https://indianretailer.com/news/cafe-quattro-opens-second-mumbai-cafe-mumbai",
+  "https://www.eazydiner.com/mumbai/cafe-quattro-juhu-western-suburbs-707486"
+ ],
+ "cafe:Cafe Rue 18": [
+  "https://www.explurger.com/pd/a8v072gh673rrd8sz",
+  "https://app.wanderlog.com/place/details/2959956"
+ ],
+ "cafe:Cafe Sandoz": [
+  "https://indianretailer.com/franchisetv/archives/news/cafe-sandoz-strengthens-delhi-footprint-new-lifestyle-cafe-rajouri-garden",
+  "https://www.restaurantindia.in/news/cafe-sandoz-launches-new-outlet-at-rajouri-garden-ring-road-new-delhi.n16734",
+  "https://www.franchiseindia.com/insights/en/news/cafe-sandoz-opens-flagship-lifestyle-caf-in-new-delhi-expands-premium-dining-footprint.59306"
+ ],
+ "cafe:Cafe Serenity — Baner (relocating)": [
+  "https://www.explurger.com/pd/pkfm8zlni1mxtmjw0"
+ ],
+ "cafe:Caffein Cafe": [
+  "https://caffein.co.in/",
+  "https://yappe.in/gujarat/vadodara/caffein-cafe/194128",
+  "https://www.ourvadodara.com/budget-cafes-ourvadodara/amp/"
+ ],
+ "cafe:Caffeowl Coffee": [
+  "https://echai.ventures/grid/pune/caffeowl-coffee"
+ ],
+ "cafe:Carbon — Vaishali Nagar (3rd outpost)": [
+  "https://www.restaurantindia.in/news/carbon-opens-third-caf-in-jaipur-with-new-vaishali-nagar-outlet.n16924",
+  "https://curlytales.com/india/food/whiskey-barrel-cold-brew-to-au-chocolate-carbon-brings-a-new-cafe-culture-in-jaipur/",
+  "https://indianretailer.com/news/carbon-jaipur-expands-second-outlet-jaipur-cafe-market",
+  "https://www.eazydiner.com/jaipur/carbon-ashok-nagar-jaipur-690551/reviews",
+  "https://haydenrue.com/india/rajasthan/carbon-cafe-in-jaipur/"
+ ],
+ "cafe:Cháfé Braz": [
+  "https://thenodmag.com/content/goa-new-restaurants-bars-food-menus-july-2026",
+  "https://wanderlog.com/place/details/5383434"
+ ],
+ "cafe:Cocoa & Katli": [
+  "https://theprint.in/ani-press-releases/harsh-kedia-and-arihant-jain-launch-cocoa-katli-a-cafe-that-redefines-mindful-indulgence-for-the-conscious-mumbaikar/3077520/",
+  "https://curlytales.com/india/food/coffee-desserts-mindful-indulgence-harsh-kedia-aka-a-diabetic-chef-opens-new-cafe-in-malad/"
+ ],
+ "cafe:Coffee Bond (Cafe Bond) — CP & Karkardooma": [
+  "https://www.explurger.com/pd/jjbnu1aqc73y2ajf6",
+  "https://www.explurger.com/pd/n1dlk70912p3g7pks",
+  "https://wanderlog.com/place/details/1079729/coffee-bond",
+  "https://www.pulled.coffee/shop/coffee-bond-delhi"
+ ],
+ "cafe:Coffee Capital": [
+  "https://www.restaurantindia.in/news/restaurant-india-news-coffee-capital-launches-in-mumbai-with-34-cover-speciality-caf-format.n15399",
+  "https://echai.ventures/grid/mumbai/coffee-capital",
+  "https://www.eazydiner.com/mumbai/coffee-capital-versova-western-suburbs-712657"
+ ],
+ "cafe:Coffee Gram": [
+  "https://www.explurger.com/pd/y2besool1icqv2xa9"
+ ],
+ "cafe:Coffee Stop": [
+  "https://au.trip.com/travel-guide/benaulim-15438-restaurant/Coffee%20Stop-19966530"
+ ],
+ "cafe:Coffee Terminal 2": [
+  "https://www.eazydiner.com/lucknow/coffee-terminal-lucknow-ct2-gomti-nagar-lucknow-710755",
+  "https://www.knocksense.com/lucknow/5-new-coffee-spots-in-lucknow-worth-adding-to-your-café-hopping-list"
+ ],
+ "cafe:Coffee Therapy Artisan": [
+  "https://www.freepressjournal.in/bhopal/bhopals-best-brews-10-cafs-you-must-go-for-coffee",
+  "https://www.freepressjournal.in/bhopal/from-poha-jalebi-to-coffee-and-books-bhopals-caf-culture-is-growing",
+  "https://yappe.in/madhya-pradesh/bhopal/coffee-therapy/262660"
+ ],
+ "cafe:Coffee Yard": [
+  "https://wanderlog.com/place/details/4367333/coffee-yard",
+  "https://yappe.in/gujarat/vadodara/coffee-yard/277115",
+  "https://www.eazydiner.com/vadodara/coffee-yard-akota-vadodara-690239"
+ ],
+ "cafe:Coffeeboo Specialty Coffee": [
+  "https://www.nagpurtoday.in/?p=196998",
+  "https://yappe.in/maharashtra/nagpur/coffeeboo/232089"
+ ],
+ "cafe:Coffeio": [
+  "https://www.freepressjournal.in/bhopal/bhopals-best-brews-10-cafs-you-must-go-for-coffee"
+ ],
+ "cafe:Colocal Chocolates": [
+  "https://wanderlog.com/place/details/10619816/colocal-chocolates--noida",
+  "https://www.district.in/dining/ncr/colocal-indian-origin-chocolates-sector-110-noida",
+  "https://so.city/delhi/article/book-a-coffee-date-with-your-bff-at-this-new-coffee-house-in-noida-a-sibling-of-colocal-cafe"
+ ],
+ "cafe:Common Time — Khan Market": [
+  "https://www.timeout.com/delhi/restaurants/common-time",
+  "https://www.restaurantindia.in/news/restaurant-india-news-common-time-opens-second-delhi-caf-in-basant-lok-targets-premium-neighbourhood.n15317",
+  "https://indianretailer.com/news/common-time-opens-second-delhi-cafe-basant-lok-market"
+ ],
+ "cafe:Cortasso Coffee and Bakehouse": [
+  "https://www.enprimeurclub.com/restaurants/cortasso-new-delhi-restaurant",
+  "https://joinpearl.co/restaurants/new-delhi/cortasso",
+  "https://urbanaut.app/spot/delhi-coffee-crawl-7"
+ ],
+ "cafe:Crush Coffee": [
+  "https://www.pulled.coffee/shop/crush-coffee-vesu-surat-surat"
+ ],
+ "cafe:Curators Coffee": [
+  "https://www.district.in/dining/vadodara/curators-coffee-alkapuri",
+  "https://yappe.in/gujarat/vadodara/curators-coffee/194148",
+  "https://www.slurrp.com/article/the-cafe-craze-in-gujarat-five-unmissable-cafes-in-baroda-1751371601941",
+  "https://surfacesreporter.com/articles/112952/an-artistic-modernist-coffee-house-in-vadodara-by-harsh-boghani-of-crossboundaries"
+ ],
+ "cafe:DRNK Apartment": [
+  "https://www.timeout.com/mumbai/restaurants/drnk-apartment",
+  "https://oteats.outlooktraveller.com/features/guides/the-coolest-new-openings-in-mumbai-you-need-to-be-on-the-lookout-for"
+ ],
+ "cafe:Doppio Coffee — Colaba": [
+  "https://echai.ventures/grid/mumbai/doppio-coffee-the-little-cafe-of-south-mumbai",
+  "https://www.restaurantindia.in/article/Have-a-fun-dining-experience-with-Doppio.7025"
+ ],
+ "cafe:DripCo Speciality Coffee Brewers": [
+  "https://www.eazydiner.com/indore/the-dripco-speciality-coffee-brewers-scheme-no-54-indore-702866",
+  "https://www.eazydiner.com/indore/the-dripco-speciality-coffee-brewers-scheme-no-54-indore-702866/reviews"
+ ],
+ "cafe:Elgin Cafe": [
+  "https://www.eazydiner.com/ludhiana/elgin-cafe-canal-road-ludhiana-709873",
+  "https://thespaces.com/elgin-cafe-punjab/",
+  "https://foodinspace.net/project/elgin-cafe-kamboh-india"
+ ],
+ "cafe:Esc. Coffee x Deli": [
+  "https://www.district.in/dining/mumbai/esc-coffee-x-deli-carter-road-bandra-west"
+ ],
+ "cafe:Fig at MG": [
+  "https://yappe.in/haryana/gurugram/fig-at-museo/1041044"
+ ],
+ "cafe:Flameback Cafe & Kitchen": [
+  "https://t2online.in/goodlife/food-beverage/flameback-cafe---kitchen-is-where-global-flavours-pair-up-with-world-coffee--t2-checked-it-out/2001719",
+  "https://t2online.in/goodlife/food-beverage/new-cafe-alert--why-flameback-s-cozy-tilak-road-outpost-is-the-ultimate-hangout-spot-for-your-squad/2006388"
+ ],
+ "cafe:GOAT Brew": [
+  "https://www.restaurantindia.in/news/goat-brew-launches-new-caf-restaurant-and-bar-in-mumbai.n16812",
+  "https://indianretailer.com/news/goat-brew-opens-new-cafe-and-bar-mumbai",
+  "https://www.district.in/dining/mumbai/goat-brew-oshiwara"
+ ],
+ "cafe:Genre": [
+  "https://www.district.in/nandan-coffee-takeover-at-genre-delhi-art-weekend-oct5-2025/event",
+  "https://oteats.outlooktraveller.com/features/guides/delhi-unique-coffee-experiences-2025",
+  "https://www.localsamosa.com/food-and-drinks/genre-delhi-vinyl-bar-9420823",
+  "https://delhiitesmagazine.com/new-places-to-discover-in-delhi/"
+ ],
+ "cafe:Godaam Speciality Coffee Co.": [
+  "https://wanderlog.com/place/details/10391496/godaam-speciality-coffee-co",
+  "https://www.district.in/dining/pune/godaam-specialty-coffee-co-fc-road",
+  "https://traveltriangle.com/blog/cafes-in-shivaji-nagar",
+  "https://www.district.in/blog/pune-cafes-for-work"
+ ],
+ "cafe:Greko : God's Own Coffee": [
+  "https://greko.vercel.app/about",
+  "https://www.eazydiner.com/amritsar/greko-katra-ahluwalia-amritsar-701223",
+  "https://www.eazydiner.com/amritsar/drip-by-greko-ranjit-avenue-amritsar-713134",
+  "https://www.eazydiner.com/amritsar/greko-reserve-ranjit-avenue-amritsar-700958"
+ ],
+ "cafe:Grind Bar": [
+  "https://grindbar.in/",
+  "https://homegrown.co.in/homegrown-explore/grind-bar-goa-provides-an-experiential-cafe-experience",
+  "https://homegrown.co.in/homegrown-explore/listening-sessions-coffee-cocktails-how-goan-coffee-bars-are-blazing-a-trail",
+  "https://urbanaut.app/spot/grind-bar",
+  "https://curlytales.com/best-coffee-shops-in-goa-for-artisanal-brews-gourmet-bites-and-more"
+ ],
+ "cafe:Grounded": [
+  "https://www.indianretailer.com/restaurant/article/bandra-gets-a-new-enchanting-caf-grounded.14232",
+  "https://echai.ventures/grid/mumbai/grounded-cafe"
+ ],
+ "cafe:Habidade": [
+  "https://wanderlog.com/place/details/10672303",
+  "https://www.district.in/dining/ncr/habidade-hajipur-noida",
+  "https://www.district.in/blog/specialty-coffee-noida",
+  "https://yappe.in/uttar-pradesh/noida/habidade/723828"
+ ],
+ "cafe:IKVITI": [
+  "https://village.ai/company/ikviti"
+ ],
+ "cafe:In Good Co.": [
+  "https://www.restaurantindia.in/news/ri-exclusive-aditya-birla-new-age-hospitality-launches-first-caf-brand-in-good-co-in-delhi.n16286",
+  "https://www.franchiseindia.com/index.php/insights/en/news/aditya-birla-new-age-hospitality-enters-caf-market-with-launch-of-in-good-co-in-delhi.59002",
+  "https://curlytales.com/delhis-in-good-co-pampered-me-with-upma-balls-tahini-coffee-in-a-baby-blue-setting/",
+  "https://www.outlooktraveller.com/ot-pours/the-sulaimani-iced-tea-at-in-good-co-is-enough-reason-to-plan-a-visit"
+ ],
+ "cafe:Indiroom (at Pincode Bungalow)": [
+  "https://www.baristamagazine.com/exploring-the-vibrant-specialty-coffee-culture-of-goa-india/"
+ ],
+ "cafe:JOKER": [
+  "https://www.restaurantindia.in/news/aspect-hospitality-expands-fb-portfolio-with-joker-in-bandra.n16905",
+  "https://joinpearl.co/restaurants/mumbai/joker"
+ ],
+ "cafe:Jacob's Brew House — Jaipur": [
+  "https://www.restaurantindia.in/news/restaurant-india-news-jacob-s-brew-house-brings-specialty-coffee-focus-to-jaipur.n15791",
+  "https://www.restaurantindia.in/news/restaurant-india-news-jacob-s-brew-house-opens-in-jaipur-introducing-a-design-led-specialty-coffee.n15452",
+  "https://thenodmag.com/content/jacobs-brew-house-jaipur-cafe-coffee-house-review",
+  "https://oteats.outlooktraveller.com/amp/story/reviews/the-pesto-gnocchi-at-jacobs-is-all-you-need-to-make-sundays-saucy"
+ ],
+ "cafe:Javaphile": [
+  "https://www.restaurantindia.in/news/restaurant-india-news-javaphile-caf-opens-in-worli-mumbai.n14931",
+  "https://www.district.in/dining/mumbai/javaphile-pali-hill-bandra-west",
+  "https://www.cosmopolitan.in/life/features/story/this-worli-cafe-is-all-about-comfort-caffeine-and-slow-sips-1338113-2026-01-29",
+  "https://www.indianretailer.com/news/javaphile-cafe-arrives-worli-deepens-footprint-mumbai"
+ ],
+ "cafe:KaCoBa": [
+  "https://yappe.in/rajasthan/jaipur/kacoba-cafe-coffee-roasters/289108",
+  "https://haydenrue.com/india/rajasthan/kacoba-in-jaipur"
+ ],
+ "cafe:Kala Ghoda Cafe": [
+  "https://fathomaway.com/kala-ghoda-cafe/"
+ ],
+ "cafe:Kali Coffee": [
+  "https://www.eazydiner.com/chandigarh-tricity/kali-coffee-sector-20-panchkula-697000",
+  "https://yappe.in/haryana/panchkula/kali-coffee/66749",
+  "https://www.shoutlo.com/articles/what-makes-kali-coffee-panchkula-so-special-find-out"
+ ],
+ "cafe:Kalopsia Artisan Coffee": [
+  "https://kaapimachines.com/for-coffee-lovers-in-mumbai"
+ ],
+ "cafe:Kapai Coffee House": [
+  "https://www.eazydiner.com/kanpur/kapai-coffe-house-pandu-nagar-kanpur-711604",
+  "https://www.eazydiner.com/kanpur/kapai-coffe-house-pandu-nagar-kanpur-711604/reviews"
+ ],
+ "cafe:Kohi — The Cafe": [
+  "https://www.eazydiner.com/amritsar/kohi-the-cafe-ranjit-avenue-amritsar-696155"
+ ],
+ "cafe:Kokoy": [
+  "https://www.restaurantindia.in/news/restaurant-india-news-kokoy-launches-caf-in-gurugram-enters-premium-all-day-dining-segment.n14880",
+  "https://www.realshepower.in/new-coffee-cafes-delhi-ncr-2026/"
+ ],
+ "cafe:Kruti Coffee": [
+  "https://www.worldcoffeeportal.com/news/kruti-coffee-wants-to-raise-the-profile-indian-specialty-coffee-in-the-uk/",
+  "https://odishabytes.com/kruti-coffee-the-cultural-cafe/amp",
+  "https://www.eazydiner.com/bhubaneswar/kruti-coffee-nandankanan-road-bhubaneswar-707382",
+  "https://curlytales.com/from-blueberrys-cafe-to-kruti-coffee-7-must-visit-cafes-in-bhubaneswars-patia"
+ ],
+ "cafe:Kulture — Specialty Coffee & Bistro": [
+  "https://t2online.in/goodlife/food-beverage/t2-gets-you-the-first-look-of-kulture-specialty-coffee-bistro-the-new-dine-den-in-town/1462233",
+  "https://www.district.in/dining/kolkata/kulture-speciality-coffee-park-street-area",
+  "https://www.district.in/events/craft-your-coffee-kulture-nov23-2025-buy-tickets",
+  "https://www.district.in/blog/speciality-coffee-places-kolkata"
+ ],
+ "cafe:Larder & Folk": [
+  "https://www.heraldgoa.in/cafe/brewing-successthe-rise-of-coffee-culture-in-goa/414602",
+  "https://www.esquireindia.co.in/food-and-drinks/what-to-eat/top-7-cafes-in-goa-you-need-to-try-from-mandrem-beach-views-to-panajis-artisanal-coffee-spots",
+  "https://wanderlog.com/place/details/6441437/larder-and-folk",
+  "https://urbanaut.app/spot/larder-and-folk"
+ ],
+ "cafe:Linking House": [
+  "https://www.restaurantindia.in/news/linking-house-opens-on-linking-road-with-120-seats-and-day-to-night-dining.n17078"
+ ],
+ "cafe:Lizzu": [
+  "https://www.restaurantindia.in/news/lizzu-opens-in-lodhi-colony-with-all-day-caf-and-wine-bar-format.n17228"
+ ],
+ "cafe:Love Over Coffee — Indore": [
+  "https://www.freepressjournal.in/indore/indores-trendy-yet-budget-cafs-good-food-insta-friendly-ambience-without-burning-a-hole-in-pocket-cafe-hoppers-check-out-the-list-below"
+ ],
+ "cafe:Lume and Lime": [
+  "https://www.restaurantindia.in/news/gurugram-gets-new-3800-sq-ft-bistro-lume-lime-in-sector-113.n17132"
+ ],
+ "cafe:Mainline Coffee": [
+  "https://www.district.in/blog/specialty-coffee-ahmedabad"
+ ],
+ "cafe:Marcel's": [
+  "https://delhipedia.com/?p=6412",
+  "https://curlytales.com/web-stories/7-new-coffee-places-in-delhi-that-every-coffee-lover-should-check-out"
+ ],
+ "cafe:Mazi Mumbai": [
+  "https://www.restaurantindia.in/news/mumbai-s-gets-a-new-coffee-forward-cafe-destination-mazi-caf-at-santacruz.n11378",
+  "https://www.freepressjournal.in/lifestyle/food-review-mazi-coffee-bar-and-kitchen-mumbai-offers-inventive-coffee-creations-and-delectable-dishes",
+  "https://www.localsamosa.com/food-and-drinks/mazi-coffee-bar-and-kitchen-in-santacruz-8557378",
+  "https://www.eazydiner.com/mumbai/mazi-coffee-bar-kitchen-santacruz-west-western-suburbs-703721"
+ ],
+ "cafe:Meraki The Coffee House": [
+  "https://perfectdailygrind.com/?p=67733",
+  "https://www.restaurantindia.in/article/how-this-surat-based-caf-is-trying-to-redefine-indian-coffee.10587",
+  "https://wanderlog.com/place/details/3385372/meraki-the-coffee-house",
+  "https://www.pulled.coffee/shop/meraki-the-coffee-house-arista-surat-2"
+ ],
+ "cafe:Mokai": [
+  "https://www.timeout.com/mumbai/restaurants/mokai",
+  "https://www.timeout.com/mumbai/news/this-famous-cafe-is-shifting-from-bandra-to-bandra-031826",
+  "https://curlytales.com/ctexclusive-streets-of-japan-come-alive-at-bandra-in-the-form-of-new-coffeehouse-dining-spot-mokai",
+  "https://designpataki.com/from-tokyo-to-latin-america-3-new-mumbai-hotspots-that-blend-design-and-dining"
+ ],
+ "cafe:Momoka": [
+  "https://www.restaurantindia.in/news/momoka-opens-japanese-kissaten-inspired-caf-on-punes-prabhat-road.n16884",
+  "https://indianretailer.com/franchisetv/archives/news/momoka-brings-japanese-kissaten-culture-pune-new-flagship-cafe",
+  "https://www.passionateinmarketing.com/momoka-brings-the-spirit-of-a-japanese-kissaten-to-pune/"
+ ],
+ "cafe:More Over Coffee": [
+  "https://moc-demo.vercel.app/",
+  "https://www.explurger.com/pd/rz7zg4kg7fgr8ev06"
+ ],
+ "cafe:Mumbai Blondie": [
+  "https://www.restaurantindia.in/news/bastian-hospitality-enters-coffee-space-with-blondie.n12554",
+  "https://curlytales.com/first-look-of-blondie-by-bastian-shilpa-shetty-launches-mumbais-trendiest-matcha-and-coffee-spot"
+ ],
+ "cafe:NOT FAR": [
+  "https://www.restaurantindia.in/news/notfar-opens-in-bandra-with-specialty-cookies-cupcakes-and-coffee.n16686"
+ ],
+ "cafe:Naga Coffee Express": [
+  "https://morungexpress.com/brewing-the-coffee-culture-in-nagaland",
+  "https://theprint.in/feature/dimapur-to-kohima-nagaland-cafe-boom-signals-there-is-peace/1101341"
+ ],
+ "cafe:Namah Bengaluru Coffee House": [
+  "https://www.freepressjournal.in/lifestyle/food-review-we-tried-mumbais-viral-new-south-indian-spot-namah-is-it-worth-the-hype",
+  "https://www.freepressjournal.in/lifestyle/narayan-rane-shreyas-talpade-others-join-star-studded-launch-of-new-south-indian-joint-in-mumbai",
+  "https://www.indianretailer.com/franchisetv/archives/news/namah-brings-traditional-south-indian-flavours-and-hospitality-mumbai"
+ ],
+ "cafe:O'Brew": [
+  "https://magicpin.in/Udaipur/Chandpole/Restaurant/Obrew/store/1cc03b2/",
+  "https://www.eazydiner.com/udaipur/obrew-ambamata-udaipur-694803",
+  "https://echai.ventures/grid/udaipur/o-brew"
+ ],
+ "cafe:OCD Culture": [
+  "https://app.wanderlog.com/place/details/1507331",
+  "https://ashaval.com/?p=3431",
+  "https://echai.ventures/ahmedabad/cafes/sg-highway-west"
+ ],
+ "cafe:Odd Culture": [
+  "https://www.timeout.com/delhi/restaurants/odd-culture"
+ ],
+ "cafe:Offlimits": [
+  "https://wanderlog.com/place/details/2190167/offlimits-coffee-kasol",
+  "https://homegrown.co.in/article/806213/visit-indias-first-hemp-infused-specialty-cafe-in-kasol",
+  "https://curlytales.com/indias-first-hemp-cafe-in-kasol-serves-hemp-infused-coffee-food-with-mountain-views"
+ ],
+ "cafe:One PourCent": [
+  "https://www.knocksense.com/lucknow/5-new-coffee-spots-in-lucknow-worth-adding-to-your-café-hopping-list",
+  "https://www.eazydiner.com/lucknow/one-pourcent-gomti-nagar-lucknow-712033",
+  "https://www.knocksense.com/amp/story/lucknow/ks-discovery-from-pour-overs-to-pastries-3-new-lucknow-cafes-youll-love-exploring"
+ ],
+ "cafe:One World — The Coffee Studio": [
+  "https://curlytales.com/punes-bustling-cafe-culture-gets-a-new-chic-coffee-place-one-world-the-coffee-studio",
+  "https://lbb.in/pune/one-world-coffee-studio-pune",
+  "https://www.eazydiner.com/pune/one-world-the-coffee-studio-kalyani-nagar-pune-690333",
+  "https://www.eazydiner.com/pune/one-world-the-coffee-studio-kalyani-nagar-pune-690333/menu"
+ ],
+ "cafe:Oro": [
+  "https://www.restaurantindia.in/news/oro-opens-flagship-specialty-coffee-caf-in-gurugram.n17284",
+  "https://indianretailer.com/franchisetv/archives/news/specialty-coffee-brand-oro-opens-flagship-cafe-gurugram"
+ ],
+ "cafe:Oro's India": [
+  "https://www.eazydiner.com/nagpur/oros-gourmet-wood-fired-pizza-speciality-coffee-dhantoli-nagpur-713990"
+ ],
+ "cafe:Overflow Coffee": [
+  "https://www.eazydiner.com/lucknow/overflow-coffee-gomti-nagar-lucknow-713037",
+  "https://www.knocksense.com/lucknow/ks-discovery-from-pour-overs-to-pastries-3-new-lucknow-cafes-youll-love-exploring"
+ ],
+ "cafe:PICO — Pizzeria & Coffee Bar": [
+  "https://obeta.ttef.in/my-kolkata/food/pico-pizzeria-and-coffee-bar-near-south-kolkatas-vivekananda-park-is-dishing-out-woodfire-pizzas-freshly-baked-bread-and-a-range-of-hot-and-cold-artisanal-coffee-photogallery/cid/2028265",
+  "https://obeta.ttef.in/my-kolkata/food/prateek-didwania-brain-behind-pico-pizzeria-and-coffee-bar-talks-about-his-love-for-coffee-and-his-vision-for-building-a-coffee-community-in-kolkata/cid/2032653",
+  "https://wanderlog.com/place/details/11654899/pico-pizzeria--coffee-bar",
+  "https://www.district.in/blog/speciality-coffee-places-kolkata"
+ ],
+ "cafe:Panache Specialty Coffee": [
+  "https://ilovenavimumbai.com/?p=695",
+  "https://www.eazydiner.com/mumbai/panache-cbd-belapur-navi-mumbai-684322"
+ ],
+ "cafe:Pardon Our French": [
+  "https://thenodmag.com/content/pardon-our-french-pooja-dhingra-cafe-ballard-estate-mumbai-review",
+  "https://curlytales.com/pardon-our-french-pooja-dhingra-has-a-new-cafe-in-mumbai-hint-its-not-in-bandra",
+  "https://zeezest.com/food/pooja-dhingra-s-new-cafe-is-a-love-letter-to-paris-set-in-a-ballard-estate-by-lane-10035"
+ ],
+ "cafe:Perch Wine & Coffee Bar": [
+  "https://www.business-standard.com/article/beyond-business/a-wine-haven-for-some-quiet-115062601238_1.html",
+  "https://wanderlog.com/place/details/1079545/perch-wine--coffee-bar",
+  "https://www.eazydiner.com/delhi-ncr/restaurants/perch-wine-and-coffee-bar",
+  "https://silverkris.singaporeair.com/guide/india/del/drink-new-delhi/perch-wine-and-coffee-bar/"
+ ],
+ "cafe:Philtre & Co.": [
+  "https://ideal.house/community/news/this-quaint-new-cafe-in-lucknow-is-an-ode-to-the-citys-rich-design-legacy",
+  "https://www.magzter.com/en/stories/home/Livingetc-India/SPACES-AN-EVENING-IN-LUCKNOW"
+ ],
+ "cafe:Pilgrim — Multi-Roaster Speciality Coffee House": [
+  "https://nashikcity.in/?p=1082",
+  "https://wanderlog.com/place/details/12036201/pilgrim-speciality-coffee-house"
+ ],
+ "cafe:Pouring Veranda": [
+  "https://www.district.in/blog/speciality-coffee-spots-mumbai"
+ ],
+ "cafe:Project Hum": [
+  "https://www.magzter.com/stories/fashion/Grazia-India/A-CUPPA-QUALITY",
+  "https://www.harpersbazaar.in/travel-food/story/14-new-restaurants-across-india-that-should-be-on-your-dining-list-2268",
+  "https://elledecor.in/cafe-project-hum-mumbai-by-kaviar-collaborative/",
+  "https://www.localsamosa.com/food-and-drinks/coffee-shops-in-mumbai-10068806"
+ ],
+ "cafe:Public Supply": [
+  "https://www.timeout.com/delhi/restaurants/public-supply",
+  "https://oteats.outlooktraveller.com/features/guides/south-delhis-new-restaurant-wave-is-tough-to-ignore",
+  "https://www.enprimeurclub.com/bars/public-supply-new-delhi-bar"
+ ],
+ "cafe:Pull and Pour Speciality Coffee": [
+  "https://www.swiggy.com/city/chandigarh/pull-and-pour-speciality-coffee-sector-67-south-mohali-rest965332"
+ ],
+ "cafe:RITUAL daily coffee": [
+  "https://businessworld.in/article/ritual-daily-coffee-opens-new-outlet-in-bandra-476910",
+  "https://www.freepressjournal.in/lifestyle/mumbai-enjoy-this-rainy-season-with-a-hot-flavoured-cuppa-at-ritual-daily-coffee-in-bandra",
+  "https://hospemag.me/cms/bandras-popular-ritual-daily-coffee-launches-their-new-menu",
+  "https://wanderlog.com/place/details/9635733/ritual-daily-coffee"
+ ],
+ "cafe:ROST": [
+  "https://www.timeout.com/mumbai/restaurants/rost",
+  "https://www.esquireindia.co.in/food-and-drinks/what-to-eat/from-rola-to-the-mahjong-club-9-new-restaurants-and-cafés-in-mumbai-to-try-this-september"
+ ],
+ "cafe:Rola": [
+  "https://www.esquireindia.co.in/food-and-drinks/what-to-eat/from-rola-to-the-mahjong-club-9-new-restaurants-and-cafés-in-mumbai-to-try-this-september",
+  "https://indianretailer.com/news/rola-opens-new-all-day-diner-bandra"
+ ],
+ "cafe:Second Born": [
+  "https://thenodmag.com/content/second-born-delhi-restaurant-rooftop-cocktail-bar-review",
+  "https://www.enprimeurclub.com/bars/second-born-new-delhi-bar"
+ ],
+ "cafe:Seven Seeds": [
+  "https://www.timeout.com/delhi/restaurants/seven-seeds-coffee",
+  "https://curlytales.com/open-until-4-am-seven-seeds-coffee-is-delhis-new-late-night-cafe-dishing-out-gourmet-brews-cosy-vibes"
+ ],
+ "cafe:Shelter": [
+  "https://hospibuz.com/shelter-by-javaphile-in-versova-unveils-a-new-chapter-in-community-dining",
+  "https://curlytales.com/more-than-a-regular-cafe-this-3-storeyed-haunt-in-versova-has-a-library-cafe-rooftop-vibes-more",
+  "https://www.knocksense.com/mumbai/bandras-javaphile-has-a-new-shelter-in-versova-it-is-the-talk-of-the-town",
+  "https://www.district.in/dining/mumbai/shelter-x-coffee-by-javaphile-versova",
+  "https://lbb.in/mumbai/shelter-by-javaphile-versova-mumbai"
+ ],
+ "cafe:Sidewalk": [
+  "https://indianretailer.com/franchisetv/archives/news/sidewalk-cafe-expands-agra-second-outlet-strengthening-tier-ii-growth-strategy",
+  "https://www.kanpurwants.com/sidewalk-bakehouse-and-cafe-the-grand-european-affaire"
+ ],
+ "cafe:Sip Coffee": [
+  "https://www.eazydiner.com/indore/the-sip-coffee-singapore-business-park-indore-703117",
+  "https://www.eazydiner.com/indore/the-sip-coffee-singapore-business-park-indore-703117/menu"
+ ],
+ "cafe:Stand By Coffee — Juhu": [
+  "https://indianretailer.com/news/stand-coffee-expands-mumbai-footprint-new-juhu-outlet",
+  "https://www.restaurantindia.in/news/stand-by-coffee-unveils-in-mumbai.n21574",
+  "https://magzter.com/stories/entertainment/Femina/OF-COSY-CORNERS-DECADENT-BITES"
+ ],
+ "cafe:Tham Coffee": [
+  "https://www.eazydiner.com/pune/tham-coffee-studio-wanwadi-pune-pune-715902",
+  "https://jobs.weekday.works/barista-at-tham-coffee-4388665987"
+ ],
+ "cafe:The Black Coffee Cafe": [
+  "https://yappe.in/uttar-pradesh/noida/the-black-coffee-cafe-bcc/899544",
+  "https://yappe.in/uttar-pradesh/noida/the-black-coffee-cafe/691039"
+ ],
+ "cafe:The Blondie House": [
+  "https://www.restaurantindia.in/news/bastian-hospitality-opens-the-blondie-house-in-versova.n17320",
+  "https://indianretailer.com/news/blondie-house-opens-new-community-cafe-versova",
+  "https://t2online.in/goodlife/food-beverage/blondie-and-janu-find-a-new-home-in-versova--mumbai/2008352"
+ ],
+ "cafe:The Brew Cafe — Thakur Village": [
+  "https://www.eazydiner.com/mumbai/the-brew-cafe-kandivali-east-western-suburbs-695614"
+ ],
+ "cafe:The Dark Roast": [
+  "https://www.knocksense.com/ahmedabad/dark-roast-cafe-ahmedabad-where-flavors-and-friendship-flourish",
+  "https://www.district.in/dining/ahmedabad/the-dark-roast-prahlad-nagar",
+  "https://wanderlog.com/place/details/1257614/the-dark-roast"
+ ],
+ "cafe:The Drop": [
+  "https://thenodmag.com/content/the-drop-hauz-khas-delhi-indian-specialty-coffee-roastery-review",
+  "https://passcodehospitality.com/brands/the-drop-coffee-and-cocktails/",
+  "https://passcodehospitality.com/drop",
+  "https://www.outlooktraveller.com/ot-pours/drop-in-at-the-drop-and-find-your-jaws-dropped"
+ ],
+ "cafe:The Haven Coffee House": [
+  "https://www.explurger.com/pd/v6qt757jla29bbcn5",
+  "https://www.district.in/dining/ncr/the-haven-coffee-house-sector-72-noida",
+  "https://lbb.in/places/The-Haven-International-Coffee-House-noida-41d1f3"
+ ],
+ "cafe:The Little Coffee Shop (TLCS)": [
+  "https://wanderlog.com/place/details/1414064"
+ ],
+ "cafe:The Metta Cafe": [
+  "https://www.treksandtrails.org/blog/top-10-coffee-shops-in-leh-city",
+  "https://wanderlog.com/place/details/1324876/metta-cafe",
+  "https://spinach.guide/venues/metta-cafe-179137/"
+ ],
+ "cafe:The Usual": [
+  "https://oteats.outlooktraveller.com/features/guides/jaipur-is-entering-its-coffee-smart-era-and-these-spots-prove-it"
+ ],
+ "cafe:Thought Coffee — Bandra flagship": [
+  "https://www.restaurantindia.in/news/thought-coffee-opens-bandra-flagship-as-mumbai-quick-service-coffee-market-expands.n17296",
+  "https://www.passionateinmarketing.com/one-less-thought-thought-coffee-opens-in-bandra-with-quality-coffee/",
+  "https://homegrown.co.in/article/801188/sample-mumbais-deadliest-cold-coffee-at-this-bandra-cafe"
+ ],
+ "cafe:Town Coffee": [
+  "https://haydenrue.com/india/rajasthan/town-coffee-in-jaipur/",
+  "https://yappe.in/rajasthan/jaipur/town-coffee/84211",
+  "https://yappe.in/rajasthan/jaipur/town-coffee-2-0/167749",
+  "https://www.district.in/blog/specialty-coffee-jaipur"
+ ],
+ "cafe:Traut Coffee House": [
+  "https://www.outlooktraveller.com/ot-pours/traut-coffee-house-opens-doors-as-jaipurs-newest-coffee-hotspot",
+  "https://www.eazydiner.com/jaipur/traut-coffee-house-vidhyut-nagar-jaipur-719695"
+ ],
+ "cafe:Whole Bean Co": [
+  "https://yappe.in/goa/anjuna/whole-bean/1961252"
+ ],
+ "cafe:Z27 Coffee Bar": [
+  "https://www.knocksense.com/ahmedabad/from-udaipur-to-ahmedabad-this-boho-cafe-brews-top-notch-coffee-serves-a-global-menu",
+  "https://www.eazydiner.com/ahmedabad/z27-coffee-bar-thaltej-west-ahmedabad-701141",
+  "https://www.eazydiner.com/ahmedabad/z27-coffee-bar-thaltej-west-ahmedabad-701141/menu"
+ ],
+ "cafe:Zen Cafe": [
+  "https://wanderlog.com/place/details/1414099/zen-cafe",
+  "https://yappe.in/maharashtra/pune/zen-cafe/166413",
+  "https://lbb.in/pune/zen-cafe-serving-coffee-for-29b194"
+ ],
+ "cafe:alag.": [
+  "https://homegrown.co.in/homegrown-explore/how-a-women-led-cafe-in-siolim-is-building-a-community-around-coffee-slow-living-care",
+  "https://www.gomantaktimes.com/my-goa/places-to-eat/must-try-three-restaurants-in-goas-siolim",
+  "https://blog.lohono.com/5-best-cafes-in-siolim-north-goa/amp",
+  "https://www.thebluekite.com/blogs/best-cafes-in-assagao-and-siolim/"
+ ],
+ "cafe:bōkka coffee": [
+  "https://homegrown.co.in/homegrown-explore/step-inside-a-new-bandra-cafe-where-breakfast-meets-specialty-brews",
+  "https://www.knocksense.com/mumbai/new-in-town-tried-and-tired-of-all-the-bandra-coffee-shops-try-this-game-changer-cafe",
+  "https://curlytales.com/indias-first-cafe-serving-coffee-on-tap-is-in-bandra-redefining-mumbais-coffee-culture/"
+ ],
+ "roaster:30 Days Coffee Roasters": [
+  "https://www.thewaytocoffee.com/roasters/30-days-coffee-roasters"
+ ],
+ "roaster:4689 SHIROPAGU Coffee Roasters": [
+  "https://www.thewaytocoffee.com/roasters/4689-shiropagu-coffee-roasters"
+ ],
+ "roaster:7 Elements Coffee Roasters": [
+  "https://www.thewaytocoffee.com/roasters/7-elements-coffee-roasters"
+ ],
+ "roaster:7000 Steps Coffee": [
+  "https://www.thewaytocoffee.com/roasters/7000-steps-coffee"
+ ],
+ "roaster:729 Grams Coffee Roasters": [
+  "https://www.thewaytocoffee.com/roasters/729-grams-coffee-roasters"
+ ],
+ "roaster:93 Degrees Coffee Roasters": [
+  "https://www.thewaytocoffee.com/roasters/93-degrees-coffee-roasters"
+ ],
+ "roaster:AOSA Roastery & Bakehouse": [
+  "https://www.thewaytocoffee.com/roasters/aosa-roastery-bakehouse"
+ ],
+ "roaster:Alchemist Coffee Company": [
+  "https://www.thewaytocoffee.com/roasters/alchemist-coffee-company"
+ ],
+ "roaster:Antidote Coffee Roasters": [
+  "https://www.thewaytocoffee.com/roasters/antidote-coffee-roasters"
+ ],
+ "roaster:BROOT Coffee Roasters": [
+  "https://www.thewaytocoffee.com/roasters/broot-coffee-roasters"
+ ],
+ "roaster:Bermiok Coffee Company": [
+  "https://www.thewaytocoffee.com/roasters/bermiok-coffee-company"
+ ],
+ "roaster:Bloom Coffee Roasters": [
+  "https://somethingsbrewing.in/pages/bloom-coffee-roasters",
+  "https://www.thewaytocoffee.com/roasters/bloom-coffee-roasters"
+ ],
+ "roaster:Blue Tokai Coffee Roasters": [
+  "https://wholesale.bluetokaicoffee.com",
+  "https://www.thewaytocoffee.com/roasters/blue-tokai-coffee-roasters"
+ ],
+ "roaster:Bombay Island Coffee Company": [
+  "https://www.thewaytocoffee.com/roasters/bombay-island-coffee-company",
+  "https://lbb.in/delhi/bombay-island-coffee-company-shop-online"
+ ],
+ "roaster:Boojee Cafe & Roastery": [
+  "https://www.thewaytocoffee.com/roasters/boojee-cafe-roastery"
+ ],
+ "roaster:BrewClan Coffee Roasters": [
+  "https://www.thewaytocoffee.com/roasters/brewclan-coffee-roasters"
+ ],
+ "roaster:Brewtown Coffee Roasters": [
+  "https://www.thewaytocoffee.com/roasters/brewtown-coffee-roasters"
+ ],
+ "roaster:CAPULUSBEANS Coffee Roasters": [
+  "https://www.thewaytocoffee.com/roasters/capulusbeans-coffee-roasters"
+ ],
+ "roaster:Caarabi Coffee Roasters": [
+  "https://www.outlooktraveller.com/ot-pours/7-unique-coffee-experiences-in-delhi-you-need-to-try",
+  "https://www.thewaytocoffee.com/roasters/caarabi-coffee-roasters"
+ ],
+ "roaster:Cafe Handcrafted & Roastery": [
+  "https://www.thewaytocoffee.com/roasters/cafe-handcrafted-roastery"
+ ],
+ "roaster:Candor Coffee": [
+  "https://www.thewaytocoffee.com/roasters/candor-coffee"
+ ],
+ "roaster:Coffee Culture": [
+  "https://www.thewaytocoffee.com/roasters/coffee-culture"
+ ],
+ "roaster:Coffee Sutra": [
+  "https://www.thewaytocoffee.com/roasters/coffee-sutra"
+ ],
+ "roaster:Coffeeverse": [
+  "https://www.thewaytocoffee.com/roasters/coffeeverse"
+ ],
+ "roaster:Coffeeverse (Pune cafe planned)": [
+  "https://www.thewaytocoffee.com/roasters/coffeeverse"
+ ],
+ "roaster:Corridor Seven Coffee Roasters": [
+  "https://corridorseven.coffee/",
+  "https://lbb.in/delhi/corridor-seven-coffee-roasters-shop-online",
+  "https://somethingsbrewing.in/pages/corridor-seven",
+  "https://www.thewaytocoffee.com/roasters/corridor-seven-coffee-roasters"
+ ],
+ "roaster:CountrybeanCoffee": [
+  "https://www.thewaytocoffee.com/roasters/countrybeancoffee"
+ ],
+ "roaster:Craft Coffee India": [
+  "https://www.thewaytocoffee.com/roasters/craft-coffee-india"
+ ],
+ "roaster:Crafty Beanz Cafe and Roastery": [
+  "https://www.thewaytocoffee.com/roasters/crafty-beanz-cafe-and-roastery"
+ ],
+ "roaster:Curious Life Coffee Roasters": [
+  "https://www.thewaytocoffee.com/roasters/curious-life-coffee-roasters"
+ ],
+ "roaster:Dancing Goat Coffee": [
+  "https://www.thewaytocoffee.com/roasters/dancing-goat-coffee"
+ ],
+ "roaster:Deomali Coffee Cafe & Roastery": [
+  "https://www.thewaytocoffee.com/roasters/deomali-coffee-cafe-roastery"
+ ],
+ "roaster:Devan's South Indian Coffee & Tea": [
+  "https://www.thewaytocoffee.com/roasters/devan-s-south-indian-coffee-tea"
+ ],
+ "roaster:Doubleshot Coffee Roasters": [
+  "https://www.thewaytocoffee.com/roasters/doubleshot-coffee-roasters"
+ ],
+ "roaster:Drum Coffee Roasters": [
+  "https://www.thewaytocoffee.com/roasters/drum-coffee-roasters"
+ ],
+ "roaster:Dylan's Toasted & Roasted": [
+  "https://www.thewaytocoffee.com/roasters/dylan-s-toasted-roasted"
+ ],
+ "roaster:El Bueno Coffee Roasters": [
+  "https://www.thewaytocoffee.com/roasters/el-bueno-coffee-roasters"
+ ],
+ "roaster:First Coffee": [
+  "https://www.thewaytocoffee.com/roasters/first-coffee"
+ ],
+ "roaster:First Crack Coffee Roasters": [
+  "https://www.thewaytocoffee.com/roasters/first-crack-coffee-roasters"
+ ],
+ "roaster:G-Shot Coffee Roastery & Cafe": [
+  "https://www.thewaytocoffee.com/roasters/g-shot-coffee-roastery-cafe"
+ ],
+ "roaster:Gram Street Coffee": [
+  "https://www.thewaytocoffee.com/roasters/gram-street-coffee"
+ ],
+ "roaster:Grey Soul Coffee Roasters": [
+  "https://www.restaurantindia.in/news/bootstapped-grey-soul-coffee-roasters-opens-3rd-flagship-caf-in-kala-ghoda-mumbai.n17401",
+  "https://www.thewaytocoffee.com/roasters/grey-soul-coffee-roasters/",
+  "https://www.thewaytocoffee.com/roasters/grey-soul-coffee-roasters"
+ ],
+ "roaster:Half-Light Coffee Roasters": [
+  "https://homegrown.co.in/homegrown-explore/3-goa-based-roasteries-furthering-the-homegrown-coffee-movement",
+  "https://roasters.app/guides/goa-in",
+  "https://www.thewaytocoffee.com/roasters/half-light-coffee-roasters"
+ ],
+ "roaster:Ikkis Coffee Roasters": [
+  "https://www.thewaytocoffee.com/roasters/ikkis-coffee-roasters"
+ ],
+ "roaster:Indian Bean": [
+  "https://www.thewaytocoffee.com/roasters/indian-bean"
+ ],
+ "roaster:KASA Coffee": [
+  "https://www.thewaytocoffee.com/roasters/kasa-coffee"
+ ],
+ "roaster:KC Roasters (by Koinonia)": [
+  "https://wanderlog.com/place/details/1506624/kcroasters-by-koinonia",
+  "https://homegrown.co.in/article/800532/visit-the-mumbai-cafe-that-s-reinventing-how-we-view-and-make-coffee",
+  "https://www.thewaytocoffee.com/roasters/kc-roasters"
+ ],
+ "roaster:Kaapi La Roasters": [
+  "https://www.thewaytocoffee.com/roasters/kaapi-la-roasters"
+ ],
+ "roaster:Kaffa Cerrado — The Roastery": [
+  "https://www.thewaytocoffee.com/roasters/kaffa-cerrado"
+ ],
+ "roaster:Kaffa Coffee Roasters": [
+  "https://www.thewaytocoffee.com/roasters/kaffa-coffee-roasters"
+ ],
+ "roaster:Kollaborative Coffee Roasters": [
+  "https://www.thewaytocoffee.com/roasters/kollaborative-coffee-roasters"
+ ],
+ "roaster:Koraput Coffee": [
+  "https://www.thewaytocoffee.com/roasters/koraput-coffee"
+ ],
+ "roaster:Korebi": [
+  "https://www.thewaytocoffee.com/roasters/korebi"
+ ],
+ "roaster:Libertario Coffee Roasters (Coffeeco India Pvt Ltd)": [
+  "https://www.thewaytocoffee.com/roasters/libertario-coffee-roasters"
+ ],
+ "roaster:Moonpeak Espresso": [
+  "https://www.thewaytocoffee.com/roasters/moonpeak-espresso"
+ ],
+ "roaster:NS Coffee Roastery": [
+  "https://www.thewaytocoffee.com/roasters/ns-coffee-roastery"
+ ],
+ "roaster:Nandan Coffee": [
+  "https://www.restaurantindia.in/news/nandan-coffee-launches-their-caf-in-mumbai.n11850",
+  "https://www.globalindian.com/story/cover-story/yahvi-mariwala-kodaikanal-coffee-legacy-nandan-coffee/",
+  "https://www.worldcoffeeportal.com/news/nandan-coffee-steps-up-competition-in-indias-specialty-coffee-segment/",
+  "https://www.thewaytocoffee.com/roasters/nandan-coffee"
+ ],
+ "roaster:Noir Coffee House & Roastery": [
+  "https://www.thewaytocoffee.com/roasters/noir-coffee-house-roastery"
+ ],
+ "roaster:Okiru Coffee Roasters": [
+  "https://www.thewaytocoffee.com/roasters/okiru-coffee-roasters"
+ ],
+ "roaster:Parera Coffee": [
+  "https://www.thewaytocoffee.com/roasters/parera-coffee"
+ ],
+ "roaster:Potboiler Coffee": [
+  "https://www.thewaytocoffee.com/roasters/potboiler-coffee"
+ ],
+ "roaster:Pour Over Coffee Roasters (POCR)": [
+  "https://www.thewaytocoffee.com/roasters/pour-over-coffee-roasters"
+ ],
+ "roaster:Quick Brown Fox Coffee Roasters": [
+  "https://www.thewaytocoffee.com/roasters/quick-brown-fox-coffee-roasters"
+ ],
+ "roaster:Roastery Cultur": [
+  "https://www.thewaytocoffee.com/roasters/roastery-cultur"
+ ],
+ "roaster:Rossette Coffee Lab": [
+  "https://about.me/rossettecoffee",
+  "https://www.thewaytocoffee.com/roasters/rossette-coffee-lab"
+ ],
+ "roaster:Ruby's Coffee Goa": [
+  "https://www.thewaytocoffee.com/roasters/ruby-s-coffee-goa"
+ ],
+ "roaster:Savorworks Coffee & Chocolate": [
+  "https://www.thewaytocoffee.com/roasters/savorworks-coffee-chocolate"
+ ],
+ "roaster:Shack Coffee Co.": [
+  "https://www.thewaytocoffee.com/roasters/shack-coffee-co"
+ ],
+ "roaster:Siolim Specialty Coffee Roasters": [
+  "https://www.thewaytocoffee.com/roasters/siolim-specialty-coffee-roasters"
+ ],
+ "roaster:Smokey Falls": [
+  "https://www.thewaytocoffee.com/roasters/smokey-falls"
+ ],
+ "roaster:Subko Coffee Roasters": [
+  "https://subko.coffee/pages/pan-india-store",
+  "https://www.subko.coffee/pages/coffee",
+  "https://worldcoffeeportal.com/Latest/News/2024/May/Subko-Coffee-Roasters-sees-soaring-annual-sales-bu",
+  "https://www.baristamagazine.com/subko-coffee-roasters-flavors-of-the-subcontinent/",
+  "https://www.thewaytocoffee.com/roasters/subko-coffee-roasters"
+ ],
+ "roaster:Sussegado Coffee Roasters": [
+  "https://www.thewaytocoffee.com/roasters/sussegado-coffee-roasters"
+ ],
+ "roaster:Taffeta Coffee": [
+  "https://www.thewaytocoffee.com/roasters/taffeta-coffee"
+ ],
+ "roaster:The Aroma Coffee Roaster & Bakers": [
+  "https://www.thewaytocoffee.com/roasters/the-aroma-coffee-roaster-bakers"
+ ],
+ "roaster:The Bean Co Roasters": [
+  "https://www.thewaytocoffee.com/roasters/the-bean-co-roasters"
+ ],
+ "roaster:The Good Stuff Cafe": [
+  "https://www.thewaytocoffee.com/roasters/the-good-stuff-cafe"
+ ],
+ "roaster:Toffee Coffee Roasters": [
+  "https://www.thewaytocoffee.com/roasters/toffee-coffee-roasters"
+ ],
+ "roaster:Toise Coffee Roastery & Brew Studio": [
+  "https://www.thewaytocoffee.com/roasters/toise-coffee-roastery-brew-studio"
+ ],
+ "roaster:Tulum Coffee (Tulum Coffee Bar, Chembur)": [
+  "https://www.thewaytocoffee.com/roasters/tulum-coffee"
+ ],
+ "roaster:Yours Truly Coffee Roasters": [
+  "https://www.thewaytocoffee.com/roasters/yours-truly-coffee-roasters"
+ ],
+ "roaster:Zizira": [
+  "https://www.thewaytocoffee.com/roasters/zizira"
+ ],
+ "roaster:Zupreme Coffee": [
+  "https://www.thewaytocoffee.com/roasters/zupreme-coffee"
+ ],
+ "roaster:nada": [
+  "https://www.thewaytocoffee.com/roasters/nada"
+ ],
+ "roaster:Été Coffee Roasters": [
+  "https://www.thewaytocoffee.com/roasters/ete-coffee-roasters"
+ ]
+}
